@@ -3,7 +3,7 @@ name: Rupak Level Scanner
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * 1-5"
+    - cron: "*/5 * * * *"
 
 jobs:
   scan:
