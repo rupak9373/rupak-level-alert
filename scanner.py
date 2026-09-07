@@ -1,5 +1,5 @@
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 
 import requests
 import yfinance as yf
@@ -8,6 +8,7 @@ DISTANCE_PERCENT = 0.10
 
 BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
+RUN_REASON = os.environ.get("RUN_REASON", "schedule")
 
 
 def send_telegram(text: str):
@@ -64,16 +65,21 @@ def get_levels(symbol: str):
     pdl = float(prev_day_row["Low"])
 
     # Current year open.
-    current_year_rows = daily[[idx.year == current_year for idx in daily.index]]
+    year_mask = [idx.year == current_year for idx in daily.index]
+    current_year_rows = daily[year_mask]
     yo = float(current_year_rows["Open"].iloc[0]) if not current_year_rows.empty else None
 
     # Current quarter open.
-    quarter_mask = [idx.year == current_year and ((idx.month - 1) // 3 + 1) == current_quarter for idx in daily.index]
+    quarter_mask = [
+        idx.year == current_year and ((idx.month - 1) // 3 + 1) == current_quarter
+        for idx in daily.index
+    ]
     current_quarter_rows = daily[quarter_mask]
     qo = float(current_quarter_rows["Open"].iloc[0]) if not current_quarter_rows.empty else None
 
     # Previous calendar year's high/low.
-    previous_year_rows = daily[[idx.year == current_year - 1 for idx in daily.index]]
+    previous_year_mask = [idx.year == current_year - 1 for idx in daily.index]
+    previous_year_rows = daily[previous_year_mask]
     pyh = float(previous_year_rows["High"].max()) if not previous_year_rows.empty else None
     pyl = float(previous_year_rows["Low"].min()) if not previous_year_rows.empty else None
 
@@ -97,8 +103,8 @@ def scan_symbol(symbol: str):
         if level is None:
             continue
 
-        # Alert only when price ENTERS the zone. This avoids a message every 5 minutes
-        # while price remains close to the same level.
+        # Send an alert only when price ENTERS the configured zone.
+        # This avoids a Telegram message every 5 minutes while price stays nearby.
         now_near = near(current, level)
         was_near = near(previous, level)
 
@@ -112,7 +118,7 @@ def scan_symbol(symbol: str):
             f"Level: {level:.4f}\n"
             f"Distance: {dist:.3f}%\n"
             f"Time: {timestamp}\n"
-            f"Chart check karo."
+            "Chart check karo."
         )
         send_telegram(message)
 
@@ -121,15 +127,18 @@ def scan_symbol(symbol: str):
 
 def main():
     symbols = read_symbols()
-    print(f"Scanning {len(symbols)} symbols at {datetime.utcnow().isoformat()} UTC")
+    started = datetime.now(timezone.utc)
+    print(f"Scanning {len(symbols)} symbols at {started.isoformat()}")
 
     total_alerts = 0
     errors = []
+    successful = 0
 
     for symbol in symbols:
         try:
             count = scan_symbol(symbol)
             total_alerts += count
+            successful += 1
             print(f"{symbol}: OK, alerts={count}")
         except Exception as e:
             errors.append(f"{symbol}: {e}")
@@ -141,6 +150,18 @@ def main():
         print("Errors:")
         for err in errors:
             print(" -", err)
+
+    # Manual GitHub run = connection test. Scheduled runs stay silent unless a level alert occurs.
+    if RUN_REASON == "workflow_dispatch":
+        test_text = (
+            "✅ Rupak Level Scanner working\n"
+            f"Symbols checked successfully: {successful}/{len(symbols)}\n"
+            f"Level alerts this run: {total_alerts}\n"
+            f"Errors: {len(errors)}\n"
+            "Automatic scan active hai."
+        )
+        send_telegram(test_text)
+        print("Manual-run Telegram test message sent.")
 
 
 if __name__ == "__main__":
