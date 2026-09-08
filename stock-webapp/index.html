@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Rupak Stock Scanner</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#0b1020;color:#eef2ff}header{padding:22px;background:#111827;position:sticky;top:0}h1{margin:0 0 8px}.muted{color:#94a3b8}.controls{display:flex;gap:10px;flex-wrap:wrap;padding:16px 22px}input,select,button{padding:10px 12px;border-radius:10px;border:1px solid #334155;background:#111827;color:#fff}button{cursor:pointer}.grid{padding:0 22px 30px;display:grid;gap:12px}.card{background:#111827;border:1px solid #1f2937;border-radius:14px;padding:16px}.row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.tag{display:inline-block;padding:5px 8px;border-radius:999px;background:#1f2937;margin:4px 4px 0 0;font-size:12px}.bull{color:#86efac}.bear{color:#fca5a5}.mixed{color:#fde68a}.score{font-size:24px;font-weight:700}.empty{padding:30px;text-align:center;color:#94a3b8}.footer{padding:20px 22px;color:#64748b;font-size:12px}</style>
+</head>
+<body>
+<header><h1>Rupak Stock Scanner</h1><div id="status" class="muted">Loading cloud scan…</div></header>
+<div class="controls">
+<input id="q" placeholder="Search symbol" />
+<select id="trend"><option value="">All trends</option><option>Bullish</option><option>Bearish</option><option>Mixed</option></select>
+<select id="score"><option value="0">Score ≥ 0</option><option value="1">Score ≥ 1</option><option value="2">Score ≥ 2</option><option value="3">Score ≥ 3</option><option value="4">Score ≥ 4</option></select>
+<button onclick="loadData()">Refresh</button>
+</div>
+<div id="grid" class="grid"></div>
+<div class="footer">Cloud scanner. No PC installation required. Data source: Yahoo Finance via cloud workflow. For research/alerts, not financial advice.</div>
+<script>
+let all=[];
+function cls(t){return t==='Bullish'?'bull':t==='Bearish'?'bear':'mixed'}
+function render(){
+ const q=document.getElementById('q').value.trim().toUpperCase();
+ const t=document.getElementById('trend').value;
+ const s=Number(document.getElementById('score').value||0);
+ const rows=all.filter(x=>(!q||x.symbol.includes(q))&&(!t||x.trend===t)&&x.score>=s);
+ const g=document.getElementById('grid');
+ if(!rows.length){g.innerHTML='<div class="empty">No stocks match these filters.</div>';return}
+ g.innerHTML=rows.map(x=>`<div class="card"><div class="row"><div><h2 style="margin:0">${x.symbol}</h2><div class="${cls(x.trend)}">${x.trend}</div></div><div><div class="score">${x.score}</div><div class="muted">signal score</div></div></div><div class="row" style="margin-top:12px"><div>₹${x.price}</div><div class="${x.change_pct>=0?'bull':'bear'}">${x.change_pct}%</div><div>RSI ${x.rsi14??'-'}</div><div>Vol ${x.volume_ratio??'-'}x</div></div><div class="muted" style="margin-top:10px">SMA20 ${x.sma20??'-'} · SMA50 ${x.sma50??'-'} · 20D H/L ${x.high20}/${x.low20}</div><div style="margin-top:8px">${(x.signals||[]).map(v=>`<span class="tag">${v}</span>`).join('')}</div></div>`).join('');
+}
+async function loadData(){
+ const status=document.getElementById('status'); status.textContent='Loading cloud scan…';
+ try{const r=await fetch('data/results.json?ts='+Date.now()); if(!r.ok) throw new Error('Scan data not generated yet'); const d=await r.json(); all=d.results||[]; status.textContent=`${d.market||'Market'} · ${all.length} stocks · Updated ${new Date(d.updated_at).toLocaleString()}`; render();}
+ catch(e){status.textContent='Scan data not ready yet. Run the cloud workflow once.'; document.getElementById('grid').innerHTML='<div class="empty">First cloud scan is pending.</div>';}
+}
+['q','trend','score'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+loadData();
+</script>
+</body></html>
