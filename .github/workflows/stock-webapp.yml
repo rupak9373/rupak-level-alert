@@ -1,0 +1,31 @@
+name: Stock Web App Scan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/30 * * * 1-5'
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install yfinance pandas
+      - name: Run scanner
+        run: python stock-webapp/scan_stocks.py
+      - name: Commit scan data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stock-webapp/data/results.json
+          git diff --cached --quiet || git commit -m "Update stock scan data"
+          git push
