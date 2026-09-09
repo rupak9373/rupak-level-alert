@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T01:48:33.977943+00:00",
+  "updated_at": "2026-09-09T01:55:04.702140+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -128,31 +128,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [
@@ -737,31 +737,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -1347,31 +1347,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -1952,31 +1952,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -2559,31 +2559,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -3172,31 +3172,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -3778,31 +3778,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -4385,31 +4385,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -4997,31 +4997,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [
@@ -5605,31 +5605,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -6209,31 +6209,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -6812,31 +6812,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -7415,31 +7415,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [
@@ -8023,31 +8023,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -8631,31 +8631,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -9236,31 +9236,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -9839,31 +9839,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -10445,31 +10445,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -11053,31 +11053,31 @@
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "30m": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "2H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "4H": {
           "patterns": [],
           "candle": null,
           "available": false,
-          "reason": "true_intraday_ohlc_unavailable"
+          "reason": "upstox_access_token_missing"
         },
         "1D": {
           "patterns": [],
@@ -11588,5 +11588,8 @@
       "symbol": "TATAMOTORS",
       "error": "'NoneType' object has no attribute 'get'"
     }
-  ]
+  ],
+  "intraday_errors": [],
+  "intraday_source": "Upstox V3 historical/intraday candles",
+  "intraday_status": "UPSTOX_ACCESS_TOKEN missing"
 }
