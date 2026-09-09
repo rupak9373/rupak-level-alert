@@ -17,7 +17,7 @@ BATCH_SIZE = 80
 REQUEST_TIMEOUT = 15
 STALE_DAYS = 7
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; RupakFundamentalScanner/2.0)"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; RupakFundamentalScanner/2.1)"}
 
 
 def norm(text):
@@ -97,6 +97,34 @@ def fetch_universe():
     return items, errors
 
 
+def extract_peer_classification(soup):
+    """Best-effort Screener peer hierarchy: broad sector -> most specific industry."""
+    peers = soup.find(id="peers")
+    if not peers:
+        heading = soup.find(lambda tag: getattr(tag, "name", None) in {"h2", "h3"} and "peer comparison" in norm(tag.get_text(" ", strip=True)))
+        peers = heading.parent if heading and heading.parent else None
+    if not peers:
+        return None, None
+
+    labels = []
+    for a in peers.select('a[href*="/company/compare/"]'):
+        text = a.get_text(" ", strip=True)
+        if not text:
+            continue
+        nt = norm(text)
+        if nt in {"show all", "edit columns", "detailed comparison with"}:
+            continue
+        if text not in labels:
+            labels.append(text)
+
+    # Screener exposes a hierarchy such as:
+    # Energy -> Oil, Gas & Consumable Fuels -> Petroleum Products -> Refineries & Marketing
+    if labels:
+        return labels[0], labels[-1]
+
+    return None, None
+
+
 def screener_metrics(symbol):
     urls = [
         f"https://www.screener.in/company/{symbol}/consolidated/",
@@ -135,6 +163,8 @@ def screener_metrics(symbol):
         "face_value": None,
         "high_52w": None,
         "low_52w": None,
+        "sector": None,
+        "industry": None,
     }
 
     label_map = {
@@ -162,6 +192,10 @@ def screener_metrics(symbol):
             if len(nums) >= 2:
                 metrics["high_52w"] = number(nums[0])
                 metrics["low_52w"] = number(nums[1])
+
+    sector, industry = extract_peer_classification(soup)
+    metrics["sector"] = sector
+    metrics["industry"] = industry
 
     share = soup.find(id="shareholding")
     if share:
@@ -201,6 +235,9 @@ def screener_metrics(symbol):
 
 def is_stale(metrics):
     if not metrics:
+        return True
+    # Re-fetch old records that were created before industry/sector support.
+    if not metrics.get("industry"):
         return True
     ts = metrics.get("fetched_at")
     if not ts:
@@ -248,14 +285,16 @@ def main():
     updated = 0
     for symbol in batch:
         try:
+            old = data[symbol]["screen_metrics"]
             fresh = screener_metrics(symbol)
-            base = data[symbol]["screen_metrics"]
             fresh.update({
-                "company": base.get("company") or symbol,
-                "series": base.get("series"),
-                "isin": base.get("isin"),
-                "listing_date": base.get("listing_date"),
-                "segment": base.get("segment"),
+                "company": old.get("company") or symbol,
+                "series": old.get("series"),
+                "isin": old.get("isin"),
+                "listing_date": old.get("listing_date"),
+                "segment": old.get("segment"),
+                "sector": fresh.get("sector") or old.get("sector"),
+                "industry": fresh.get("industry") or old.get("industry"),
             })
             data[symbol] = {"screen_metrics": fresh}
             updated += 1
@@ -263,25 +302,27 @@ def main():
             errors.append({"symbol": symbol, "stage": "screener", "error": str(e)})
 
     covered = sum(1 for d in data.values() if (d.get("screen_metrics") or {}).get("fetched_at"))
+    industry_covered = sum(1 for d in data.values() if (d.get("screen_metrics") or {}).get("industry"))
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
-        "source": "NSE official equity + SME universe; Screener.in public company pages for ratios",
+        "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
         "universe_source": [EQUITY_URL, SME_URL],
         "universe_count": len(data),
         "fundamental_coverage": covered,
+        "industry_coverage": industry_covered,
         "pending_fundamentals": max(0, len(data) - covered),
         "batch_size": BATCH_SIZE,
         "fundamental_filter_fields": [
             "promoter_holding", "promoter_change", "fii_holding", "dii_holding", "public_holding",
             "market_cap_cr", "stock_pe", "dividend_yield", "roce", "roe", "book_value",
-            "current_price", "face_value", "high_52w", "low_52w", "series", "segment"
+            "current_price", "face_value", "high_52w", "low_52w", "sector", "industry", "series", "segment"
         ],
         "data": data,
         "errors": errors[-200:],
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, allow_nan=False), encoding="utf-8")
-    print(f"Universe={len(data)} covered={covered} updated_this_run={updated} pending={len(data)-covered}")
+    print(f"Universe={len(data)} covered={covered} industry={industry_covered} updated_this_run={updated} pending={len(data)-covered}")
 
 
 if __name__ == "__main__":
