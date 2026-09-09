@@ -7,11 +7,43 @@ services:
     startCommand: npm start
     autoDeploy: true
     envVars:
+      - key: FRONTEND_URL
+        value: https://rupak9373.github.io/rupak-level-alert/stock-webapp/brokers.html
+      - key: ENABLE_TRADING
+        value: "false"
+
       - key: UPSTOX_CLIENT_ID
         sync: false
       - key: UPSTOX_CLIENT_SECRET
         sync: false
       - key: UPSTOX_REDIRECT_URI
         sync: false
-      - key: FRONTEND_URL
-        value: https://rupak9373.github.io/rupak-level-alert/stock-webapp/brokers.html
+
+      - key: ZERODHA_API_KEY
+        sync: false
+      - key: ZERODHA_API_SECRET
+        sync: false
+      - key: ZERODHA_REDIRECT_URI
+        sync: false
+
+      - key: ANGEL_API_KEY
+        sync: false
+      - key: ANGEL_REDIRECT_URI
+        sync: false
+      - key: ANGEL_CLIENT_CODE
+        sync: false
+      - key: ANGEL_PUBLIC_IP
+        sync: false
+      - key: ANGEL_LOCAL_IP
+        sync: false
+      - key: ANGEL_MAC
+        sync: false
+
+      - key: DHAN_CLIENT_ID
+        sync: false
+      - key: DHAN_API_KEY
+        sync: false
+      - key: DHAN_API_SECRET
+        sync: false
+      - key: DHAN_REDIRECT_URI
+        sync: false
