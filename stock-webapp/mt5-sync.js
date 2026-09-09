@@ -2,7 +2,7 @@
   const JOURNAL_KEY='rupak_trading_journal_v1';
   const SYNC_KEY_NAME='rupak_mt5_journal_sync_key_v1';
   const BRIDGE_NAME='rupak_mt5_bridge_url_v1';
-  const DEFAULT_BRIDGE='https://rupak-broker-bridge.onrender.com';
+  const DEFAULT_BRIDGE='https://rupak-level-alert.onrender.com';
 
   function makeKey(){
     const a=new Uint8Array(24); crypto.getRandomValues(a);
@@ -10,6 +10,10 @@
   }
   let syncKey=localStorage.getItem(SYNC_KEY_NAME);
   if(!syncKey){syncKey=makeKey();localStorage.setItem(SYNC_KEY_NAME,syncKey)}
+
+  /* Migrate the old placeholder bridge automatically. */
+  const savedBridge=localStorage.getItem(BRIDGE_NAME)||'';
+  if(!savedBridge || savedBridge.includes('rupak-broker-bridge.onrender.com')) localStorage.setItem(BRIDGE_NAME,DEFAULT_BRIDGE);
 
   const panel=document.createElement('section');
   panel.className='panel';
