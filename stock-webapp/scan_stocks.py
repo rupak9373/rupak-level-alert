@@ -10,8 +10,9 @@ BASE = Path(__file__).resolve().parent
 SYMBOLS_FILE = BASE / "stock_symbols.txt"
 OUT = BASE / "data" / "results.json"
 NEAR_SMA_PCT = 1.0
-HISTORY_DAYS = 760
+HISTORY_DAYS = 900
 CHART_POINTS = 60
+TIMEFRAMES = ["1D", "1W", "1M"]
 
 
 def clean_number(value, digits=2):
@@ -40,6 +41,13 @@ def sma_distance_pct(price, sma):
     return clean_number(abs(price - sma) / sma * 100)
 
 
+def first_col(df, names):
+    for name in names:
+        if name in df.columns:
+            return name
+    return None
+
+
 def get_history(symbol):
     end = date.today()
     start = end - timedelta(days=HISTORY_DAYS)
@@ -47,24 +55,131 @@ def get_history(symbol):
     if df is None or df.empty:
         raise ValueError("No NSE historical data")
 
-    date_col = "CH_TIMESTAMP" if "CH_TIMESTAMP" in df.columns else "TIMESTAMP"
-    close_col = "CH_CLOSING_PRICE" if "CH_CLOSING_PRICE" in df.columns else "CLOSE"
-    vol_col = "CH_TOT_TRADED_QTY" if "CH_TOT_TRADED_QTY" in df.columns else "TOTTRDQTY"
+    date_col = first_col(df, ["CH_TIMESTAMP", "TIMESTAMP", "DATE"])
+    open_col = first_col(df, ["CH_OPENING_PRICE", "OPEN"])
+    high_col = first_col(df, ["CH_TRADE_HIGH_PRICE", "HIGH"])
+    low_col = first_col(df, ["CH_TRADE_LOW_PRICE", "LOW"])
+    close_col = first_col(df, ["CH_CLOSING_PRICE", "CLOSE"])
+    vol_col = first_col(df, ["CH_TOT_TRADED_QTY", "TOTTRDQTY", "VOLUME"])
 
-    work = df[[date_col, close_col, vol_col]].copy()
+    required = [date_col, open_col, high_col, low_col, close_col]
+    if any(x is None for x in required):
+        raise ValueError("NSE OHLC columns unavailable")
+
+    cols = [date_col, open_col, high_col, low_col, close_col]
+    if vol_col:
+        cols.append(vol_col)
+    work = df[cols].copy()
     work[date_col] = pd.to_datetime(work[date_col], errors="coerce", dayfirst=True)
-    work[close_col] = pd.to_numeric(work[close_col], errors="coerce")
-    work[vol_col] = pd.to_numeric(work[vol_col], errors="coerce")
-    work = work.dropna(subset=[date_col, close_col]).sort_values(date_col)
+    for c in [open_col, high_col, low_col, close_col]:
+        work[c] = pd.to_numeric(work[c], errors="coerce")
+    if vol_col:
+        work[vol_col] = pd.to_numeric(work[vol_col], errors="coerce")
+    else:
+        work["_VOL"] = 0
+        vol_col = "_VOL"
+    work = work.dropna(subset=[date_col, open_col, high_col, low_col, close_col]).sort_values(date_col)
     if work.empty:
         raise ValueError("No valid NSE history rows")
-    return work, date_col, close_col, vol_col
+    work = work.rename(columns={date_col:"date", open_col:"open", high_col:"high", low_col:"low", close_col:"close", vol_col:"volume"})
+    return work[["date","open","high","low","close","volume"]].reset_index(drop=True)
+
+
+def resample_ohlc(df, timeframe):
+    if timeframe == "1D":
+        return df.copy()
+    work = df.set_index("date").sort_index()
+    rule = "W-FRI" if timeframe == "1W" else "ME"
+    out = work.resample(rule).agg({
+        "open":"first", "high":"max", "low":"min", "close":"last", "volume":"sum"
+    }).dropna(subset=["open","high","low","close"]).reset_index()
+    return out
+
+
+def candle_parts(row):
+    o, h, l, c = [float(row[k]) for k in ["open","high","low","close"]]
+    body = abs(c-o)
+    rng = max(h-l, 1e-9)
+    upper = h-max(o,c)
+    lower = min(o,c)-l
+    return o,h,l,c,body,rng,upper,lower
+
+
+def detect_patterns(df):
+    if df is None or len(df) < 2:
+        return []
+    cur = df.iloc[-1]
+    prev = df.iloc[-2]
+    o,h,l,c,body,rng,upper,lower = candle_parts(cur)
+    po,ph,pl,pc,pbody,prng,pupper,plower = candle_parts(prev)
+    bullish = c > o
+    bearish = c < o
+    p_bullish = pc > po
+    p_bearish = pc < po
+    body_pct = body / rng
+    patterns = []
+
+    if body_pct <= 0.10:
+        patterns.append("Doji")
+    if bullish and lower >= max(body * 2, rng * 0.45) and upper <= max(body * 0.6, rng * 0.15):
+        patterns.append("Hammer")
+    if bearish and lower >= max(body * 2, rng * 0.45) and upper <= max(body * 0.6, rng * 0.15):
+        patterns.append("Hanging Man")
+    if upper >= max(body * 2, rng * 0.45) and lower <= max(body * 0.6, rng * 0.15):
+        patterns.append("Inverted Hammer" if bullish else "Shooting Star")
+    if p_bearish and bullish and o <= pc and c >= po:
+        patterns.append("Bullish Engulfing")
+    if p_bullish and bearish and o >= pc and c <= po:
+        patterns.append("Bearish Engulfing")
+    if p_bearish and bullish and max(o,c) < max(po,pc) and min(o,c) > min(po,pc):
+        patterns.append("Bullish Harami")
+    if p_bullish and bearish and max(o,c) < max(po,pc) and min(o,c) > min(po,pc):
+        patterns.append("Bearish Harami")
+    midpoint_prev = (po + pc) / 2
+    if p_bearish and bullish and o < pc and c > midpoint_prev and c < po:
+        patterns.append("Piercing Line")
+    if p_bullish and bearish and o > pc and c < midpoint_prev and c > po:
+        patterns.append("Dark Cloud Cover")
+    if body_pct >= 0.80 and upper <= rng*0.10 and lower <= rng*0.10:
+        patterns.append("Bullish Marubozu" if bullish else "Bearish Marubozu")
+
+    if len(df) >= 3:
+        a, b, d = df.iloc[-3], df.iloc[-2], df.iloc[-1]
+        ao,ah,al,ac,abody,arng,_,_ = candle_parts(a)
+        bo,bh,bl,bc,bbody,brng,_,_ = candle_parts(b)
+        do,dh,dl,dc,dbody,drng,_,_ = candle_parts(d)
+        if ac < ao and bbody <= abody*0.5 and dc > do and dc >= (ao+ac)/2:
+            patterns.append("Morning Star")
+        if ac > ao and bbody <= abody*0.5 and dc < do and dc <= (ao+ac)/2:
+            patterns.append("Evening Star")
+
+    return list(dict.fromkeys(patterns))
+
+
+def pattern_snapshot(hist):
+    out = {}
+    for tf in TIMEFRAMES:
+        tf_df = resample_ohlc(hist, tf)
+        pats = detect_patterns(tf_df)
+        if len(tf_df):
+            row = tf_df.iloc[-1]
+            out[tf] = {
+                "patterns": pats,
+                "candle": {
+                    "date": row["date"].strftime("%Y-%m-%d"),
+                    "open": clean_number(row["open"]),
+                    "high": clean_number(row["high"]),
+                    "low": clean_number(row["low"]),
+                    "close": clean_number(row["close"]),
+                },
+            }
+    return out
 
 
 def scan_symbol(symbol, live):
-    hist, date_col, close_col, vol_col = get_history(symbol)
-    close = hist[close_col].astype(float).reset_index(drop=True)
-    vol = hist[vol_col].astype(float).reset_index(drop=True)
+    hist = get_history(symbol)
+    close = hist["close"].astype(float).reset_index(drop=True)
+    vol = hist["volume"].astype(float).reset_index(drop=True)
 
     quote = live.stock_quote(symbol)
     price_info = quote.get("priceInfo", {}) if isinstance(quote, dict) else {}
@@ -89,12 +204,8 @@ def scan_symbol(symbol, live):
     if change is None:
         change = clean_number(((price - prev) / prev * 100) if prev else 0.0)
 
-    d20 = sma_distance_pct(price, sma20)
-    d50 = sma_distance_pct(price, sma50)
-    d200 = sma_distance_pct(price, sma200)
-
-    tags = []
-    score = 0
+    d20, d50, d200 = sma_distance_pct(price, sma20), sma_distance_pct(price, sma50), sma_distance_pct(price, sma200)
+    tags, score = [], 0
     if sma20 is not None and price > sma20:
         tags.append("Above SMA20"); score += 1
     if sma20 is not None and sma50 is not None and sma20 > sma50:
@@ -116,12 +227,8 @@ def scan_symbol(symbol, live):
         "Bearish" if sma20 is not None and sma50 is not None and price < sma20 < sma50 else "Mixed"
     )
 
-    chart = []
-    for _, row in hist.tail(CHART_POINTS).iterrows():
-        chart.append({
-            "date": row[date_col].strftime("%Y-%m-%d"),
-            "close": clean_number(row[close_col]),
-        })
+    chart = [{"date": r["date"].strftime("%Y-%m-%d"), "close": clean_number(r["close"])} for _, r in hist.tail(CHART_POINTS).iterrows()]
+    patterns = pattern_snapshot(hist)
 
     return {
         "symbol": symbol,
@@ -146,6 +253,7 @@ def scan_symbol(symbol, live):
         "trend": trend,
         "score": score,
         "signals": tags,
+        "patterns": patterns,
         "chart": chart,
         "source": "NSE India",
     }
@@ -167,6 +275,7 @@ def main():
         "source": "NSE India",
         "count": len(rows),
         "near_sma_pct": NEAR_SMA_PCT,
+        "pattern_timeframes": TIMEFRAMES,
         "results": rows,
         "errors": errors,
     }
