@@ -11,7 +11,7 @@ on:
       - 'stock-webapp/build_extended_data.py'
       - '.github/workflows/stock-webapp.yml'
   schedule:
-    - cron: '*/30 * * * 1-5'
+    - cron: '*/5 * * * 1-5'
 
 permissions:
   contents: write
