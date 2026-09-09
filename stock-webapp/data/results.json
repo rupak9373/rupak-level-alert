@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T00:54:38.442857+00:00",
+  "updated_at": "2026-09-09T00:57:29.938620+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -39,15 +39,16 @@
     "PYH",
     "PYL"
   ],
+  "intraday_pattern_status": "disabled_until_true_nse_ohlc_source_is_available",
   "results": [
     {
       "symbol": "ADANIPORTS",
       "price": 1710.0,
       "change_pct": 0.93,
-      "open": null,
+      "open": 1694.0,
       "previous_close": 1694.3,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 1713.1,
+      "day_low": 1685.2,
       "vwap": null,
       "sma20": 1684.67,
       "sma50": 1741.4,
@@ -66,33 +67,38 @@
         "Above SMA20",
         "Above SMA200",
         "RSI Bullish",
-        "Near PDH (0.37%)"
+        "Near PDH (0.18%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [
@@ -134,13 +140,13 @@
       },
       "levels": {
         "PDH": {
-          "value": 1716.4,
-          "distance_pct": 0.37,
+          "value": 1713.1,
+          "distance_pct": 0.18,
           "near": true
         },
         "PDL": {
-          "value": 1685.9,
-          "distance_pct": 1.43,
+          "value": 1685.2,
+          "distance_pct": 1.47,
           "near": false
         },
         "PYH": {
@@ -401,23 +407,25 @@
           "close": 1710.0
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "KOTAKBANK",
       "price": 419.25,
       "change_pct": -0.68,
-      "open": null,
+      "open": 422.3,
       "previous_close": 422.1,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 423.85,
+      "day_low": 419.0,
       "vwap": null,
       "sma20": 408.37,
       "sma50": 395.69,
-      "sma200": 735.65,
+      "sma200": 400.88,
       "sma20_distance_pct": 2.66,
       "sma50_distance_pct": 5.95,
-      "sma200_distance_pct": 43.01,
+      "sma200_distance_pct": 4.58,
       "near_sma20": false,
       "near_sma50": false,
       "near_sma200": false,
@@ -428,33 +436,39 @@
       "signals": [
         "Above SMA20",
         "SMA20 > SMA50",
-        "Near PDL (0.42%)"
+        "Above SMA200",
+        "Near PDL (0.06%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -492,23 +506,23 @@
       },
       "levels": {
         "PDH": {
-          "value": 425.7,
-          "distance_pct": 1.52,
+          "value": 423.85,
+          "distance_pct": 1.09,
           "near": false
         },
         "PDL": {
-          "value": 421.0,
-          "distance_pct": 0.42,
+          "value": 419.0,
+          "distance_pct": 0.06,
           "near": true
         },
         "PYH": {
-          "value": 2301.9,
-          "distance_pct": 81.79,
+          "value": 460.38,
+          "distance_pct": 8.93,
           "near": false
         },
         "PYL": {
-          "value": 1723.75,
-          "distance_pct": 75.68,
+          "value": 344.75,
+          "distance_pct": 21.61,
           "near": false
         },
         "QO": {
@@ -759,16 +773,23 @@
           "close": 419.25
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": [
+        {
+          "date": "2026-01-14",
+          "factor": 0.2
+        }
+      ]
     },
     {
       "symbol": "SBIN",
       "price": 1008.0,
       "change_pct": 0.21,
-      "open": null,
+      "open": 1004.9,
       "previous_close": 1005.9,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 1011.2,
+      "day_low": 1002.1,
       "vwap": null,
       "sma20": 1044.55,
       "sma50": 1041.16,
@@ -785,34 +806,40 @@
       "score": 1,
       "signals": [
         "SMA20 > SMA50",
-        "Near PDL (0.74%)",
+        "Near PDH (0.32%)",
+        "Near PDL (0.59%)",
         "Near PYH (0.9%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -852,13 +879,13 @@
       },
       "levels": {
         "PDH": {
-          "value": 1021.7,
-          "distance_pct": 1.34,
-          "near": false
+          "value": 1011.2,
+          "distance_pct": 0.32,
+          "near": true
         },
         "PDL": {
-          "value": 1000.6,
-          "distance_pct": 0.74,
+          "value": 1002.1,
+          "distance_pct": 0.59,
           "near": true
         },
         "PYH": {
@@ -1119,16 +1146,18 @@
           "close": 1008.0
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "INFY",
       "price": 1082.0,
       "change_pct": -0.51,
-      "open": null,
+      "open": 1095.0,
       "previous_close": 1087.5,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 1095.0,
+      "day_low": 1078.9,
       "vwap": null,
       "sma20": 1132.72,
       "sma50": 1112.85,
@@ -1145,33 +1174,38 @@
       "score": 1,
       "signals": [
         "SMA20 > SMA50",
-        "Near PDL (0.28%)"
+        "Near PDL (0.29%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -1211,13 +1245,13 @@
       },
       "levels": {
         "PDH": {
-          "value": 1109.9,
-          "distance_pct": 2.51,
+          "value": 1095.0,
+          "distance_pct": 1.19,
           "near": false
         },
         "PDL": {
-          "value": 1085.0,
-          "distance_pct": 0.28,
+          "value": 1078.9,
+          "distance_pct": 0.29,
           "near": true
         },
         "PYH": {
@@ -1478,16 +1512,18 @@
           "close": 1082.0
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "BAJFINANCE",
       "price": 1054.1,
       "change_pct": -0.56,
-      "open": null,
+      "open": 1058.8,
       "previous_close": 1060.0,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 1059.6,
+      "day_low": 1050.0,
       "vwap": null,
       "sma20": 1076.42,
       "sma50": 1066.3,
@@ -1505,38 +1541,42 @@
       "signals": [
         "SMA20 > SMA50",
         "Above SMA200",
-        "Near PDL (0.02%)"
+        "Near PDH (0.52%)",
+        "Near PDL (0.39%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
-          "patterns": [
-            "Evening Star"
-          ],
+          "patterns": [],
           "available": true,
           "candle": {
             "date": "2026-09-08",
@@ -1575,23 +1615,23 @@
       },
       "levels": {
         "PDH": {
-          "value": 1070.0,
-          "distance_pct": 1.49,
-          "near": false
+          "value": 1059.6,
+          "distance_pct": 0.52,
+          "near": true
         },
         "PDL": {
-          "value": 1054.3,
-          "distance_pct": 0.02,
+          "value": 1050.0,
+          "distance_pct": 0.39,
           "near": true
         },
         "PYH": {
-          "value": 9788.0,
-          "distance_pct": 89.23,
+          "value": 1102.5,
+          "distance_pct": 4.39,
           "near": false
         },
         "PYL": {
-          "value": 849.0,
-          "distance_pct": 24.16,
+          "value": 680.6,
+          "distance_pct": 54.88,
           "near": false
         },
         "QO": {
@@ -1842,16 +1882,23 @@
           "close": 1054.1
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": [
+        {
+          "date": "2025-06-16",
+          "factor": 0.1
+        }
+      ]
     },
     {
       "symbol": "TCS",
       "price": 2255.5,
       "change_pct": -0.64,
-      "open": null,
+      "open": 2270.0,
       "previous_close": 2270.0,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 2274.5,
+      "day_low": 2244.0,
       "vwap": null,
       "sma20": 2313.72,
       "sma50": 2278.98,
@@ -1868,33 +1915,39 @@
       "score": 1,
       "signals": [
         "SMA20 > SMA50",
-        "Near PDL (0.2%)"
+        "Near PDH (0.84%)",
+        "Near PDL (0.51%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -1934,13 +1987,13 @@
       },
       "levels": {
         "PDH": {
-          "value": 2299.9,
-          "distance_pct": 1.93,
-          "near": false
+          "value": 2274.5,
+          "distance_pct": 0.84,
+          "near": true
         },
         "PDL": {
-          "value": 2260.1,
-          "distance_pct": 0.2,
+          "value": 2244.0,
+          "distance_pct": 0.51,
           "near": true
         },
         "PYH": {
@@ -2201,16 +2254,18 @@
           "close": 2255.5
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "TATASTEEL",
       "price": 184.15,
       "change_pct": -0.79,
-      "open": null,
+      "open": 185.9,
       "previous_close": 185.61,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 186.5,
+      "day_low": 183.61,
       "vwap": null,
       "sma20": 185.31,
       "sma50": 186.74,
@@ -2228,33 +2283,38 @@
       "signals": [
         "RSI Bullish",
         "Near SMA20 (0.63%)",
-        "Near PDL (0.12%)"
+        "Near PDL (0.29%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -2292,13 +2352,13 @@
       },
       "levels": {
         "PDH": {
-          "value": 190.24,
-          "distance_pct": 3.2,
+          "value": 186.5,
+          "distance_pct": 1.26,
           "near": false
         },
         "PDL": {
-          "value": 184.37,
-          "distance_pct": 0.12,
+          "value": 183.61,
+          "distance_pct": 0.29,
           "near": true
         },
         "PYH": {
@@ -2559,16 +2619,18 @@
           "close": 184.15
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "RELIANCE",
       "price": 1294.9,
       "change_pct": -1.11,
-      "open": null,
+      "open": 1304.1,
       "previous_close": 1309.5,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 1306.8,
+      "day_low": 1288.0,
       "vwap": null,
       "sma20": 1307.81,
       "sma50": 1303.3,
@@ -2587,6 +2649,7 @@
         "SMA20 > SMA50",
         "Near SMA20 (0.99%)",
         "Near SMA50 (0.64%)",
+        "Near PDH (0.91%)",
         "Near PDL (0.54%)",
         "Near QO (0.31%)"
       ],
@@ -2594,27 +2657,32 @@
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -2654,12 +2722,12 @@
       },
       "levels": {
         "PDH": {
-          "value": 1324.2,
-          "distance_pct": 2.21,
-          "near": false
+          "value": 1306.8,
+          "distance_pct": 0.91,
+          "near": true
         },
         "PDL": {
-          "value": 1301.9,
+          "value": 1288.0,
           "distance_pct": 0.54,
           "near": true
         },
@@ -2921,16 +2989,23 @@
           "close": 1294.9
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": [
+        {
+          "date": "2024-10-28",
+          "factor": 0.5
+        }
+      ]
     },
     {
       "symbol": "LT",
       "price": 3946.1,
       "change_pct": -1.32,
-      "open": null,
+      "open": 3988.7,
       "previous_close": 3999.0,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 3988.7,
+      "day_low": 3946.1,
       "vwap": null,
       "sma20": 4036.2,
       "sma50": 3972.89,
@@ -2949,33 +3024,38 @@
         "SMA20 > SMA50",
         "Near SMA50 (0.67%)",
         "Near SMA200 (0.91%)",
-        "Near PDL (0.37%)"
+        "Near PDL (0.0%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [
@@ -3017,13 +3097,13 @@
       },
       "levels": {
         "PDH": {
-          "value": 4004.9,
-          "distance_pct": 1.47,
+          "value": 3988.7,
+          "distance_pct": 1.07,
           "near": false
         },
         "PDL": {
-          "value": 3960.9,
-          "distance_pct": 0.37,
+          "value": 3946.1,
+          "distance_pct": 0.0,
           "near": true
         },
         "PYH": {
@@ -3284,16 +3364,18 @@
           "close": 3946.1
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "AXISBANK",
       "price": 1244.9,
       "change_pct": -1.67,
-      "open": null,
+      "open": 1262.8,
       "previous_close": 1266.0,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 1264.9,
+      "day_low": 1239.5,
       "vwap": null,
       "sma20": 1249.06,
       "sma50": 1267.16,
@@ -3310,33 +3392,39 @@
       "score": 1,
       "signals": [
         "RSI Bullish",
-        "Near SMA20 (0.33%)"
+        "Near SMA20 (0.33%)",
+        "Near PDL (0.44%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -3376,14 +3464,14 @@
       },
       "levels": {
         "PDH": {
-          "value": 1271.9,
-          "distance_pct": 2.12,
+          "value": 1264.9,
+          "distance_pct": 1.58,
           "near": false
         },
         "PDL": {
-          "value": 1261.6,
-          "distance_pct": 1.32,
-          "near": false
+          "value": 1239.5,
+          "distance_pct": 0.44,
+          "near": true
         },
         "PYH": {
           "value": 1304.0,
@@ -3643,16 +3731,18 @@
           "close": 1244.9
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "HINDUNILVR",
       "price": 1980.0,
       "change_pct": 1.02,
-      "open": null,
+      "open": 1967.0,
       "previous_close": 1960.0,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 1990.8,
+      "day_low": 1956.7,
       "vwap": null,
       "sma20": 2014.64,
       "sma50": 2084.79,
@@ -3668,33 +3758,38 @@
       "trend": "Bearish",
       "score": 0,
       "signals": [
-        "Near PDH (0.29%)"
+        "Near PDH (0.54%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -3732,13 +3827,13 @@
       },
       "levels": {
         "PDH": {
-          "value": 1974.2,
-          "distance_pct": 0.29,
+          "value": 1990.8,
+          "distance_pct": 0.54,
           "near": true
         },
         "PDL": {
-          "value": 1958.0,
-          "distance_pct": 1.12,
+          "value": 1956.7,
+          "distance_pct": 1.19,
           "near": false
         },
         "PYH": {
@@ -3999,16 +4094,18 @@
           "close": 1980.0
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "ADANIENT",
       "price": 2953.1,
       "change_pct": 0.11,
-      "open": null,
+      "open": 2933.0,
       "previous_close": 2950.0,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 2968.8,
+      "day_low": 2918.0,
       "vwap": null,
       "sma20": 2994.63,
       "sma50": 3054.96,
@@ -4025,33 +4122,38 @@
       "score": 0,
       "signals": [
         "Above SMA200",
-        "Near PDH (0.38%)"
+        "Near PDH (0.53%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -4089,13 +4191,13 @@
       },
       "levels": {
         "PDH": {
-          "value": 2964.4,
-          "distance_pct": 0.38,
+          "value": 2968.8,
+          "distance_pct": 0.53,
           "near": true
         },
         "PDL": {
-          "value": 2918.5,
-          "distance_pct": 1.19,
+          "value": 2918.0,
+          "distance_pct": 1.2,
           "near": false
         },
         "PYH": {
@@ -4356,16 +4458,18 @@
           "close": 2953.1
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "ITC",
       "price": 263.5,
       "change_pct": 0.0,
-      "open": null,
+      "open": 263.5,
       "previous_close": 263.5,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 265.9,
+      "day_low": 262.7,
       "vwap": null,
       "sma20": 268.64,
       "sma50": 277.7,
@@ -4381,34 +4485,39 @@
       "trend": "Bearish",
       "score": 0,
       "signals": [
-        "Near PDH (0.55%)",
-        "Near PDL (0.21%)"
+        "Near PDH (0.9%)",
+        "Near PDL (0.3%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [
@@ -4448,13 +4557,13 @@
       },
       "levels": {
         "PDH": {
-          "value": 264.95,
-          "distance_pct": 0.55,
+          "value": 265.9,
+          "distance_pct": 0.9,
           "near": true
         },
         "PDL": {
-          "value": 262.95,
-          "distance_pct": 0.21,
+          "value": 262.7,
+          "distance_pct": 0.3,
           "near": true
         },
         "PYH": {
@@ -4715,16 +4824,18 @@
           "close": 263.5
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "SUNPHARMA",
       "price": 1885.9,
       "change_pct": -0.48,
-      "open": null,
+      "open": 1892.0,
       "previous_close": 1895.0,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 1895.6,
+      "day_low": 1876.8,
       "vwap": null,
       "sma20": 1913.78,
       "sma50": 1930.65,
@@ -4741,7 +4852,8 @@
       "score": 0,
       "signals": [
         "Above SMA200",
-        "Near PDL (0.15%)",
+        "Near PDH (0.51%)",
+        "Near PDL (0.48%)",
         "Near PYH (0.9%)",
         "Near QO (0.43%)"
       ],
@@ -4749,27 +4861,32 @@
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -4811,13 +4928,13 @@
       },
       "levels": {
         "PDH": {
-          "value": 1907.8,
-          "distance_pct": 1.15,
-          "near": false
+          "value": 1895.6,
+          "distance_pct": 0.51,
+          "near": true
         },
         "PDL": {
-          "value": 1883.1,
-          "distance_pct": 0.15,
+          "value": 1876.8,
+          "distance_pct": 0.48,
           "near": true
         },
         "PYH": {
@@ -5078,16 +5195,18 @@
           "close": 1885.9
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "BHARTIARTL",
       "price": 1844.0,
       "change_pct": -0.54,
-      "open": null,
+      "open": 1846.2,
       "previous_close": 1854.0,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 1848.8,
+      "day_low": 1829.0,
       "vwap": null,
       "sma20": 1904.65,
       "sma50": 1919.31,
@@ -5103,35 +5222,40 @@
       "trend": "Bearish",
       "score": 0,
       "signals": [
-        "Near PDH (0.62%)",
-        "Near PDL (0.74%)",
+        "Near PDH (0.26%)",
+        "Near PDL (0.82%)",
         "Near QO (0.09%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -5171,13 +5295,13 @@
       },
       "levels": {
         "PDH": {
-          "value": 1855.5,
-          "distance_pct": 0.62,
+          "value": 1848.8,
+          "distance_pct": 0.26,
           "near": true
         },
         "PDL": {
-          "value": 1830.4,
-          "distance_pct": 0.74,
+          "value": 1829.0,
+          "distance_pct": 0.82,
           "near": true
         },
         "PYH": {
@@ -5438,16 +5562,18 @@
           "close": 1844.0
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "ASIANPAINT",
       "price": 2481.6,
       "change_pct": -0.77,
-      "open": null,
+      "open": 2499.0,
       "previous_close": 2500.9,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 2499.0,
+      "day_low": 2474.1,
       "vwap": null,
       "sma20": 2617.93,
       "sma50": 2675.8,
@@ -5463,33 +5589,39 @@
       "trend": "Bearish",
       "score": 0,
       "signals": [
-        "Near PDL (0.33%)"
+        "Near PDH (0.7%)",
+        "Near PDL (0.3%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -5527,13 +5659,13 @@
       },
       "levels": {
         "PDH": {
-          "value": 2523.5,
-          "distance_pct": 1.66,
-          "near": false
+          "value": 2499.0,
+          "distance_pct": 0.7,
+          "near": true
         },
         "PDL": {
-          "value": 2489.7,
-          "distance_pct": 0.33,
+          "value": 2474.1,
+          "distance_pct": 0.3,
           "near": true
         },
         "PYH": {
@@ -5794,16 +5926,18 @@
           "close": 2481.6
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "MARUTI",
       "price": 12641.0,
       "change_pct": -0.93,
-      "open": null,
+      "open": 12758.0,
       "previous_close": 12760.0,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 12758.0,
+      "day_low": 12582.0,
       "vwap": null,
       "sma20": 13403.05,
       "sma50": 13723.3,
@@ -5819,33 +5953,39 @@
       "trend": "Bearish",
       "score": 0,
       "signals": [
-        "Near PDL (0.18%)"
+        "Near PDH (0.92%)",
+        "Near PDL (0.47%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -5885,13 +6025,13 @@
       },
       "levels": {
         "PDH": {
-          "value": 12833.0,
-          "distance_pct": 1.5,
-          "near": false
+          "value": 12758.0,
+          "distance_pct": 0.92,
+          "near": true
         },
         "PDL": {
-          "value": 12618.0,
-          "distance_pct": 0.18,
+          "value": 12582.0,
+          "distance_pct": 0.47,
           "near": true
         },
         "PYH": {
@@ -6152,16 +6292,18 @@
           "close": 12641.0
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     },
     {
       "symbol": "HDFCBANK",
       "price": 703.0,
       "change_pct": -1.06,
-      "open": null,
+      "open": 707.1,
       "previous_close": 710.5,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 708.9,
+      "day_low": 703.0,
       "vwap": null,
       "sma20": 718.7,
       "sma50": 752.25,
@@ -6177,33 +6319,39 @@
       "trend": "Bearish",
       "score": 0,
       "signals": [
-        "Near PDL (0.57%)"
+        "Near PDH (0.83%)",
+        "Near PDL (0.0%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -6241,23 +6389,23 @@
       },
       "levels": {
         "PDH": {
-          "value": 713.0,
-          "distance_pct": 1.4,
-          "near": false
+          "value": 708.9,
+          "distance_pct": 0.83,
+          "near": true
         },
         "PDL": {
-          "value": 707.05,
-          "distance_pct": 0.57,
+          "value": 703.0,
+          "distance_pct": 0.0,
           "near": true
         },
         "PYH": {
-          "value": 2037.7,
-          "distance_pct": 65.5,
+          "value": 1020.5,
+          "distance_pct": 31.11,
           "near": false
         },
         "PYL": {
-          "value": 939.1,
-          "distance_pct": 25.14,
+          "value": 812.15,
+          "distance_pct": 13.44,
           "near": false
         },
         "QO": {
@@ -6508,16 +6656,23 @@
           "close": 703.0
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": [
+        {
+          "date": "2025-08-26",
+          "factor": 0.5
+        }
+      ]
     },
     {
       "symbol": "ICICIBANK",
       "price": 1399.4,
       "change_pct": -1.97,
-      "open": null,
+      "open": 1424.0,
       "previous_close": 1427.5,
-      "day_high": null,
-      "day_low": null,
+      "day_high": 1424.9,
+      "day_low": 1396.3,
       "vwap": null,
       "sma20": 1422.44,
       "sma50": 1425.2,
@@ -6533,33 +6688,39 @@
       "trend": "Bearish",
       "score": 0,
       "signals": [
-        "Above SMA200"
+        "Above SMA200",
+        "Near PDL (0.22%)"
       ],
       "patterns": {
         "15m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "30m": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "2H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "4H": {
           "patterns": [],
           "candle": null,
-          "available": false
+          "available": false,
+          "reason": "true_intraday_ohlc_unavailable"
         },
         "1D": {
           "patterns": [],
@@ -6601,14 +6762,14 @@
       },
       "levels": {
         "PDH": {
-          "value": 1434.4,
-          "distance_pct": 2.44,
+          "value": 1424.9,
+          "distance_pct": 1.79,
           "near": false
         },
         "PDL": {
-          "value": 1422.6,
-          "distance_pct": 1.63,
-          "near": false
+          "value": 1396.3,
+          "distance_pct": 0.22,
+          "near": true
         },
         "PYH": {
           "value": 1500.0,
@@ -6868,7 +7029,9 @@
           "close": 1399.4
         }
       ],
-      "source": "NSE India"
+      "source": "NSE India",
+      "last_completed_session": "2026-09-08",
+      "corporate_action_adjustments": []
     }
   ],
   "errors": [
