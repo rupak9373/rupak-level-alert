@@ -14,6 +14,13 @@ NEAR_LEVEL_PCT = 1.0
 HISTORY_DAYS = 900
 CHART_POINTS = 60
 TIMEFRAMES = ["15m", "30m", "1H", "2H", "4H", "1D", "1W", "1M"]
+INTRADAY_TFS = {"15m": 15, "30m": 30, "1H": 60, "2H": 120, "4H": 240}
+PATTERN_PRIORITY = [
+    "Morning Star", "Evening Star", "Bullish Engulfing", "Bearish Engulfing",
+    "Piercing Line", "Dark Cloud Cover", "Hammer", "Hanging Man",
+    "Inverted Hammer", "Shooting Star", "Bullish Harami", "Bearish Harami",
+    "Bullish Marubozu", "Bearish Marubozu", "Doji",
+]
 
 
 def clean_number(value, digits=2):
@@ -49,6 +56,13 @@ def first_col(df, names):
     return None
 
 
+def normalize_nse_dates(series):
+    # NSE historical timestamps can be UTC (often previous-day 18:30Z).
+    # Convert to India time first, then keep the exchange calendar date.
+    ts = pd.to_datetime(series, errors="coerce", utc=True)
+    return ts.dt.tz_convert("Asia/Kolkata").dt.tz_localize(None).dt.normalize()
+
+
 def get_history(symbol):
     end = date.today()
     start = end - timedelta(days=HISTORY_DAYS)
@@ -70,7 +84,7 @@ def get_history(symbol):
     if vol_col:
         cols.append(vol_col)
     work = df[cols].copy()
-    work[date_col] = pd.to_datetime(work[date_col], errors="coerce", dayfirst=True)
+    work[date_col] = normalize_nse_dates(work[date_col])
     for c in [open_col, high_col, low_col, close_col]:
         work[c] = pd.to_numeric(work[c], errors="coerce")
     if vol_col:
@@ -78,7 +92,8 @@ def get_history(symbol):
     else:
         work["_VOL"] = 0
         vol_col = "_VOL"
-    work = work.dropna(subset=[date_col, open_col, high_col, low_col, close_col]).sort_values(date_col)
+    work = work.dropna(subset=[date_col, open_col, high_col, low_col, close_col])
+    work = work.sort_values(date_col).drop_duplicates(date_col, keep="last")
     work = work.rename(columns={date_col:"date", open_col:"open", high_col:"high", low_col:"low", close_col:"close", vol_col:"volume"})
     return work[["date","open","high","low","close","volume"]].reset_index(drop=True)
 
@@ -97,13 +112,11 @@ def get_intraday(symbol, live):
             price = clean_number(p[1], 4)
             if pd.isna(ts) or price is None:
                 continue
-            # NSE timestamps are chart timestamps; convert to India local time for session resampling.
             rows.append({"date": ts.tz_convert("Asia/Kolkata").tz_localize(None), "price": price})
         if not rows:
             return pd.DataFrame(columns=["date","open","high","low","close","volume"])
         ticks = pd.DataFrame(rows).sort_values("date").drop_duplicates("date")
-        ticks = ticks.set_index("date")
-        one_min = ticks["price"].resample("1min").ohlc().dropna().reset_index()
+        one_min = ticks.set_index("date")["price"].resample("1min").ohlc().dropna().reset_index()
         one_min["volume"] = 0
         return one_min[["date","open","high","low","close","volume"]]
     except Exception:
@@ -120,10 +133,42 @@ def resample_ohlc(df, timeframe):
     else:
         rule = {"15m":"15min", "30m":"30min", "1H":"1h", "2H":"2h", "4H":"4h"}[timeframe]
     work = df.set_index("date").sort_index()
-    out = work.resample(rule, origin="start_day", offset="15min").agg({
+    kwargs = {"origin":"start_day", "offset":"15min"} if timeframe in INTRADAY_TFS else {}
+    out = work.resample(rule, **kwargs).agg({
         "open":"first", "high":"max", "low":"min", "close":"last", "volume":"sum"
     }).dropna(subset=["open","high","low","close"]).reset_index()
     return out
+
+
+def closed_candles(df, timeframe):
+    if df is None or df.empty:
+        return df
+    out = resample_ohlc(df, timeframe)
+    if out.empty:
+        return out
+    now = pd.Timestamp.now(tz="Asia/Kolkata").tz_localize(None)
+
+    if timeframe in INTRADAY_TFS:
+        minutes = INTRADAY_TFS[timeframe]
+        # A bar is usable only after its full interval has closed.
+        out = out[(out["date"] + pd.to_timedelta(minutes, unit="min")) <= now]
+    elif timeframe == "1D":
+        # If today's daily row is present during market hours, don't classify it.
+        if now.time() < pd.Timestamp("15:30").time():
+            out = out[out["date"].dt.date < now.date()]
+    elif timeframe == "1W":
+        # W-FRI label is the period end. Ignore the current unfinished week.
+        week_end = now.normalize() + pd.offsets.Week(weekday=4)
+        if now.weekday() == 4 and now.time() >= pd.Timestamp("15:30").time():
+            week_end = now.normalize()
+        out = out[out["date"] <= week_end]
+        if len(out) and out.iloc[-1]["date"].date() > now.date():
+            out = out.iloc[:-1]
+    elif timeframe == "1M":
+        month_end = now + pd.offsets.MonthEnd(0)
+        if now.date() < month_end.date() or now.time() < pd.Timestamp("15:30").time():
+            out = out[out["date"] < month_end.normalize()]
+    return out.reset_index(drop=True)
 
 
 def candle_parts(row):
@@ -135,7 +180,22 @@ def candle_parts(row):
     return o,h,l,c,body,rng,upper,lower
 
 
+def prior_trend(df, lookback=5):
+    if len(df) < lookback + 1:
+        return "flat"
+    pre = df.iloc[-(lookback+1):-1]
+    closes = pre["close"].astype(float).tolist()
+    if len(closes) < 4:
+        return "flat"
+    slope = closes[-1] - closes[0]
+    move = abs(slope) / max(abs(closes[0]), 1e-9)
+    if move < 0.004:
+        return "flat"
+    return "up" if slope > 0 else "down"
+
+
 def detect_patterns(df):
+    # Strict, closed-candle rules. Return only one primary pattern per TF.
     if df is None or len(df) < 2:
         return []
     cur, prev = df.iloc[-1], df.iloc[-2]
@@ -144,56 +204,80 @@ def detect_patterns(df):
     bullish, bearish = c > o, c < o
     p_bullish, p_bearish = pc > po, pc < po
     body_pct = body / rng
-    patterns = []
+    prev_body_pct = pbody / prng
+    trend = prior_trend(df)
+    found = []
 
-    if body_pct <= 0.10:
-        patterns.append("Doji")
-    if bullish and lower >= max(body * 2, rng * 0.45) and upper <= max(body * 0.6, rng * 0.15):
-        patterns.append("Hammer")
-    if bearish and lower >= max(body * 2, rng * 0.45) and upper <= max(body * 0.6, rng * 0.15):
-        patterns.append("Hanging Man")
-    if upper >= max(body * 2, rng * 0.45) and lower <= max(body * 0.6, rng * 0.15):
-        patterns.append("Inverted Hammer" if bullish else "Shooting Star")
-    if p_bearish and bullish and o <= pc and c >= po:
-        patterns.append("Bullish Engulfing")
-    if p_bullish and bearish and o >= pc and c <= po:
-        patterns.append("Bearish Engulfing")
-    if p_bearish and bullish and max(o,c) < max(po,pc) and min(o,c) > min(po,pc):
-        patterns.append("Bullish Harami")
-    if p_bullish and bearish and max(o,c) < max(po,pc) and min(o,c) > min(po,pc):
-        patterns.append("Bearish Harami")
-    midpoint_prev = (po + pc) / 2
-    if p_bearish and bullish and o < pc and c > midpoint_prev and c < po:
-        patterns.append("Piercing Line")
-    if p_bullish and bearish and o > pc and c < midpoint_prev and c > po:
-        patterns.append("Dark Cloud Cover")
-    if body_pct >= 0.80 and upper <= rng*0.10 and lower <= rng*0.10:
-        patterns.append("Bullish Marubozu" if bullish else "Bearish Marubozu")
-
+    # Three-candle reversal patterns first and stricter than before.
     if len(df) >= 3:
         a, b, d = df.iloc[-3], df.iloc[-2], df.iloc[-1]
         ao,ah,al,ac,abody,arng,_,_ = candle_parts(a)
         bo,bh,bl,bc,bbody,brng,_,_ = candle_parts(b)
         do,dh,dl,dc,dbody,drng,_,_ = candle_parts(d)
-        if ac < ao and bbody <= abody*0.5 and dc > do and dc >= (ao+ac)/2:
-            patterns.append("Morning Star")
-        if ac > ao and bbody <= abody*0.5 and dc < do and dc <= (ao+ac)/2:
-            patterns.append("Evening Star")
-    return list(dict.fromkeys(patterns))
+        if (ac < ao and abody/arng >= 0.55 and bbody/brng <= 0.35 and dc > do
+                and dbody/drng >= 0.45 and dc > (ao+ac)/2 and trend == "down"):
+            found.append("Morning Star")
+        if (ac > ao and abody/arng >= 0.55 and bbody/brng <= 0.35 and dc < do
+                and dbody/drng >= 0.45 and dc < (ao+ac)/2 and trend == "up"):
+            found.append("Evening Star")
+
+    # Engulfing = current REAL BODY fully engulfs previous REAL BODY.
+    if (p_bearish and bullish and body >= pbody * 1.05 and o <= pc and c >= po
+            and prev_body_pct >= 0.30):
+        found.append("Bullish Engulfing")
+    if (p_bullish and bearish and body >= pbody * 1.05 and o >= pc and c <= po
+            and prev_body_pct >= 0.30):
+        found.append("Bearish Engulfing")
+
+    midpoint_prev = (po + pc) / 2
+    if (p_bearish and bullish and o < pc and c > midpoint_prev and c < po
+            and body_pct >= 0.35 and prev_body_pct >= 0.45):
+        found.append("Piercing Line")
+    if (p_bullish and bearish and o > pc and c < midpoint_prev and c > po
+            and body_pct >= 0.35 and prev_body_pct >= 0.45):
+        found.append("Dark Cloud Cover")
+
+    # Single-candle reversal names require prior trend context.
+    hammer_shape = lower >= max(body * 2.2, rng * 0.55) and upper <= rng * 0.12 and body_pct <= 0.40
+    star_shape = upper >= max(body * 2.2, rng * 0.55) and lower <= rng * 0.12 and body_pct <= 0.40
+    if hammer_shape and trend == "down":
+        found.append("Hammer")
+    elif hammer_shape and trend == "up":
+        found.append("Hanging Man")
+    if star_shape and trend == "down":
+        found.append("Inverted Hammer")
+    elif star_shape and trend == "up":
+        found.append("Shooting Star")
+
+    # Harami requires a clearly smaller current body fully inside previous body.
+    prev_top, prev_bottom = max(po,pc), min(po,pc)
+    cur_top, cur_bottom = max(o,c), min(o,c)
+    if p_bearish and bullish and body <= pbody * 0.60 and cur_top < prev_top and cur_bottom > prev_bottom:
+        found.append("Bullish Harami")
+    if p_bullish and bearish and body <= pbody * 0.60 and cur_top < prev_top and cur_bottom > prev_bottom:
+        found.append("Bearish Harami")
+
+    if body_pct >= 0.90 and upper/rng <= 0.05 and lower/rng <= 0.05:
+        found.append("Bullish Marubozu" if bullish else "Bearish Marubozu")
+    if body_pct <= 0.07:
+        found.append("Doji")
+
+    for name in PATTERN_PRIORITY:
+        if name in found:
+            return [name]
+    return []
 
 
 def snap(df, tf):
-    if df is None or df.empty:
-        return {"patterns": [], "candle": None, "available": False}
-    tf_df = resample_ohlc(df, tf)
-    if tf_df.empty:
+    tf_df = closed_candles(df, tf)
+    if tf_df is None or tf_df.empty:
         return {"patterns": [], "candle": None, "available": False}
     row = tf_df.iloc[-1]
     return {
         "patterns": detect_patterns(tf_df),
         "available": len(tf_df) >= 2,
         "candle": {
-            "date": row["date"].strftime("%Y-%m-%d %H:%M") if tf not in ["1D","1W","1M"] else row["date"].strftime("%Y-%m-%d"),
+            "date": row["date"].strftime("%Y-%m-%d %H:%M") if tf in INTRADAY_TFS else row["date"].strftime("%Y-%m-%d"),
             "open": clean_number(row["open"]), "high": clean_number(row["high"]),
             "low": clean_number(row["low"]), "close": clean_number(row["close"]),
         },
@@ -203,7 +287,7 @@ def snap(df, tf):
 def pattern_snapshot(hist, intraday):
     out = {}
     for tf in TIMEFRAMES:
-        source = intraday if tf in ["15m","30m","1H","2H","4H"] else hist
+        source = intraday if tf in INTRADAY_TFS else hist
         out[tf] = snap(source, tf)
     return out
 
@@ -318,7 +402,8 @@ def main():
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat(), "market": "NSE", "source": "NSE India",
         "count": len(rows), "near_sma_pct": NEAR_SMA_PCT, "near_level_pct": NEAR_LEVEL_PCT,
-        "pattern_timeframes": TIMEFRAMES, "key_levels": ["PDH","PDL","QO","PYH","PYL"],
+        "pattern_timeframes": TIMEFRAMES, "pattern_names": PATTERN_PRIORITY,
+        "key_levels": ["PDH","PDL","QO","PYH","PYL"],
         "results": rows, "errors": errors,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
