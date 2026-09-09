@@ -11,14 +11,13 @@
   let syncKey=localStorage.getItem(SYNC_KEY_NAME);
   if(!syncKey){syncKey=makeKey();localStorage.setItem(SYNC_KEY_NAME,syncKey)}
 
-  /* Migrate the old placeholder bridge automatically. */
-  const savedBridge=localStorage.getItem(BRIDGE_NAME)||'';
-  if(!savedBridge || savedBridge.includes('rupak-broker-bridge.onrender.com')) localStorage.setItem(BRIDGE_NAME,DEFAULT_BRIDGE);
+  // Force the verified live Render service URL so stale browser storage cannot keep an old placeholder.
+  localStorage.setItem(BRIDGE_NAME,DEFAULT_BRIDGE);
 
   const panel=document.createElement('section');
   panel.className='panel';
   panel.innerHTML=`<div class="head" style="margin-bottom:10px"><div><h2 style="margin:0">🔄 MT5 Auto Sync</h2><div class="muted" id="mt5Status">MT5 connection setup pending</div></div><button class="btn primary" id="mt5SyncNow">Sync Now</button></div>
-  <div class="grid"><div class="field wide"><label>Bridge URL</label><input id="mt5Bridge" value="${localStorage.getItem(BRIDGE_NAME)||DEFAULT_BRIDGE}"></div><div class="field wide"><label>MT5 Sync Key</label><input id="mt5Key" readonly value="${syncKey}"></div></div>
+  <div class="grid"><div class="field wide"><label>Bridge URL</label><input id="mt5Bridge" readonly value="${DEFAULT_BRIDGE}"></div><div class="field wide"><label>MT5 Sync Key</label><input id="mt5Key" readonly value="${syncKey}"></div></div>
   <div class="actions"><button class="btn" id="mt5CopyKey">Copy Sync Key</button><button class="btn" id="mt5CopyUrl">Copy Bridge URL</button></div>
   <div class="hint">EA MT5 se closed trades bhejega; journal har 30 sec me automatically sync karega. Setup/timeframe/notes MT5 me available na ho to blank rahenge.</div>`;
   const main=document.querySelector('main.wrap');
@@ -28,15 +27,12 @@
   const bridge=document.getElementById('mt5Bridge');
   const keyEl=document.getElementById('mt5Key');
   const setStatus=(s,ok=false)=>{status.textContent=s;status.style.color=ok?'#55d58a':'#8fa4c3'};
-  bridge.addEventListener('change',()=>localStorage.setItem(BRIDGE_NAME,bridge.value.trim().replace(/\/$/,'')));
   document.getElementById('mt5CopyKey').onclick=async()=>{await navigator.clipboard.writeText(keyEl.value);setStatus('Sync Key copied',true)};
-  document.getElementById('mt5CopyUrl').onclick=async()=>{await navigator.clipboard.writeText(bridge.value.trim().replace(/\/$/,''));setStatus('Bridge URL copied',true)};
+  document.getElementById('mt5CopyUrl').onclick=async()=>{await navigator.clipboard.writeText(DEFAULT_BRIDGE);setStatus('Bridge URL copied',true)};
 
   function marketOf(symbol){const s=String(symbol||'').toUpperCase();if(s.includes('XAU'))return 'Gold';if(/BTC|ETH|SOL|XRP|DOGE/.test(s))return 'Crypto';if(/NIFTY|BANKNIFTY|SENSEX/.test(s))return 'Index';return 'Forex'}
   async function sync(){
-    const base=bridge.value.trim().replace(/\/$/,'');
-    if(!base)return;
-    localStorage.setItem(BRIDGE_NAME,base);
+    const base=DEFAULT_BRIDGE;
     try{
       setStatus('MT5 trades sync ho rahe hain...');
       const r=await fetch(base+'/mt5/journal/'+encodeURIComponent(syncKey),{cache:'no-store'});
