@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install yfinance pandas
+        run: pip install jugaad-data pandas
       - name: Run scanner
         run: python stock-webapp/scan_stocks.py
       - name: Commit scan data
