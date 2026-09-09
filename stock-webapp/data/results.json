@@ -1,13 +1,26 @@
 {
-  "updated_at": "2026-09-09T00:35:08.458611+00:00",
+  "updated_at": "2026-09-09T00:40:42.832123+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
   "near_sma_pct": 1.0,
+  "near_level_pct": 1.0,
   "pattern_timeframes": [
+    "15m",
+    "30m",
+    "1H",
+    "2H",
+    "4H",
     "1D",
     "1W",
     "1M"
+  ],
+  "key_levels": [
+    "PDH",
+    "PDL",
+    "QO",
+    "PYH",
+    "PYL"
   ],
   "results": [
     {
@@ -35,13 +48,40 @@
       "signals": [
         "Above SMA20",
         "Above SMA200",
-        "RSI Bullish"
+        "RSI Bullish",
+        "Near PDH (0.37%)"
       ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [
             "Piercing Line"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 1694.0,
@@ -54,6 +94,7 @@
           "patterns": [
             "Hanging Man"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 1714.0,
@@ -67,6 +108,7 @@
             "Piercing Line",
             "Bullish Marubozu"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 1637.1,
@@ -74,6 +116,33 @@
             "low": 1632.1,
             "close": 1710.0
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 1716.4,
+          "distance_pct": 0.37,
+          "near": true
+        },
+        "PDL": {
+          "value": 1685.9,
+          "distance_pct": 1.43,
+          "near": false
+        },
+        "PYH": {
+          "value": 1549.0,
+          "distance_pct": 10.39,
+          "near": false
+        },
+        "PYL": {
+          "value": 1010.75,
+          "distance_pct": 69.18,
+          "near": false
+        },
+        "QO": {
+          "value": 1858.5,
+          "distance_pct": 7.99,
+          "near": false
         }
       },
       "chart": [
@@ -344,14 +413,41 @@
       "score": 2,
       "signals": [
         "Above SMA20",
-        "SMA20 > SMA50"
+        "SMA20 > SMA50",
+        "Near PDL (0.42%)"
       ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [
             "Bearish Engulfing",
             "Evening Star"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 422.3,
@@ -362,6 +458,7 @@
         },
         "1W": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 421.8,
@@ -374,6 +471,7 @@
           "patterns": [
             "Bearish Harami"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 421.9,
@@ -381,6 +479,33 @@
             "low": 418.95,
             "close": 419.25
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 425.7,
+          "distance_pct": 1.52,
+          "near": false
+        },
+        "PDL": {
+          "value": 421.0,
+          "distance_pct": 0.42,
+          "near": true
+        },
+        "PYH": {
+          "value": 2301.9,
+          "distance_pct": 81.79,
+          "near": false
+        },
+        "PYL": {
+          "value": 1723.75,
+          "distance_pct": 75.68,
+          "near": false
+        },
+        "QO": {
+          "value": 400.45,
+          "distance_pct": 4.69,
+          "near": false
         }
       },
       "chart": [
@@ -650,11 +775,39 @@
       "trend": "Mixed",
       "score": 1,
       "signals": [
-        "SMA20 > SMA50"
+        "SMA20 > SMA50",
+        "Near PDL (0.74%)",
+        "Near PYH (0.9%)"
       ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 1004.9,
@@ -665,6 +818,7 @@
         },
         "1W": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 1020.8,
@@ -675,6 +829,7 @@
         },
         "1M": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 1026.0,
@@ -682,6 +837,33 @@
             "low": 1000.6,
             "close": 1008.0
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 1021.7,
+          "distance_pct": 1.34,
+          "near": false
+        },
+        "PDL": {
+          "value": 1000.6,
+          "distance_pct": 0.74,
+          "near": true
+        },
+        "PYH": {
+          "value": 999.0,
+          "distance_pct": 0.9,
+          "near": true
+        },
+        "PYL": {
+          "value": 680.0,
+          "distance_pct": 48.24,
+          "near": false
+        },
+        "QO": {
+          "value": 1050.9,
+          "distance_pct": 4.08,
+          "near": false
         }
       },
       "chart": [
@@ -951,11 +1133,38 @@
       "trend": "Mixed",
       "score": 1,
       "signals": [
-        "SMA20 > SMA50"
+        "SMA20 > SMA50",
+        "Near PDL (0.28%)"
       ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 1095.0,
@@ -969,6 +1178,7 @@
             "Bearish Marubozu",
             "Evening Star"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 1109.5,
@@ -979,6 +1189,7 @@
         },
         "1M": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 1137.7,
@@ -986,6 +1197,33 @@
             "low": 1078.9,
             "close": 1082.0
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 1109.9,
+          "distance_pct": 2.51,
+          "near": false
+        },
+        "PDL": {
+          "value": 1085.0,
+          "distance_pct": 0.28,
+          "near": true
+        },
+        "PYH": {
+          "value": 1982.8,
+          "distance_pct": 45.43,
+          "near": false
+        },
+        "PYL": {
+          "value": 1307.0,
+          "distance_pct": 17.21,
+          "near": false
+        },
+        "QO": {
+          "value": 1006.4,
+          "distance_pct": 7.51,
+          "near": false
         }
       },
       "chart": [
@@ -1256,13 +1494,40 @@
       "score": 1,
       "signals": [
         "SMA20 > SMA50",
-        "Above SMA200"
+        "Above SMA200",
+        "Near PDL (0.02%)"
       ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [
             "Evening Star"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 1058.8,
@@ -1273,6 +1538,7 @@
         },
         "1W": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 1064.0,
@@ -1283,6 +1549,7 @@
         },
         "1M": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 1044.2,
@@ -1290,6 +1557,33 @@
             "low": 1034.8,
             "close": 1054.1
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 1070.0,
+          "distance_pct": 1.49,
+          "near": false
+        },
+        "PDL": {
+          "value": 1054.3,
+          "distance_pct": 0.02,
+          "near": true
+        },
+        "PYH": {
+          "value": 9788.0,
+          "distance_pct": 89.23,
+          "near": false
+        },
+        "PYL": {
+          "value": 849.0,
+          "distance_pct": 24.16,
+          "near": false
+        },
+        "QO": {
+          "value": 994.7,
+          "distance_pct": 5.97,
+          "near": false
         }
       },
       "chart": [
@@ -1559,11 +1853,38 @@
       "trend": "Mixed",
       "score": 1,
       "signals": [
-        "SMA20 > SMA50"
+        "SMA20 > SMA50",
+        "Near PDL (0.2%)"
       ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 2270.0,
@@ -1574,6 +1895,7 @@
         },
         "1W": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 2290.1,
@@ -1584,6 +1906,7 @@
         },
         "1M": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 2347.9,
@@ -1591,6 +1914,33 @@
             "low": 2244.0,
             "close": 2255.5
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 2299.9,
+          "distance_pct": 1.93,
+          "near": false
+        },
+        "PDL": {
+          "value": 2260.1,
+          "distance_pct": 0.2,
+          "near": true
+        },
+        "PYH": {
+          "value": 4322.95,
+          "distance_pct": 47.82,
+          "near": false
+        },
+        "PYL": {
+          "value": 2866.6,
+          "distance_pct": 21.32,
+          "near": false
+        },
+        "QO": {
+          "value": 2008.0,
+          "distance_pct": 12.33,
+          "near": false
         }
       },
       "chart": [
@@ -1861,11 +2211,39 @@
       "score": 1,
       "signals": [
         "RSI Bullish",
-        "Near SMA20 (0.63%)"
+        "Near SMA20 (0.63%)",
+        "Near PDL (0.12%)",
+        "Near QO (0.99%)"
       ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 185.9,
@@ -1878,6 +2256,7 @@
           "patterns": [
             "Bearish Engulfing"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 189.0,
@@ -1890,6 +2269,7 @@
           "patterns": [
             "Inverted Hammer"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 182.5,
@@ -1897,6 +2277,33 @@
             "low": 181.44,
             "close": 184.15
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 190.24,
+          "distance_pct": 3.2,
+          "near": false
+        },
+        "PDL": {
+          "value": 184.37,
+          "distance_pct": 0.12,
+          "near": true
+        },
+        "PYH": {
+          "value": 186.94,
+          "distance_pct": 1.49,
+          "near": false
+        },
+        "PYL": {
+          "value": 122.62,
+          "distance_pct": 50.18,
+          "near": false
+        },
+        "QO": {
+          "value": 186.0,
+          "distance_pct": 0.99,
+          "near": true
         }
       },
       "chart": [
@@ -2168,11 +2575,38 @@
       "signals": [
         "SMA20 > SMA50",
         "Near SMA20 (0.99%)",
-        "Near SMA50 (0.64%)"
+        "Near SMA50 (0.64%)",
+        "Near PDL (0.54%)"
       ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 1304.1,
@@ -2185,6 +2619,7 @@
           "patterns": [
             "Dark Cloud Cover"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 1323.1,
@@ -2197,6 +2632,7 @@
           "patterns": [
             "Doji"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 1298.0,
@@ -2204,6 +2640,33 @@
             "low": 1288.0,
             "close": 1294.9
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 1324.2,
+          "distance_pct": 2.21,
+          "near": false
+        },
+        "PDL": {
+          "value": 1301.9,
+          "distance_pct": 0.54,
+          "near": true
+        },
+        "PYH": {
+          "value": 1592.5,
+          "distance_pct": 18.69,
+          "near": false
+        },
+        "PYL": {
+          "value": 1114.85,
+          "distance_pct": 16.15,
+          "near": false
+        },
+        "QO": {
+          "value": 1310.0,
+          "distance_pct": 1.15,
+          "near": false
         }
       },
       "chart": [
@@ -2475,13 +2938,40 @@
       "signals": [
         "SMA20 > SMA50",
         "Near SMA50 (0.67%)",
-        "Near SMA200 (0.93%)"
+        "Near SMA200 (0.93%)",
+        "Near PDL (0.37%)"
       ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [
             "Bearish Marubozu"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 3988.7,
@@ -2494,6 +2984,7 @@
           "patterns": [
             "Shooting Star"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 3962.0,
@@ -2506,6 +2997,7 @@
           "patterns": [
             "Shooting Star"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 3966.0,
@@ -2513,6 +3005,33 @@
             "low": 3946.1,
             "close": 3946.1
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 4004.9,
+          "distance_pct": 1.47,
+          "near": false
+        },
+        "PDL": {
+          "value": 3960.9,
+          "distance_pct": 0.37,
+          "near": true
+        },
+        "PYH": {
+          "value": 4146.8,
+          "distance_pct": 4.84,
+          "near": false
+        },
+        "PYL": {
+          "value": 2965.3,
+          "distance_pct": 33.08,
+          "near": false
+        },
+        "QO": {
+          "value": 4100.0,
+          "distance_pct": 3.75,
+          "near": false
         }
       },
       "chart": [
@@ -2786,8 +3305,34 @@
         "Near SMA20 (0.33%)"
       ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 1262.8,
@@ -2798,6 +3343,7 @@
         },
         "1W": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 1271.0,
@@ -2811,6 +3357,7 @@
             "Shooting Star",
             "Bearish Harami"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 1254.6,
@@ -2818,6 +3365,33 @@
             "low": 1239.5,
             "close": 1244.9
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 1271.9,
+          "distance_pct": 2.12,
+          "near": false
+        },
+        "PDL": {
+          "value": 1261.6,
+          "distance_pct": 1.32,
+          "near": false
+        },
+        "PYH": {
+          "value": 1304.0,
+          "distance_pct": 4.53,
+          "near": false
+        },
+        "PYL": {
+          "value": 933.5,
+          "distance_pct": 33.36,
+          "near": false
+        },
+        "QO": {
+          "value": 1374.0,
+          "distance_pct": 9.4,
+          "near": false
         }
       },
       "chart": [
@@ -3086,10 +3660,38 @@
       "volume_ratio": 1.05,
       "trend": "Bearish",
       "score": 0,
-      "signals": [],
+      "signals": [
+        "Near PDH (0.29%)"
+      ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 1967.0,
@@ -3100,6 +3702,7 @@
         },
         "1W": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 1972.0,
@@ -3112,6 +3715,7 @@
           "patterns": [
             "Doji"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 1983.0,
@@ -3119,6 +3723,33 @@
             "low": 1950.4,
             "close": 1980.0
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 1974.2,
+          "distance_pct": 0.29,
+          "near": true
+        },
+        "PDL": {
+          "value": 1958.0,
+          "distance_pct": 1.12,
+          "near": false
+        },
+        "PYH": {
+          "value": 2750.0,
+          "distance_pct": 28.0,
+          "near": false
+        },
+        "PYL": {
+          "value": 2136.0,
+          "distance_pct": 7.3,
+          "near": false
+        },
+        "QO": {
+          "value": 2186.0,
+          "distance_pct": 9.42,
+          "near": false
         }
       },
       "chart": [
@@ -3388,11 +4019,38 @@
       "trend": "Bearish",
       "score": 0,
       "signals": [
-        "Above SMA200"
+        "Above SMA200",
+        "Near PDH (0.38%)"
       ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 2933.0,
@@ -3405,6 +4063,7 @@
           "patterns": [
             "Bullish Harami"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 2940.0,
@@ -3417,6 +4076,7 @@
           "patterns": [
             "Piercing Line"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 2859.8,
@@ -3424,6 +4084,33 @@
             "low": 2830.5,
             "close": 2953.1
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 2964.4,
+          "distance_pct": 0.38,
+          "near": true
+        },
+        "PDL": {
+          "value": 2918.5,
+          "distance_pct": 1.19,
+          "near": false
+        },
+        "PYH": {
+          "value": 2695.0,
+          "distance_pct": 9.58,
+          "near": false
+        },
+        "PYL": {
+          "value": 2026.55,
+          "distance_pct": 45.72,
+          "near": false
+        },
+        "QO": {
+          "value": 3155.9,
+          "distance_pct": 6.43,
+          "near": false
         }
       },
       "chart": [
@@ -3692,12 +4379,41 @@
       "volume_ratio": 0.54,
       "trend": "Bearish",
       "score": 0,
-      "signals": [],
+      "signals": [
+        "Near PDH (0.55%)",
+        "Near PDL (0.21%)"
+      ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [
             "Doji"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 263.5,
@@ -3708,6 +4424,7 @@
         },
         "1W": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 264.1,
@@ -3718,6 +4435,7 @@
         },
         "1M": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 266.0,
@@ -3725,6 +4443,33 @@
             "low": 262.35,
             "close": 263.5
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 264.95,
+          "distance_pct": 0.55,
+          "near": true
+        },
+        "PDL": {
+          "value": 262.95,
+          "distance_pct": 0.21,
+          "near": true
+        },
+        "PYH": {
+          "value": 491.0,
+          "distance_pct": 46.33,
+          "near": false
+        },
+        "PYL": {
+          "value": 362.7,
+          "distance_pct": 27.35,
+          "near": false
+        },
+        "QO": {
+          "value": 290.7,
+          "distance_pct": 9.36,
+          "near": false
         }
       },
       "chart": [
@@ -3994,11 +4739,40 @@
       "trend": "Bearish",
       "score": 0,
       "signals": [
-        "Above SMA200"
+        "Above SMA200",
+        "Near PDL (0.15%)",
+        "Near PYH (0.53%)",
+        "Near QO (0.53%)"
       ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 1892.0,
@@ -4009,6 +4783,7 @@
         },
         "1W": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 1899.0,
@@ -4021,6 +4796,7 @@
           "patterns": [
             "Evening Star"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 1910.0,
@@ -4028,6 +4804,33 @@
             "low": 1876.8,
             "close": 1885.9
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 1907.8,
+          "distance_pct": 1.15,
+          "near": false
+        },
+        "PDL": {
+          "value": 1883.1,
+          "distance_pct": 0.15,
+          "near": true
+        },
+        "PYH": {
+          "value": 1896.0,
+          "distance_pct": 0.53,
+          "near": true
+        },
+        "PYL": {
+          "value": 1548.0,
+          "distance_pct": 21.83,
+          "near": false
+        },
+        "QO": {
+          "value": 1876.0,
+          "distance_pct": 0.53,
+          "near": true
         }
       },
       "chart": [
@@ -4296,12 +5099,42 @@
       "volume_ratio": 0.61,
       "trend": "Bearish",
       "score": 0,
-      "signals": [],
+      "signals": [
+        "Near PDH (0.62%)",
+        "Near PDL (0.74%)",
+        "Near QO (0.9%)"
+      ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [
             "Hanging Man"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 1846.2,
@@ -4314,6 +5147,7 @@
           "patterns": [
             "Doji"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 1845.0,
@@ -4324,6 +5158,7 @@
         },
         "1M": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 1869.0,
@@ -4331,6 +5166,33 @@
             "low": 1829.0,
             "close": 1844.0
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 1855.5,
+          "distance_pct": 0.62,
+          "near": true
+        },
+        "PDL": {
+          "value": 1830.4,
+          "distance_pct": 0.74,
+          "near": true
+        },
+        "PYH": {
+          "value": 2174.5,
+          "distance_pct": 15.2,
+          "near": false
+        },
+        "PYL": {
+          "value": 1559.5,
+          "distance_pct": 18.24,
+          "near": false
+        },
+        "QO": {
+          "value": 1860.8,
+          "distance_pct": 0.9,
+          "near": true
         }
       },
       "chart": [
@@ -4599,10 +5461,38 @@
       "volume_ratio": 0.65,
       "trend": "Bearish",
       "score": 0,
-      "signals": [],
+      "signals": [
+        "Near PDL (0.33%)"
+      ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 2499.0,
@@ -4613,6 +5503,7 @@
         },
         "1W": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 2511.1,
@@ -4625,6 +5516,7 @@
           "patterns": [
             "Bearish Marubozu"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 2548.0,
@@ -4632,6 +5524,33 @@
             "low": 2474.1,
             "close": 2481.6
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 2523.5,
+          "distance_pct": 1.66,
+          "near": false
+        },
+        "PDL": {
+          "value": 2489.7,
+          "distance_pct": 0.33,
+          "near": true
+        },
+        "PYH": {
+          "value": 2985.7,
+          "distance_pct": 16.88,
+          "near": false
+        },
+        "PYL": {
+          "value": 2124.75,
+          "distance_pct": 16.79,
+          "near": false
+        },
+        "QO": {
+          "value": 2720.0,
+          "distance_pct": 8.76,
+          "near": false
         }
       },
       "chart": [
@@ -4900,10 +5819,38 @@
       "volume_ratio": 1.09,
       "trend": "Bearish",
       "score": 0,
-      "signals": [],
+      "signals": [
+        "Near PDL (0.18%)"
+      ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 12758.0,
@@ -4914,6 +5861,7 @@
         },
         "1W": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 12691.0,
@@ -4924,6 +5872,7 @@
         },
         "1M": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 12763.0,
@@ -4931,6 +5880,33 @@
             "low": 12582.0,
             "close": 12641.0
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 12833.0,
+          "distance_pct": 1.5,
+          "near": false
+        },
+        "PDL": {
+          "value": 12618.0,
+          "distance_pct": 0.18,
+          "near": true
+        },
+        "PYH": {
+          "value": 16818.0,
+          "distance_pct": 24.84,
+          "near": false
+        },
+        "PYL": {
+          "value": 11059.45,
+          "distance_pct": 14.3,
+          "near": false
+        },
+        "QO": {
+          "value": 14431.0,
+          "distance_pct": 12.4,
+          "near": false
         }
       },
       "chart": [
@@ -5199,12 +6175,40 @@
       "volume_ratio": 0.77,
       "trend": "Bearish",
       "score": 0,
-      "signals": [],
+      "signals": [
+        "Near PDL (0.57%)"
+      ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [
             "Evening Star"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 707.1,
@@ -5217,6 +6221,7 @@
           "patterns": [
             "Bearish Marubozu"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 712.1,
@@ -5230,6 +6235,7 @@
             "Doji",
             "Inverted Hammer"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 702.3,
@@ -5237,6 +6243,33 @@
             "low": 700.0,
             "close": 703.0
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 713.0,
+          "distance_pct": 1.4,
+          "near": false
+        },
+        "PDL": {
+          "value": 707.05,
+          "distance_pct": 0.57,
+          "near": true
+        },
+        "PYH": {
+          "value": 2037.7,
+          "distance_pct": 65.5,
+          "near": false
+        },
+        "PYL": {
+          "value": 939.1,
+          "distance_pct": 25.14,
+          "near": false
+        },
+        "QO": {
+          "value": 795.0,
+          "distance_pct": 11.57,
+          "near": false
         }
       },
       "chart": [
@@ -5509,8 +6542,34 @@
         "Above SMA200"
       ],
       "patterns": {
+        "15m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "30m": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "1H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "2H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
+        "4H": {
+          "patterns": [],
+          "candle": null,
+          "available": false
+        },
         "1D": {
           "patterns": [],
+          "available": true,
           "candle": {
             "date": "2026-09-07",
             "open": 1424.0,
@@ -5524,6 +6583,7 @@
             "Bearish Engulfing",
             "Evening Star"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-11",
             "open": 1428.0,
@@ -5536,6 +6596,7 @@
           "patterns": [
             "Evening Star"
           ],
+          "available": true,
           "candle": {
             "date": "2026-09-30",
             "open": 1425.1,
@@ -5543,6 +6604,33 @@
             "low": 1396.3,
             "close": 1399.4
           }
+        }
+      },
+      "levels": {
+        "PDH": {
+          "value": 1434.4,
+          "distance_pct": 2.44,
+          "near": false
+        },
+        "PDL": {
+          "value": 1422.6,
+          "distance_pct": 1.63,
+          "near": false
+        },
+        "PYH": {
+          "value": 1500.0,
+          "distance_pct": 6.71,
+          "near": false
+        },
+        "PYL": {
+          "value": 1186.0,
+          "distance_pct": 17.99,
+          "near": false
+        },
+        "QO": {
+          "value": 1381.9,
+          "distance_pct": 1.27,
+          "near": false
         }
       },
       "chart": [
