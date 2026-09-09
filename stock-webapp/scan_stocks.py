@@ -36,8 +36,6 @@ def scan_symbol(symbol):
     if hasattr(df.columns, "levels"):
         df.columns = df.columns.get_level_values(0)
     close = df["Close"].astype(float)
-    high = df["High"].astype(float)
-    low = df["Low"].astype(float)
     vol = df["Volume"].astype(float)
     price = clean_number(close.iloc[-1])
     prev = clean_number(close.iloc[-2]) if len(close) > 1 else price
@@ -47,8 +45,6 @@ def scan_symbol(symbol):
     avgvol20 = clean_number(vol.rolling(20).mean().iloc[-1]) if len(vol) >= 20 else None
     lastvol = clean_number(vol.iloc[-1])
     volume_ratio = clean_number(lastvol / avgvol20) if lastvol is not None and avgvol20 is not None and avgvol20 > 0 else None
-    high20 = clean_number(high.tail(20).max()) if len(high) >= 20 else clean_number(high.max())
-    low20 = clean_number(low.tail(20).min()) if len(low) >= 20 else clean_number(low.min())
 
     # If Yahoo returns an incomplete latest row, use the most recent finite close.
     if price is None:
@@ -70,10 +66,6 @@ def scan_symbol(symbol):
         tags.append("RSI Bullish"); score += 1
     if volume_ratio is not None and volume_ratio >= 1.5:
         tags.append("High Volume"); score += 1
-    if high20 is not None and price >= high20 * 0.995:
-        tags.append("20D Breakout Zone"); score += 2
-    if low20 is not None and price <= low20 * 1.005:
-        tags.append("20D Support Zone")
 
     trend = "Bullish" if sma20 is not None and sma50 is not None and price > sma20 > sma50 else (
         "Bearish" if sma20 is not None and sma50 is not None and price < sma20 < sma50 else "Mixed"
@@ -88,8 +80,6 @@ def scan_symbol(symbol):
         "sma50": sma50,
         "rsi14": rsi14,
         "volume_ratio": volume_ratio,
-        "high20": high20,
-        "low20": low20,
         "trend": trend,
         "score": score,
         "signals": tags,
