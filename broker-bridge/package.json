@@ -2,9 +2,9 @@
   "name": "rupak-broker-bridge",
   "version": "1.0.0",
   "private": true,
-  "description": "Secure Upstox OAuth + real-time market data bridge for Rupak Stock Scanner",
+  "description": "Secure broker bridge plus MT5 journal sync for Rupak Stock Scanner",
   "main": "server.js",
-  "scripts": {"start": "node server.js"},
+  "scripts": {"start": "node mt5-bootstrap.js"},
   "engines": {"node": ">=20"},
   "dependencies": {
     "cors": "^2.8.5",
