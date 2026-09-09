@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T00:07:34.476688+00:00",
+  "updated_at": "2026-09-09T00:12:07.856813+00:00",
   "market": "NSE",
   "count": 19,
   "results": [
@@ -160,31 +160,16 @@
       ]
     },
     {
-      "symbol": "ITC",
-      "yahoo_symbol": "ITC.NS",
-      "price": 263.5,
-      "change_pct": 0.0,
-      "sma20": 268.64,
-      "sma50": 277.7,
-      "rsi14": 45.7,
-      "volume_ratio": 0.54,
-      "high20": 279.55,
-      "low20": 255.5,
-      "trend": "Bearish",
-      "score": 0,
-      "signals": []
-    },
-    {
-      "symbol": "KOTAKBANK",
-      "yahoo_symbol": "KOTAKBANK.NS",
-      "price": NaN,
-      "change_pct": NaN,
-      "sma20": NaN,
-      "sma50": NaN,
-      "rsi14": NaN,
-      "volume_ratio": 1.05,
-      "high20": 429.1,
-      "low20": 386.75,
+      "symbol": "ADANIENT",
+      "yahoo_symbol": "ADANIENT.NS",
+      "price": 2950.0,
+      "change_pct": 0.41,
+      "sma20": null,
+      "sma50": null,
+      "rsi14": null,
+      "volume_ratio": 0.52,
+      "high20": 3173.7,
+      "low20": 2830.5,
       "trend": "Mixed",
       "score": 0,
       "signals": []
@@ -200,6 +185,21 @@
       "volume_ratio": 1.04,
       "high20": 2092.0,
       "low20": 1950.4,
+      "trend": "Bearish",
+      "score": 0,
+      "signals": []
+    },
+    {
+      "symbol": "ITC",
+      "yahoo_symbol": "ITC.NS",
+      "price": 263.5,
+      "change_pct": 0.0,
+      "sma20": 268.64,
+      "sma50": 277.7,
+      "rsi14": 45.7,
+      "volume_ratio": 0.54,
+      "high20": 279.55,
+      "low20": 255.5,
       "trend": "Bearish",
       "score": 0,
       "signals": []
@@ -235,6 +235,21 @@
       "signals": []
     },
     {
+      "symbol": "KOTAKBANK",
+      "yahoo_symbol": "KOTAKBANK.NS",
+      "price": 422.1,
+      "change_pct": -0.57,
+      "sma20": null,
+      "sma50": null,
+      "rsi14": null,
+      "volume_ratio": 1.05,
+      "high20": 429.1,
+      "low20": 386.75,
+      "trend": "Mixed",
+      "score": 0,
+      "signals": []
+    },
+    {
       "symbol": "MARUTI",
       "yahoo_symbol": "MARUTI.NS",
       "price": 12641.0,
@@ -250,6 +265,21 @@
       "signals": [
         "20D Support Zone"
       ]
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "yahoo_symbol": "ASIANPAINT.NS",
+      "price": 2500.9,
+      "change_pct": -1.04,
+      "sma20": null,
+      "sma50": null,
+      "rsi14": null,
+      "volume_ratio": 0.65,
+      "high20": 2755.5,
+      "low20": 2474.1,
+      "trend": "Mixed",
+      "score": 0,
+      "signals": []
     },
     {
       "symbol": "HDFCBANK",
@@ -278,36 +308,6 @@
       "high20": 1454.0,
       "low20": 1391.5,
       "trend": "Bearish",
-      "score": 0,
-      "signals": []
-    },
-    {
-      "symbol": "ADANIENT",
-      "yahoo_symbol": "ADANIENT.NS",
-      "price": NaN,
-      "change_pct": NaN,
-      "sma20": NaN,
-      "sma50": NaN,
-      "rsi14": NaN,
-      "volume_ratio": 0.52,
-      "high20": 3173.7,
-      "low20": 2830.5,
-      "trend": "Mixed",
-      "score": 0,
-      "signals": []
-    },
-    {
-      "symbol": "ASIANPAINT",
-      "yahoo_symbol": "ASIANPAINT.NS",
-      "price": NaN,
-      "change_pct": NaN,
-      "sma20": NaN,
-      "sma50": NaN,
-      "rsi14": NaN,
-      "volume_ratio": 0.65,
-      "high20": 2755.5,
-      "low20": 2474.1,
-      "trend": "Mixed",
       "score": 0,
       "signals": []
     }
