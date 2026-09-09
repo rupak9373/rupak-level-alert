@@ -1,7 +1,8 @@
 {
-  "updated_at": "2026-09-09T00:13:25.984950+00:00",
+  "updated_at": "2026-09-09T00:25:15.495061+00:00",
   "market": "NSE",
   "count": 19,
+  "near_sma_pct": 1.0,
   "results": [
     {
       "symbol": "ADANIPORTS",
@@ -10,16 +11,50 @@
       "change_pct": 0.16,
       "sma20": 1683.37,
       "sma50": 1743.72,
+      "sma200": 1609.08,
+      "sma20_distance_pct": 1.58,
+      "sma50_distance_pct": 1.93,
+      "sma200_distance_pct": 6.27,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 54.0,
       "volume_ratio": 0.53,
-      "high20": 1723.9,
-      "low20": 1593.1,
       "trend": "Mixed",
       "score": 2,
       "signals": [
         "Above SMA20",
+        "Above SMA200",
         "RSI Bullish"
-      ]
+      ],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3AADANIPORTS",
+      "data_url": "https://finance.yahoo.com/quote/ADANIPORTS.NS/"
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "yahoo_symbol": "KOTAKBANK.NS",
+      "price": 422.1,
+      "change_pct": -0.57,
+      "sma20": 407.05,
+      "sma50": 395.14,
+      "sma200": 400.55,
+      "sma20_distance_pct": 3.7,
+      "sma50_distance_pct": 6.82,
+      "sma200_distance_pct": 5.38,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
+      "rsi14": 79.1,
+      "volume_ratio": 0.61,
+      "trend": "Bullish",
+      "score": 2,
+      "signals": [
+        "Above SMA20",
+        "SMA20 > SMA50",
+        "Above SMA200"
+      ],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3AKOTAKBANK",
+      "data_url": "https://finance.yahoo.com/quote/KOTAKBANK.NS/"
     },
     {
       "symbol": "SBIN",
@@ -28,15 +63,22 @@
       "change_pct": 0.21,
       "sma20": 1044.54,
       "sma50": 1041.16,
+      "sma200": 1040.81,
+      "sma20_distance_pct": 3.5,
+      "sma50_distance_pct": 3.18,
+      "sma200_distance_pct": 3.15,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 31.6,
       "volume_ratio": 0.9,
-      "high20": 1086.8,
-      "low20": 1000.6,
       "trend": "Mixed",
       "score": 1,
       "signals": [
         "SMA20 > SMA50"
-      ]
+      ],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3ASBIN",
+      "data_url": "https://finance.yahoo.com/quote/SBIN.NS/"
     },
     {
       "symbol": "INFY",
@@ -45,16 +87,22 @@
       "change_pct": -0.51,
       "sma20": 1132.72,
       "sma50": 1112.85,
+      "sma200": 1302.17,
+      "sma20_distance_pct": 4.48,
+      "sma50_distance_pct": 2.77,
+      "sma200_distance_pct": 16.91,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 41.2,
       "volume_ratio": 0.82,
-      "high20": 1190.4,
-      "low20": 1078.9,
       "trend": "Mixed",
       "score": 1,
       "signals": [
-        "SMA20 > SMA50",
-        "20D Support Zone"
-      ]
+        "SMA20 > SMA50"
+      ],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3AINFY",
+      "data_url": "https://finance.yahoo.com/quote/INFY.NS/"
     },
     {
       "symbol": "BAJFINANCE",
@@ -63,15 +111,23 @@
       "change_pct": -0.56,
       "sma20": 1076.43,
       "sma50": 1066.3,
+      "sma200": 977.11,
+      "sma20_distance_pct": 2.07,
+      "sma50_distance_pct": 1.14,
+      "sma200_distance_pct": 7.88,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 37.4,
       "volume_ratio": 0.8,
-      "high20": 1107.0,
-      "low20": 1034.8,
       "trend": "Mixed",
       "score": 1,
       "signals": [
-        "SMA20 > SMA50"
-      ]
+        "SMA20 > SMA50",
+        "Above SMA200"
+      ],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3ABAJFINANCE",
+      "data_url": "https://finance.yahoo.com/quote/BAJFINANCE.NS/"
     },
     {
       "symbol": "TCS",
@@ -80,15 +136,22 @@
       "change_pct": -0.64,
       "sma20": 2313.72,
       "sma50": 2278.98,
+      "sma200": 2588.3,
+      "sma20_distance_pct": 2.52,
+      "sma50_distance_pct": 1.03,
+      "sma200_distance_pct": 12.86,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 45.7,
       "volume_ratio": 0.83,
-      "high20": 2445.8,
-      "low20": 2243.9,
       "trend": "Mixed",
       "score": 1,
       "signals": [
         "SMA20 > SMA50"
-      ]
+      ],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3ATCS",
+      "data_url": "https://finance.yahoo.com/quote/TCS.NS/"
     },
     {
       "symbol": "TATASTEEL",
@@ -97,15 +160,23 @@
       "change_pct": -0.79,
       "sma20": 185.31,
       "sma50": 186.74,
+      "sma200": 192.99,
+      "sma20_distance_pct": 0.63,
+      "sma50_distance_pct": 1.39,
+      "sma200_distance_pct": 4.58,
+      "near_sma20": true,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 50.4,
       "volume_ratio": 0.88,
-      "high20": 190.25,
-      "low20": 180.0,
       "trend": "Bearish",
       "score": 1,
       "signals": [
-        "RSI Bullish"
-      ]
+        "RSI Bullish",
+        "Near SMA20 (0.63%)"
+      ],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3ATATASTEEL",
+      "data_url": "https://finance.yahoo.com/quote/TATASTEEL.NS/"
     },
     {
       "symbol": "RELIANCE",
@@ -114,15 +185,24 @@
       "change_pct": -1.11,
       "sma20": 1307.81,
       "sma50": 1303.3,
+      "sma200": 1386.88,
+      "sma20_distance_pct": 0.99,
+      "sma50_distance_pct": 0.64,
+      "sma200_distance_pct": 6.63,
+      "near_sma20": true,
+      "near_sma50": true,
+      "near_sma200": false,
       "rsi14": 45.0,
       "volume_ratio": 0.93,
-      "high20": 1333.0,
-      "low20": 1271.0,
       "trend": "Mixed",
       "score": 1,
       "signals": [
-        "SMA20 > SMA50"
-      ]
+        "SMA20 > SMA50",
+        "Near SMA20 (0.99%)",
+        "Near SMA50 (0.64%)"
+      ],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3ARELIANCE",
+      "data_url": "https://finance.yahoo.com/quote/RELIANCE.NS/"
     },
     {
       "symbol": "LT",
@@ -131,16 +211,24 @@
       "change_pct": -1.32,
       "sma20": 4036.21,
       "sma50": 3972.89,
+      "sma200": 3983.69,
+      "sma20_distance_pct": 2.23,
+      "sma50_distance_pct": 0.67,
+      "sma200_distance_pct": 0.94,
+      "near_sma20": false,
+      "near_sma50": true,
+      "near_sma200": true,
       "rsi14": 37.0,
       "volume_ratio": 0.92,
-      "high20": 4125.3,
-      "low20": 3946.1,
       "trend": "Mixed",
       "score": 1,
       "signals": [
         "SMA20 > SMA50",
-        "20D Support Zone"
-      ]
+        "Near SMA50 (0.67%)",
+        "Near SMA200 (0.94%)"
+      ],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3ALT",
+      "data_url": "https://finance.yahoo.com/quote/LT.NS/"
     },
     {
       "symbol": "AXISBANK",
@@ -149,30 +237,47 @@
       "change_pct": -2.21,
       "sma20": 1247.25,
       "sma50": 1268.75,
+      "sma200": 1288.77,
+      "sma20_distance_pct": 0.19,
+      "sma50_distance_pct": 1.88,
+      "sma200_distance_pct": 3.4,
+      "near_sma20": true,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 50.5,
       "volume_ratio": 0.76,
-      "high20": 1300.0,
-      "low20": 1208.6,
       "trend": "Bearish",
       "score": 1,
       "signals": [
-        "RSI Bullish"
-      ]
+        "RSI Bullish",
+        "Near SMA20 (0.19%)"
+      ],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3AAXISBANK",
+      "data_url": "https://finance.yahoo.com/quote/AXISBANK.NS/"
     },
     {
       "symbol": "ADANIENT",
       "yahoo_symbol": "ADANIENT.NS",
       "price": 2950.0,
       "change_pct": 0.41,
-      "sma20": null,
-      "sma50": null,
-      "rsi14": null,
-      "volume_ratio": 0.52,
-      "high20": 3173.7,
-      "low20": 2830.5,
-      "trend": "Mixed",
+      "sma20": 2996.76,
+      "sma50": 3056.62,
+      "sma200": 2518.07,
+      "sma20_distance_pct": 1.56,
+      "sma50_distance_pct": 3.49,
+      "sma200_distance_pct": 17.15,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
+      "rsi14": 45.6,
+      "volume_ratio": 0.51,
+      "trend": "Bearish",
       "score": 0,
-      "signals": []
+      "signals": [
+        "Above SMA200"
+      ],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3AADANIENT",
+      "data_url": "https://finance.yahoo.com/quote/ADANIENT.NS/"
     },
     {
       "symbol": "HINDUNILVR",
@@ -181,13 +286,20 @@
       "change_pct": 0.33,
       "sma20": 2019.89,
       "sma50": 2087.95,
+      "sma200": 2224.36,
+      "sma20_distance_pct": 1.97,
+      "sma50_distance_pct": 5.17,
+      "sma200_distance_pct": 10.99,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 35.8,
       "volume_ratio": 1.04,
-      "high20": 2092.0,
-      "low20": 1950.4,
       "trend": "Bearish",
       "score": 0,
-      "signals": []
+      "signals": [],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3AHINDUNILVR",
+      "data_url": "https://finance.yahoo.com/quote/HINDUNILVR.NS/"
     },
     {
       "symbol": "ITC",
@@ -196,13 +308,20 @@
       "change_pct": 0.0,
       "sma20": 268.64,
       "sma50": 277.7,
+      "sma200": 313.44,
+      "sma20_distance_pct": 1.91,
+      "sma50_distance_pct": 5.11,
+      "sma200_distance_pct": 15.93,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 45.7,
       "volume_ratio": 0.54,
-      "high20": 279.55,
-      "low20": 255.5,
       "trend": "Bearish",
       "score": 0,
-      "signals": []
+      "signals": [],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3AITC",
+      "data_url": "https://finance.yahoo.com/quote/ITC.NS/"
     },
     {
       "symbol": "SUNPHARMA",
@@ -211,13 +330,22 @@
       "change_pct": -0.48,
       "sma20": 1913.79,
       "sma50": 1930.65,
+      "sma200": 1804.91,
+      "sma20_distance_pct": 1.46,
+      "sma50_distance_pct": 2.32,
+      "sma200_distance_pct": 4.49,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 47.0,
       "volume_ratio": 0.95,
-      "high20": 1984.8,
-      "low20": 1868.3,
       "trend": "Bearish",
       "score": 0,
-      "signals": []
+      "signals": [
+        "Above SMA200"
+      ],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3ASUNPHARMA",
+      "data_url": "https://finance.yahoo.com/quote/SUNPHARMA.NS/"
     },
     {
       "symbol": "BHARTIARTL",
@@ -226,28 +354,20 @@
       "change_pct": -0.54,
       "sma20": 1904.65,
       "sma50": 1919.31,
+      "sma200": 1931.19,
+      "sma20_distance_pct": 3.18,
+      "sma50_distance_pct": 3.92,
+      "sma200_distance_pct": 4.51,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 38.2,
       "volume_ratio": 0.61,
-      "high20": 2005.8,
-      "low20": 1811.9,
       "trend": "Bearish",
       "score": 0,
-      "signals": []
-    },
-    {
-      "symbol": "KOTAKBANK",
-      "yahoo_symbol": "KOTAKBANK.NS",
-      "price": 422.1,
-      "change_pct": -0.57,
-      "sma20": null,
-      "sma50": null,
-      "rsi14": null,
-      "volume_ratio": 1.05,
-      "high20": 429.1,
-      "low20": 386.75,
-      "trend": "Mixed",
-      "score": 0,
-      "signals": []
+      "signals": [],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3ABHARTIARTL",
+      "data_url": "https://finance.yahoo.com/quote/BHARTIARTL.NS/"
     },
     {
       "symbol": "MARUTI",
@@ -256,30 +376,42 @@
       "change_pct": -0.93,
       "sma20": 13403.05,
       "sma50": 13723.3,
+      "sma200": 14252.93,
+      "sma20_distance_pct": 5.69,
+      "sma50_distance_pct": 7.89,
+      "sma200_distance_pct": 11.31,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 23.8,
       "volume_ratio": 1.09,
-      "high20": 14067.0,
-      "low20": 12582.0,
       "trend": "Bearish",
       "score": 0,
-      "signals": [
-        "20D Support Zone"
-      ]
+      "signals": [],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3AMARUTI",
+      "data_url": "https://finance.yahoo.com/quote/MARUTI.NS/"
     },
     {
       "symbol": "ASIANPAINT",
       "yahoo_symbol": "ASIANPAINT.NS",
       "price": 2500.9,
       "change_pct": -1.04,
-      "sma20": null,
-      "sma50": null,
-      "rsi14": null,
-      "volume_ratio": 0.65,
-      "high20": 2755.5,
-      "low20": 2474.1,
-      "trend": "Mixed",
+      "sma20": 2630.62,
+      "sma50": 2678.88,
+      "sma200": 2598.92,
+      "sma20_distance_pct": 4.93,
+      "sma50_distance_pct": 6.64,
+      "sma200_distance_pct": 3.77,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
+      "rsi14": 28.1,
+      "volume_ratio": 0.4,
+      "trend": "Bearish",
       "score": 0,
-      "signals": []
+      "signals": [],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3AASIANPAINT",
+      "data_url": "https://finance.yahoo.com/quote/ASIANPAINT.NS/"
     },
     {
       "symbol": "HDFCBANK",
@@ -288,13 +420,20 @@
       "change_pct": -1.06,
       "sma20": 718.7,
       "sma50": 752.25,
+      "sma200": 835.66,
+      "sma20_distance_pct": 2.18,
+      "sma50_distance_pct": 6.55,
+      "sma200_distance_pct": 15.87,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 39.6,
       "volume_ratio": 0.77,
-      "high20": 739.75,
-      "low20": 698.5,
       "trend": "Bearish",
       "score": 0,
-      "signals": []
+      "signals": [],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3AHDFCBANK",
+      "data_url": "https://finance.yahoo.com/quote/HDFCBANK.NS/"
     },
     {
       "symbol": "ICICIBANK",
@@ -303,13 +442,22 @@
       "change_pct": -1.97,
       "sma20": 1422.44,
       "sma50": 1425.2,
+      "sma200": 1356.03,
+      "sma20_distance_pct": 1.62,
+      "sma50_distance_pct": 1.81,
+      "sma200_distance_pct": 3.2,
+      "near_sma20": false,
+      "near_sma50": false,
+      "near_sma200": false,
       "rsi14": 49.2,
       "volume_ratio": 1.41,
-      "high20": 1454.0,
-      "low20": 1391.5,
       "trend": "Bearish",
       "score": 0,
-      "signals": []
+      "signals": [
+        "Above SMA200"
+      ],
+      "chart_url": "https://www.tradingview.com/chart/?symbol=NSE%3AICICIBANK",
+      "data_url": "https://finance.yahoo.com/quote/ICICIBANK.NS/"
     }
   ],
   "errors": [
