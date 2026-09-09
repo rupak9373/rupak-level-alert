@@ -1,13 +1,17 @@
 import json
 import math
 from pathlib import Path
-from datetime import datetime, timezone
-import yfinance as yf
+from datetime import date, datetime, timedelta, timezone
+
+import pandas as pd
+from jugaad_data.nse import NSELive, stock_df
 
 BASE = Path(__file__).resolve().parent
 SYMBOLS_FILE = BASE / "stock_symbols.txt"
 OUT = BASE / "data" / "results.json"
 NEAR_SMA_PCT = 1.0
+HISTORY_DAYS = 760
+CHART_POINTS = 60
 
 
 def clean_number(value, digits=2):
@@ -36,34 +40,55 @@ def sma_distance_pct(price, sma):
     return clean_number(abs(price - sma) / sma * 100)
 
 
-def scan_symbol(symbol):
-    df = yf.download(symbol, period="2y", interval="1d", auto_adjust=False, progress=False, threads=False)
+def get_history(symbol):
+    end = date.today()
+    start = end - timedelta(days=HISTORY_DAYS)
+    df = stock_df(symbol=symbol, from_date=start, to_date=end, series="EQ")
     if df is None or df.empty:
-        raise ValueError("No data")
-    if hasattr(df.columns, "levels"):
-        df.columns = df.columns.get_level_values(0)
+        raise ValueError("No NSE historical data")
 
-    close = df["Close"].astype(float)
-    vol = df["Volume"].astype(float)
+    date_col = "CH_TIMESTAMP" if "CH_TIMESTAMP" in df.columns else "TIMESTAMP"
+    close_col = "CH_CLOSING_PRICE" if "CH_CLOSING_PRICE" in df.columns else "CLOSE"
+    vol_col = "CH_TOT_TRADED_QTY" if "CH_TOT_TRADED_QTY" in df.columns else "TOTTRDQTY"
 
-    # Ignore incomplete rows so indicators use the latest valid trading day.
-    valid = close.notna()
-    close = close[valid]
-    vol = vol[valid]
-    if close.empty:
-        raise ValueError("No valid close price")
+    work = df[[date_col, close_col, vol_col]].copy()
+    work[date_col] = pd.to_datetime(work[date_col], errors="coerce", dayfirst=True)
+    work[close_col] = pd.to_numeric(work[close_col], errors="coerce")
+    work[vol_col] = pd.to_numeric(work[vol_col], errors="coerce")
+    work = work.dropna(subset=[date_col, close_col]).sort_values(date_col)
+    if work.empty:
+        raise ValueError("No valid NSE history rows")
+    return work, date_col, close_col, vol_col
 
-    price = clean_number(close.iloc[-1])
-    prev = clean_number(close.iloc[-2]) if len(close) > 1 else price
+
+def scan_symbol(symbol, live):
+    hist, date_col, close_col, vol_col = get_history(symbol)
+    close = hist[close_col].astype(float).reset_index(drop=True)
+    vol = hist[vol_col].astype(float).reset_index(drop=True)
+
+    quote = live.stock_quote(symbol)
+    price_info = quote.get("priceInfo", {}) if isinstance(quote, dict) else {}
+    intra = price_info.get("intraDayHighLow", {}) or {}
+
+    live_price = clean_number(price_info.get("lastPrice"))
+    hist_price = clean_number(close.iloc[-1])
+    price = live_price if live_price is not None else hist_price
+    prev = clean_number(price_info.get("previousClose"))
+    if prev is None:
+        prev = clean_number(close.iloc[-2]) if len(close) > 1 else price
+
     sma20 = clean_number(close.rolling(20).mean().iloc[-1]) if len(close) >= 20 else None
     sma50 = clean_number(close.rolling(50).mean().iloc[-1]) if len(close) >= 50 else None
     sma200 = clean_number(close.rolling(200).mean().iloc[-1]) if len(close) >= 200 else None
     rsi14 = clean_number(rsi(close, 14).iloc[-1], 1) if len(close) >= 15 else None
     avgvol20 = clean_number(vol.rolling(20).mean().iloc[-1]) if len(vol) >= 20 else None
     lastvol = clean_number(vol.iloc[-1])
-    volume_ratio = clean_number(lastvol / avgvol20) if lastvol is not None and avgvol20 is not None and avgvol20 > 0 else None
+    volume_ratio = clean_number(lastvol / avgvol20) if lastvol is not None and avgvol20 and avgvol20 > 0 else None
 
-    change = ((price - prev) / prev * 100) if prev else 0.0
+    change = clean_number(price_info.get("pChange"))
+    if change is None:
+        change = clean_number(((price - prev) / prev * 100) if prev else 0.0)
+
     d20 = sma_distance_pct(price, sma20)
     d50 = sma_distance_pct(price, sma50)
     d200 = sma_distance_pct(price, sma200)
@@ -80,7 +105,6 @@ def scan_symbol(symbol):
         tags.append("RSI Bullish"); score += 1
     if volume_ratio is not None and volume_ratio >= 1.5:
         tags.append("High Volume"); score += 1
-
     if d20 is not None and d20 <= NEAR_SMA_PCT:
         tags.append(f"Near SMA20 ({d20}%)")
     if d50 is not None and d50 <= NEAR_SMA_PCT:
@@ -92,12 +116,22 @@ def scan_symbol(symbol):
         "Bearish" if sma20 is not None and sma50 is not None and price < sma20 < sma50 else "Mixed"
     )
 
-    clean_symbol = symbol.replace(".NS", "")
+    chart = []
+    for _, row in hist.tail(CHART_POINTS).iterrows():
+        chart.append({
+            "date": row[date_col].strftime("%Y-%m-%d"),
+            "close": clean_number(row[close_col]),
+        })
+
     return {
-        "symbol": clean_symbol,
-        "yahoo_symbol": symbol,
+        "symbol": symbol,
         "price": price,
-        "change_pct": clean_number(change),
+        "change_pct": change,
+        "open": clean_number(price_info.get("open")),
+        "previous_close": prev,
+        "day_high": clean_number(intra.get("max")),
+        "day_low": clean_number(intra.get("min")),
+        "vwap": clean_number(price_info.get("vwap")),
         "sma20": sma20,
         "sma50": sma50,
         "sma200": sma200,
@@ -112,23 +146,25 @@ def scan_symbol(symbol):
         "trend": trend,
         "score": score,
         "signals": tags,
-        "chart_url": f"https://www.tradingview.com/chart/?symbol=NSE%3A{clean_symbol}",
-        "data_url": f"https://finance.yahoo.com/quote/{symbol}/",
+        "chart": chart,
+        "source": "NSE India",
     }
 
 
 def main():
-    symbols = [x.strip() for x in SYMBOLS_FILE.read_text(encoding="utf-8").splitlines() if x.strip() and not x.startswith("#")]
+    symbols = [x.strip().replace(".NS", "") for x in SYMBOLS_FILE.read_text(encoding="utf-8").splitlines() if x.strip() and not x.startswith("#")]
+    live = NSELive()
     rows, errors = [], []
     for symbol in symbols:
         try:
-            rows.append(scan_symbol(symbol))
+            rows.append(scan_symbol(symbol, live))
         except Exception as e:
             errors.append({"symbol": symbol, "error": str(e)})
     rows.sort(key=lambda x: (x["score"], x["change_pct"] if x["change_pct"] is not None else -999999), reverse=True)
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "market": "NSE",
+        "source": "NSE India",
         "count": len(rows),
         "near_sma_pct": NEAR_SMA_PCT,
         "results": rows,
@@ -136,7 +172,7 @@ def main():
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, indent=2, allow_nan=False), encoding="utf-8")
-    print(f"Wrote {len(rows)} stocks to {OUT}; errors={len(errors)}")
+    print(f"Wrote {len(rows)} NSE stocks to {OUT}; errors={len(errors)}")
 
 
 if __name__ == "__main__":
