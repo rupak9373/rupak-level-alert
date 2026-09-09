@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'stock-webapp/**'
+      - 'stock-webapp/scan_stocks.py'
+      - 'stock-webapp/stock_symbols.txt'
       - '.github/workflows/stock-webapp.yml'
   schedule:
     - cron: '*/30 * * * 1-5'
