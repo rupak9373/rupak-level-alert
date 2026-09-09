@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from datetime import datetime, timezone
+from datetime import datetime, timezone, date
 
 from jugaad_data.nse import NSELive
 
@@ -48,6 +48,25 @@ def side(d):
     }
 
 
+def row_expiry(r):
+    if not isinstance(r, dict):
+        return None
+    if r.get("expiryDate"):
+        return r.get("expiryDate")
+    for key in ("CE", "PE"):
+        d = r.get(key)
+        if isinstance(d, dict) and d.get("expiryDate"):
+            return d.get("expiryDate")
+    return None
+
+
+def expiry_is_current_or_future(s):
+    try:
+        return datetime.strptime(s, "%d-%b-%Y").date() >= date.today()
+    except Exception:
+        return True
+
+
 def nearest_slice(rows, underlying):
     if not rows:
         return rows
@@ -76,7 +95,9 @@ def fetch_chain(live, symbol):
     for r in rows:
         if not isinstance(r, dict):
             continue
-        expiry = r.get("expiryDate") or "Unknown"
+        expiry = row_expiry(r)
+        if not expiry:
+            continue
         grouped.setdefault(expiry, []).append(r)
 
     chains = {}
@@ -111,11 +132,17 @@ def fetch_chain(live, symbol):
             "pcr_volume": round(pe_vol / ce_vol, 3) if ce_vol else None,
         }
 
+    usable_expiries = [e for e in expiries if e in chains and expiry_is_current_or_future(e)]
+    if not usable_expiries:
+        usable_expiries = [e for e in chains.keys() if expiry_is_current_or_future(e)]
+    if not usable_expiries:
+        usable_expiries = list(chains.keys())
+
     return {
         "symbol": symbol,
         "type": "index" if symbol in INDEX_SYMBOLS else "equity",
         "underlying": underlying,
-        "expiries": expiries or list(chains.keys()),
+        "expiries": usable_expiries,
         "chains": chains,
         "pcr_oi_all": round(total_pe_oi / total_ce_oi, 3) if total_ce_oi else None,
         "pcr_volume_all": round(total_pe_vol / total_ce_vol, 3) if total_ce_vol else None,
