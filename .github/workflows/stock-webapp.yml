@@ -8,6 +8,7 @@ on:
       - 'stock-webapp/stock_symbols.txt'
       - 'stock-webapp/scan_options.py'
       - 'stock-webapp/option_symbols.txt'
+      - 'stock-webapp/build_extended_data.py'
       - '.github/workflows/stock-webapp.yml'
   schedule:
     - cron: '*/30 * * * 1-5'
@@ -31,13 +32,15 @@ jobs:
         run: python stock-webapp/scan_stocks.py
       - name: Run option chain scanner
         run: python stock-webapp/scan_options.py
+      - name: Build chart timeframe and fundamentals data
+        run: python stock-webapp/build_extended_data.py
       - name: Commit scan data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stock-webapp/data/results.json stock-webapp/data/option_chain.json
+          git add stock-webapp/data/results.json stock-webapp/data/option_chain.json stock-webapp/data/extended.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update stock and option chain data"
+            git commit -m "Update stock, option chain and extended data"
             git pull --rebase origin main
             git push origin main
           fi
