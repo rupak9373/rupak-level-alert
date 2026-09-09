@@ -88,7 +88,7 @@ def main():
             charts = {
                 "1D": rows(d, 120),
                 "1W": rows(resample(d, "W-FRI"), 104),
-                "1M": rows(resample(d, "M"), 36),
+                "1M": rows(resample(d, "ME"), 36),
             }
             try:
                 q = live.stock_quote(symbol) or {}
