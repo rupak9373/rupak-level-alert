@@ -1,4 +1,5 @@
 import json
+import math
 from pathlib import Path
 from datetime import datetime, timezone
 import yfinance as yf
@@ -6,6 +7,18 @@ import yfinance as yf
 BASE = Path(__file__).resolve().parent
 SYMBOLS_FILE = BASE / "stock_symbols.txt"
 OUT = BASE / "data" / "results.json"
+
+
+def clean_number(value, digits=2):
+    if value is None:
+        return None
+    try:
+        value = float(value)
+    except (TypeError, ValueError):
+        return None
+    if not math.isfinite(value):
+        return None
+    return round(value, digits)
 
 
 def rsi(series, length=14):
@@ -26,15 +39,25 @@ def scan_symbol(symbol):
     high = df["High"].astype(float)
     low = df["Low"].astype(float)
     vol = df["Volume"].astype(float)
-    price = float(close.iloc[-1])
-    prev = float(close.iloc[-2]) if len(close) > 1 else price
-    sma20 = float(close.rolling(20).mean().iloc[-1]) if len(close) >= 20 else None
-    sma50 = float(close.rolling(50).mean().iloc[-1]) if len(close) >= 50 else None
-    rsi14 = float(rsi(close, 14).iloc[-1]) if len(close) >= 15 else None
-    avgvol20 = float(vol.rolling(20).mean().iloc[-1]) if len(vol) >= 20 else None
-    volume_ratio = float(vol.iloc[-1] / avgvol20) if avgvol20 and avgvol20 > 0 else None
-    high20 = float(high.tail(20).max()) if len(high) >= 20 else float(high.max())
-    low20 = float(low.tail(20).min()) if len(low) >= 20 else float(low.min())
+    price = clean_number(close.iloc[-1])
+    prev = clean_number(close.iloc[-2]) if len(close) > 1 else price
+    sma20 = clean_number(close.rolling(20).mean().iloc[-1]) if len(close) >= 20 else None
+    sma50 = clean_number(close.rolling(50).mean().iloc[-1]) if len(close) >= 50 else None
+    rsi14 = clean_number(rsi(close, 14).iloc[-1], 1) if len(close) >= 15 else None
+    avgvol20 = clean_number(vol.rolling(20).mean().iloc[-1]) if len(vol) >= 20 else None
+    lastvol = clean_number(vol.iloc[-1])
+    volume_ratio = clean_number(lastvol / avgvol20) if lastvol is not None and avgvol20 is not None and avgvol20 > 0 else None
+    high20 = clean_number(high.tail(20).max()) if len(high) >= 20 else clean_number(high.max())
+    low20 = clean_number(low.tail(20).min()) if len(low) >= 20 else clean_number(low.min())
+
+    # If Yahoo returns an incomplete latest row, use the most recent finite close.
+    if price is None:
+        finite_close = close[close.notna()]
+        if finite_close.empty:
+            raise ValueError("No valid close price")
+        price = clean_number(finite_close.iloc[-1])
+        prev = clean_number(finite_close.iloc[-2]) if len(finite_close) > 1 else price
+
     change = ((price - prev) / prev * 100) if prev else 0.0
 
     tags = []
@@ -47,9 +70,9 @@ def scan_symbol(symbol):
         tags.append("RSI Bullish"); score += 1
     if volume_ratio is not None and volume_ratio >= 1.5:
         tags.append("High Volume"); score += 1
-    if high20 and price >= high20 * 0.995:
+    if high20 is not None and price >= high20 * 0.995:
         tags.append("20D Breakout Zone"); score += 2
-    if low20 and price <= low20 * 1.005:
+    if low20 is not None and price <= low20 * 1.005:
         tags.append("20D Support Zone")
 
     trend = "Bullish" if sma20 is not None and sma50 is not None and price > sma20 > sma50 else (
@@ -59,14 +82,14 @@ def scan_symbol(symbol):
     return {
         "symbol": symbol.replace(".NS", ""),
         "yahoo_symbol": symbol,
-        "price": round(price, 2),
-        "change_pct": round(change, 2),
-        "sma20": round(sma20, 2) if sma20 is not None else None,
-        "sma50": round(sma50, 2) if sma50 is not None else None,
-        "rsi14": round(rsi14, 1) if rsi14 is not None else None,
-        "volume_ratio": round(volume_ratio, 2) if volume_ratio is not None else None,
-        "high20": round(high20, 2),
-        "low20": round(low20, 2),
+        "price": price,
+        "change_pct": clean_number(change),
+        "sma20": sma20,
+        "sma50": sma50,
+        "rsi14": rsi14,
+        "volume_ratio": volume_ratio,
+        "high20": high20,
+        "low20": low20,
         "trend": trend,
         "score": score,
         "signals": tags,
@@ -81,7 +104,7 @@ def main():
             rows.append(scan_symbol(symbol))
         except Exception as e:
             errors.append({"symbol": symbol, "error": str(e)})
-    rows.sort(key=lambda x: (x["score"], x["change_pct"]), reverse=True)
+    rows.sort(key=lambda x: (x["score"], x["change_pct"] if x["change_pct"] is not None else -999999), reverse=True)
     payload = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "market": "NSE",
@@ -90,7 +113,7 @@ def main():
         "errors": errors,
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    OUT.write_text(json.dumps(payload, indent=2, allow_nan=False), encoding="utf-8")
     print(f"Wrote {len(rows)} stocks to {OUT}; errors={len(errors)}")
 
 
