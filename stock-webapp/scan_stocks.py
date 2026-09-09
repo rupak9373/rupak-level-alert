@@ -14,6 +14,7 @@ NEAR_LEVEL_PCT = 1.0
 HISTORY_DAYS = 900
 CHART_POINTS = 60
 TIMEFRAMES = ["15m", "30m", "1H", "2H", "4H", "1D", "1W", "1M"]
+SMA_TIMEFRAMES = ["1D", "1W", "1M"]
 INTRADAY_TFS = {"15m", "30m", "1H", "2H", "4H"}
 PATTERN_PRIORITY = [
     "Morning Star", "Evening Star", "Bullish Engulfing", "Bearish Engulfing",
@@ -64,9 +65,6 @@ def normalize_nse_dates(series):
         dates = parsed.dt.tz_convert("Asia/Kolkata").dt.tz_localize(None).dt.normalize()
     else:
         dates = pd.to_datetime(raw, errors="coerce", dayfirst=False).dt.normalize()
-
-    # Some NSE responses expose the UTC calendar day (one day before the NSE session).
-    # Pick the +/-1 day alignment that produces the fewest weekend rows.
     valid = dates.dropna()
     if len(valid) >= 10:
         candidates = {shift: (valid + pd.Timedelta(days=shift)).dt.dayofweek.ge(5).sum() for shift in (-1, 0, 1)}
@@ -77,7 +75,6 @@ def normalize_nse_dates(series):
 
 
 def adjust_corporate_actions(df):
-    """Back-adjust old OHLC around obvious split/bonus discontinuities."""
     work = df.copy().reset_index(drop=True)
     adjustments = []
     ratios = [0.1, 0.2, 0.25, 1/3, 0.5, 2.0, 3.0, 4.0, 5.0, 10.0]
@@ -94,10 +91,7 @@ def adjust_corporate_actions(df):
         if error <= 0.12:
             cols = ["open", "high", "low", "close"]
             work.loc[:i - 1, cols] = work.loc[:i - 1, cols] * factor
-            adjustments.append({
-                "date": work.at[i, "date"].strftime("%Y-%m-%d"),
-                "factor": round(factor, 6),
-            })
+            adjustments.append({"date": work.at[i, "date"].strftime("%Y-%m-%d"), "factor": round(factor, 6)})
     return work, adjustments
 
 
@@ -130,13 +124,9 @@ def get_history(symbol):
     else:
         work["_VOL"] = 0
         vol_col = "_VOL"
-
     work = work.dropna(subset=[date_col, open_col, high_col, low_col, close_col])
     work = work.sort_values(date_col).drop_duplicates(date_col, keep="last")
-    work = work.rename(columns={
-        date_col: "date", open_col: "open", high_col: "high",
-        low_col: "low", close_col: "close", vol_col: "volume",
-    })
+    work = work.rename(columns={date_col: "date", open_col: "open", high_col: "high", low_col: "low", close_col: "close", vol_col: "volume"})
     work = work[["date", "open", "high", "low", "close", "volume"]].reset_index(drop=True)
     work, adjustments = adjust_corporate_actions(work)
     return work, adjustments
@@ -147,7 +137,6 @@ def completed_daily(hist):
         return hist
     out = hist.copy()
     now = pd.Timestamp.now(tz="Asia/Kolkata").tz_localize(None)
-    # Never use a current-day historical row before the cash session has closed.
     if now.time() < pd.Timestamp("15:30").time():
         out = out[out["date"].dt.date < now.date()]
     else:
@@ -173,7 +162,6 @@ def closed_higher_tf(hist, timeframe):
         return out
     now = pd.Timestamp.now(tz="Asia/Kolkata").tz_localize(None)
     if timeframe == "1W":
-        # Only a Friday-ended week that has actually closed.
         last_closed_friday = now.normalize() - pd.Timedelta(days=(now.weekday() - 4) % 7)
         if now.weekday() == 4 and now.time() < pd.Timestamp("15:30").time():
             last_closed_friday -= pd.Timedelta(days=7)
@@ -218,47 +206,30 @@ def detect_patterns(df):
     body_pct, prev_body_pct = body / rng, pbody / prng
     trend = prior_trend(df)
     found = []
-
     if len(df) >= 3:
         a, b, d = df.iloc[-3], df.iloc[-2], df.iloc[-1]
         ao, ah, al, ac, abody, arng, _, _ = candle_parts(a)
         bo, bh, bl, bc, bbody, brng, _, _ = candle_parts(b)
         do, dh, dl, dc, dbody, drng, _, _ = candle_parts(d)
-        if ac < ao and abody/arng >= 0.55 and bbody/brng <= 0.30 and dc > do and dbody/drng >= 0.45 and dc > (ao+ac)/2 and trend == "down":
-            found.append("Morning Star")
-        if ac > ao and abody/arng >= 0.55 and bbody/brng <= 0.30 and dc < do and dbody/drng >= 0.45 and dc < (ao+ac)/2 and trend == "up":
-            found.append("Evening Star")
-
-    if p_bearish and bullish and body >= pbody * 1.05 and o <= pc and c >= po and prev_body_pct >= 0.30:
-        found.append("Bullish Engulfing")
-    if p_bullish and bearish and body >= pbody * 1.05 and o >= pc and c <= po and prev_body_pct >= 0.30:
-        found.append("Bearish Engulfing")
-
+        if ac < ao and abody/arng >= 0.55 and bbody/brng <= 0.30 and dc > do and dbody/drng >= 0.45 and dc > (ao+ac)/2 and trend == "down": found.append("Morning Star")
+        if ac > ao and abody/arng >= 0.55 and bbody/brng <= 0.30 and dc < do and dbody/drng >= 0.45 and dc < (ao+ac)/2 and trend == "up": found.append("Evening Star")
+    if p_bearish and bullish and body >= pbody * 1.05 and o <= pc and c >= po and prev_body_pct >= 0.30: found.append("Bullish Engulfing")
+    if p_bullish and bearish and body >= pbody * 1.05 and o >= pc and c <= po and prev_body_pct >= 0.30: found.append("Bearish Engulfing")
     midpoint = (po + pc) / 2
-    if p_bearish and bullish and o < pc and midpoint < c < po and body_pct >= 0.35 and prev_body_pct >= 0.45:
-        found.append("Piercing Line")
-    if p_bullish and bearish and o > pc and po < c < midpoint and body_pct >= 0.35 and prev_body_pct >= 0.45:
-        found.append("Dark Cloud Cover")
-
+    if p_bearish and bullish and o < pc and midpoint < c < po and body_pct >= 0.35 and prev_body_pct >= 0.45: found.append("Piercing Line")
+    if p_bullish and bearish and o > pc and po < c < midpoint and body_pct >= 0.35 and prev_body_pct >= 0.45: found.append("Dark Cloud Cover")
     hammer_shape = lower >= max(body * 2.2, rng * 0.55) and upper <= rng * 0.12 and body_pct <= 0.40
     star_shape = upper >= max(body * 2.2, rng * 0.55) and lower <= rng * 0.12 and body_pct <= 0.40
     if hammer_shape and trend == "down": found.append("Hammer")
     if hammer_shape and trend == "up": found.append("Hanging Man")
     if star_shape and trend == "down": found.append("Inverted Hammer")
     if star_shape and trend == "up": found.append("Shooting Star")
-
     prev_top, prev_bottom = max(po, pc), min(po, pc)
     cur_top, cur_bottom = max(o, c), min(o, c)
-    if p_bearish and bullish and body <= pbody * 0.60 and cur_top < prev_top and cur_bottom > prev_bottom:
-        found.append("Bullish Harami")
-    if p_bullish and bearish and body <= pbody * 0.60 and cur_top < prev_top and cur_bottom > prev_bottom:
-        found.append("Bearish Harami")
-
-    if body_pct >= 0.90 and upper/rng <= 0.05 and lower/rng <= 0.05:
-        found.append("Bullish Marubozu" if bullish else "Bearish Marubozu")
-    if body_pct <= 0.07:
-        found.append("Doji")
-
+    if p_bearish and bullish and body <= pbody * 0.60 and cur_top < prev_top and cur_bottom > prev_bottom: found.append("Bullish Harami")
+    if p_bullish and bearish and body <= pbody * 0.60 and cur_top < prev_top and cur_bottom > prev_bottom: found.append("Bearish Harami")
+    if body_pct >= 0.90 and upper/rng <= 0.05 and lower/rng <= 0.05: found.append("Bullish Marubozu" if bullish else "Bearish Marubozu")
+    if body_pct <= 0.07: found.append("Doji")
     for name in PATTERN_PRIORITY:
         if name in found:
             return [name]
@@ -269,8 +240,6 @@ def pattern_snapshot(hist):
     out = {}
     for tf in TIMEFRAMES:
         if tf in INTRADAY_TFS:
-            # NSE public chart_data is only an LTP line series, not true OHLC.
-            # Do not invent candle wicks/patterns from it.
             out[tf] = {"patterns": [], "candle": None, "available": False, "reason": "true_intraday_ohlc_unavailable"}
             continue
         tf_df = closed_higher_tf(hist, tf)
@@ -278,15 +247,26 @@ def pattern_snapshot(hist):
             out[tf] = {"patterns": [], "candle": None, "available": False}
             continue
         row = tf_df.iloc[-1]
-        out[tf] = {
-            "patterns": detect_patterns(tf_df),
-            "available": len(tf_df) >= 2,
-            "candle": {
-                "date": row["date"].strftime("%Y-%m-%d"),
-                "open": clean_number(row["open"]), "high": clean_number(row["high"]),
-                "low": clean_number(row["low"]), "close": clean_number(row["close"]),
-            },
-        }
+        out[tf] = {"patterns": detect_patterns(tf_df), "available": len(tf_df) >= 2, "candle": {
+            "date": row["date"].strftime("%Y-%m-%d"), "open": clean_number(row["open"]), "high": clean_number(row["high"]), "low": clean_number(row["low"]), "close": clean_number(row["close"])
+        }}
+    return out
+
+
+def sma_snapshot(hist, price):
+    out = {}
+    for tf in SMA_TIMEFRAMES:
+        df = closed_higher_tf(hist, tf)
+        closes = df["close"].astype(float).reset_index(drop=True) if df is not None and not df.empty else pd.Series(dtype=float)
+        item = {"available": len(closes) >= 20}
+        for length in (20, 50, 200):
+            sma = clean_number(closes.rolling(length).mean().iloc[-1]) if len(closes) >= length else None
+            d = distance_pct(price, sma)
+            item[f"sma{length}"] = sma
+            item[f"distance{length}_pct"] = d
+            item[f"near_sma{length}"] = d is not None and d <= NEAR_SMA_PCT
+            item[f"above_sma{length}"] = sma is not None and price > sma
+        out[tf] = item
     return out
 
 
@@ -294,23 +274,24 @@ def key_levels(hist, price):
     daily = completed_daily(hist)
     levels = {}
     if not daily.empty:
-        # PDH/PDL = most recent COMPLETED trading day, not two sessions back.
         prev_day = daily.iloc[-1]
         levels["PDH"] = clean_number(prev_day["high"])
         levels["PDL"] = clean_number(prev_day["low"])
-
     now = pd.Timestamp.now(tz="Asia/Kolkata").tz_localize(None)
     py = daily[daily["date"].dt.year == now.year - 1]
     if not py.empty:
         levels["PYH"] = clean_number(py["high"].max())
         levels["PYL"] = clean_number(py["low"].min())
-
     q_start_month = 3 * (((now.month - 1) // 3)) + 1
     q_start = pd.Timestamp(now.year, q_start_month, 1)
     qrows = daily[daily["date"] >= q_start]
     if not qrows.empty:
         levels["QO"] = clean_number(qrows.iloc[0]["open"])
-
+    if len(daily):
+        last_52w = daily[daily["date"] >= (daily.iloc[-1]["date"] - pd.Timedelta(days=366))]
+        if not last_52w.empty:
+            levels["52WH"] = clean_number(last_52w["high"].max())
+            levels["52WL"] = clean_number(last_52w["low"].min())
     details = {}
     for name, level in levels.items():
         d = distance_pct(price, level)
@@ -323,30 +304,21 @@ def scan_symbol(symbol, live):
     daily = completed_daily(hist)
     if daily.empty:
         raise ValueError("No completed NSE daily bars")
-
     close = daily["close"].astype(float).reset_index(drop=True)
     vol = daily["volume"].astype(float).reset_index(drop=True)
     latest = daily.iloc[-1]
-
     try:
         quote = live.stock_quote(symbol)
     except Exception:
         quote = {}
     price_info = quote.get("priceInfo", {}) if isinstance(quote, dict) else {}
     intra = price_info.get("intraDayHighLow", {}) or {}
-
     hist_price = clean_number(latest["close"])
     live_price = clean_number(price_info.get("lastPrice"))
-    # Reject obviously broken/mismatched live quotes.
-    if live_price is not None and hist_price and abs(live_price / hist_price - 1) <= 0.35:
-        price = live_price
-    else:
-        price = hist_price
-
+    price = live_price if live_price is not None and hist_price and abs(live_price / hist_price - 1) <= 0.35 else hist_price
     prev = clean_number(price_info.get("previousClose"))
     if prev is None or (hist_price and abs(prev / hist_price - 1) > 0.35):
         prev = clean_number(close.iloc[-2]) if len(close) > 1 else hist_price
-
     sma20 = clean_number(close.rolling(20).mean().iloc[-1]) if len(close) >= 20 else None
     sma50 = clean_number(close.rolling(50).mean().iloc[-1]) if len(close) >= 50 else None
     sma200 = clean_number(close.rolling(200).mean().iloc[-1]) if len(close) >= 200 else None
@@ -354,11 +326,9 @@ def scan_symbol(symbol, live):
     avgvol20 = clean_number(vol.rolling(20).mean().iloc[-1]) if len(vol) >= 20 else None
     lastvol = clean_number(vol.iloc[-1])
     volume_ratio = clean_number(lastvol / avgvol20) if lastvol is not None and avgvol20 and avgvol20 > 0 else None
-
     change = clean_number(price_info.get("pChange"))
     if change is None or abs(change) > 35:
         change = clean_number(((price - prev) / prev * 100) if prev else 0.0)
-
     d20, d50, d200 = distance_pct(price, sma20), distance_pct(price, sma50), distance_pct(price, sma200)
     tags, score = [], 0
     if sma20 is not None and price > sma20: tags.append("Above SMA20"); score += 1
@@ -369,32 +339,26 @@ def scan_symbol(symbol, live):
     if d20 is not None and d20 <= NEAR_SMA_PCT: tags.append(f"Near SMA20 ({d20}%)")
     if d50 is not None and d50 <= NEAR_SMA_PCT: tags.append(f"Near SMA50 ({d50}%)")
     if d200 is not None and d200 <= NEAR_SMA_PCT: tags.append(f"Near SMA200 ({d200}%)")
-
-    trend = "Bullish" if sma20 is not None and sma50 is not None and price > sma20 > sma50 else (
-        "Bearish" if sma20 is not None and sma50 is not None and price < sma20 < sma50 else "Mixed"
-    )
-
+    trend = "Bullish" if sma20 is not None and sma50 is not None and price > sma20 > sma50 else ("Bearish" if sma20 is not None and sma50 is not None and price < sma20 < sma50 else "Mixed")
     levels = key_levels(hist, price)
     for name, info in levels.items():
         if info.get("near"):
             tags.append(f"Near {name} ({info['distance_pct']}%)")
-
     open_px = clean_number(price_info.get("open")) or clean_number(latest["open"])
     day_high = clean_number(intra.get("max")) or clean_number(latest["high"])
     day_low = clean_number(intra.get("min")) or clean_number(latest["low"])
     vwap = clean_number(price_info.get("vwap"))
-
-    chart = [{"date": r["date"].strftime("%Y-%m-%d"), "close": clean_number(r["close"])} for _, r in daily.tail(CHART_POINTS).iterrows()]
+    chart = [{"date": r["date"].strftime("%Y-%m-%d"), "open": clean_number(r["open"]), "high": clean_number(r["high"]), "low": clean_number(r["low"]), "close": clean_number(r["close"])} for _, r in daily.tail(CHART_POINTS).iterrows()]
     return {
         "symbol": symbol, "price": price, "change_pct": change,
         "open": open_px, "previous_close": prev, "day_high": day_high, "day_low": day_low, "vwap": vwap,
         "sma20": sma20, "sma50": sma50, "sma200": sma200,
         "sma20_distance_pct": d20, "sma50_distance_pct": d50, "sma200_distance_pct": d200,
-        "near_sma20": d20 is not None and d20 <= NEAR_SMA_PCT,
-        "near_sma50": d50 is not None and d50 <= NEAR_SMA_PCT,
-        "near_sma200": d200 is not None and d200 <= NEAR_SMA_PCT,
+        "near_sma20": d20 is not None and d20 <= NEAR_SMA_PCT, "near_sma50": d50 is not None and d50 <= NEAR_SMA_PCT, "near_sma200": d200 is not None and d200 <= NEAR_SMA_PCT,
+        "sma_by_tf": sma_snapshot(hist, price),
         "rsi14": rsi14, "volume_ratio": volume_ratio, "trend": trend, "score": score,
         "signals": tags, "patterns": pattern_snapshot(hist), "levels": levels,
+        "week52_high": levels.get("52WH", {}).get("value"), "week52_low": levels.get("52WL", {}).get("value"),
         "chart": chart, "source": "NSE India", "last_completed_session": latest["date"].strftime("%Y-%m-%d"),
         "corporate_action_adjustments": adjustments,
     }
@@ -409,14 +373,12 @@ def main():
             rows.append(scan_symbol(symbol, live))
         except Exception as e:
             errors.append({"symbol": symbol, "error": str(e)})
-
     rows.sort(key=lambda x: (x["score"], x["change_pct"] if x["change_pct"] is not None else -999999), reverse=True)
     payload = {
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "market": "NSE", "source": "NSE India", "count": len(rows),
+        "updated_at": datetime.now(timezone.utc).isoformat(), "market": "NSE", "source": "NSE India", "count": len(rows),
         "near_sma_pct": NEAR_SMA_PCT, "near_level_pct": NEAR_LEVEL_PCT,
-        "pattern_timeframes": TIMEFRAMES, "pattern_names": PATTERN_PRIORITY,
-        "key_levels": ["PDH", "PDL", "QO", "PYH", "PYL"],
+        "pattern_timeframes": TIMEFRAMES, "sma_timeframes": SMA_TIMEFRAMES, "pattern_names": PATTERN_PRIORITY,
+        "key_levels": ["PDH", "PDL", "QO", "PYH", "PYL", "52WH", "52WL"],
         "intraday_pattern_status": "disabled_until_true_nse_ohlc_source_is_available",
         "results": rows, "errors": errors,
     }
