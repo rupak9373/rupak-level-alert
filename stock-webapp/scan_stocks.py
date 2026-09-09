@@ -7,6 +7,7 @@ import yfinance as yf
 BASE = Path(__file__).resolve().parent
 SYMBOLS_FILE = BASE / "stock_symbols.txt"
 OUT = BASE / "data" / "results.json"
+NEAR_SMA_PCT = 1.0
 
 
 def clean_number(value, digits=2):
@@ -29,32 +30,43 @@ def rsi(series, length=14):
     return 100 - (100 / (1 + rs))
 
 
+def sma_distance_pct(price, sma):
+    if price is None or sma is None or sma == 0:
+        return None
+    return clean_number(abs(price - sma) / sma * 100)
+
+
 def scan_symbol(symbol):
-    df = yf.download(symbol, period="6mo", interval="1d", auto_adjust=False, progress=False, threads=False)
+    df = yf.download(symbol, period="2y", interval="1d", auto_adjust=False, progress=False, threads=False)
     if df is None or df.empty:
         raise ValueError("No data")
     if hasattr(df.columns, "levels"):
         df.columns = df.columns.get_level_values(0)
+
     close = df["Close"].astype(float)
     vol = df["Volume"].astype(float)
+
+    # Ignore incomplete rows so indicators use the latest valid trading day.
+    valid = close.notna()
+    close = close[valid]
+    vol = vol[valid]
+    if close.empty:
+        raise ValueError("No valid close price")
+
     price = clean_number(close.iloc[-1])
     prev = clean_number(close.iloc[-2]) if len(close) > 1 else price
     sma20 = clean_number(close.rolling(20).mean().iloc[-1]) if len(close) >= 20 else None
     sma50 = clean_number(close.rolling(50).mean().iloc[-1]) if len(close) >= 50 else None
+    sma200 = clean_number(close.rolling(200).mean().iloc[-1]) if len(close) >= 200 else None
     rsi14 = clean_number(rsi(close, 14).iloc[-1], 1) if len(close) >= 15 else None
     avgvol20 = clean_number(vol.rolling(20).mean().iloc[-1]) if len(vol) >= 20 else None
     lastvol = clean_number(vol.iloc[-1])
     volume_ratio = clean_number(lastvol / avgvol20) if lastvol is not None and avgvol20 is not None and avgvol20 > 0 else None
 
-    # If Yahoo returns an incomplete latest row, use the most recent finite close.
-    if price is None:
-        finite_close = close[close.notna()]
-        if finite_close.empty:
-            raise ValueError("No valid close price")
-        price = clean_number(finite_close.iloc[-1])
-        prev = clean_number(finite_close.iloc[-2]) if len(finite_close) > 1 else price
-
     change = ((price - prev) / prev * 100) if prev else 0.0
+    d20 = sma_distance_pct(price, sma20)
+    d50 = sma_distance_pct(price, sma50)
+    d200 = sma_distance_pct(price, sma200)
 
     tags = []
     score = 0
@@ -62,27 +74,46 @@ def scan_symbol(symbol):
         tags.append("Above SMA20"); score += 1
     if sma20 is not None and sma50 is not None and sma20 > sma50:
         tags.append("SMA20 > SMA50"); score += 1
+    if sma200 is not None and price > sma200:
+        tags.append("Above SMA200")
     if rsi14 is not None and 50 <= rsi14 <= 70:
         tags.append("RSI Bullish"); score += 1
     if volume_ratio is not None and volume_ratio >= 1.5:
         tags.append("High Volume"); score += 1
 
+    if d20 is not None and d20 <= NEAR_SMA_PCT:
+        tags.append(f"Near SMA20 ({d20}%)")
+    if d50 is not None and d50 <= NEAR_SMA_PCT:
+        tags.append(f"Near SMA50 ({d50}%)")
+    if d200 is not None and d200 <= NEAR_SMA_PCT:
+        tags.append(f"Near SMA200 ({d200}%)")
+
     trend = "Bullish" if sma20 is not None and sma50 is not None and price > sma20 > sma50 else (
         "Bearish" if sma20 is not None and sma50 is not None and price < sma20 < sma50 else "Mixed"
     )
 
+    clean_symbol = symbol.replace(".NS", "")
     return {
-        "symbol": symbol.replace(".NS", ""),
+        "symbol": clean_symbol,
         "yahoo_symbol": symbol,
         "price": price,
         "change_pct": clean_number(change),
         "sma20": sma20,
         "sma50": sma50,
+        "sma200": sma200,
+        "sma20_distance_pct": d20,
+        "sma50_distance_pct": d50,
+        "sma200_distance_pct": d200,
+        "near_sma20": d20 is not None and d20 <= NEAR_SMA_PCT,
+        "near_sma50": d50 is not None and d50 <= NEAR_SMA_PCT,
+        "near_sma200": d200 is not None and d200 <= NEAR_SMA_PCT,
         "rsi14": rsi14,
         "volume_ratio": volume_ratio,
         "trend": trend,
         "score": score,
         "signals": tags,
+        "chart_url": f"https://www.tradingview.com/chart/?symbol=NSE%3A{clean_symbol}",
+        "data_url": f"https://finance.yahoo.com/quote/{symbol}/",
     }
 
 
@@ -99,6 +130,7 @@ def main():
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "market": "NSE",
         "count": len(rows),
+        "near_sma_pct": NEAR_SMA_PCT,
         "results": rows,
         "errors": errors,
     }
