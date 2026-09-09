@@ -10,6 +10,7 @@ on:
       - 'stock-webapp/scan_options.py'
       - 'stock-webapp/option_symbols.txt'
       - 'stock-webapp/build_extended_data.py'
+      - 'stock-webapp/build_fundamental_feed.py'
       - 'stock-webapp/fundamentals.html'
       - '.github/workflows/stock-webapp.yml'
   schedule:
@@ -44,6 +45,8 @@ jobs:
         run: python stock-webapp/scan_options.py
       - name: Build chart timeframe and fundamentals data
         run: python stock-webapp/build_extended_data.py
+      - name: Build lightweight fundamentals feed
+        run: python stock-webapp/build_fundamental_feed.py
       - name: Commit scan data safely
         run: |
           set -e
@@ -54,6 +57,7 @@ jobs:
           cp stock-webapp/data/results.json /tmp/stock-webapp-data/results.json
           cp stock-webapp/data/option_chain.json /tmp/stock-webapp-data/option_chain.json
           cp stock-webapp/data/extended.json /tmp/stock-webapp-data/extended.json
+          cp stock-webapp/data/fundamentals.json /tmp/stock-webapp-data/fundamentals.json
 
           git fetch origin main
           git reset --hard origin/main
@@ -61,9 +65,10 @@ jobs:
           cp /tmp/stock-webapp-data/results.json stock-webapp/data/results.json
           cp /tmp/stock-webapp-data/option_chain.json stock-webapp/data/option_chain.json
           cp /tmp/stock-webapp-data/extended.json stock-webapp/data/extended.json
+          cp /tmp/stock-webapp-data/fundamentals.json stock-webapp/data/fundamentals.json
 
-          git add stock-webapp/data/results.json stock-webapp/data/option_chain.json stock-webapp/data/extended.json
+          git add stock-webapp/data/results.json stock-webapp/data/option_chain.json stock-webapp/data/extended.json stock-webapp/data/fundamentals.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update stock, option chain and extended data"
+            git commit -m "Update stock, option chain and fundamental data"
             git push origin HEAD:main
           fi
