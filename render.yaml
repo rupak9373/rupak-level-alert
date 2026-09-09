@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: rupak-broker-bridge
+    runtime: node
+    rootDir: broker-bridge
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
+    envVars:
+      - key: UPSTOX_CLIENT_ID
+        sync: false
+      - key: UPSTOX_CLIENT_SECRET
+        sync: false
+      - key: UPSTOX_REDIRECT_URI
+        sync: false
+      - key: FRONTEND_URL
+        value: https://rupak9373.github.io/rupak-level-alert/stock-webapp/brokers.html
