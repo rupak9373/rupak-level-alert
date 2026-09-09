@@ -1,7 +1,7 @@
 #property strict
 #property description "Rupak MT5 -> Web Trading Journal Sync"
 
-input string BridgeURL = "https://rupak-broker-bridge.onrender.com";
+input string BridgeURL = "https://rupak-level-alert.onrender.com";
 input string SyncKey = "PASTE_JOURNAL_SYNC_KEY_HERE";
 input int HistoryDays = 90;
 input int SyncEverySeconds = 30;
