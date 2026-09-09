@@ -14,6 +14,10 @@ on:
   schedule:
     - cron: '*/5 * * * 1-5'
 
+concurrency:
+  group: stock-webapp-scan
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -35,13 +39,26 @@ jobs:
         run: python stock-webapp/scan_options.py
       - name: Build chart timeframe and fundamentals data
         run: python stock-webapp/build_extended_data.py
-      - name: Commit scan data
+      - name: Commit scan data safely
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          mkdir -p /tmp/stock-webapp-data
+          cp stock-webapp/data/results.json /tmp/stock-webapp-data/results.json
+          cp stock-webapp/data/option_chain.json /tmp/stock-webapp-data/option_chain.json
+          cp stock-webapp/data/extended.json /tmp/stock-webapp-data/extended.json
+
+          git fetch origin main
+          git reset --hard origin/main
+
+          cp /tmp/stock-webapp-data/results.json stock-webapp/data/results.json
+          cp /tmp/stock-webapp-data/option_chain.json stock-webapp/data/option_chain.json
+          cp /tmp/stock-webapp-data/extended.json stock-webapp/data/extended.json
+
           git add stock-webapp/data/results.json stock-webapp/data/option_chain.json stock-webapp/data/extended.json
           if ! git diff --cached --quiet; then
             git commit -m "Update stock, option chain and extended data"
-            git pull --rebase origin main
-            git push origin main
+            git push origin HEAD:main
           fi
