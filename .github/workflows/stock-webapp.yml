@@ -6,6 +6,8 @@ on:
     paths:
       - 'stock-webapp/scan_stocks.py'
       - 'stock-webapp/stock_symbols.txt'
+      - 'stock-webapp/scan_options.py'
+      - 'stock-webapp/option_symbols.txt'
       - '.github/workflows/stock-webapp.yml'
   schedule:
     - cron: '*/30 * * * 1-5'
@@ -24,16 +26,18 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install jugaad-data pandas
-      - name: Run scanner
+        run: pip install -U jugaad-data pandas
+      - name: Run stock scanner
         run: python stock-webapp/scan_stocks.py
+      - name: Run option chain scanner
+        run: python stock-webapp/scan_options.py
       - name: Commit scan data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add stock-webapp/data/results.json
+          git add stock-webapp/data/results.json stock-webapp/data/option_chain.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update stock scan data"
+            git commit -m "Update stock and option chain data"
             git pull --rebase origin main
             git push origin main
           fi
