@@ -1,0 +1,13 @@
+# Indices
+NIFTY
+BANKNIFTY
+FINNIFTY
+MIDCPNIFTY
+
+# F&O stocks (edit this list anytime)
+RELIANCE
+HDFCBANK
+ICICIBANK
+SBIN
+INFY
+TCS
