@@ -13,7 +13,7 @@ OUT = BASE / "data" / "fundamentals.json"
 
 EQUITY_URL = "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv"
 SME_URL = "https://nsearchives.nseindia.com/emerge/corporates/content/SME_EQUITY_L.csv"
-BATCH_SIZE = 80
+BATCH_SIZE = 200
 REQUEST_TIMEOUT = 15
 STALE_DAYS = 7
 
