@@ -9,6 +9,7 @@ on:
       - 'stock-webapp/scan_options.py'
       - 'stock-webapp/option_symbols.txt'
       - 'stock-webapp/build_extended_data.py'
+      - 'stock-webapp/fundamentals.html'
       - '.github/workflows/stock-webapp.yml'
   schedule:
     - cron: '*/5 * * * 1-5'
@@ -27,7 +28,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install -U jugaad-data pandas
+        run: pip install -U jugaad-data pandas requests beautifulsoup4
       - name: Run stock scanner
         run: python stock-webapp/scan_stocks.py
       - name: Run option chain scanner
