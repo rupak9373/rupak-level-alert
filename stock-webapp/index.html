@@ -27,7 +27,7 @@ function render(){
  const rows=all.filter(x=>(!q||x.symbol.includes(q))&&(!t||x.trend===t)&&x.score>=s);
  const g=document.getElementById('grid');
  if(!rows.length){g.innerHTML='<div class="empty">No stocks match these filters.</div>';return}
- g.innerHTML=rows.map(x=>`<div class="card"><div class="row"><div><h2 style="margin:0">${x.symbol}</h2><div class="${cls(x.trend)}">${x.trend}</div></div><div><div class="score">${x.score}</div><div class="muted">signal score</div></div></div><div class="row" style="margin-top:12px"><div>₹${x.price}</div><div class="${x.change_pct>=0?'bull':'bear'}">${x.change_pct}%</div><div>RSI ${x.rsi14??'-'}</div><div>Vol ${x.volume_ratio??'-'}x</div></div><div class="muted" style="margin-top:10px">SMA20 ${x.sma20??'-'} · SMA50 ${x.sma50??'-'} · 20D H/L ${x.high20}/${x.low20}</div><div style="margin-top:8px">${(x.signals||[]).map(v=>`<span class="tag">${v}</span>`).join('')}</div></div>`).join('');
+ g.innerHTML=rows.map(x=>`<div class="card"><div class="row"><div><h2 style="margin:0">${x.symbol}</h2><div class="${cls(x.trend)}">${x.trend}</div></div><div><div class="score">${x.score}</div><div class="muted">signal score</div></div></div><div class="row" style="margin-top:12px"><div>₹${x.price}</div><div class="${x.change_pct>=0?'bull':'bear'}">${x.change_pct}%</div><div>RSI ${x.rsi14??'-'}</div><div>Vol ${x.volume_ratio??'-'}x</div></div><div class="muted" style="margin-top:10px">SMA20 ${x.sma20??'-'} · SMA50 ${x.sma50??'-'}</div><div style="margin-top:8px">${(x.signals||[]).map(v=>`<span class="tag">${v}</span>`).join('')}</div></div>`).join('');
 }
 async function loadData(){
  const status=document.getElementById('status'); status.textContent='Loading cloud scan…';
