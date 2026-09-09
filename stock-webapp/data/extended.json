@@ -1,0 +1,113 @@
+{
+  "updated_at": "2026-09-09T01:27:25.793116+00:00",
+  "source": "NSE India",
+  "chart_timeframes": [
+    "1D",
+    "1W",
+    "1M"
+  ],
+  "intraday_chart_status": "unavailable_without_reliable_historical_intraday_ohlc",
+  "data": {},
+  "errors": [
+    {
+      "symbol": "RELIANCE",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "TCS",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "INFY",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "SBIN",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "ITC",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "LT",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "AXISBANK",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "MARUTI",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "TATAMOTORS",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "ADANIENT",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "stage": "history",
+      "error": "Invalid frequency: M. Failed to parse with error message: ValueError(\"'M' is no longer supported for offsets. Please use 'ME' instead.\")"
+    }
+  ]
+}
