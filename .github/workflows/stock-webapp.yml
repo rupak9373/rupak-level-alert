@@ -2,6 +2,10 @@ name: Stock Web App Scan
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - 'stock-webapp/**'
+      - '.github/workflows/stock-webapp.yml'
   schedule:
     - cron: '*/30 * * * 1-5'
 
