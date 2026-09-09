@@ -11,11 +11,11 @@ Browser-only stock scanner. Nothing needs to be installed on the user's PC.
 - Signal scoring and browser filters
 - Modular files so more rules/markets can be added later
 
-## Run manually
-Open GitHub > Actions > Stock Web App Scan > Run workflow.
+## Automatic runs
+The stock scanner runs every 30 minutes on weekdays and also whenever the web-app files are updated. Manual runs remain available from GitHub Actions.
 
 ## Dashboard hosting
-Enable GitHub Pages for the repository and use `/stock-webapp/` as the app path if serving from the repository root via Pages. If Pages is configured to deploy from `/docs`, copy this folder there instead.
+GitHub Pages serves the repository and `/stock-webapp/` is the scanner dashboard path.
 
 ## Future additions
 Alerts, Telegram integration, custom strategy rules, NIFTY universe, forex/gold/BTC, intraday timeframes, backtesting, saved scans, custom watchlists.
