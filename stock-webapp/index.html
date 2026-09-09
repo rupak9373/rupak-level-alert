@@ -5,36 +5,42 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>Stock Scanner</title>
 <style>
-body{font-family:Arial,sans-serif;margin:0;background:#0b1020;color:#eef2ff}header{padding:22px;background:#111827;position:sticky;top:0}h1{margin:0 0 8px}.muted{color:#94a3b8}.controls{display:flex;gap:10px;flex-wrap:wrap;padding:16px 22px}input,select,button{padding:10px 12px;border-radius:10px;border:1px solid #334155;background:#111827;color:#fff}button{cursor:pointer}.grid{padding:0 22px 30px;display:grid;gap:12px}.card{background:#111827;border:1px solid #1f2937;border-radius:14px;padding:16px}.row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.tag{display:inline-block;padding:5px 8px;border-radius:999px;background:#1f2937;margin:4px 4px 0 0;font-size:12px}.bull{color:#86efac}.bear{color:#fca5a5}.mixed{color:#fde68a}.score{font-size:24px;font-weight:700}.empty{padding:30px;text-align:center;color:#94a3b8}.footer{padding:20px 22px;color:#64748b;font-size:12px}</style>
+body{font-family:Arial,sans-serif;margin:0;background:#0b1020;color:#eef2ff}header{padding:20px 22px;background:#111827;position:sticky;top:0;z-index:5}.headrow{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;flex-wrap:wrap}h1{margin:0 0 8px}.clock{text-align:right;font-weight:700}.muted{color:#94a3b8}.controls{display:flex;gap:10px;flex-wrap:wrap;padding:16px 22px}input,select,button,a.btn{padding:10px 12px;border-radius:10px;border:1px solid #334155;background:#111827;color:#fff;text-decoration:none}button,a.btn{cursor:pointer}.grid{padding:0 22px 30px;display:grid;gap:12px}.card{background:#111827;border:1px solid #1f2937;border-radius:14px;padding:16px;cursor:pointer}.card:hover{border-color:#475569}.row{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.tag{display:inline-block;padding:5px 8px;border-radius:999px;background:#1f2937;margin:4px 4px 0 0;font-size:12px}.near{background:#3f2f0d;color:#fde68a;border:1px solid #7c5f13}.bull{color:#86efac}.bear{color:#fca5a5}.mixed{color:#fde68a}.score{font-size:24px;font-weight:700}.details{display:none;margin-top:14px;padding-top:14px;border-top:1px solid #1f2937}.details.open{display:block}.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px}.metric{background:#0b1020;border-radius:10px;padding:10px}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.empty{padding:30px;text-align:center;color:#94a3b8}.footer{padding:20px 22px;color:#64748b;font-size:12px}@media(max-width:600px){.clock{text-align:left}}
+</style>
 </head>
 <body>
-<header><h1>Stock Scanner</h1><div id="status" class="muted">Loading cloud scan…</div></header>
+<header><div class="headrow"><div><h1>Stock Scanner</h1><div id="status" class="muted">Loading cloud scan…</div></div><div class="clock"><div id="liveTime">--:--:--</div><div id="liveDate" class="muted"></div></div></div></header>
 <div class="controls">
 <input id="q" placeholder="Search symbol" />
 <select id="trend"><option value="">All trends</option><option>Bullish</option><option>Bearish</option><option>Mixed</option></select>
+<select id="smaNear"><option value="">All stocks</option><option value="20">Near SMA20</option><option value="50">Near SMA50</option><option value="200">Near SMA200</option></select>
 <select id="score"><option value="0">Score ≥ 0</option><option value="1">Score ≥ 1</option><option value="2">Score ≥ 2</option><option value="3">Score ≥ 3</option><option value="4">Score ≥ 4</option></select>
 <button onclick="loadData()">Refresh</button>
 </div>
 <div id="grid" class="grid"></div>
-<div class="footer">Cloud scanner. No PC installation required. Data source: Yahoo Finance via cloud workflow. For research/alerts, not financial advice.</div>
+<div class="footer">Live clock shown above. Scan data updates from the cloud workflow; it is not tick-by-tick live market data. Data source: Yahoo Finance.</div>
 <script>
 let all=[];
 function cls(t){return t==='Bullish'?'bull':t==='Bearish'?'bear':'mixed'}
+function nearTags(x){return [x.near_sma20?`Near SMA20 (${x.sma20_distance_pct}%)`:null,x.near_sma50?`Near SMA50 (${x.sma50_distance_pct}%)`:null,x.near_sma200?`Near SMA200 (${x.sma200_distance_pct}%)`:null].filter(Boolean)}
 function render(){
  const q=document.getElementById('q').value.trim().toUpperCase();
  const t=document.getElementById('trend').value;
+ const n=document.getElementById('smaNear').value;
  const s=Number(document.getElementById('score').value||0);
- const rows=all.filter(x=>(!q||x.symbol.includes(q))&&(!t||x.trend===t)&&x.score>=s);
+ const rows=all.filter(x=>(!q||x.symbol.includes(q))&&(!t||x.trend===t)&&x.score>=s&&(!n||(n==='20'&&x.near_sma20)||(n==='50'&&x.near_sma50)||(n==='200'&&x.near_sma200)));
  const g=document.getElementById('grid');
  if(!rows.length){g.innerHTML='<div class="empty">No stocks match these filters.</div>';return}
- g.innerHTML=rows.map(x=>`<div class="card"><div class="row"><div><h2 style="margin:0">${x.symbol}</h2><div class="${cls(x.trend)}">${x.trend}</div></div><div><div class="score">${x.score}</div><div class="muted">signal score</div></div></div><div class="row" style="margin-top:12px"><div>₹${x.price}</div><div class="${x.change_pct>=0?'bull':'bear'}">${x.change_pct}%</div><div>RSI ${x.rsi14??'-'}</div><div>Vol ${x.volume_ratio??'-'}x</div></div><div class="muted" style="margin-top:10px">SMA20 ${x.sma20??'-'} · SMA50 ${x.sma50??'-'}</div><div style="margin-top:8px">${(x.signals||[]).map(v=>`<span class="tag">${v}</span>`).join('')}</div></div>`).join('');
+ g.innerHTML=rows.map((x,i)=>`<div class="card" onclick="toggleDetails(${i},event)"><div class="row"><div><h2 style="margin:0">${x.symbol}</h2><div class="${cls(x.trend)}">${x.trend}</div></div><div><div class="score">${x.score}</div><div class="muted">signal score</div></div></div><div class="row" style="margin-top:12px"><div>₹${x.price}</div><div class="${x.change_pct>=0?'bull':'bear'}">${x.change_pct}%</div><div>RSI ${x.rsi14??'-'}</div><div>Vol ${x.volume_ratio??'-'}x</div></div><div class="muted" style="margin-top:10px">SMA20 ${x.sma20??'-'} · SMA50 ${x.sma50??'-'} · SMA200 ${x.sma200??'-'}</div><div style="margin-top:8px">${nearTags(x).map(v=>`<span class="tag near">${v}</span>`).join('')}${(x.signals||[]).filter(v=>!v.startsWith('Near SMA')).map(v=>`<span class="tag">${v}</span>`).join('')}</div><div id="details-${i}" class="details"><div class="metrics"><div class="metric"><div class="muted">SMA20 distance</div><b>${x.sma20_distance_pct??'-'}%</b></div><div class="metric"><div class="muted">SMA50 distance</div><b>${x.sma50_distance_pct??'-'}%</b></div><div class="metric"><div class="muted">SMA200 distance</div><b>${x.sma200_distance_pct??'-'}%</b></div><div class="metric"><div class="muted">RSI 14</div><b>${x.rsi14??'-'}</b></div><div class="metric"><div class="muted">Volume ratio</div><b>${x.volume_ratio??'-'}x</b></div><div class="metric"><div class="muted">Trend</div><b>${x.trend}</b></div></div><div class="actions"><a class="btn" href="${x.chart_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open Chart</a><a class="btn" href="${x.data_url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open Full Data</a></div></div></div>`).join('');
 }
+function toggleDetails(i,e){const el=document.getElementById('details-'+i); if(el) el.classList.toggle('open')}
 async function loadData(){
  const status=document.getElementById('status'); status.textContent='Loading cloud scan…';
- try{const r=await fetch('data/results.json?ts='+Date.now()); if(!r.ok) throw new Error('Scan data not generated yet'); const d=await r.json(); all=d.results||[]; status.textContent=`${d.market||'Market'} · ${all.length} stocks · Updated ${new Date(d.updated_at).toLocaleString()}`; render();}
- catch(e){status.textContent='Scan data not ready yet. Run the cloud workflow once.'; document.getElementById('grid').innerHTML='<div class="empty">First cloud scan is pending.</div>';}
+ try{const r=await fetch('data/results.json?ts='+Date.now()); if(!r.ok) throw new Error('Scan data not generated yet'); const d=await r.json(); all=d.results||[]; status.textContent=`${d.market||'Market'} · ${all.length} stocks · Last scan ${new Date(d.updated_at).toLocaleString()}`; render();}
+ catch(e){status.textContent='Scan data not ready yet.'; document.getElementById('grid').innerHTML='<div class="empty">Cloud scan data unavailable.</div>';}
 }
-['q','trend','score'].forEach(id=>document.getElementById(id).addEventListener('input',render));
-loadData();
+function tickClock(){const d=new Date();document.getElementById('liveTime').textContent=d.toLocaleTimeString('en-IN',{hour12:true});document.getElementById('liveDate').textContent=d.toLocaleDateString('en-IN',{weekday:'short',day:'2-digit',month:'short',year:'numeric'})}
+['q','trend','smaNear','score'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+tickClock();setInterval(tickClock,1000);loadData();
 </script>
 </body></html>
