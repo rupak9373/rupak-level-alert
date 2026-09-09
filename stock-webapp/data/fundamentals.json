@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-09-09T02:27:55.316806+00:00",
+  "updated_at": "2026-09-09T02:36:10.343629+00:00",
   "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
   "universe_source": [
     "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
     "https://nsearchives.nseindia.com/emerge/corporates/content/SME_EQUITY_L.csv"
   ],
-  "universe_count": 3142,
+  "universe_count": 3143,
   "fundamental_coverage": 99,
-  "industry_coverage": 0,
-  "pending_fundamentals": 3043,
+  "industry_coverage": 80,
+  "pending_fundamentals": 3044,
   "batch_size": 80,
   "fundamental_filter_fields": [
     "promoter_holding",
@@ -49,10 +49,10 @@
         "face_value": 5.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Commodities",
+        "industry": "Industrial Minerals",
         "source_url": "https://www.screener.in/company/20MICRONS/consolidated/",
-        "fetched_at": "2026-09-09T02:26:33.521372+00:00",
+        "fetched_at": "2026-09-09T02:34:49.172279+00:00",
         "company": "20 Microns Limited",
         "series": "EQ",
         "isin": "INE144J01027",
@@ -77,10 +77,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Financial Services",
+        "industry": "Other Capital Market related Services",
         "source_url": "https://www.screener.in/company/21STCENMGM/consolidated/",
-        "fetched_at": "2026-09-09T02:26:34.536743+00:00",
+        "fetched_at": "2026-09-09T02:34:50.185644+00:00",
         "company": "21st Century Management Services Limited",
         "series": "EQ",
         "isin": "INE253B01015",
@@ -105,10 +105,10 @@
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Financial Services",
+        "industry": "Stockbroking & Allied",
         "source_url": "https://www.screener.in/company/360ONE/consolidated/",
-        "fetched_at": "2026-09-09T02:26:35.563999+00:00",
+        "fetched_at": "2026-09-09T02:34:51.223655+00:00",
         "company": "360 ONE WAM LIMITED",
         "series": "EQ",
         "isin": "INE466L01038",
@@ -133,10 +133,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Healthcare",
+        "industry": "Healthcare Service Provider",
         "source_url": "https://www.screener.in/company/3BBLACKBIO/consolidated/",
-        "fetched_at": "2026-09-09T02:26:36.600631+00:00",
+        "fetched_at": "2026-09-09T02:34:52.299784+00:00",
         "company": "3B Blackbio Dx Limited",
         "series": "EQ",
         "isin": "INE994E01018",
@@ -161,10 +161,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Information Technology",
+        "industry": "Computers - Software & Consulting",
         "source_url": "https://www.screener.in/company/3IINFOLTD/consolidated/",
-        "fetched_at": "2026-09-09T02:26:37.713668+00:00",
+        "fetched_at": "2026-09-09T02:34:53.323937+00:00",
         "company": "3i Infotech Limited",
         "series": "BE",
         "isin": "INE748C01038",
@@ -189,10 +189,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Diversified",
+        "industry": "Diversified",
         "source_url": "https://www.screener.in/company/3MINDIA/consolidated/",
-        "fetched_at": "2026-09-09T02:26:38.813396+00:00",
+        "fetched_at": "2026-09-09T02:34:54.355980+00:00",
         "company": "3M India Limited",
         "series": "EQ",
         "isin": "INE470A01017",
@@ -217,10 +217,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Financial Services",
+        "industry": "Investment Company",
         "source_url": "https://www.screener.in/company/3PLAND/consolidated/",
-        "fetched_at": "2026-09-09T02:26:39.846161+00:00",
+        "fetched_at": "2026-09-09T02:34:55.435163+00:00",
         "company": "3P Land Holdings Limited",
         "series": "EQ",
         "isin": "INE105C01023",
@@ -245,10 +245,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Financial Services",
+        "industry": "Stockbroking & Allied",
         "source_url": "https://www.screener.in/company/5PAISA/consolidated/",
-        "fetched_at": "2026-09-09T02:26:40.876465+00:00",
+        "fetched_at": "2026-09-09T02:34:56.498287+00:00",
         "company": "5Paisa Capital Limited",
         "series": "EQ",
         "isin": "INE618L01018",
@@ -273,10 +273,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Information Technology",
+        "industry": "Computers - Software & Consulting",
         "source_url": "https://www.screener.in/company/63MOONS/consolidated/",
-        "fetched_at": "2026-09-09T02:26:41.914410+00:00",
+        "fetched_at": "2026-09-09T02:34:57.530423+00:00",
         "company": "63 moons technologies limited",
         "series": "EQ",
         "isin": "INE111B01023",
@@ -301,10 +301,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Industrials",
+        "industry": "Civil Construction",
         "source_url": "https://www.screener.in/company/A2ZINFRA/consolidated/",
-        "fetched_at": "2026-09-09T02:26:42.932419+00:00",
+        "fetched_at": "2026-09-09T02:34:58.598135+00:00",
         "company": "A2Z Infra Engineering Limited",
         "series": "EQ",
         "isin": "INE619I01012",
@@ -329,10 +329,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Services",
+        "industry": "Consulting Services",
         "source_url": "https://www.screener.in/company/AAATECH/consolidated/",
-        "fetched_at": "2026-09-09T02:26:43.932724+00:00",
+        "fetched_at": "2026-09-09T02:34:59.584247+00:00",
         "company": "AAA Technologies Limited",
         "series": "EQ",
         "isin": "INE0D0U01013",
@@ -357,10 +357,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Financial Services",
+        "industry": "Housing Finance Company",
         "source_url": "https://www.screener.in/company/AADHARHFC/consolidated/",
-        "fetched_at": "2026-09-09T02:26:45.029163+00:00",
+        "fetched_at": "2026-09-09T02:35:00.604858+00:00",
         "company": "Aadhar Housing Finance Limited",
         "series": "EQ",
         "isin": "INE883F01010",
@@ -385,10 +385,10 @@
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Energy",
+        "industry": "Offshore Support Solution Drilling",
         "source_url": "https://www.screener.in/company/AAKASH/consolidated/",
-        "fetched_at": "2026-09-09T02:26:47.035620+00:00",
+        "fetched_at": "2026-09-09T02:35:02.611320+00:00",
         "company": "Aakash Exploration Services Limited",
         "series": "EQ",
         "isin": "INE087Z01024",
@@ -413,10 +413,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Healthcare",
+        "industry": "Pharmaceuticals",
         "source_url": "https://www.screener.in/company/AAREYDRUGS/consolidated/",
-        "fetched_at": "2026-09-09T02:26:49.012710+00:00",
+        "fetched_at": "2026-09-09T02:35:04.621317+00:00",
         "company": "Aarey Drugs & Pharmaceuticals Limited",
         "series": "EQ",
         "isin": "INE198H01019",
@@ -441,10 +441,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Trading - Textile Products",
         "source_url": "https://www.screener.in/company/AARNAV/consolidated/",
-        "fetched_at": "2026-09-09T02:26:49.977600+00:00",
+        "fetched_at": "2026-09-09T02:35:05.634519+00:00",
         "company": "Aarnav Fashions Limited",
         "series": "BE",
         "isin": "INE750R01016",
@@ -469,10 +469,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Industrials",
+        "industry": "Industrial Products",
         "source_url": "https://www.screener.in/company/AARON/consolidated/",
-        "fetched_at": "2026-09-09T02:26:50.980666+00:00",
+        "fetched_at": "2026-09-09T02:35:06.605207+00:00",
         "company": "Aaron Industries Limited",
         "series": "EQ",
         "isin": "INE721Z01010",
@@ -497,10 +497,10 @@
         "face_value": 5.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Industrials",
+        "industry": "Heavy Electrical Equipment",
         "source_url": "https://www.screener.in/company/AARTECH/consolidated/",
-        "fetched_at": "2026-09-09T02:26:52.076177+00:00",
+        "fetched_at": "2026-09-09T02:35:07.674644+00:00",
         "company": "Aartech Solonics Limited",
         "series": "BE",
         "isin": "INE01C001026",
@@ -525,10 +525,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Healthcare",
+        "industry": "Pharmaceuticals",
         "source_url": "https://www.screener.in/company/AARTIDRUGS/consolidated/",
-        "fetched_at": "2026-09-09T02:26:53.190073+00:00",
+        "fetched_at": "2026-09-09T02:35:08.713638+00:00",
         "company": "Aarti Drugs Limited",
         "series": "EQ",
         "isin": "INE767A01016",
@@ -553,10 +553,10 @@
         "face_value": 5.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Commodities",
+        "industry": "Specialty Chemicals",
         "source_url": "https://www.screener.in/company/AARTIIND/consolidated/",
-        "fetched_at": "2026-09-09T02:26:54.223337+00:00",
+        "fetched_at": "2026-09-09T02:35:09.762329+00:00",
         "company": "Aarti Industries Limited",
         "series": "EQ",
         "isin": "INE769A01020",
@@ -581,10 +581,10 @@
         "face_value": 5.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Healthcare",
+        "industry": "Pharmaceuticals",
         "source_url": "https://www.screener.in/company/AARTIPHARM/consolidated/",
-        "fetched_at": "2026-09-09T02:26:55.268850+00:00",
+        "fetched_at": "2026-09-09T02:35:10.846488+00:00",
         "company": "Aarti Pharmalabs Limited",
         "series": "EQ",
         "isin": "INE0LRU01027",
@@ -609,10 +609,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Commodities",
+        "industry": "Specialty Chemicals",
         "source_url": "https://www.screener.in/company/AARTISURF/consolidated/",
-        "fetched_at": "2026-09-09T02:26:56.294693+00:00",
+        "fetched_at": "2026-09-09T02:35:11.888400+00:00",
         "company": "Aarti Surfactants Limited",
         "series": "BE",
         "isin": "INE09EO01013",
@@ -637,10 +637,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Services",
+        "industry": "Diversified Commercial Services",
         "source_url": "https://www.screener.in/company/AARVI/consolidated/",
-        "fetched_at": "2026-09-09T02:26:57.322408+00:00",
+        "fetched_at": "2026-09-09T02:35:12.931600+00:00",
         "company": "Aarvi Encon Limited",
         "series": "EQ",
         "isin": "INE754X01016",
@@ -665,10 +665,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Other Textile Products",
         "source_url": "https://www.screener.in/company/AASTHA/consolidated/",
-        "fetched_at": "2026-09-09T02:26:58.319361+00:00",
+        "fetched_at": "2026-09-09T02:35:13.937749+00:00",
         "company": "Aastha Spintex Limited",
         "series": "EQ",
         "isin": "INE2FMX01012",
@@ -693,10 +693,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Financial Services",
+        "industry": "Housing Finance Company",
         "source_url": "https://www.screener.in/company/AAVAS/consolidated/",
-        "fetched_at": "2026-09-09T02:27:00.478852+00:00",
+        "fetched_at": "2026-09-09T02:35:15.948150+00:00",
         "company": "Aavas Financiers Limited",
         "series": "EQ",
         "isin": "INE216P01012",
@@ -721,10 +721,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Energy",
+        "industry": "Offshore Support Solution Drilling",
         "source_url": "https://www.screener.in/company/ABAN/consolidated/",
-        "fetched_at": "2026-09-09T02:27:01.490259+00:00",
+        "fetched_at": "2026-09-09T02:35:16.967265+00:00",
         "company": "Aban Offshore Limited",
         "series": "BE",
         "isin": "INE421A01028",
@@ -749,10 +749,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Commodities",
+        "industry": "Trading - Metals",
         "source_url": "https://www.screener.in/company/ABANSENT/consolidated/",
-        "fetched_at": "2026-09-09T02:27:02.482971+00:00",
+        "fetched_at": "2026-09-09T02:35:17.957550+00:00",
         "company": "Abans Enterprises Limited",
         "series": "EQ",
         "isin": "INE365O01028",
@@ -777,10 +777,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Industrials",
+        "industry": "Heavy Electrical Equipment",
         "source_url": "https://www.screener.in/company/ABB/consolidated/",
-        "fetched_at": "2026-09-09T02:27:03.552523+00:00",
+        "fetched_at": "2026-09-09T02:35:19.031477+00:00",
         "company": "ABB India Limited",
         "series": "EQ",
         "isin": "INE117A01022",
@@ -805,10 +805,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Healthcare",
+        "industry": "Pharmaceuticals",
         "source_url": "https://www.screener.in/company/ABBOTINDIA/consolidated/",
-        "fetched_at": "2026-09-09T02:27:04.522870+00:00",
+        "fetched_at": "2026-09-09T02:35:20.028288+00:00",
         "company": "Abbott India Limited",
         "series": "EQ",
         "isin": "INE358A01014",
@@ -833,10 +833,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Financial Services",
+        "industry": "Investment Company",
         "source_url": "https://www.screener.in/company/ABCAPITAL/consolidated/",
-        "fetched_at": "2026-09-09T02:27:05.599406+00:00",
+        "fetched_at": "2026-09-09T02:35:21.106522+00:00",
         "company": "Aditya Birla Capital Limited",
         "series": "EQ",
         "isin": "INE674K01013",
@@ -861,10 +861,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Other Textile Products",
         "source_url": "https://www.screener.in/company/ABCOTS/consolidated/",
-        "fetched_at": "2026-09-09T02:27:06.665023+00:00",
+        "fetched_at": "2026-09-09T02:35:22.091106+00:00",
         "company": "A B Cotspin India Limited",
         "series": "EQ",
         "isin": "INE08PH01015",
@@ -889,10 +889,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Fast Moving Consumer Goods",
+        "industry": "Breweries & Distilleries",
         "source_url": "https://www.screener.in/company/ABDL/consolidated/",
-        "fetched_at": "2026-09-09T02:27:07.757585+00:00",
+        "fetched_at": "2026-09-09T02:35:23.146975+00:00",
         "company": "Allied Blenders and Distillers Limited",
         "series": "EQ",
         "isin": "INE552Z01027",
@@ -917,10 +917,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Speciality Retail",
         "source_url": "https://www.screener.in/company/ABFRL/consolidated/",
-        "fetched_at": "2026-09-09T02:27:08.775961+00:00",
+        "fetched_at": "2026-09-09T02:35:24.173726+00:00",
         "company": "Aditya Birla Fashion and Retail Limited",
         "series": "EQ",
         "isin": "INE647O01011",
@@ -945,10 +945,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Industrials",
+        "industry": "Civil Construction",
         "source_url": "https://www.screener.in/company/ABINFRA/consolidated/",
-        "fetched_at": "2026-09-09T02:27:11.717049+00:00",
+        "fetched_at": "2026-09-09T02:35:27.148942+00:00",
         "company": "A B Infrabuild Limited",
         "series": "BE",
         "isin": "INE00YB01025",
@@ -973,10 +973,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Speciality Retail",
         "source_url": "https://www.screener.in/company/ABLBL/consolidated/",
-        "fetched_at": "2026-09-09T02:27:12.734491+00:00",
+        "fetched_at": "2026-09-09T02:35:28.143474+00:00",
         "company": "Aditya Birla Lifestyle Brands Limited",
         "series": "EQ",
         "isin": "INE14LE01019",
@@ -1001,10 +1001,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Services",
+        "industry": "Trading & Distributors",
         "source_url": "https://www.screener.in/company/ABMINTLLTD/consolidated/",
-        "fetched_at": "2026-09-09T02:27:13.830753+00:00",
+        "fetched_at": "2026-09-09T02:35:29.194164+00:00",
         "company": "ABM International Limited",
         "series": "BE",
         "isin": "INE251C01025",
@@ -1029,10 +1029,10 @@
         "face_value": 5.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Information Technology",
+        "industry": "Software Products",
         "source_url": "https://www.screener.in/company/ABMKNO/consolidated/",
-        "fetched_at": "2026-09-09T02:27:14.925157+00:00",
+        "fetched_at": "2026-09-09T02:35:30.203437+00:00",
         "company": "ABM Knowledgeware Limited",
         "series": "EQ",
         "isin": "INE850B01026",
@@ -1057,10 +1057,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Residential, Commercial Projects",
         "source_url": "https://www.screener.in/company/ABREL/consolidated/",
-        "fetched_at": "2026-09-09T02:27:15.945604+00:00",
+        "fetched_at": "2026-09-09T02:35:31.262191+00:00",
         "company": "Aditya Birla Real Estate Limited",
         "series": "EQ",
         "isin": "INE055A01016",
@@ -1085,10 +1085,10 @@
         "face_value": 5.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Financial Services",
+        "industry": "Asset Management Company",
         "source_url": "https://www.screener.in/company/ABSLAMC/consolidated/",
-        "fetched_at": "2026-09-09T02:27:16.970479+00:00",
+        "fetched_at": "2026-09-09T02:35:32.293803+00:00",
         "company": "Aditya Birla Sun Life AMC Limited",
         "series": "EQ",
         "isin": "INE404A01024",
@@ -1113,10 +1113,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Commodities",
+        "industry": "Cement & Cement Products",
         "source_url": "https://www.screener.in/company/ACC/consolidated/",
-        "fetched_at": "2026-09-09T02:27:19.029868+00:00",
+        "fetched_at": "2026-09-09T02:35:34.358551+00:00",
         "company": "ACC Limited",
         "series": "EQ",
         "isin": "INE012A01025",
@@ -1141,10 +1141,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Information Technology",
+        "industry": "Computers - Software & Consulting",
         "source_url": "https://www.screener.in/company/ACCELYA/consolidated/",
-        "fetched_at": "2026-09-09T02:27:20.089967+00:00",
+        "fetched_at": "2026-09-09T02:35:35.393455+00:00",
         "company": "Accelya Solutions India Limited",
         "series": "EQ",
         "isin": "INE793A01012",
@@ -1169,10 +1169,10 @@
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Services",
+        "industry": "Logistics Solution Provider",
         "source_url": "https://www.screener.in/company/ACCURACY/consolidated/",
-        "fetched_at": "2026-09-09T02:27:24.155276+00:00",
+        "fetched_at": "2026-09-09T02:35:39.388258+00:00",
         "company": "Accuracy Shipping Limited",
         "series": "BE",
         "isin": "INE648Z01023",
@@ -1197,10 +1197,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Industrials",
+        "industry": "Construction Vehicles",
         "source_url": "https://www.screener.in/company/ACE/consolidated/",
-        "fetched_at": "2026-09-09T02:27:25.240962+00:00",
+        "fetched_at": "2026-09-09T02:35:40.472234+00:00",
         "company": "Action Construction Equipment Limited",
         "series": "EQ",
         "isin": "INE731H01025",
@@ -1225,10 +1225,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Services",
+        "industry": "Diversified Commercial Services",
         "source_url": "https://www.screener.in/company/ACEINTEG/consolidated/",
-        "fetched_at": "2026-09-09T02:27:26.216447+00:00",
+        "fetched_at": "2026-09-09T02:35:41.470818+00:00",
         "company": "Ace Integrated Solutions Limited",
         "series": "EQ",
         "isin": "INE543V01017",
@@ -1253,10 +1253,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Auto Components & Equipments",
         "source_url": "https://www.screener.in/company/ACGL/consolidated/",
-        "fetched_at": "2026-09-09T02:27:28.269707+00:00",
+        "fetched_at": "2026-09-09T02:35:43.465039+00:00",
         "company": "Automobile Corporation of Goa Limited",
         "series": "EQ",
         "isin": "INE451C01013",
@@ -1281,10 +1281,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Commodities",
+        "industry": "Specialty Chemicals",
         "source_url": "https://www.screener.in/company/ACI/consolidated/",
-        "fetched_at": "2026-09-09T02:27:29.365335+00:00",
+        "fetched_at": "2026-09-09T02:35:44.515661+00:00",
         "company": "Archean Chemical Industries Limited",
         "series": "EQ",
         "isin": "INE128X01021",
@@ -1309,10 +1309,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Commodities",
+        "industry": "Cement & Cement Products",
         "source_url": "https://www.screener.in/company/ACL/consolidated/",
-        "fetched_at": "2026-09-09T02:27:30.319523+00:00",
+        "fetched_at": "2026-09-09T02:35:45.492352+00:00",
         "company": "Andhra Cements Limited",
         "series": "EQ",
         "isin": "INE666E01020",
@@ -1337,10 +1337,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Utilities",
+        "industry": "Power Generation",
         "source_url": "https://www.screener.in/company/ACMESOLAR/consolidated/",
-        "fetched_at": "2026-09-09T02:27:31.332356+00:00",
+        "fetched_at": "2026-09-09T02:35:46.514093+00:00",
         "company": "Acme Solar Holdings Limited",
         "series": "EQ",
         "isin": "INE622W01025",
@@ -1365,10 +1365,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Information Technology",
+        "industry": "IT Enabled Services",
         "source_url": "https://www.screener.in/company/ACSTECH/consolidated/",
-        "fetched_at": "2026-09-09T02:27:32.336155+00:00",
+        "fetched_at": "2026-09-09T02:35:47.527119+00:00",
         "company": "ACS Technologies Limited",
         "series": "BE",
         "isin": "INE366C01021",
@@ -1393,10 +1393,10 @@
         "face_value": 5.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Healthcare",
+        "industry": "Pharmaceuticals",
         "source_url": "https://www.screener.in/company/ACUTAAS/consolidated/",
-        "fetched_at": "2026-09-09T02:27:34.410225+00:00",
+        "fetched_at": "2026-09-09T02:35:49.585323+00:00",
         "company": "Acutaas Chemicals Limited",
         "series": "EQ",
         "isin": "INE00FF01025",
@@ -1421,10 +1421,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Utilities",
+        "industry": "Power Distribution",
         "source_url": "https://www.screener.in/company/ADANIENSOL/consolidated/",
-        "fetched_at": "2026-09-09T02:27:35.528287+00:00",
+        "fetched_at": "2026-09-09T02:35:50.647652+00:00",
         "company": "Adani Energy Solutions Limited",
         "series": "EQ",
         "isin": "INE931S01010",
@@ -1449,10 +1449,10 @@
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Commodities",
+        "industry": "Trading - Minerals",
         "source_url": "https://www.screener.in/company/ADANIENT/consolidated/",
-        "fetched_at": "2026-09-09T02:27:36.641451+00:00",
+        "fetched_at": "2026-09-09T02:35:51.721637+00:00",
         "company": "Adani Enterprises Limited",
         "series": "EQ",
         "isin": "INE423A01024",
@@ -1477,10 +1477,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Utilities",
+        "industry": "Power Generation",
         "source_url": "https://www.screener.in/company/ADANIGREEN/consolidated/",
-        "fetched_at": "2026-09-09T02:27:37.665249+00:00",
+        "fetched_at": "2026-09-09T02:35:52.753282+00:00",
         "company": "Adani Green Energy Limited",
         "series": "EQ",
         "isin": "INE364U01010",
@@ -1505,10 +1505,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Services",
+        "industry": "Port & Port services",
         "source_url": "https://www.screener.in/company/ADANIPORTS/consolidated/",
-        "fetched_at": "2026-09-09T02:27:38.709161+00:00",
+        "fetched_at": "2026-09-09T02:35:53.797148+00:00",
         "company": "Adani Ports and Special Economic Zone Limited",
         "series": "EQ",
         "isin": "INE742F01042",
@@ -1533,10 +1533,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Utilities",
+        "industry": "Integrated Power Utilities",
         "source_url": "https://www.screener.in/company/ADANIPOWER/consolidated/",
-        "fetched_at": "2026-09-09T02:27:39.795622+00:00",
+        "fetched_at": "2026-09-09T02:35:54.869023+00:00",
         "company": "Adani Power Limited",
         "series": "EQ",
         "isin": "INE814H01029",
@@ -1561,10 +1561,10 @@
         "face_value": 5.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Garments & Apparels",
         "source_url": "https://www.screener.in/company/ADDIND/consolidated/",
-        "fetched_at": "2026-09-09T02:27:41.801560+00:00",
+        "fetched_at": "2026-09-09T02:35:56.867008+00:00",
         "company": "Addi Industries Limited",
         "series": "EQ",
         "isin": "INE757C01021",
@@ -1589,10 +1589,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Fast Moving Consumer Goods",
+        "industry": "Packaged Foods",
         "source_url": "https://www.screener.in/company/ADFFOODS/consolidated/",
-        "fetched_at": "2026-09-09T02:27:42.914026+00:00",
+        "fetched_at": "2026-09-09T02:35:57.929035+00:00",
         "company": "ADF Foods Limited",
         "series": "EQ",
         "isin": "INE982B01027",
@@ -1617,10 +1617,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Plywood Boards/ Laminates",
         "source_url": "https://www.screener.in/company/ADL/consolidated/",
-        "fetched_at": "2026-09-09T02:27:44.918089+00:00",
+        "fetched_at": "2026-09-09T02:35:59.939552+00:00",
         "company": "Archidply Decor Limited",
         "series": "EQ",
         "isin": "INE0CHO01012",
@@ -1645,10 +1645,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Industrials",
+        "industry": "Other Industrial Products",
         "source_url": "https://www.screener.in/company/ADOR/consolidated/",
-        "fetched_at": "2026-09-09T02:27:45.947511+00:00",
+        "fetched_at": "2026-09-09T02:36:00.992153+00:00",
         "company": "Ador Welding Limited",
         "series": "EQ",
         "isin": "INE045A01017",
@@ -1673,10 +1673,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Information Technology",
+        "industry": "IT Enabled Services",
         "source_url": "https://www.screener.in/company/ADROITINFO/consolidated/",
-        "fetched_at": "2026-09-09T02:27:47.010263+00:00",
+        "fetched_at": "2026-09-09T02:36:02.057064+00:00",
         "company": "Adroit Infotech Limited",
         "series": "EQ",
         "isin": "INE737B01033",
@@ -1701,10 +1701,10 @@
         "face_value": 5.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Information Technology",
+        "industry": "IT Enabled Services",
         "source_url": "https://www.screener.in/company/ADSL/consolidated/",
-        "fetched_at": "2026-09-09T02:27:48.042235+00:00",
+        "fetched_at": "2026-09-09T02:36:03.095385+00:00",
         "company": "Allied Digital Services Limited",
         "series": "EQ",
         "isin": "INE102I01027",
@@ -1729,10 +1729,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Industrials",
+        "industry": "Other Electrical Equipment",
         "source_url": "https://www.screener.in/company/ADVAIT/consolidated/",
-        "fetched_at": "2026-09-09T02:27:49.094322+00:00",
+        "fetched_at": "2026-09-09T02:36:04.122423+00:00",
         "company": "Advait Energy Transitions Limited",
         "series": "EQ",
         "isin": "INE0ALI01010",
@@ -1757,10 +1757,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Commodities",
+        "industry": "Pesticides & Agrochemicals",
         "source_url": "https://www.screener.in/company/ADVANCE/consolidated/",
-        "fetched_at": "2026-09-09T02:27:50.142648+00:00",
+        "fetched_at": "2026-09-09T02:36:05.113758+00:00",
         "company": "Advance Agrolife Limited",
         "series": "EQ",
         "isin": "INE1B0W01010",
@@ -1785,10 +1785,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Hotels & Resorts",
         "source_url": "https://www.screener.in/company/ADVANIHOTR/consolidated/",
-        "fetched_at": "2026-09-09T02:27:51.209152+00:00",
+        "fetched_at": "2026-09-09T02:36:06.143164+00:00",
         "company": "Advani Hotels & Resorts (India) Limited",
         "series": "EQ",
         "isin": "INE199C01026",
@@ -1813,10 +1813,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Hotels & Resorts",
         "source_url": "https://www.screener.in/company/ADVENTHTL/consolidated/",
-        "fetched_at": "2026-09-09T02:27:52.169558+00:00",
+        "fetched_at": "2026-09-09T02:36:07.163442+00:00",
         "company": "Advent Hotels International Limited",
         "series": "EQ",
         "isin": "INE28GN01010",
@@ -1841,10 +1841,10 @@
         "face_value": 2.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Healthcare",
+        "industry": "Biotechnology",
         "source_url": "https://www.screener.in/company/ADVENZYMES/consolidated/",
-        "fetched_at": "2026-09-09T02:27:53.209759+00:00",
+        "fetched_at": "2026-09-09T02:36:08.215277+00:00",
         "company": "Advanced Enzyme Technologies Limited",
         "series": "EQ",
         "isin": "INE837H01020",
@@ -1869,10 +1869,10 @@
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Financial Services",
+        "industry": "Non Banking Financial Company (NBFC)",
         "source_url": "https://www.screener.in/company/ADVIKCA/consolidated/",
-        "fetched_at": "2026-09-09T02:27:54.277447+00:00",
+        "fetched_at": "2026-09-09T02:36:09.296484+00:00",
         "company": "Advik Capital Limited",
         "series": "EQ",
         "isin": "INE178T01024",
@@ -1897,10 +1897,10 @@
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Energy",
+        "industry": "Trading - Gas",
         "source_url": "https://www.screener.in/company/AEGISLOG/consolidated/",
-        "fetched_at": "2026-09-09T02:27:55.315596+00:00",
+        "fetched_at": "2026-09-09T02:36:10.342521+00:00",
         "company": "Aegis Logistics Limited",
         "series": "EQ",
         "isin": "INE208C01025",
@@ -24818,6 +24818,15 @@
         "segment": "MAIN"
       }
     },
+    "ANOND-RE": {
+      "screen_metrics": {
+        "company": "Anondita Medicare Limited-RE",
+        "series": "ST",
+        "isin": "INE0VTV20012",
+        "listing_date": "09-Sep-26",
+        "segment": "SME"
+      }
+    },
     "MPEL-RE": {
       "screen_metrics": {
         "company": "Manas Polymers and Energies Limited-RE",
@@ -24827,20 +24836,20 @@
         "segment": "SME"
       }
     },
-    "ASHUTOSH": {
-      "screen_metrics": {
-        "company": "Ashutosh Fibre Limited",
-        "series": "ST",
-        "isin": "INE19FR01012",
-        "listing_date": "07-Sep-26",
-        "segment": "SME"
-      }
-    },
     "SHANTIINOR": {
       "screen_metrics": {
         "company": "Shanti Inorganics Limited",
         "series": "ST",
         "isin": "INE1ZEE01019",
+        "listing_date": "07-Sep-26",
+        "segment": "SME"
+      }
+    },
+    "ASHUTOSH": {
+      "screen_metrics": {
+        "company": "Ashutosh Fibre Limited",
+        "series": "ST",
+        "isin": "INE19FR01012",
         "listing_date": "07-Sep-26",
         "segment": "SME"
       }
@@ -24871,10 +24880,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Healthcare",
+        "industry": "Hospital",
         "source_url": "https://www.screener.in/company/ABH/consolidated/",
-        "fetched_at": "2026-09-09T02:27:09.739245+00:00",
+        "fetched_at": "2026-09-09T02:35:25.140945+00:00",
         "company": "ABH Healthcare Limited",
         "series": "ST",
         "isin": "INE1R2M01019",
@@ -25142,10 +25151,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Industrials",
+        "industry": "Industrial Products",
         "source_url": "https://www.screener.in/company/ADISOFT/consolidated/",
-        "fetched_at": "2026-09-09T02:27:43.965229+00:00",
+        "fetched_at": "2026-09-09T02:35:58.951476+00:00",
         "company": "Adisoft Technologies Limited",
         "series": "SM",
         "isin": "INE20PL01012",
@@ -25197,10 +25206,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "E-Retail/ E-Commerce",
         "source_url": "https://www.screener.in/company/ACETEC/consolidated/",
-        "fetched_at": "2026-09-09T02:27:27.218967+00:00",
+        "fetched_at": "2026-09-09T02:35:42.473623+00:00",
         "company": "Acetech E-Commerce Limited",
         "series": "SM",
         "isin": "INE1J6M01010",
@@ -25343,20 +25352,20 @@
         "segment": "SME"
       }
     },
-    "SOCL": {
-      "screen_metrics": {
-        "company": "Sundrex Oil Company Limited",
-        "series": "SM",
-        "isin": "INE0CTB01014",
-        "listing_date": "30-Dec-25",
-        "segment": "SME"
-      }
-    },
     "EPWINDIA": {
       "screen_metrics": {
         "company": "EPW India Limited",
         "series": "ST",
         "isin": "INE1KEC01023",
+        "listing_date": "30-Dec-25",
+        "segment": "SME"
+      }
+    },
+    "SOCL": {
+      "screen_metrics": {
+        "company": "Sundrex Oil Company Limited",
+        "series": "SM",
+        "isin": "INE0CTB01014",
         "listing_date": "30-Dec-25",
         "segment": "SME"
       }
@@ -25658,20 +25667,20 @@
         "segment": "SME"
       }
     },
-    "CURRENT": {
-      "screen_metrics": {
-        "company": "Current Infraprojects Limited",
-        "series": "SM",
-        "isin": "INE1CRQ01014",
-        "listing_date": "03-Sep-25",
-        "segment": "SME"
-      }
-    },
     "SATTVAENGG": {
       "screen_metrics": {
         "company": "Sattva Engineering Construction Limited",
         "series": "SM",
         "isin": "INE14DW01018",
+        "listing_date": "03-Sep-25",
+        "segment": "SME"
+      }
+    },
+    "CURRENT": {
+      "screen_metrics": {
+        "company": "Current Infraprojects Limited",
+        "series": "SM",
+        "isin": "INE1CRQ01014",
         "listing_date": "03-Sep-25",
         "segment": "SME"
       }
@@ -25783,10 +25792,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Commodities",
+        "industry": "Paper & Paper Products",
         "source_url": "https://www.screener.in/company/AARADHYA/consolidated/",
-        "fetched_at": "2026-09-09T02:26:48.026681+00:00",
+        "fetched_at": "2026-09-09T02:35:03.629224+00:00",
         "company": "Aaradhya Disposal Industries Limited",
         "series": "SM",
         "isin": "INE124401014",
@@ -25830,20 +25839,20 @@
         "segment": "SME"
       }
     },
-    "RNPL": {
-      "screen_metrics": {
-        "company": "Renol Polychem Limited",
-        "series": "SM",
-        "isin": "INE0VZX01015",
-        "listing_date": "07-Aug-25",
-        "segment": "SME"
-      }
-    },
     "CUDML": {
       "screen_metrics": {
         "company": "Cash Ur Drive Marketing Limited",
         "series": "SM",
         "isin": "INE0WL201014",
+        "listing_date": "07-Aug-25",
+        "segment": "SME"
+      }
+    },
+    "RNPL": {
+      "screen_metrics": {
+        "company": "Renol Polychem Limited",
+        "series": "SM",
+        "isin": "INE0VZX01015",
         "listing_date": "07-Aug-25",
         "segment": "SME"
       }
@@ -25920,15 +25929,6 @@
         "segment": "SME"
       }
     },
-    "CEDAAR": {
-      "screen_metrics": {
-        "company": "Cedaar Textile Limited",
-        "series": "ST",
-        "isin": "INE11J101017",
-        "listing_date": "07-Jul-25",
-        "segment": "SME"
-      }
-    },
     "SILKY": {
       "screen_metrics": {
         "company": "Silky Overseas Limited",
@@ -25947,12 +25947,12 @@
         "segment": "SME"
       }
     },
-    "MMEL": {
+    "CEDAAR": {
       "screen_metrics": {
-        "company": "Moving Media Entertainment Limited",
-        "series": "SM",
-        "isin": "INE0XM301010",
-        "listing_date": "03-Jul-25",
+        "company": "Cedaar Textile Limited",
+        "series": "ST",
+        "isin": "INE11J101017",
+        "listing_date": "07-Jul-25",
         "segment": "SME"
       }
     },
@@ -25961,6 +25961,15 @@
         "company": "Pro FX Tech Limited",
         "series": "SM",
         "isin": "INE0VJT01017",
+        "listing_date": "03-Jul-25",
+        "segment": "SME"
+      }
+    },
+    "MMEL": {
+      "screen_metrics": {
+        "company": "Moving Media Entertainment Limited",
+        "series": "SM",
+        "isin": "INE0XM301010",
         "listing_date": "03-Jul-25",
         "segment": "SME"
       }
@@ -26009,10 +26018,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Fast Moving Consumer Goods",
+        "industry": "Personal Care",
         "source_url": "https://www.screener.in/company/AAKAAR/consolidated/",
-        "fetched_at": "2026-09-09T02:26:46.070767+00:00",
+        "fetched_at": "2026-09-09T02:35:01.592135+00:00",
         "company": "Aakaar Medical Technologies Limited",
         "series": "SM",
         "isin": "INE1GYP01013",
@@ -26056,20 +26065,20 @@
         "segment": "SME"
       }
     },
-    "SAMAY": {
-      "screen_metrics": {
-        "company": "Samay Project Services Limited",
-        "series": "ST",
-        "isin": "INE124101010",
-        "listing_date": "23-Jun-25",
-        "segment": "SME"
-      }
-    },
     "PATILAUTOM": {
       "screen_metrics": {
         "company": "Patil Automation Limited",
         "series": "SM",
         "isin": "INE17GV01016",
+        "listing_date": "23-Jun-25",
+        "segment": "SME"
+      }
+    },
+    "SAMAY": {
+      "screen_metrics": {
+        "company": "Samay Project Services Limited",
+        "series": "ST",
+        "isin": "INE124101010",
         "listing_date": "23-Jun-25",
         "segment": "SME"
       }
@@ -26172,10 +26181,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Healthcare",
+        "industry": "Pharmaceuticals",
         "source_url": "https://www.screener.in/company/ACCPL/consolidated/",
-        "fetched_at": "2026-09-09T02:27:23.134832+00:00",
+        "fetched_at": "2026-09-09T02:35:38.367136+00:00",
         "company": "Accretion Pharmaceuticals Limited",
         "series": "ST",
         "isin": "INE0T8T01010",
@@ -26272,10 +26281,10 @@
         "face_value": 5.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Residential, Commercial Projects",
         "source_url": "https://www.screener.in/company/ACTIVEINFR/consolidated/",
-        "fetched_at": "2026-09-09T02:27:33.312260+00:00",
+        "fetched_at": "2026-09-09T02:35:48.520983+00:00",
         "company": "Active Infrastructures Limited",
         "series": "SM",
         "isin": "INE0KLO01025",
@@ -26490,20 +26499,20 @@
         "segment": "SME"
       }
     },
-    "SFML": {
-      "screen_metrics": {
-        "company": "Supreme Facility Management Limited",
-        "series": "SM",
-        "isin": "INE0U6N01014",
-        "listing_date": "18-Dec-24",
-        "segment": "SME"
-      }
-    },
     "PURPLEUTED": {
       "screen_metrics": {
         "company": "Purple United Sales Limited",
         "series": "ST",
         "isin": "INE0P5R01014",
+        "listing_date": "18-Dec-24",
+        "segment": "SME"
+      }
+    },
+    "SFML": {
+      "screen_metrics": {
+        "company": "Supreme Facility Management Limited",
+        "series": "SM",
+        "isin": "INE0U6N01014",
         "listing_date": "18-Dec-24",
         "segment": "SME"
       }
@@ -26561,10 +26570,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Industrials",
+        "industry": "Castings & Forgings",
         "source_url": "https://www.screener.in/company/ABHAPOWER/consolidated/",
-        "fetched_at": "2026-09-09T02:27:10.753274+00:00",
+        "fetched_at": "2026-09-09T02:35:26.178720+00:00",
         "company": "Abha Power and Steel Limited",
         "series": "SM",
         "isin": "INE0UYG01015",
@@ -26581,20 +26590,20 @@
         "segment": "SME"
       }
     },
-    "RAJPUTANA": {
-      "screen_metrics": {
-        "company": "Rajputana Biodiesel Limited",
-        "series": "SM",
-        "isin": "INE0VHU01019",
-        "listing_date": "03-Dec-24",
-        "segment": "SME"
-      }
-    },
     "C2C": {
       "screen_metrics": {
         "company": "C2C Advanced Systems Limited",
         "series": "SM",
         "isin": "INE0U7V01015",
+        "listing_date": "03-Dec-24",
+        "segment": "SME"
+      }
+    },
+    "RAJPUTANA": {
+      "screen_metrics": {
+        "company": "Rajputana Biodiesel Limited",
+        "series": "SM",
+        "isin": "INE0VHU01019",
         "listing_date": "03-Dec-24",
         "segment": "SME"
       }
@@ -26644,11 +26653,11 @@
         "segment": "SME"
       }
     },
-    "OBSCP": {
+    "UHTL": {
       "screen_metrics": {
-        "company": "OBSC Perfection Limited",
-        "series": "SM",
-        "isin": "INE0YHV01011",
+        "company": "United Heat Transfer Limited",
+        "series": "ST",
+        "isin": "INE0SMR01011",
         "listing_date": "29-Oct-24",
         "segment": "SME"
       }
@@ -26662,11 +26671,11 @@
         "segment": "SME"
       }
     },
-    "UHTL": {
+    "OBSCP": {
       "screen_metrics": {
-        "company": "United Heat Transfer Limited",
-        "series": "ST",
-        "isin": "INE0SMR01011",
+        "company": "OBSC Perfection Limited",
+        "series": "SM",
+        "isin": "INE0YHV01011",
         "listing_date": "29-Oct-24",
         "segment": "SME"
       }
@@ -26716,15 +26725,6 @@
         "segment": "SME"
       }
     },
-    "SAJHOTELS": {
-      "screen_metrics": {
-        "company": "Saj Hotels Limited",
-        "series": "ST",
-        "isin": "INE00MT01022",
-        "listing_date": "07-Oct-24",
-        "segment": "SME"
-      }
-    },
     "HVAX": {
       "screen_metrics": {
         "company": "HVAX Technologies Limited",
@@ -26734,12 +26734,12 @@
         "segment": "SME"
       }
     },
-    "DIVYADHAN": {
+    "SAJHOTELS": {
       "screen_metrics": {
-        "company": "Divyadhan Recycling Industries Limited",
+        "company": "Saj Hotels Limited",
         "series": "ST",
-        "isin": "INE0QYI01019",
-        "listing_date": "04-Oct-24",
+        "isin": "INE00MT01022",
+        "listing_date": "07-Oct-24",
         "segment": "SME"
       }
     },
@@ -26757,6 +26757,15 @@
         "company": "Forge Auto International Limited",
         "series": "SM",
         "isin": "INE0YKW01013",
+        "listing_date": "04-Oct-24",
+        "segment": "SME"
+      }
+    },
+    "DIVYADHAN": {
+      "screen_metrics": {
+        "company": "Divyadhan Recycling Industries Limited",
+        "series": "ST",
+        "isin": "INE0QYI01019",
         "listing_date": "04-Oct-24",
         "segment": "SME"
       }
@@ -26788,6 +26797,15 @@
         "segment": "SME"
       }
     },
+    "WOL3D": {
+      "screen_metrics": {
+        "company": "Wol 3D India Limited",
+        "series": "SM",
+        "isin": "INE0OO201011",
+        "listing_date": "30-Sep-24",
+        "segment": "SME"
+      }
+    },
     "RAPPID": {
       "screen_metrics": {
         "company": "Rappid Valves (India) Limited",
@@ -26797,12 +26815,21 @@
         "segment": "SME"
       }
     },
-    "WOL3D": {
+    "SDREAMS": {
       "screen_metrics": {
-        "company": "Wol 3D India Limited",
+        "company": "S D Retail Limited",
         "series": "SM",
-        "isin": "INE0OO201011",
-        "listing_date": "30-Sep-24",
+        "isin": "INE0X6F01017",
+        "listing_date": "27-Sep-24",
+        "segment": "SME"
+      }
+    },
+    "AVIANSH": {
+      "screen_metrics": {
+        "company": "Avi Ansh Textile Limited",
+        "series": "SM",
+        "isin": "INE0TFB01017",
+        "listing_date": "27-Sep-24",
         "segment": "SME"
       }
     },
@@ -26820,24 +26847,6 @@
         "company": "Bikewo Green Tech Limited",
         "series": "ST",
         "isin": "INE0SQH01013",
-        "listing_date": "27-Sep-24",
-        "segment": "SME"
-      }
-    },
-    "AVIANSH": {
-      "screen_metrics": {
-        "company": "Avi Ansh Textile Limited",
-        "series": "SM",
-        "isin": "INE0TFB01017",
-        "listing_date": "27-Sep-24",
-        "segment": "SME"
-      }
-    },
-    "SDREAMS": {
-      "screen_metrics": {
-        "company": "S D Retail Limited",
-        "series": "SM",
-        "isin": "INE0X6F01017",
         "listing_date": "27-Sep-24",
         "segment": "SME"
       }
@@ -26860,11 +26869,11 @@
         "segment": "SME"
       }
     },
-    "DECCANTRAN": {
+    "OSELDEVICE": {
       "screen_metrics": {
-        "company": "Deccan Transcon Leasing Limited",
+        "company": "Osel Devices Limited",
         "series": "SM",
-        "isin": "INE0S7C01019",
+        "isin": "INE0RMF01018",
         "listing_date": "24-Sep-24",
         "segment": "SME"
       }
@@ -26878,20 +26887,20 @@
         "segment": "SME"
       }
     },
+    "DECCANTRAN": {
+      "screen_metrics": {
+        "company": "Deccan Transcon Leasing Limited",
+        "series": "SM",
+        "isin": "INE0S7C01019",
+        "listing_date": "24-Sep-24",
+        "segment": "SME"
+      }
+    },
     "ENVIRO": {
       "screen_metrics": {
         "company": "Envirotech Systems Limited",
         "series": "SM",
         "isin": "INE0SUH01015",
-        "listing_date": "24-Sep-24",
-        "segment": "SME"
-      }
-    },
-    "OSELDEVICE": {
-      "screen_metrics": {
-        "company": "Osel Devices Limited",
-        "series": "SM",
-        "isin": "INE0RMF01018",
         "listing_date": "24-Sep-24",
         "segment": "SME"
       }
@@ -26923,15 +26932,6 @@
         "segment": "SME"
       }
     },
-    "GAJANAND": {
-      "screen_metrics": {
-        "company": "Gajanand International Limited",
-        "series": "SM",
-        "isin": "INE0QTE01018",
-        "listing_date": "16-Sep-24",
-        "segment": "SME"
-      }
-    },
     "AUSL": {
       "screen_metrics": {
         "company": "Aditya Ultra Steel Limited",
@@ -26946,6 +26946,15 @@
         "company": "Shubhshree Biofuels Energy Limited",
         "series": "SM",
         "isin": "INE0UL701015",
+        "listing_date": "16-Sep-24",
+        "segment": "SME"
+      }
+    },
+    "GAJANAND": {
+      "screen_metrics": {
+        "company": "Gajanand International Limited",
+        "series": "SM",
+        "isin": "INE0QTE01018",
         "listing_date": "16-Sep-24",
         "segment": "SME"
       }
@@ -27013,11 +27022,11 @@
         "segment": "SME"
       }
     },
-    "VDEAL": {
+    "IPHL": {
       "screen_metrics": {
-        "company": "Vdeal System Limited",
+        "company": "Indian Phosphate Limited",
         "series": "SM",
-        "isin": "INE0U2M01015",
+        "isin": "INE0DHF01018",
         "listing_date": "03-Sep-24",
         "segment": "SME"
       }
@@ -27031,11 +27040,11 @@
         "segment": "SME"
       }
     },
-    "IPHL": {
+    "VDEAL": {
       "screen_metrics": {
-        "company": "Indian Phosphate Limited",
+        "company": "Vdeal System Limited",
         "series": "SM",
-        "isin": "INE0DHF01018",
+        "isin": "INE0U2M01015",
         "listing_date": "03-Sep-24",
         "segment": "SME"
       }
@@ -27058,20 +27067,20 @@
         "segment": "SME"
       }
     },
-    "FORCAS": {
-      "screen_metrics": {
-        "company": "Forcas Studio Limited",
-        "series": "ST",
-        "isin": "INE0U2501017",
-        "listing_date": "26-Aug-24",
-        "segment": "SME"
-      }
-    },
     "BRACEPORT": {
       "screen_metrics": {
         "company": "Brace Port Logistics Limited",
         "series": "SM",
         "isin": "INE0R4Z01018",
+        "listing_date": "26-Aug-24",
+        "segment": "SME"
+      }
+    },
+    "FORCAS": {
+      "screen_metrics": {
+        "company": "Forcas Studio Limited",
+        "series": "ST",
+        "isin": "INE0U2501017",
         "listing_date": "26-Aug-24",
         "segment": "SME"
       }
@@ -27139,15 +27148,6 @@
         "segment": "SME"
       }
     },
-    "SSEGL": {
-      "screen_metrics": {
-        "company": "Sathlokhar Synergys E&C Global Limited",
-        "series": "SM",
-        "isin": "INE0RFP01011",
-        "listing_date": "06-Aug-24",
-        "segment": "SME"
-      }
-    },
     "ASHALOG": {
       "screen_metrics": {
         "company": "Ashapura Logistics Limited",
@@ -27157,11 +27157,11 @@
         "segment": "SME"
       }
     },
-    "BULKCORP": {
+    "SSEGL": {
       "screen_metrics": {
-        "company": "Bulkcorp International Limited",
-        "series": "ST",
-        "isin": "INE0SZ301012",
+        "company": "Sathlokhar Synergys E&C Global Limited",
+        "series": "SM",
+        "isin": "INE0RFP01011",
         "listing_date": "06-Aug-24",
         "segment": "SME"
       }
@@ -27175,12 +27175,12 @@
         "segment": "SME"
       }
     },
-    "ESPRIT": {
+    "BULKCORP": {
       "screen_metrics": {
-        "company": "Esprit Stones Limited",
-        "series": "SM",
-        "isin": "INE0SBP01018",
-        "listing_date": "02-Aug-24",
+        "company": "Bulkcorp International Limited",
+        "series": "ST",
+        "isin": "INE0SZ301012",
+        "listing_date": "06-Aug-24",
         "segment": "SME"
       }
     },
@@ -27193,12 +27193,12 @@
         "segment": "SME"
       }
     },
-    "APRAMEYA": {
+    "ESPRIT": {
       "screen_metrics": {
-        "company": "Aprameya Engineering Limited",
+        "company": "Esprit Stones Limited",
         "series": "SM",
-        "isin": "INE0LQG01010",
-        "listing_date": "01-Aug-24",
+        "isin": "INE0SBP01018",
+        "listing_date": "02-Aug-24",
         "segment": "SME"
       }
     },
@@ -27211,12 +27211,12 @@
         "segment": "SME"
       }
     },
-    "CHETANA": {
+    "APRAMEYA": {
       "screen_metrics": {
-        "company": "Chetana Education Limited",
+        "company": "Aprameya Engineering Limited",
         "series": "SM",
-        "isin": "INE0U1T01012",
-        "listing_date": "31-Jul-24",
+        "isin": "INE0LQG01010",
+        "listing_date": "01-Aug-24",
         "segment": "SME"
       }
     },
@@ -27225,6 +27225,15 @@
         "company": "Manglam Infra & Engineering Limited",
         "series": "SM",
         "isin": "INE0R3101011",
+        "listing_date": "31-Jul-24",
+        "segment": "SME"
+      }
+    },
+    "CHETANA": {
+      "screen_metrics": {
+        "company": "Chetana Education Limited",
+        "series": "SM",
+        "isin": "INE0U1T01012",
         "listing_date": "31-Jul-24",
         "segment": "SME"
       }
@@ -27247,20 +27256,20 @@
         "segment": "SME"
       }
     },
-    "MACOBSTECH": {
-      "screen_metrics": {
-        "company": "Macobs Technologies Limited",
-        "series": "SM",
-        "isin": "INE0R0J01010",
-        "listing_date": "24-Jul-24",
-        "segment": "SME"
-      }
-    },
     "KATARIA": {
       "screen_metrics": {
         "company": "Kataria Industries Limited",
         "series": "SM",
         "isin": "INE0SVY01018",
+        "listing_date": "24-Jul-24",
+        "segment": "SME"
+      }
+    },
+    "MACOBSTECH": {
+      "screen_metrics": {
+        "company": "Macobs Technologies Limited",
+        "series": "SM",
+        "isin": "INE0R0J01010",
         "listing_date": "24-Jul-24",
         "segment": "SME"
       }
@@ -27301,20 +27310,20 @@
         "segment": "SME"
       }
     },
-    "GGBL": {
-      "screen_metrics": {
-        "company": "Ganesh Green Bharat Limited",
-        "series": "SM",
-        "isin": "INE0R8C01018",
-        "listing_date": "12-Jul-24",
-        "segment": "SME"
-      }
-    },
     "EFFWA": {
       "screen_metrics": {
         "company": "Effwa Infra & Research Limited",
         "series": "SM",
         "isin": "INE0U9101019",
+        "listing_date": "12-Jul-24",
+        "segment": "SME"
+      }
+    },
+    "GGBL": {
+      "screen_metrics": {
+        "company": "Ganesh Green Bharat Limited",
+        "series": "SM",
+        "isin": "INE0R8C01018",
         "listing_date": "12-Jul-24",
         "segment": "SME"
       }
@@ -27373,11 +27382,11 @@
         "segment": "SME"
       }
     },
-    "VISAMAN": {
+    "MASON": {
       "screen_metrics": {
-        "company": "Visaman Global Sales Limited",
+        "company": "Mason Infratech Limited",
         "series": "SM",
-        "isin": "INE0BHK01012",
+        "isin": "INE0SH001010",
         "listing_date": "01-Jul-24",
         "segment": "SME"
       }
@@ -27391,11 +27400,11 @@
         "segment": "SME"
       }
     },
-    "MASON": {
+    "VISAMAN": {
       "screen_metrics": {
-        "company": "Mason Infratech Limited",
+        "company": "Visaman Global Sales Limited",
         "series": "SM",
-        "isin": "INE0SH001010",
+        "isin": "INE0BHK01012",
         "listing_date": "01-Jul-24",
         "segment": "SME"
       }
@@ -27427,20 +27436,20 @@
         "segment": "SME"
       }
     },
-    "FALCONTECH": {
-      "screen_metrics": {
-        "company": "Falcon Technoprojects India Limited",
-        "series": "SM",
-        "isin": "INE0PQK01013",
-        "listing_date": "26-Jun-24",
-        "segment": "SME"
-      }
-    },
     "DURLAX": {
       "screen_metrics": {
         "company": "Durlax Top Surface Limited",
         "series": "SM",
         "isin": "INE0OUW01013",
+        "listing_date": "26-Jun-24",
+        "segment": "SME"
+      }
+    },
+    "FALCONTECH": {
+      "screen_metrics": {
+        "company": "Falcon Technoprojects India Limited",
+        "series": "SM",
+        "isin": "INE0PQK01013",
         "listing_date": "26-Jun-24",
         "segment": "SME"
       }
@@ -27508,20 +27517,20 @@
         "segment": "SME"
       }
     },
-    "HOACFOODS": {
-      "screen_metrics": {
-        "company": "Hoac Foods India Limited",
-        "series": "ST",
-        "isin": "INE0S6S01017",
-        "listing_date": "24-May-24",
-        "segment": "SME"
-      }
-    },
     "RULKA": {
       "screen_metrics": {
         "company": "Rulka Electricals Limited",
         "series": "SM",
         "isin": "INE0R7301013",
+        "listing_date": "24-May-24",
+        "segment": "SME"
+      }
+    },
+    "HOACFOODS": {
+      "screen_metrics": {
+        "company": "Hoac Foods India Limited",
+        "series": "ST",
+        "isin": "INE0S6S01017",
         "listing_date": "24-May-24",
         "segment": "SME"
       }
@@ -27553,6 +27562,15 @@
         "segment": "SME"
       }
     },
+    "MANDEEP": {
+      "screen_metrics": {
+        "company": "Mandeep Auto Industries Limited",
+        "series": "SM",
+        "isin": "INE0R3T01013",
+        "listing_date": "21-May-24",
+        "segment": "SME"
+      }
+    },
     "ABSMARINE": {
       "screen_metrics": {
         "promoter_holding": 63.96,
@@ -27570,22 +27588,13 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Services",
+        "industry": "Shipping",
         "source_url": "https://www.screener.in/company/ABSMARINE/consolidated/",
-        "fetched_at": "2026-09-09T02:27:17.995294+00:00",
+        "fetched_at": "2026-09-09T02:35:33.320848+00:00",
         "company": "ABS Marine Services Limited",
         "series": "SM",
         "isin": "INE0QRV01016",
-        "listing_date": "21-May-24",
-        "segment": "SME"
-      }
-    },
-    "MANDEEP": {
-      "screen_metrics": {
-        "company": "Mandeep Auto Industries Limited",
-        "series": "SM",
-        "isin": "INE0R3T01013",
         "listing_date": "21-May-24",
         "segment": "SME"
       }
@@ -27644,20 +27653,20 @@
         "segment": "SME"
       }
     },
-    "RBS": {
-      "screen_metrics": {
-        "company": "Ramdevbaba Solvent Limited",
-        "series": "SM",
-        "isin": "INE0RJH01010",
-        "listing_date": "23-Apr-24",
-        "segment": "SME"
-      }
-    },
     "BIRDYS": {
       "screen_metrics": {
         "company": "Grill Splendour Services Limited",
         "series": "SM",
         "isin": "INE0PC901019",
+        "listing_date": "23-Apr-24",
+        "segment": "SME"
+      }
+    },
+    "RBS": {
+      "screen_metrics": {
+        "company": "Ramdevbaba Solvent Limited",
+        "series": "SM",
+        "isin": "INE0RJH01010",
         "listing_date": "23-Apr-24",
         "segment": "SME"
       }
@@ -27689,20 +27698,20 @@
         "segment": "SME"
       }
     },
-    "CGRAPHICS": {
-      "screen_metrics": {
-        "company": "Creative Graphics Solutions India Limited",
-        "series": "SM",
-        "isin": "INE0R7401011",
-        "listing_date": "09-Apr-24",
-        "segment": "SME"
-      }
-    },
     "ALUWIND": {
       "screen_metrics": {
         "company": "ALUWIND INFRA-TECH LIMITED",
         "series": "SM",
         "isin": "INE0STM01017",
+        "listing_date": "09-Apr-24",
+        "segment": "SME"
+      }
+    },
+    "CGRAPHICS": {
+      "screen_metrics": {
+        "company": "Creative Graphics Solutions India Limited",
+        "series": "SM",
+        "isin": "INE0R7401011",
         "listing_date": "09-Apr-24",
         "segment": "SME"
       }
@@ -27896,15 +27905,6 @@
         "segment": "SME"
       }
     },
-    "DEEM": {
-      "screen_metrics": {
-        "company": "Deem Roll Tech Limited",
-        "series": "ST",
-        "isin": "INE586O01011",
-        "listing_date": "27-Feb-24",
-        "segment": "SME"
-      }
-    },
     "ZENITHDRUG": {
       "screen_metrics": {
         "company": "Zenith Drugs Limited",
@@ -27914,20 +27914,20 @@
         "segment": "SME"
       }
     },
+    "DEEM": {
+      "screen_metrics": {
+        "company": "Deem Roll Tech Limited",
+        "series": "ST",
+        "isin": "INE586O01011",
+        "listing_date": "27-Feb-24",
+        "segment": "SME"
+      }
+    },
     "TCL": {
       "screen_metrics": {
         "company": "Thaai Casting Limited",
         "series": "SM",
         "isin": "INE0QJL01014",
-        "listing_date": "23-Feb-24",
-        "segment": "SME"
-      }
-    },
-    "ATMASTCO": {
-      "screen_metrics": {
-        "company": "Atmastco Limited",
-        "series": "SM",
-        "isin": "INE05DH01017",
         "listing_date": "23-Feb-24",
         "segment": "SME"
       }
@@ -27946,6 +27946,15 @@
         "company": "Interiors & More Limited",
         "series": "SM",
         "isin": "INE0OPC01015",
+        "listing_date": "23-Feb-24",
+        "segment": "SME"
+      }
+    },
+    "ATMASTCO": {
+      "screen_metrics": {
+        "company": "Atmastco Limited",
+        "series": "SM",
+        "isin": "INE05DH01017",
         "listing_date": "23-Feb-24",
         "segment": "SME"
       }
@@ -28004,6 +28013,15 @@
         "segment": "SME"
       }
     },
+    "DELAPLEX": {
+      "screen_metrics": {
+        "company": "Delaplex Limited",
+        "series": "SM",
+        "isin": "INE0SK801018",
+        "listing_date": "02-Feb-24",
+        "segment": "SME"
+      }
+    },
     "DHTL": {
       "screen_metrics": {
         "company": "Docmode Health Technologies Limited",
@@ -28018,15 +28036,6 @@
         "company": "Fonebox Retail Limited",
         "series": "SM",
         "isin": "INE0Q4701019",
-        "listing_date": "02-Feb-24",
-        "segment": "SME"
-      }
-    },
-    "DELAPLEX": {
-      "screen_metrics": {
-        "company": "Delaplex Limited",
-        "series": "SM",
-        "isin": "INE0SK801018",
         "listing_date": "02-Feb-24",
         "segment": "SME"
       }
@@ -28048,10 +28057,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Consumer Discretionary",
+        "industry": "E-Learning",
         "source_url": "https://www.screener.in/company/ADDICTIVE/consolidated/",
-        "fetched_at": "2026-09-09T02:27:40.769008+00:00",
+        "fetched_at": "2026-09-09T02:35:55.862301+00:00",
         "company": "Addictive Learning Technology Limited",
         "series": "SM",
         "isin": "INE0RDH01021",
@@ -28113,20 +28122,20 @@
         "segment": "SME"
       }
     },
-    "AKANKSHA": {
-      "screen_metrics": {
-        "company": "Akanksha Power and Infrastructure Limited",
-        "series": "SM",
-        "isin": "INE0PCY01014",
-        "listing_date": "03-Jan-24",
-        "segment": "SME"
-      }
-    },
     "HRHNEXT": {
       "screen_metrics": {
         "company": "HRH Next Services Limited",
         "series": "SM",
         "isin": "INE0R3501012",
+        "listing_date": "03-Jan-24",
+        "segment": "SME"
+      }
+    },
+    "AKANKSHA": {
+      "screen_metrics": {
+        "company": "Akanksha Power and Infrastructure Limited",
+        "series": "SM",
+        "isin": "INE0PCY01014",
         "listing_date": "03-Jan-24",
         "segment": "SME"
       }
@@ -28140,20 +28149,20 @@
         "segment": "SME"
       }
     },
-    "TECHLABS": {
-      "screen_metrics": {
-        "company": "Trident Techlabs Limited",
-        "series": "SM",
-        "isin": "INE0QD201012",
-        "listing_date": "29-Dec-23",
-        "segment": "SME"
-      }
-    },
     "INDIFRA": {
       "screen_metrics": {
         "company": "Indifra Limited",
         "series": "SM",
         "isin": "INE0PS301014",
+        "listing_date": "29-Dec-23",
+        "segment": "SME"
+      }
+    },
+    "TECHLABS": {
+      "screen_metrics": {
+        "company": "Trident Techlabs Limited",
+        "series": "SM",
+        "isin": "INE0QD201012",
         "listing_date": "29-Dec-23",
         "segment": "SME"
       }
@@ -28220,10 +28229,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Healthcare",
+        "industry": "Pharmaceuticals",
         "source_url": "https://www.screener.in/company/ACCENTMIC/consolidated/",
-        "fetched_at": "2026-09-09T02:27:21.139197+00:00",
+        "fetched_at": "2026-09-09T02:35:36.410056+00:00",
         "company": "Accent Microcell Limited",
         "series": "SM",
         "isin": "INE0Q5D01013",
@@ -28249,20 +28258,20 @@
         "segment": "SME"
       }
     },
-    "MARINETRAN": {
-      "screen_metrics": {
-        "company": "Marinetrans India Limited",
-        "series": "ST",
-        "isin": "INE0P1P01017",
-        "listing_date": "08-Dec-23",
-        "segment": "SME"
-      }
-    },
     "CBAZAAR": {
       "screen_metrics": {
         "company": "Net Avenue Technologies Limited",
         "series": "ST",
         "isin": "INE518X01015",
+        "listing_date": "08-Dec-23",
+        "segment": "SME"
+      }
+    },
+    "MARINETRAN": {
+      "screen_metrics": {
+        "company": "Marinetrans India Limited",
+        "series": "ST",
+        "isin": "INE0P1P01017",
         "listing_date": "08-Dec-23",
         "segment": "SME"
       }
@@ -28339,20 +28348,20 @@
         "segment": "SME"
       }
     },
-    "PARAGON": {
-      "screen_metrics": {
-        "company": "Paragon Fine and Speciality Chemical Limited",
-        "series": "SM",
-        "isin": "INE0N4G01012",
-        "listing_date": "03-Nov-23",
-        "segment": "SME"
-      }
-    },
     "SHANTHALA": {
       "screen_metrics": {
         "company": "Shanthala FMCG Products Limited",
         "series": "SM",
         "isin": "INE0Q9Q01017",
+        "listing_date": "03-Nov-23",
+        "segment": "SME"
+      }
+    },
+    "PARAGON": {
+      "screen_metrics": {
+        "company": "Paragon Fine and Speciality Chemical Limited",
+        "series": "SM",
+        "isin": "INE0N4G01012",
         "listing_date": "03-Nov-23",
         "segment": "SME"
       }
@@ -28411,20 +28420,20 @@
         "segment": "SME"
       }
     },
-    "SCML": {
-      "screen_metrics": {
-        "company": "Sharp Chucks and Machines Limited",
-        "series": "SM",
-        "isin": "INE460Q01014",
-        "listing_date": "12-Oct-23",
-        "segment": "SME"
-      }
-    },
     "KARNIKA": {
       "screen_metrics": {
         "company": "Karnika Industries Limited",
         "series": "SM",
         "isin": "INE0MGA01012",
+        "listing_date": "12-Oct-23",
+        "segment": "SME"
+      }
+    },
+    "SCML": {
+      "screen_metrics": {
+        "company": "Sharp Chucks and Machines Limited",
+        "series": "SM",
+        "isin": "INE460Q01014",
         "listing_date": "12-Oct-23",
         "segment": "SME"
       }
@@ -28456,20 +28465,20 @@
         "segment": "SME"
       }
     },
-    "VISHNUINFR": {
-      "screen_metrics": {
-        "company": "Vishnusurya Projects and Infra Limited",
-        "series": "SM",
-        "isin": "INE0PQ001012",
-        "listing_date": "10-Oct-23",
-        "segment": "SME"
-      }
-    },
     "KONTOR": {
       "screen_metrics": {
         "company": "Kontor Space Limited",
         "series": "SM",
         "isin": "INE0KZ301010",
+        "listing_date": "10-Oct-23",
+        "segment": "SME"
+      }
+    },
+    "VISHNUINFR": {
+      "screen_metrics": {
+        "company": "Vishnusurya Projects and Infra Limited",
+        "series": "SM",
+        "isin": "INE0PQ001012",
         "listing_date": "10-Oct-23",
         "segment": "SME"
       }
@@ -28501,20 +28510,20 @@
         "segment": "SME"
       }
     },
-    "INSPIRE": {
-      "screen_metrics": {
-        "company": "Inspire Films Limited",
-        "series": "SM",
-        "isin": "INE0NDX01019",
-        "listing_date": "05-Oct-23",
-        "segment": "SME"
-      }
-    },
     "NEWJAISA": {
       "screen_metrics": {
         "company": "Newjaisa Technologies Limited",
         "series": "ST",
         "isin": "INE0PW501021",
+        "listing_date": "05-Oct-23",
+        "segment": "SME"
+      }
+    },
+    "INSPIRE": {
+      "screen_metrics": {
+        "company": "Inspire Films Limited",
+        "series": "SM",
+        "isin": "INE0NDX01019",
         "listing_date": "05-Oct-23",
         "segment": "SME"
       }
@@ -28555,11 +28564,11 @@
         "segment": "SME"
       }
     },
-    "HIGREEN": {
+    "MARCO": {
       "screen_metrics": {
-        "company": "Hi-Green Carbon Limited",
+        "company": "Marco Cables & Conductors Limited",
         "series": "SM",
-        "isin": "INE0PIC01017",
+        "isin": "INE0QP001012",
         "listing_date": "28-Sep-23",
         "segment": "SME"
       }
@@ -28573,11 +28582,11 @@
         "segment": "SME"
       }
     },
-    "MARCO": {
+    "HIGREEN": {
       "screen_metrics": {
-        "company": "Marco Cables & Conductors Limited",
+        "company": "Hi-Green Carbon Limited",
         "series": "SM",
-        "isin": "INE0QP001012",
+        "isin": "INE0PIC01017",
         "listing_date": "28-Sep-23",
         "segment": "SME"
       }
@@ -28591,20 +28600,20 @@
         "segment": "SME"
       }
     },
-    "MADHUSUDAN": {
-      "screen_metrics": {
-        "company": "Madhusudan Masala Limited",
-        "series": "ST",
-        "isin": "INE0P6701019",
-        "listing_date": "26-Sep-23",
-        "segment": "SME"
-      }
-    },
     "VISDEM": {
       "screen_metrics": {
         "company": "Visdem Technosys Limited",
         "series": "SM",
         "isin": "INE0OWX01025",
+        "listing_date": "26-Sep-23",
+        "segment": "SME"
+      }
+    },
+    "MADHUSUDAN": {
+      "screen_metrics": {
+        "company": "Madhusudan Masala Limited",
+        "series": "ST",
+        "isin": "INE0P6701019",
         "listing_date": "26-Sep-23",
         "segment": "SME"
       }
@@ -28834,11 +28843,11 @@
         "segment": "SME"
       }
     },
-    "ESFL": {
+    "MAGSON": {
       "screen_metrics": {
-        "company": "Essen Speciality Films Limited",
+        "company": "Magson Retail And Distribution Limited",
         "series": "SM",
-        "isin": "INE0ITO01014",
+        "isin": "INE0O1S01012",
         "listing_date": "06-Jul-23",
         "segment": "SME"
       }
@@ -28852,11 +28861,11 @@
         "segment": "SME"
       }
     },
-    "MAGSON": {
+    "ESFL": {
       "screen_metrics": {
-        "company": "Magson Retail And Distribution Limited",
+        "company": "Essen Speciality Films Limited",
         "series": "SM",
-        "isin": "INE0O1S01012",
+        "isin": "INE0ITO01014",
         "listing_date": "06-Jul-23",
         "segment": "SME"
       }
@@ -28878,10 +28887,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Healthcare",
+        "industry": "Hospital",
         "source_url": "https://www.screener.in/company/AATMAJ/consolidated/",
-        "fetched_at": "2026-09-09T02:26:59.365520+00:00",
+        "fetched_at": "2026-09-09T02:35:14.909448+00:00",
         "company": "Aatmaj Healthcare Limited",
         "series": "SM",
         "isin": "INE0OB201016",
@@ -29105,20 +29114,20 @@
         "segment": "SME"
       }
     },
-    "VERTEXPLUS": {
-      "screen_metrics": {
-        "company": "Vertexplus Technologies Limited",
-        "series": "SM",
-        "isin": "INE0NLB01018",
-        "listing_date": "15-Mar-23",
-        "segment": "SME"
-      }
-    },
     "SYSTANGO": {
       "screen_metrics": {
         "company": "Systango Technologies Limited",
         "series": "SM",
         "isin": "INE0O7R01011",
+        "listing_date": "15-Mar-23",
+        "segment": "SME"
+      }
+    },
+    "VERTEXPLUS": {
+      "screen_metrics": {
+        "company": "Vertexplus Technologies Limited",
+        "series": "SM",
+        "isin": "INE0NLB01018",
         "listing_date": "15-Mar-23",
         "segment": "SME"
       }
@@ -29285,20 +29294,20 @@
         "segment": "SME"
       }
     },
-    "BAHETI": {
-      "screen_metrics": {
-        "company": "Baheti Recycling Industries Limited",
-        "series": "SM",
-        "isin": "INE029Q01017",
-        "listing_date": "08-Dec-22",
-        "segment": "SME"
-      }
-    },
     "PRITIKA": {
       "screen_metrics": {
         "company": "Pritika Engineering Components Limited",
         "series": "SM",
         "isin": "INE0MJQ01020",
+        "listing_date": "08-Dec-22",
+        "segment": "SME"
+      }
+    },
+    "BAHETI": {
+      "screen_metrics": {
+        "company": "Baheti Recycling Industries Limited",
+        "series": "SM",
+        "isin": "INE029Q01017",
         "listing_date": "08-Dec-22",
         "segment": "SME"
       }
@@ -29393,20 +29402,20 @@
         "segment": "SME"
       }
     },
-    "TAPIFRUIT": {
-      "screen_metrics": {
-        "company": "Tapi Fruit Processing Limited",
-        "series": "SM",
-        "isin": "INE0M7001010",
-        "listing_date": "22-Sep-22",
-        "segment": "SME"
-      }
-    },
     "ISHAN": {
       "screen_metrics": {
         "company": "Ishan International Limited",
         "series": "SM",
         "isin": "INE0LCW01025",
+        "listing_date": "22-Sep-22",
+        "segment": "SME"
+      }
+    },
+    "TAPIFRUIT": {
+      "screen_metrics": {
+        "company": "Tapi Fruit Processing Limited",
+        "series": "SM",
+        "isin": "INE0M7001010",
         "listing_date": "22-Sep-22",
         "segment": "SME"
       }
@@ -29429,20 +29438,20 @@
         "segment": "SME"
       }
     },
-    "KORE": {
-      "screen_metrics": {
-        "company": "Jay Jalaram Technologies Limited",
-        "series": "SM",
-        "isin": "INE0J6801010",
-        "listing_date": "08-Sep-22",
-        "segment": "SME"
-      }
-    },
     "JFLLIFE": {
       "screen_metrics": {
         "company": "Jfl Life Sciences Limited",
         "series": "SM",
         "isin": "INE0LA901015",
+        "listing_date": "08-Sep-22",
+        "segment": "SME"
+      }
+    },
+    "KORE": {
+      "screen_metrics": {
+        "company": "Jay Jalaram Technologies Limited",
+        "series": "SM",
+        "isin": "INE0J6801010",
         "listing_date": "08-Sep-22",
         "segment": "SME"
       }
@@ -29501,20 +29510,20 @@
         "segment": "SME"
       }
     },
-    "FIDEL": {
-      "screen_metrics": {
-        "company": "Fidel Softech Limited",
-        "series": "SM",
-        "isin": "INE0LQQ01019",
-        "listing_date": "10-Jun-22",
-        "segment": "SME"
-      }
-    },
     "RILINFRA": {
       "screen_metrics": {
         "company": "Rachana Infrastructure Limited",
         "series": "SM",
         "isin": "INE02OY01016",
+        "listing_date": "10-Jun-22",
+        "segment": "SME"
+      }
+    },
+    "FIDEL": {
+      "screen_metrics": {
+        "company": "Fidel Softech Limited",
+        "series": "SM",
+        "isin": "INE0LQQ01019",
         "listing_date": "10-Jun-22",
         "segment": "SME"
       }
@@ -29645,20 +29654,20 @@
         "segment": "SME"
       }
     },
-    "DYNAMIC": {
-      "screen_metrics": {
-        "company": "Dynamic Services & Security Limited",
-        "series": "ST",
-        "isin": "INE0DZ701010",
-        "listing_date": "13-Oct-21",
-        "segment": "SME"
-      }
-    },
     "DESTINY": {
       "screen_metrics": {
         "company": "Destiny Logistics & Infra Limited",
         "series": "SM",
         "isin": "INE0IGO01011",
+        "listing_date": "13-Oct-21",
+        "segment": "SME"
+      }
+    },
+    "DYNAMIC": {
+      "screen_metrics": {
+        "company": "Dynamic Services & Security Limited",
+        "series": "ST",
+        "isin": "INE0DZ701010",
         "listing_date": "13-Oct-21",
         "segment": "SME"
       }
@@ -30067,10 +30076,10 @@
         "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Telecommunication",
+        "industry": "Other Telecom Services",
         "source_url": "https://www.screener.in/company/ACCORD/consolidated/",
-        "fetched_at": "2026-09-09T02:27:22.180511+00:00",
+        "fetched_at": "2026-09-09T02:35:37.378752+00:00",
         "company": "Accord Synergy Limited",
         "series": "ST",
         "isin": "INE113X01015",
