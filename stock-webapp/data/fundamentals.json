@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T15:19:08.767600+00:00",
+  "updated_at": "2026-09-11T18:32:15.709096+00:00",
   "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
   "universe_source": [
     "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
@@ -71937,7 +71937,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/QUALIANCE/consolidated/",
-        "fetched_at": "2026-09-11T15:19:07.468978+00:00",
+        "fetched_at": "2026-09-11T18:32:14.252016+00:00",
         "company": "Qualiance International Limited",
         "series": "ST",
         "isin": "INE1XJ401012",
@@ -72580,7 +72580,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/GENXAI/consolidated/",
-        "fetched_at": "2026-09-11T15:19:04.046452+00:00",
+        "fetched_at": "2026-09-11T18:32:10.569484+00:00",
         "company": "GenXAI Analytics Limited",
         "series": "SM",
         "isin": "INE1W0N01014",
