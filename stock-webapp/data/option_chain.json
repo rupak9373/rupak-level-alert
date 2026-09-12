@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T23:23:46.099800+00:00",
+  "updated_at": "2026-09-12T01:21:18.736395+00:00",
   "source": "NSE India + BSE India public derivatives endpoints",
   "symbols": [
     "BANKNIFTY",
@@ -246543,6 +246543,38 @@
         "24 Sep 2026": {
           "rows": [
             {
+              "strike": 23550.0,
+              "expiry": "24 Sep 2026",
+              "ce": {
+                "ltp": null,
+                "change": null,
+                "pchange": null,
+                "oi": null,
+                "oi_change": null,
+                "oi_change_pct": null,
+                "volume": null,
+                "iv": null,
+                "bid_qty": null,
+                "bid": null,
+                "ask": null,
+                "ask_qty": null
+              },
+              "pe": {
+                "ltp": null,
+                "change": null,
+                "pchange": null,
+                "oi": null,
+                "oi_change": null,
+                "oi_change_pct": null,
+                "volume": null,
+                "iv": null,
+                "bid_qty": null,
+                "bid": null,
+                "ask": null,
+                "ask_qty": null
+              }
+            },
+            {
               "strike": 23600.0,
               "expiry": "24 Sep 2026",
               "ce": {
@@ -248693,6 +248725,38 @@
         "29 Oct 2026": {
           "rows": [
             {
+              "strike": 23550.0,
+              "expiry": "29 Oct 2026",
+              "ce": {
+                "ltp": null,
+                "change": null,
+                "pchange": null,
+                "oi": null,
+                "oi_change": null,
+                "oi_change_pct": null,
+                "volume": null,
+                "iv": null,
+                "bid_qty": null,
+                "bid": null,
+                "ask": null,
+                "ask_qty": null
+              },
+              "pe": {
+                "ltp": null,
+                "change": null,
+                "pchange": null,
+                "oi": null,
+                "oi_change": null,
+                "oi_change_pct": null,
+                "volume": null,
+                "iv": null,
+                "bid_qty": null,
+                "bid": null,
+                "ask": null,
+                "ask_qty": null
+              }
+            },
+            {
               "strike": 23600.0,
               "expiry": "29 Oct 2026",
               "ce": {
@@ -250842,6 +250906,38 @@
         },
         "26 Nov 2026": {
           "rows": [
+            {
+              "strike": 23550.0,
+              "expiry": "26 Nov 2026",
+              "ce": {
+                "ltp": null,
+                "change": null,
+                "pchange": null,
+                "oi": null,
+                "oi_change": null,
+                "oi_change_pct": null,
+                "volume": null,
+                "iv": null,
+                "bid_qty": null,
+                "bid": null,
+                "ask": null,
+                "ask_qty": null
+              },
+              "pe": {
+                "ltp": null,
+                "change": null,
+                "pchange": null,
+                "oi": null,
+                "oi_change": null,
+                "oi_change_pct": null,
+                "volume": null,
+                "iv": null,
+                "bid_qty": null,
+                "bid": null,
+                "ask": null,
+                "ask_qty": null
+              }
+            },
             {
               "strike": 23600.0,
               "expiry": "26 Nov 2026",
