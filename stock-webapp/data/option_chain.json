@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T04:15:40.059148+00:00",
+  "updated_at": "2026-09-14T09:59:32.407369+00:00",
   "source": "NSE India + BSE India public derivatives endpoints",
   "symbols": [
     "BANKNIFTY",
@@ -252738,5 +252738,16 @@
       "timestamp": "2026-09-11T19:45:37"
     }
   },
-  "errors": []
+  "errors": [
+    {
+      "symbol": "SENSEX",
+      "exchange": "BSE",
+      "error": "HTTPSConnectionPool(host='api.bseindia.com', port=443): Read timed out. (read timeout=15)"
+    },
+    {
+      "symbol": "BANKEX",
+      "exchange": "BSE",
+      "error": "HTTPSConnectionPool(host='api.bseindia.com', port=443): Read timed out. (read timeout=15)"
+    }
+  ]
 }
