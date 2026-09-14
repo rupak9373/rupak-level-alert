@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-12T01:18:02.782925+00:00",
+  "updated_at": "2026-09-14T04:12:37.234793+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -99,8 +99,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 405.11,
-          "distance20_pct": 3.43,
+          "sma20": 404.96,
+          "distance20_pct": 3.47,
           "near_sma20": false,
           "above_sma20": true,
           "sma50": null,
@@ -3121,7 +3121,7 @@
         },
         "1W": {
           "available": true,
-          "sma20": 3999.34,
+          "sma20": 3999.35,
           "distance20_pct": 1.72,
           "near_sma20": false,
           "above_sma20": false,
@@ -5530,10 +5530,10 @@
       "vwap": null,
       "sma20": 1112.16,
       "sma50": 1113.57,
-      "sma200": 1300.92,
+      "sma200": 1301.06,
       "sma20_distance_pct": 6.7,
       "sma50_distance_pct": 6.81,
-      "sma200_distance_pct": 20.23,
+      "sma200_distance_pct": 20.24,
       "near_sma20": false,
       "near_sma50": false,
       "near_sma200": false,
@@ -5548,8 +5548,8 @@
           "distance50_pct": 6.81,
           "near_sma50": false,
           "above_sma50": false,
-          "sma200": 1300.92,
-          "distance200_pct": 20.23,
+          "sma200": 1301.06,
+          "distance200_pct": 20.24,
           "near_sma200": false,
           "above_sma200": false
         },
@@ -5720,10 +5720,10 @@
         },
         {
           "date": "2026-06-24",
-          "open": 1029.3,
-          "high": 1029.3,
-          "low": 1029.3,
-          "close": 1029.3
+          "open": 1040.9,
+          "high": 1065.5,
+          "low": 1037.7,
+          "close": 1056.6
         },
         {
           "date": "2026-06-25",
@@ -6738,7 +6738,7 @@
       "day_high": 1852.0,
       "day_low": 1830.5,
       "vwap": null,
-      "sma20": 1885.09,
+      "sma20": 1885.08,
       "sma50": 1915.87,
       "sma200": 1930.42,
       "sma20_distance_pct": 2.86,
@@ -6750,7 +6750,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 1885.09,
+          "sma20": 1885.08,
           "distance20_pct": 2.86,
           "near_sma20": false,
           "above_sma20": false,
@@ -7347,7 +7347,7 @@
       "vwap": null,
       "sma20": 1993.76,
       "sma50": 2069.2,
-      "sma200": 2217.94,
+      "sma200": 2217.93,
       "sma20_distance_pct": 3.35,
       "sma50_distance_pct": 6.87,
       "sma200_distance_pct": 13.12,
@@ -7365,7 +7365,7 @@
           "distance50_pct": 6.87,
           "near_sma50": false,
           "above_sma50": false,
-          "sma200": 2217.94,
+          "sma200": 2217.93,
           "distance200_pct": 13.12,
           "near_sma200": false,
           "above_sma200": false
@@ -7539,10 +7539,10 @@
         },
         {
           "date": "2026-06-24",
-          "open": 2160.1,
-          "high": 2160.1,
-          "low": 2160.1,
-          "close": 2160.1
+          "open": 2160.0,
+          "high": 2166.0,
+          "low": 2140.0,
+          "close": 2157.8
         },
         {
           "date": "2026-06-25",
@@ -9769,7 +9769,7 @@
       "day_high": 1001.9,
       "day_low": 993.0,
       "vwap": null,
-      "sma20": 1033.21,
+      "sma20": 1033.2,
       "sma50": 1038.49,
       "sma200": 1040.38,
       "sma20_distance_pct": 3.63,
@@ -9781,7 +9781,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 1033.21,
+          "sma20": 1033.2,
           "distance20_pct": 3.63,
           "near_sma20": false,
           "above_sma20": false,
@@ -10979,7 +10979,7 @@
       "day_high": 184.24,
       "day_low": 180.79,
       "vwap": null,
-      "sma20": 185.51,
+      "sma20": 185.5,
       "sma50": 186.66,
       "sma200": 192.69,
       "sma20_distance_pct": 1.35,
@@ -10991,7 +10991,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 185.51,
+          "sma20": 185.5,
           "distance20_pct": 1.35,
           "near_sma20": false,
           "above_sma20": false,
