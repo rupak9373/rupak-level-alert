@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T17:08:42.990376+00:00",
+  "updated_at": "2026-09-15T20:18:12.931085+00:00",
   "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
   "universe_source": [
     "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
@@ -49537,7 +49537,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/PRANAV/consolidated/",
-        "fetched_at": "2026-09-15T17:08:40.924240+00:00",
+        "fetched_at": "2026-09-15T20:18:10.727128+00:00",
         "company": "Pranav Constructions Limited",
         "series": "EQ",
         "isin": "INE0H4201019",
@@ -72413,7 +72413,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/QUALIANCE/consolidated/",
-        "fetched_at": "2026-09-15T17:08:41.591721+00:00",
+        "fetched_at": "2026-09-15T20:18:11.471403+00:00",
         "company": "Qualiance International Limited",
         "series": "ST",
         "isin": "INE1XJ401012",
@@ -73047,7 +73047,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/GENXAI/consolidated/",
-        "fetched_at": "2026-09-15T17:08:37.204537+00:00",
+        "fetched_at": "2026-09-15T20:18:06.875647+00:00",
         "company": "GenXAI Analytics Limited",
         "series": "SM",
         "isin": "INE1W0N01014",
