@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T23:20:27.750364+00:00",
+  "updated_at": "2026-09-15T01:39:52.272202+00:00",
   "source": "NSE India + Screener.in public company pages",
   "chart_timeframes": [
     "1D",
@@ -1829,11 +1829,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 2555.0,
+            "open": 2571.05,
             "high": 2614.0,
             "low": 2518.25,
             "close": 2590.25,
-            "volume": 54366072
+            "volume": 45955770
           },
           {
             "date": "2024-01-31",
@@ -2124,7 +2124,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/RELIANCE/consolidated/",
-        "fetched_at": "2026-09-14T04:15:45.178061+00:00",
+        "fetched_at": "2026-09-15T01:39:10.557920+00:00",
         "company": "RELIANCE",
         "industry": null,
         "sector_pe": null,
@@ -3934,11 +3934,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 3845.0,
+            "open": 3827.25,
             "high": 3898.8,
             "low": 3743.35,
             "close": 3811.1,
-            "volume": 15184137
+            "volume": 13179702
           },
           {
             "date": "2024-01-31",
@@ -4229,7 +4229,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/TCS/consolidated/",
-        "fetched_at": "2026-09-14T04:15:47.481276+00:00",
+        "fetched_at": "2026-09-15T01:39:12.923211+00:00",
         "company": "TCS",
         "industry": null,
         "sector_pe": null,
@@ -6039,11 +6039,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 1650.0,
+            "open": 1658.0,
             "high": 1721.4,
-            "low": 1644.05,
+            "low": 1644.45,
             "close": 1698.1,
-            "volume": 135895786
+            "volume": 123891563
           },
           {
             "date": "2024-01-31",
@@ -6334,7 +6334,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/HDFCBANK/consolidated/",
-        "fetched_at": "2026-09-14T04:15:49.713779+00:00",
+        "fetched_at": "2026-09-15T01:39:15.159253+00:00",
         "company": "HDFCBANK",
         "industry": null,
         "sector_pe": null,
@@ -7367,10 +7367,10 @@
           {
             "date": "2024-11-08",
             "open": 1290.1,
-            "high": 1306.85,
+            "high": 1315.0,
             "low": 1252.7,
             "close": 1258.85,
-            "volume": 57434579
+            "volume": 63883289
           },
           {
             "date": "2024-11-15",
@@ -8144,11 +8144,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 1025.5,
-            "high": 1025.5,
+            "open": 1022.0,
+            "high": 1022.0,
             "low": 989.2,
             "close": 999.4,
-            "volume": 137747518
+            "volume": 127653262
           },
           {
             "date": "2024-01-31",
@@ -8233,10 +8233,10 @@
           {
             "date": "2024-11-30",
             "open": 1290.1,
-            "high": 1314.25,
+            "high": 1315.0,
             "low": 1232.55,
             "close": 1300.1,
-            "volume": 226510493
+            "volume": 232959203
           },
           {
             "date": "2024-12-31",
@@ -8439,7 +8439,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/ICICIBANK/consolidated/",
-        "fetched_at": "2026-09-14T04:15:51.880585+00:00",
+        "fetched_at": "2026-09-15T01:39:17.091328+00:00",
         "company": "ICICIBANK",
         "industry": null,
         "sector_pe": null,
@@ -10249,11 +10249,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 1570.1,
+            "open": 1565.05,
             "high": 1583.5,
             "low": 1521.25,
             "close": 1551.35,
-            "volume": 46877796
+            "volume": 42656075
           },
           {
             "date": "2024-01-31",
@@ -10544,7 +10544,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/INFY/consolidated/",
-        "fetched_at": "2026-09-14T04:15:53.976869+00:00",
+        "fetched_at": "2026-09-15T01:39:19.260765+00:00",
         "company": "INFY",
         "industry": null,
         "sector_pe": null,
@@ -11650,9 +11650,9 @@
             "date": "2025-01-10",
             "open": 797.4,
             "high": 797.6,
-            "low": 726.25,
+            "low": 742.05,
             "close": 743.25,
-            "volume": 63860334
+            "volume": 32867965
           },
           {
             "date": "2025-01-17",
@@ -12354,11 +12354,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 648.5,
+            "open": 658.7,
             "high": 660.4,
             "low": 627.5,
             "close": 641.35,
-            "volume": 140489921
+            "volume": 120525913
           },
           {
             "date": "2024-01-31",
@@ -12430,7 +12430,7 @@
             "high": 825.95,
             "low": 765.4,
             "close": 796.95,
-            "volume": 346784036
+            "volume": 355179109
           },
           {
             "date": "2024-10-31",
@@ -12462,7 +12462,7 @@
             "high": 809.5,
             "low": 722.5,
             "close": 766.0,
-            "volume": 256129342
+            "volume": 225136973
           },
           {
             "date": "2025-02-28",
@@ -12649,7 +12649,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/SBIN/consolidated/",
-        "fetched_at": "2026-09-14T04:15:56.071256+00:00",
+        "fetched_at": "2026-09-15T01:39:21.328857+00:00",
         "company": "SBIN",
         "industry": null,
         "sector_pe": null,
@@ -14459,11 +14459,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 995.45,
+            "open": 992.9,
             "high": 1043.25,
             "low": 960.0,
             "close": 1013.05,
-            "volume": 37779457
+            "volume": 33866493
           },
           {
             "date": "2024-01-31",
@@ -14754,7 +14754,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/BHARTIARTL/consolidated/",
-        "fetched_at": "2026-09-14T04:15:58.245395+00:00",
+        "fetched_at": "2026-09-15T01:39:23.579806+00:00",
         "company": "BHARTIARTL",
         "industry": null,
         "sector_pe": null,
@@ -15916,9 +15916,9 @@
             "date": "2025-02-28",
             "open": 400.0,
             "high": 407.0,
-            "low": 398.75,
-            "close": 401.6,
-            "volume": 44504519
+            "low": 392.2,
+            "close": 395.0,
+            "volume": 73804295
           },
           {
             "date": "2025-03-07",
@@ -16564,11 +16564,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 453.35,
+            "open": 459.0,
             "high": 469.95,
             "low": 444.45,
             "close": 468.05,
-            "volume": 99162690
+            "volume": 88893935
           },
           {
             "date": "2024-01-31",
@@ -16678,9 +16678,9 @@
             "date": "2025-02-28",
             "open": 462.0,
             "high": 465.2,
-            "low": 396.2,
-            "close": 401.6,
-            "volume": 252764325
+            "low": 392.2,
+            "close": 395.0,
+            "volume": 282064101
           },
           {
             "date": "2025-03-31",
@@ -16859,7 +16859,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/ITC/consolidated/",
-        "fetched_at": "2026-09-14T04:16:00.354860+00:00",
+        "fetched_at": "2026-09-15T01:39:25.659002+00:00",
         "company": "ITC",
         "industry": null,
         "sector_pe": null,
@@ -18669,11 +18669,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 3488.95,
+            "open": 3505.0,
             "high": 3559.95,
             "low": 3333.0,
             "close": 3525.45,
-            "volume": 14740564
+            "volume": 13428864
           },
           {
             "date": "2024-01-31",
@@ -18964,7 +18964,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/LT/consolidated/",
-        "fetched_at": "2026-09-14T04:16:02.436059+00:00",
+        "fetched_at": "2026-09-15T01:39:27.821776+00:00",
         "company": "LT",
         "industry": null,
         "sector_pe": null,
@@ -20774,11 +20774,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 1123.8,
-            "high": 1126.85,
+            "open": 1122.0,
+            "high": 1123.85,
             "low": 1077.2,
             "close": 1097.7,
-            "volume": 76975988
+            "volume": 70151347
           },
           {
             "date": "2024-01-31",
@@ -20810,7 +20810,7 @@
             "high": 1182.9,
             "low": 995.7,
             "close": 1165.9,
-            "volume": 254100393
+            "volume": 265027218
           },
           {
             "date": "2024-05-31",
@@ -21069,7 +21069,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/AXISBANK/consolidated/",
-        "fetched_at": "2026-09-14T04:16:04.666603+00:00",
+        "fetched_at": "2026-09-15T01:39:29.853031+00:00",
         "company": "AXISBANK",
         "industry": null,
         "sector_pe": null,
@@ -22449,15 +22449,15 @@
             "high": 1975.2,
             "low": 1937.1,
             "close": 1945.5,
-            "volume": 6895810
+            "volume": 5809391
           },
           {
             "date": "2025-09-12",
             "open": 1942.5,
-            "high": 1985.0,
+            "high": 1988.9,
             "low": 1931.5,
             "close": 1972.3,
-            "volume": 43893886
+            "volume": 15270921
           },
           {
             "date": "2025-09-19",
@@ -22879,11 +22879,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 1849.85,
+            "open": 1852.15,
             "high": 1926.5,
             "low": 1805.0,
             "close": 1909.15,
-            "volume": 29350618
+            "volume": 26261695
           },
           {
             "date": "2024-01-31",
@@ -23042,8 +23042,8 @@
             "open": 1987.0,
             "high": 2039.0,
             "low": 1941.1,
-            "close": 1968.6,
-            "volume": 60940170
+            "close": 1960.3,
+            "volume": 59853751
           },
           {
             "date": "2025-09-30",
@@ -23051,7 +23051,7 @@
             "high": 2072.0,
             "low": 1931.5,
             "close": 2063.3,
-            "volume": 103223173
+            "volume": 74600208
           },
           {
             "date": "2025-10-31",
@@ -23174,7 +23174,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/KOTAKBANK/consolidated/",
-        "fetched_at": "2026-09-14T04:16:06.909365+00:00",
+        "fetched_at": "2026-09-15T01:39:32.206989+00:00",
         "company": "KOTAKBANK",
         "industry": null,
         "sector_pe": null,
@@ -24984,11 +24984,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 2535.05,
+            "open": 2572.95,
             "high": 2669.4,
-            "low": 2535.0,
+            "low": 2536.0,
             "close": 2654.75,
-            "volume": 11679845
+            "volume": 10023625
           },
           {
             "date": "2024-01-31",
@@ -25279,7 +25279,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/HINDUNILVR/consolidated/",
-        "fetched_at": "2026-09-14T04:16:09.137386+00:00",
+        "fetched_at": "2026-09-15T01:39:34.644011+00:00",
         "company": "HINDUNILVR",
         "industry": null,
         "sector_pe": null,
@@ -27089,11 +27089,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 7641.0,
+            "open": 7650.0,
             "high": 7695.0,
             "low": 7145.25,
             "close": 7299.05,
-            "volume": 9639999
+            "volume": 8848591
           },
           {
             "date": "2024-01-31",
@@ -27384,7 +27384,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-        "fetched_at": "2026-09-14T04:16:11.281264+00:00",
+        "fetched_at": "2026-09-15T01:39:36.717116+00:00",
         "company": "BAJFINANCE",
         "industry": null,
         "sector_pe": null,
@@ -29194,11 +29194,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 10319.6,
+            "open": 10240.0,
             "high": 10396.65,
             "low": 9900.0,
             "close": 10283.3,
-            "volume": 5436269
+            "volume": 4850535
           },
           {
             "date": "2024-01-31",
@@ -29489,7 +29489,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/MARUTI/consolidated/",
-        "fetched_at": "2026-09-14T04:16:13.515148+00:00",
+        "fetched_at": "2026-09-15T01:39:38.841510+00:00",
         "company": "MARUTI",
         "industry": null,
         "sector_pe": null,
@@ -31299,11 +31299,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 1264.8,
+            "open": 1255.0,
             "high": 1271.95,
             "low": 1208.55,
             "close": 1260.25,
-            "volume": 16417566
+            "volume": 14230108
           },
           {
             "date": "2024-01-31",
@@ -31594,7 +31594,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/SUNPHARMA/consolidated/",
-        "fetched_at": "2026-09-14T04:16:15.783253+00:00",
+        "fetched_at": "2026-09-15T01:39:41.229661+00:00",
         "company": "SUNPHARMA",
         "industry": null,
         "sector_pe": null,
@@ -32914,11 +32914,11 @@
           },
           {
             "date": "2025-07-18",
-            "open": 681.8,
+            "open": 681.0,
             "high": 686.9,
-            "low": 674.3,
+            "low": 672.0,
             "close": 680.25,
-            "volume": 26139326
+            "volume": 33191275
           },
           {
             "date": "2025-07-25",
@@ -33404,11 +33404,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 732.6,
+            "open": 730.95,
             "high": 802.9,
             "low": 696.25,
             "close": 790.6,
-            "volume": 123312223
+            "volume": 118801122
           },
           {
             "date": "2024-01-31",
@@ -33560,7 +33560,7 @@
             "high": 706.5,
             "low": 647.0,
             "close": 648.85,
-            "volume": 198955012
+            "volume": 206006961
           },
           {
             "date": "2025-08-31",
@@ -35493,11 +35493,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 136.65,
+            "open": 135.9,
             "high": 141.25,
             "low": 127.85,
             "close": 139.85,
-            "volume": 318582163
+            "volume": 290855732
           },
           {
             "date": "2024-01-31",
@@ -35788,7 +35788,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/TATASTEEL/consolidated/",
-        "fetched_at": "2026-09-14T04:16:20.685249+00:00",
+        "fetched_at": "2026-09-15T01:39:45.992600+00:00",
         "company": "TATASTEEL",
         "industry": null,
         "sector_pe": null,
@@ -37108,11 +37108,11 @@
           },
           {
             "date": "2025-07-18",
-            "open": 2555.0,
+            "open": 2558.7,
             "high": 2654.5,
-            "low": 2543.5,
+            "low": 2558.7,
             "close": 2596.1,
-            "volume": 2868367
+            "volume": 2392117
           },
           {
             "date": "2025-07-25",
@@ -37598,11 +37598,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 2988.8,
-            "high": 2994.35,
+            "open": 2946.0,
+            "high": 2968.0,
             "low": 2725.0,
             "close": 2917.2,
-            "volume": 21607191
+            "volume": 19865698
           },
           {
             "date": "2024-01-31",
@@ -37754,7 +37754,7 @@
             "high": 2654.5,
             "low": 2333.0,
             "close": 2350.9,
-            "volume": 11527620
+            "volume": 11051370
           },
           {
             "date": "2025-08-31",
@@ -37893,7 +37893,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/ADANIENT/consolidated/",
-        "fetched_at": "2026-09-14T04:16:22.940158+00:00",
+        "fetched_at": "2026-09-15T01:39:48.080308+00:00",
         "company": "ADANIENT",
         "industry": null,
         "sector_pe": null,
@@ -39703,11 +39703,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 1095.0,
-            "high": 1099.0,
+            "open": 1078.0,
+            "high": 1083.85,
             "low": 989.25,
             "close": 1047.85,
-            "volume": 41330315
+            "volume": 35337063
           },
           {
             "date": "2024-01-31",
@@ -39998,7 +39998,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/ADANIPORTS/consolidated/",
-        "fetched_at": "2026-09-14T04:16:25.153886+00:00",
+        "fetched_at": "2026-09-15T01:39:50.119918+00:00",
         "company": "ADANIPORTS",
         "industry": null,
         "sector_pe": null,
@@ -41808,11 +41808,11 @@
         "1M": [
           {
             "date": "2023-12-31",
-            "open": 3335.95,
+            "open": 3336.05,
             "high": 3422.95,
             "low": 3271.85,
             "close": 3396.1,
-            "volume": 7392901
+            "volume": 6612453
           },
           {
             "date": "2024-01-31",
@@ -42103,7 +42103,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/ASIANPAINT/consolidated/",
-        "fetched_at": "2026-09-14T04:16:27.413251+00:00",
+        "fetched_at": "2026-09-15T01:39:52.271671+00:00",
         "company": "ASIANPAINT",
         "industry": null,
         "sector_pe": null,
