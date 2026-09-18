@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T17:19:53.803952+00:00",
+  "updated_at": "2026-09-18T19:48:59.333231+00:00",
   "source": "NSE India + BSE India public derivatives endpoints",
   "symbols": [
     "BANKNIFTY",
@@ -256478,7 +256478,7 @@
           "pcr_volume": null
         }
       },
-      "timestamp": "2026-09-18T19:11:11"
+      "timestamp": "2026-09-18T19:11:12"
     },
     "SENSEX50": {
       "symbol": "SENSEX50",
@@ -263263,7 +263263,7 @@
           "pcr_volume": null
         }
       },
-      "timestamp": "2026-09-18T19:11:11"
+      "timestamp": "2026-09-18T19:11:12"
     }
   },
   "errors": []
