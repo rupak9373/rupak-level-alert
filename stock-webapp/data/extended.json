@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T19:49:28.422343+00:00",
+  "updated_at": "2026-09-19T00:18:54.441981+00:00",
   "source": "NSE India + Screener.in public company pages",
   "chart_timeframes": [
     "1D",
@@ -23163,9 +23163,9 @@
         "fii_holding": 25.21,
         "dii_holding": 37.71,
         "public_holding": 11.2,
-        "market_cap_cr": 414320.0,
-        "current_price": 416.0,
-        "stock_pe": 20.7,
+        "market_cap_cr": 410341.0,
+        "current_price": 412.0,
+        "stock_pe": 20.5,
         "book_value": 182.0,
         "dividend_yield": 0.16,
         "roce": 6.98,
@@ -23174,7 +23174,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/KOTAKBANK/consolidated/",
-        "fetched_at": "2026-09-18T00:17:18.538426+00:00",
+        "fetched_at": "2026-09-19T00:00:42.573290+00:00",
         "company": "KOTAKBANK",
         "industry": null,
         "sector_pe": null,
@@ -42115,9 +42115,49 @@
   },
   "errors": [
     {
+      "symbol": "HINDUNILVR",
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
+    },
+    {
+      "symbol": "MARUTI",
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
+    },
+    {
       "symbol": "TATAMOTORS",
-      "stage": "screener",
-      "error": "HTTP 404"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
+    },
+    {
+      "symbol": "ADANIENT",
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     }
   ]
 }
