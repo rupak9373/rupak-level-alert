@@ -17,6 +17,12 @@ def send_telegram(text: str):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     r = requests.post(url, json={"chat_id": CHAT_ID, "text": text}, timeout=20)
     r.raise_for_status()
+    data = r.json()
+    if not data.get("ok"):
+        raise RuntimeError(f"Telegram rejected message: {data}")
+    msg_id = data.get("result", {}).get("message_id")
+    print(f"Telegram delivered message_id={msg_id}")
+    return msg_id
 
 
 def read_symbols():
@@ -28,10 +34,11 @@ def near(price, level):
     return level not in (None, 0) and abs(price-level)/abs(level)*100 <= DISTANCE_PERCENT
 
 
-def crossed_or_entered(prev, cur, level):
+def candle_touched(low, high, level):
     if level in (None, 0):
         return False
-    return (near(cur, level) and not near(prev, level)) or ((prev-level)*(cur-level) <= 0 and prev != cur)
+    tolerance = abs(level) * DISTANCE_PERCENT / 100.0
+    return low <= level + tolerance and high >= level - tolerance
 
 
 def external_swings(df, lookback=EXTERNAL_SWING_LOOKBACK):
@@ -66,7 +73,10 @@ def get_data(symbol):
     if daily is None or daily.empty or m5 is None or len(m5) < 2:
         raise ValueError("Not enough market data")
 
-    cur = float(m5["Close"].iloc[-1]); prev = float(m5["Close"].iloc[-2])
+    bar = m5.iloc[-1]
+    cur = float(bar["Close"])
+    bar_low = float(bar["Low"])
+    bar_high = float(bar["High"])
     date = m5.index[-1].date(); year = date.year; quarter = (date.month-1)//3+1
 
     prev_day = daily.iloc[-2] if daily.index[-1].date() >= date and len(daily)>=2 else daily.iloc[-1]
@@ -91,21 +101,23 @@ def get_data(symbol):
             if len(m15) >= n:
                 smas[f"15M SMA {n}"] = float(m15["Close"].rolling(n).mean().iloc[-1])
 
-    return cur, prev, levels, smas, m5.index[-1]
+    return cur, bar_low, bar_high, levels, smas, m5.index[-1]
 
 
 def scan_symbol(symbol):
-    cur, prev, levels, smas, ts = get_data(symbol)
+    cur, bar_low, bar_high, levels, smas, ts = get_data(symbol)
     hits = []
     for name, level in {**levels, **smas}.items():
-        if crossed_or_entered(prev, cur, level):
+        if candle_touched(bar_low, bar_high, level):
             hits.append((name, level))
     for name, level in hits:
-        send_telegram(
+        msg_id = send_telegram(
             f"🔔 Rupak Scanner Alert\nSymbol: {clean_symbol(symbol)}\n"
             f"Trigger: {name}\nPrice: {cur:.5f}\nLevel: {level:.5f}\n"
+            f"5M range: {bar_low:.5f} - {bar_high:.5f}\n"
             f"Time: {ts}\nCheck chart before taking any trade."
         )
+        print(f"ALERT {symbol} {name} level={level} message_id={msg_id}")
     return len(hits)
 
 
@@ -125,6 +137,7 @@ def main():
             "✅ Rupak Cloud Scanner test complete\n"
             f"Symbols checked: {ok}/{len(symbols)}\n"
             "Active: PDH/PDL, QO, PYH/PYL, 15M SMA 20/50/200, 30M external swings (lookback 10)\n"
+            "Touch detection: 5M High/Low enabled\n"
             f"Alerts this run: {total}\nErrors: {len(errors)}"
         )
 
