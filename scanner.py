@@ -6,7 +6,7 @@ import yfinance as yf
 
 DISTANCE_PERCENT = 0.10
 SMA_LENGTHS = [20, 50, 200]
-EXTERNAL_SWING_LOOKBACK = 4
+EXTERNAL_SWING_LOOKBACK = 10
 
 BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
@@ -124,7 +124,7 @@ def main():
         send_telegram(
             "✅ Rupak Cloud Scanner test complete\n"
             f"Symbols checked: {ok}/{len(symbols)}\n"
-            "Active: PDH/PDL, QO, PYH/PYL, 15M SMA 20/50/200, 30M external swings (lookback 4)\n"
+            "Active: PDH/PDL, QO, PYH/PYL, 15M SMA 20/50/200, 30M external swings (lookback 10)\n"
             f"Alerts this run: {total}\nErrors: {len(errors)}"
         )
 
