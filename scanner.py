@@ -6,7 +6,7 @@ import yfinance as yf
 
 DISTANCE_PERCENT = 0.10
 SMA_LENGTHS = [20, 50, 200]
-EXTERNAL_SWING_LOOKBACK = 10
+EXTERNAL_SWING_LOOKBACK = 4
 
 BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
@@ -34,7 +34,7 @@ def crossed_or_entered(prev, cur, level):
     return (near(cur, level) and not near(prev, level)) or ((prev-level)*(cur-level) <= 0 and prev != cur)
 
 
-def h1_external_swings(df, lookback=EXTERNAL_SWING_LOOKBACK):
+def external_swings(df, lookback=EXTERNAL_SWING_LOOKBACK):
     if df is None or df.empty or len(df) < lookback*2+1:
         return None, None
     d = df.dropna(subset=["High", "Low"])
@@ -62,7 +62,7 @@ def get_data(symbol):
     daily = history(t, "3y", "1d")
     m5 = history(t, "5d", "5m")
     m15 = history(t, "60d", "15m")
-    h1 = history(t, "730d", "1h")
+    m30 = history(t, "60d", "30m")
     if daily is None or daily.empty or m5 is None or len(m5) < 2:
         raise ValueError("Not enough market data")
 
@@ -81,9 +81,9 @@ def get_data(symbol):
         "PYL": float(pyrows["Low"].min()) if not pyrows.empty else None,
     }
 
-    sh, sl = h1_external_swings(h1)
-    levels["H1 EXT SWING HIGH"] = sh
-    levels["H1 EXT SWING LOW"] = sl
+    sh, sl = external_swings(m30)
+    levels["30M EXT SWING HIGH"] = sh
+    levels["30M EXT SWING LOW"] = sl
 
     smas = {}
     if m15 is not None and not m15.empty:
@@ -124,7 +124,7 @@ def main():
         send_telegram(
             "✅ Rupak Cloud Scanner test complete\n"
             f"Symbols checked: {ok}/{len(symbols)}\n"
-            "Active: PDH/PDL, QO, PYH/PYL, 15M SMA 20/50/200, H1 external swings (lookback 10)\n"
+            "Active: PDH/PDL, QO, PYH/PYL, 15M SMA 20/50/200, 30M external swings (lookback 4)\n"
             f"Alerts this run: {total}\nErrors: {len(errors)}"
         )
 
