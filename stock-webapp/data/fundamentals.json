@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-09-22T20:20:26.007680+00:00",
+  "updated_at": "2026-09-22T23:07:07.546691+00:00",
   "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
   "universe_source": [
     "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
     "https://nsearchives.nseindia.com/emerge/corporates/content/SME_EQUITY_L.csv"
   ],
-  "universe_count": 3151,
-  "fundamental_coverage": 3149,
+  "universe_count": 3154,
+  "fundamental_coverage": 3152,
   "industry_coverage": 3147,
   "pending_fundamentals": 2,
   "batch_size": 200,
@@ -26221,6 +26221,34 @@
         "segment": "MAIN"
       }
     },
+    "HEROMOTORS": {
+      "screen_metrics": {
+        "promoter_holding": null,
+        "promoter_change": null,
+        "fii_holding": null,
+        "dii_holding": null,
+        "public_holding": null,
+        "market_cap_cr": 3815.0,
+        "current_price": null,
+        "stock_pe": 86.5,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": 11.5,
+        "roe": 9.81,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": null,
+        "industry": null,
+        "source_url": "https://www.screener.in/company/HEROMOTORS/consolidated/",
+        "fetched_at": "2026-09-22T23:07:01.950964+00:00",
+        "company": "Hero Motors Limited",
+        "series": "EQ",
+        "isin": "INE012G01022",
+        "listing_date": "23-SEP-2026",
+        "segment": "MAIN"
+      }
+    },
     "HESTERBIO": {
       "screen_metrics": {
         "promoter_holding": 53.73,
@@ -32157,6 +32185,34 @@
         "segment": "MAIN"
       }
     },
+    "JSIPL": {
+      "screen_metrics": {
+        "promoter_holding": null,
+        "promoter_change": null,
+        "fii_holding": null,
+        "dii_holding": null,
+        "public_holding": null,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": null,
+        "industry": null,
+        "source_url": "https://www.screener.in/company/JSIPL/consolidated/",
+        "fetched_at": "2026-09-22T23:07:02.651218+00:00",
+        "company": "Jindal Supreme (India) Limited",
+        "series": "BE",
+        "isin": "INE1DLO01028",
+        "listing_date": "23-SEP-2026",
+        "segment": "MAIN"
+      }
+    },
     "JSL": {
       "screen_metrics": {
         "promoter_holding": 62.04,
@@ -33195,11 +33251,11 @@
     },
     "KANOHAR": {
       "screen_metrics": {
-        "promoter_holding": null,
+        "promoter_holding": 74.65,
         "promoter_change": null,
-        "fii_holding": null,
-        "dii_holding": null,
-        "public_holding": null,
+        "fii_holding": 2.19,
+        "dii_holding": 11.46,
+        "public_holding": 11.7,
         "market_cap_cr": null,
         "current_price": null,
         "stock_pe": null,
@@ -33213,7 +33269,7 @@
         "sector": "Industrials",
         "industry": "Heavy Electrical Equipment",
         "source_url": "https://www.screener.in/company/KANOHAR/consolidated/",
-        "fetched_at": "2026-09-15T23:02:00.566769+00:00",
+        "fetched_at": "2026-09-22T23:07:03.541533+00:00",
         "company": "Kanohar Electricals Limited",
         "series": "EQ",
         "isin": "INE877D01025",
@@ -41475,7 +41531,7 @@
         "source_url": "https://www.screener.in/company/MOMSBELIEF/",
         "fetched_at": "2026-09-17T15:07:46.057871+00:00",
         "company": "Rays of Belief Limited",
-        "series": "BE",
+        "series": "EQ",
         "isin": "INE1FCO01014",
         "listing_date": "08-SEP-2026",
         "segment": "MAIN"
@@ -49435,14 +49491,14 @@
     },
     "PRANAV": {
       "screen_metrics": {
-        "promoter_holding": null,
+        "promoter_holding": 49.03,
         "promoter_change": null,
-        "fii_holding": null,
-        "dii_holding": null,
-        "public_holding": null,
-        "market_cap_cr": 1487.0,
-        "current_price": 132.0,
-        "stock_pe": 20.8,
+        "fii_holding": 4.59,
+        "dii_holding": 4.74,
+        "public_holding": 41.47,
+        "market_cap_cr": 1159.0,
+        "current_price": 103.0,
+        "stock_pe": 16.2,
         "book_value": null,
         "dividend_yield": 0.0,
         "roce": 28.5,
@@ -49453,7 +49509,7 @@
         "sector": "Consumer Discretionary",
         "industry": "Residential, Commercial Projects",
         "source_url": "https://www.screener.in/company/PRANAV/consolidated/",
-        "fetched_at": "2026-09-15T23:02:02.921783+00:00",
+        "fetched_at": "2026-09-22T23:07:04.428369+00:00",
         "company": "Pranav Constructions Limited",
         "series": "EQ",
         "isin": "INE0H4201019",
@@ -60437,6 +60493,34 @@
         "segment": "MAIN"
       }
     },
+    "SSRETAIL": {
+      "screen_metrics": {
+        "promoter_holding": null,
+        "promoter_change": null,
+        "fii_holding": null,
+        "dii_holding": null,
+        "public_holding": null,
+        "market_cap_cr": 3153.0,
+        "current_price": null,
+        "stock_pe": 52.7,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": 26.5,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": null,
+        "industry": null,
+        "source_url": "https://www.screener.in/company/SSRETAIL/consolidated/",
+        "fetched_at": "2026-09-22T23:07:07.544769+00:00",
+        "company": "SS Retail Limited",
+        "series": "EQ",
+        "isin": "INE1EQW01028",
+        "listing_date": "23-SEP-2026",
+        "segment": "MAIN"
+      }
+    },
     "SSWL": {
       "screen_metrics": {
         "promoter_holding": 61.15,
@@ -63735,7 +63819,7 @@
         "source_url": "https://www.screener.in/company/TBZ/",
         "fetched_at": "2026-09-18T09:26:09.358416+00:00",
         "company": "Tribhovandas Bhimji Zaveri Limited",
-        "series": "EQ",
+        "series": "BE",
         "isin": "INE760L01018",
         "listing_date": "09-MAY-2012",
         "segment": "MAIN"
@@ -70373,7 +70457,7 @@
         "company": "VTM Limited",
         "series": "EQ",
         "isin": "INE222F01029",
-        "listing_date": "17-AUG-2026",
+        "listing_date": "23-SEP-2026",
         "segment": "MAIN"
       }
     },
@@ -72301,7 +72385,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/QUALIANCE/consolidated/",
-        "fetched_at": "2026-09-22T20:20:24.561581+00:00",
+        "fetched_at": "2026-09-22T23:07:05.332338+00:00",
         "company": "Qualiance International Limited",
         "series": "ST",
         "isin": "INE1XJ401012",
@@ -72926,7 +73010,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/GENXAI/consolidated/",
-        "fetched_at": "2026-09-22T20:20:23.565428+00:00",
+        "fetched_at": "2026-09-22T23:07:01.017786+00:00",
         "company": "GenXAI Analytics Limited",
         "series": "SM",
         "isin": "INE1W0N01014",
