@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T23:34:10.393708+00:00",
+  "updated_at": "2026-09-22T01:51:26.033907+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -2488,10 +2488,10 @@
       "day_high": 420.6,
       "day_low": 414.55,
       "vwap": null,
-      "sma20": 417.03,
+      "sma20": 417.04,
       "sma50": 400.36,
       "sma200": 400.68,
-      "sma20_distance_pct": 0.53,
+      "sma20_distance_pct": 0.54,
       "sma50_distance_pct": 3.61,
       "sma200_distance_pct": 3.52,
       "near_sma20": true,
@@ -2500,8 +2500,8 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 417.03,
-          "distance20_pct": 0.53,
+          "sma20": 417.04,
+          "distance20_pct": 0.54,
           "near_sma20": true,
           "above_sma20": false,
           "sma50": 400.36,
@@ -2530,8 +2530,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 405.11,
-          "distance20_pct": 2.39,
+          "sma20": 404.96,
+          "distance20_pct": 2.43,
           "near_sma20": false,
           "above_sma20": true,
           "sma50": null,
@@ -2551,7 +2551,7 @@
       "signals": [
         "SMA20 > SMA50",
         "Above SMA200",
-        "Near SMA20 (0.53%)",
+        "Near SMA20 (0.54%)",
         "Near PDL (0.06%)"
       ],
       "patterns": {
@@ -4316,7 +4316,7 @@
       "day_high": 3015.9,
       "day_low": 2973.0,
       "vwap": null,
-      "sma20": 2996.19,
+      "sma20": 2996.18,
       "sma50": 3032.44,
       "sma200": 2538.32,
       "sma20_distance_pct": 0.71,
@@ -4328,7 +4328,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 2996.19,
+          "sma20": 2996.18,
           "distance20_pct": 0.71,
           "near_sma20": true,
           "above_sma20": false,
@@ -10382,9 +10382,9 @@
       "day_high": 1044.5,
       "day_low": 1030.3,
       "vwap": null,
-      "sma20": 1095.16,
+      "sma20": 1095.15,
       "sma50": 1113.24,
-      "sma200": 1288.69,
+      "sma200": 1288.55,
       "sma20_distance_pct": 5.17,
       "sma50_distance_pct": 6.71,
       "sma200_distance_pct": 19.41,
@@ -10394,7 +10394,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 1095.16,
+          "sma20": 1095.15,
           "distance20_pct": 5.17,
           "near_sma20": false,
           "above_sma20": false,
@@ -10402,7 +10402,7 @@
           "distance50_pct": 6.71,
           "near_sma50": false,
           "above_sma50": false,
-          "sma200": 1288.69,
+          "sma200": 1288.55,
           "distance200_pct": 19.41,
           "near_sma200": false,
           "above_sma200": false
