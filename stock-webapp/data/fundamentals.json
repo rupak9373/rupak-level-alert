@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T23:36:41.916159+00:00",
+  "updated_at": "2026-09-26T02:01:46.845970+00:00",
   "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
   "universe_source": [
     "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
@@ -72413,7 +72413,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/AXIOMGAS/consolidated/",
-        "fetched_at": "2026-09-25T23:36:38.167364+00:00",
+        "fetched_at": "2026-09-26T02:01:43.384104+00:00",
         "company": "Axiom Gas Engineering Limited",
         "series": "ST",
         "isin": "INE16J201028",
@@ -72525,7 +72525,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/QUALIANCE/consolidated/",
-        "fetched_at": "2026-09-25T23:36:41.914211+00:00",
+        "fetched_at": "2026-09-26T02:01:46.844175+00:00",
         "company": "Qualiance International Limited",
         "series": "ST",
         "isin": "INE1XJ401012",
@@ -73141,7 +73141,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/GENXAI/consolidated/",
-        "fetched_at": "2026-09-25T23:36:40.314076+00:00",
+        "fetched_at": "2026-09-26T02:01:45.841403+00:00",
         "company": "GenXAI Analytics Limited",
         "series": "SM",
         "isin": "INE1W0N01014",

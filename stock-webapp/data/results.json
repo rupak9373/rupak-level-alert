@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T23:33:11.618267+00:00",
+  "updated_at": "2026-09-26T01:58:02.849907+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -1316,8 +1316,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 365.94,
-          "distance20_pct": 26.49,
+          "sma20": 365.61,
+          "distance20_pct": 26.42,
           "near_sma20": false,
           "above_sma20": false,
           "sma50": null,
@@ -3095,7 +3095,7 @@
       "day_high": 2905.0,
       "day_low": 2905.0,
       "vwap": null,
-      "sma20": 2966.47,
+      "sma20": 2966.46,
       "sma50": 3014.98,
       "sma200": 2552.75,
       "sma20_distance_pct": 2.07,
@@ -3107,7 +3107,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 2966.47,
+          "sma20": 2966.46,
           "distance20_pct": 2.07,
           "near_sma20": false,
           "above_sma20": false,
@@ -9763,7 +9763,7 @@
       "day_high": 1340.8,
       "day_low": 1312.0,
       "vwap": null,
-      "sma20": 1382.8,
+      "sma20": 1382.79,
       "sma50": 1412.95,
       "sma200": 1355.04,
       "sma20_distance_pct": 4.05,
@@ -9775,7 +9775,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 1382.8,
+          "sma20": 1382.79,
           "distance20_pct": 4.05,
           "near_sma20": false,
           "above_sma20": false,
