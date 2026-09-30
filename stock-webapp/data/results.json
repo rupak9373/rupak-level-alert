@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T15:52:12.317204+00:00",
+  "updated_at": "2026-09-30T20:26:38.348960+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -210,11 +210,6 @@
         "PYL": {
           "value": 344.75,
           "distance_pct": 20.96,
-          "near": false
-        },
-        "QO": {
-          "value": 397.35,
-          "distance_pct": 4.95,
           "near": false
         },
         "52WH": {
@@ -824,11 +819,6 @@
           "distance_pct": 77.92,
           "near": false
         },
-        "QO": {
-          "value": 1829.5,
-          "distance_pct": 1.71,
-          "near": false
-        },
         "52WH": {
           "value": 1891.1,
           "distance_pct": 4.91,
@@ -1428,11 +1418,6 @@
         "PYL": {
           "value": 1186.0,
           "distance_pct": 11.44,
-          "near": false
-        },
-        "QO": {
-          "value": 1371.4,
-          "distance_pct": 3.62,
           "near": false
         },
         "52WH": {
@@ -2036,11 +2021,6 @@
           "distance_pct": 26.8,
           "near": false
         },
-        "QO": {
-          "value": 4130.1,
-          "distance_pct": 8.96,
-          "near": false
-        },
         "52WH": {
           "value": 4440.0,
           "distance_pct": 15.32,
@@ -2640,11 +2620,6 @@
         "PYL": {
           "value": 390.15,
           "distance_pct": 32.65,
-          "near": false
-        },
-        "QO": {
-          "value": 287.85,
-          "distance_pct": 8.72,
           "near": false
         },
         "52WH": {
@@ -3247,11 +3222,6 @@
         "PYL": {
           "value": 812.15,
           "distance_pct": 12.74,
-          "near": false
-        },
-        "QO": {
-          "value": 793.5,
-          "distance_pct": 10.69,
           "near": false
         },
         "52WH": {
@@ -3863,11 +3833,6 @@
           "distance_pct": 17.35,
           "near": false
         },
-        "QO": {
-          "value": 1877.9,
-          "distance_pct": 3.26,
-          "near": false
-        },
         "52WH": {
           "value": 2046.9,
           "distance_pct": 11.25,
@@ -4465,11 +4430,6 @@
           "distance_pct": 31.33,
           "near": false
         },
-        "QO": {
-          "value": 1345.7,
-          "distance_pct": 8.89,
-          "near": false
-        },
         "52WH": {
           "value": 1418.3,
           "distance_pct": 13.56,
@@ -4979,8 +4939,7 @@
       "trend": "Bearish",
       "score": 0,
       "signals": [
-        "Near PDL (0.0%)",
-        "Near QO (0.52%)"
+        "Near PDL (0.0%)"
       ],
       "patterns": {
         "15m": {
@@ -5067,11 +5026,6 @@
           "value": 2866.6,
           "distance_pct": 28.47,
           "near": false
-        },
-        "QO": {
-          "value": 2039.9,
-          "distance_pct": 0.52,
-          "near": true
         },
         "52WH": {
           "value": 3350.0,
@@ -5676,11 +5630,6 @@
           "distance_pct": 12.03,
           "near": false
         },
-        "QO": {
-          "value": 2133.5,
-          "distance_pct": 11.92,
-          "near": false
-        },
         "52WH": {
           "value": 2667.2,
           "distance_pct": 29.55,
@@ -6281,11 +6230,6 @@
           "distance_pct": 10.8,
           "near": false
         },
-        "QO": {
-          "value": 14151.0,
-          "distance_pct": 15.43,
-          "near": false
-        },
         "52WH": {
           "value": 17370.0,
           "distance_pct": 31.11,
@@ -6883,11 +6827,6 @@
         "PYL": {
           "value": 1114.85,
           "distance_pct": 6.47,
-          "near": false
-        },
-        "QO": {
-          "value": 1298.9,
-          "distance_pct": 8.61,
           "near": false
         },
         "52WH": {
@@ -7492,11 +7431,6 @@
           "distance_pct": 13.08,
           "near": false
         },
-        "QO": {
-          "value": 2648.0,
-          "distance_pct": 9.27,
-          "near": false
-        },
         "52WH": {
           "value": 2985.7,
           "distance_pct": 19.53,
@@ -8092,11 +8026,6 @@
         "PYL": {
           "value": 680.0,
           "distance_pct": 41.1,
-          "near": false
-        },
-        "QO": {
-          "value": 1031.0,
-          "distance_pct": 6.94,
           "near": false
         },
         "52WH": {
@@ -8699,11 +8628,6 @@
           "distance_pct": 12.66,
           "near": false
         },
-        "QO": {
-          "value": 1845.6,
-          "distance_pct": 4.8,
-          "near": false
-        },
         "52WH": {
           "value": 2174.5,
           "distance_pct": 19.2,
@@ -9301,11 +9225,6 @@
         "PYL": {
           "value": 680.6,
           "distance_pct": 40.96,
-          "near": false
-        },
-        "QO": {
-          "value": 1000.4,
-          "distance_pct": 4.1,
           "near": false
         },
         "52WH": {
@@ -9915,11 +9834,6 @@
           "distance_pct": 50.3,
           "near": false
         },
-        "QO": {
-          "value": 188.5,
-          "distance_pct": 2.23,
-          "near": false
-        },
         "52WH": {
           "value": 224.4,
           "distance_pct": 17.87,
@@ -10515,11 +10429,6 @@
         "PYL": {
           "value": 1307.0,
           "distance_pct": 23.94,
-          "near": false
-        },
-        "QO": {
-          "value": 1006.0,
-          "distance_pct": 1.18,
           "near": false
         },
         "52WH": {
@@ -11122,11 +11031,6 @@
         "PYL": {
           "value": 2026.55,
           "distance_pct": 43.27,
-          "near": false
-        },
-        "QO": {
-          "value": 3041.0,
-          "distance_pct": 4.52,
           "near": false
         },
         "52WH": {
