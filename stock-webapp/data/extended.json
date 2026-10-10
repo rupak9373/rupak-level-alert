@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T23:41:35.021067+00:00",
+  "updated_at": "2026-10-10T02:53:03.699968+00:00",
   "source": "NSE India + Screener.in public company pages",
   "chart_timeframes": [
     "1D",
@@ -42115,9 +42115,104 @@
   },
   "errors": [
     {
+      "symbol": "RELIANCE",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "TCS",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "INFY",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SBIN",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "ITC",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "LT",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "AXISBANK",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "MARUTI",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
       "symbol": "TATAMOTORS",
       "stage": "screener",
-      "error": "HTTP 404"
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "ADANIENT",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "stage": "screener",
+      "error": "HTTP 500"
     }
   ]
 }

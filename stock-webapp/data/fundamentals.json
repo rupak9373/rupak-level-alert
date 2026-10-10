@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-09T23:44:52.197321+00:00",
+  "updated_at": "2026-10-10T03:00:10.817728+00:00",
   "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
   "universe_source": [
     "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
@@ -89057,17 +89057,1002 @@
     {
       "symbol": "AGOL",
       "stage": "screener",
-      "error": "HTTP 404"
+      "error": "HTTP 500"
     },
     {
       "symbol": "BELDING",
       "stage": "screener",
-      "error": "HTTP 404"
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "EVENTIONS",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "KHERIAAUTO",
+      "stage": "screener",
+      "error": "HTTP 500"
     },
     {
       "symbol": "NATCO-RE",
       "stage": "screener",
-      "error": "HTTP 404"
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "QUALIANCE",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "SAGARDEEP",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "SAGCEM",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "SAGILITY",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "SAHAJSOLAR",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "SAHANA",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAHASRA",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAHLIBHFI",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "SAHYADRI",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAICAPI",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAIFL",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAIL",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAILIFE",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAIPARENT",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAJHOTELS",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAKAR",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAKHTISUG",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAKSOFT",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "SAKUMA",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SALASAR",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "SALONA",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SALSTEEL",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SALZERELEC",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAMAY",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "SAMBANDAM",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAMBHAAV",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "SAMBHV",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAMHI",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SAMMAANCAP",
+      "stage": "screener",
+      "error": "HTTP 502"
+    },
+    {
+      "symbol": "SAMPANN",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SANATHAN",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SANDESH",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SANDHAR",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SANDUMA",
+      "stage": "screener",
+      "error": "HTTP 500"
+    },
+    {
+      "symbol": "SANGAMIND",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SANGANI",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SANGHVIMOV",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SANOFI",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SANOFICONR",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SANSERA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SANSTAR",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SANWARIA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SAPPHIRE",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SAPPL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SARDAEN",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SAREGAMA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SARLAPOLY",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SAROJA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SARTELE",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SARVESHWAR",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SASKEN",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SATECH",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SATIA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SATIN",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SATIPOLY",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SATKARTAR",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SATTVAENGG",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SAURASHCEM",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SAVY",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SAWALIYA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SAYAJIHOTL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SAYAJIIND",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SBC",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SBCL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SBFC",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SBGLP",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SBICARD",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SBIFUNDS",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SBILIFE",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SBIN",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SCANSTL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SCHAEFFLER",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SCHAND",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SCHNEIDER",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SCI",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SCILAL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SCML",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SCODATUBES",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SCPL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SDBL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SDREAMS",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SEAMECLTD",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SECMARK",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SECURKLOUD",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SEDEMAC",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SEIL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SEJALLTD",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SEKURITIND",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SEL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SELLOWRAP",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SEMAC",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SENCO",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SENORES",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SEPC",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SERVICE",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SERVOTECH",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SESHAPAPER",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SETCO",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SETL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SETUINFRA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SEYAIND",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SFL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SFML",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SGFIN",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SGIL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SGL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SGLRES",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SGMART",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SGRL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHADOWFAX",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHAH",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHAHALLOYS",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHAILY",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHAIVAL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHAKTIPUMP",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHALBY",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHALPAINTS",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHANKARA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHANKESH",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHANTHALA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHANTI",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHANTIGEAR",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHANTIGOLD",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHANTIINOR",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHARDACROP",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHARDAMOTR",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHARDUL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHAREINDIA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHBAJRG",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHEEL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHEETAL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHEKHAWATI",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHEMAROO",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHERA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHERVANI",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHETHJI",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHIGAN",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHILCTECH",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHILGRAVQ",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHILPAMED",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHINDL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHIPROCKET",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHIVAAGRO",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHIVACEM",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHIVALIK",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHIVAMAUTO",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHIVAMILLS",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHIVASHRIT",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHIVATEX",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHIVAUM",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHK",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHKSIL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHOPERSTOP",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHRADDHA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHRADHA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHREDIGCEM",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHREECEM",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHREEDHAR",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHREEJISPG",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHREEKARNI",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHREEOSFM",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHREEPUSHK",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHREERAMA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHRENIK",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHREYANIND",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHRIAHIMSA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHRIKANHA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHRIKRISH",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHRINGARMS",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHRIPISTON",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHRIRAMFIN",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHRIRAMPPS",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHRITECH",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHRJAGP",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHUBHLAXMI",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHUBHSHREE",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHUKRAPHAR",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHYAMCENT",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHYAMDHANI",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHYAMMETL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SHYAMTEL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SICAGEN",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SICALLOG",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SIDDHICOTS",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SIDDHIKA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SIEL",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SIEMENS",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SIGACHI",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SIGIND",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SIGMA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SIGMAADV",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SIGNATURE",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SIGNORIA",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SIGNPOST",
+      "stage": "screener",
+      "error": "HTTP 503"
+    },
+    {
+      "symbol": "SIKA",
+      "stage": "screener",
+      "error": "HTTP 503"
     }
   ]
 }
