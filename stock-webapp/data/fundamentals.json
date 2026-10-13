@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-13T17:15:38.830512+00:00",
+  "updated_at": "2026-10-13T21:56:57.443518+00:00",
   "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
   "universe_source": [
     "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
     "https://nsearchives.nseindia.com/emerge/corporates/content/SME_EQUITY_L.csv"
   ],
-  "universe_count": 3186,
-  "fundamental_coverage": 3181,
-  "industry_coverage": 3179,
+  "universe_count": 3185,
+  "fundamental_coverage": 3180,
+  "industry_coverage": 3178,
   "pending_fundamentals": 5,
   "batch_size": 200,
   "fundamental_filter_fields": [
@@ -3703,7 +3703,7 @@
         "source_url": "https://www.screener.in/company/ALUFLUOR/consolidated/",
         "fetched_at": "2026-10-07T10:43:54.913653+00:00",
         "company": "Alufluoride Limited",
-        "series": "EQ",
+        "series": "BE",
         "isin": "INE058F01019",
         "listing_date": "17-AUG-2026",
         "segment": "MAIN"
@@ -36418,7 +36418,7 @@
         "company": "Lancer Container Lines Limited",
         "series": "EQ",
         "isin": "INE359U01028",
-        "listing_date": "17-AUG-2026",
+        "listing_date": "14-OCT-2026",
         "segment": "MAIN"
       }
     },
@@ -46788,34 +46788,6 @@
         "series": "EQ",
         "isin": "INE16NZ01023",
         "listing_date": "06-NOV-2025",
-        "segment": "MAIN"
-      }
-    },
-    "ORTEL": {
-      "screen_metrics": {
-        "promoter_holding": 55.43,
-        "promoter_change": 0.0,
-        "fii_holding": 8.42,
-        "dii_holding": 0.83,
-        "public_holding": 34.97,
-        "market_cap_cr": 5.61,
-        "current_price": 1.7,
-        "stock_pe": null,
-        "book_value": -23.4,
-        "dividend_yield": 0.0,
-        "roce": -13.4,
-        "roe": null,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "TV Broadcasting & Software Production",
-        "source_url": "https://www.screener.in/company/ORTEL/consolidated/",
-        "fetched_at": "2026-10-12T05:17:13.588766+00:00",
-        "company": "Ortel Communications Limited",
-        "series": "BZ",
-        "isin": "INE849L01019",
-        "listing_date": "19-MAR-2015",
         "segment": "MAIN"
       }
     },
@@ -72953,7 +72925,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/EVENTIONS/consolidated/",
-        "fetched_at": "2026-10-13T17:15:33.885312+00:00",
+        "fetched_at": "2026-10-13T21:56:52.374253+00:00",
         "company": "Eventions Limited",
         "series": "ST",
         "isin": "INE20M201019",
@@ -73261,7 +73233,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/QUALIANCE/consolidated/",
-        "fetched_at": "2026-10-13T17:15:36.048340+00:00",
+        "fetched_at": "2026-10-13T21:56:54.569851+00:00",
         "company": "Qualiance International Limited",
         "series": "SM",
         "isin": "INE1XJ401012",
