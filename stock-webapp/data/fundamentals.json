@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T00:54:42.435671+00:00",
+  "updated_at": "2026-10-14T05:36:43.546914+00:00",
   "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
   "universe_source": [
     "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
@@ -72925,39 +72925,11 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/EVENTIONS/consolidated/",
-        "fetched_at": "2026-10-14T00:54:31.298240+00:00",
+        "fetched_at": "2026-10-14T05:36:38.469103+00:00",
         "company": "Eventions Limited",
         "series": "ST",
         "isin": "INE20M201019",
         "listing_date": "08-Oct-26",
-        "segment": "SME"
-      }
-    },
-    "GREENASIA": {
-      "screen_metrics": {
-        "promoter_holding": null,
-        "promoter_change": null,
-        "fii_holding": null,
-        "dii_holding": null,
-        "public_holding": null,
-        "market_cap_cr": 172.0,
-        "current_price": 80.4,
-        "stock_pe": 11.0,
-        "book_value": null,
-        "dividend_yield": 0.0,
-        "roce": 27.7,
-        "roe": 46.2,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Fast Moving Consumer Goods",
-        "industry": "Seafood",
-        "source_url": "https://www.screener.in/company/GREENASIA/consolidated/",
-        "fetched_at": "2026-10-09T01:22:45.394235+00:00",
-        "company": "Green Asia Impex Limited",
-        "series": "ST",
-        "isin": "INE1WDS01018",
-        "listing_date": "07-Oct-26",
         "segment": "SME"
       }
     },
@@ -72985,6 +72957,34 @@
         "company": "Papadmalji Agro Foods Limited",
         "series": "ST",
         "isin": "INE1V7901010",
+        "listing_date": "07-Oct-26",
+        "segment": "SME"
+      }
+    },
+    "GREENASIA": {
+      "screen_metrics": {
+        "promoter_holding": null,
+        "promoter_change": null,
+        "fii_holding": null,
+        "dii_holding": null,
+        "public_holding": null,
+        "market_cap_cr": 172.0,
+        "current_price": 80.4,
+        "stock_pe": 11.0,
+        "book_value": null,
+        "dividend_yield": 0.0,
+        "roce": 27.7,
+        "roe": 46.2,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Fast Moving Consumer Goods",
+        "industry": "Seafood",
+        "source_url": "https://www.screener.in/company/GREENASIA/consolidated/",
+        "fetched_at": "2026-10-09T01:22:45.394235+00:00",
+        "company": "Green Asia Impex Limited",
+        "series": "ST",
+        "isin": "INE1WDS01018",
         "listing_date": "07-Oct-26",
         "segment": "SME"
       }
@@ -73045,34 +73045,6 @@
         "segment": "SME"
       }
     },
-    "POOJALOGIS": {
-      "screen_metrics": {
-        "promoter_holding": null,
-        "promoter_change": null,
-        "fii_holding": null,
-        "dii_holding": null,
-        "public_holding": null,
-        "market_cap_cr": 190.0,
-        "current_price": 133.0,
-        "stock_pe": 18.0,
-        "book_value": null,
-        "dividend_yield": 0.0,
-        "roce": 26.1,
-        "roe": 30.9,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Services",
-        "industry": "Logistics Solution Provider",
-        "source_url": "https://www.screener.in/company/POOJALOGIS/consolidated/",
-        "fetched_at": "2026-10-09T20:19:58.528695+00:00",
-        "company": "Pooja Logistics Limited",
-        "series": "ST",
-        "isin": "INE1C2Q01017",
-        "listing_date": "30-Sep-26",
-        "segment": "SME"
-      }
-    },
     "COREIN": {
       "screen_metrics": {
         "promoter_holding": 68.03,
@@ -73097,6 +73069,34 @@
         "company": "Coreintegra Consulting Services Limited",
         "series": "ST",
         "isin": "INE11ES01010",
+        "listing_date": "30-Sep-26",
+        "segment": "SME"
+      }
+    },
+    "POOJALOGIS": {
+      "screen_metrics": {
+        "promoter_holding": null,
+        "promoter_change": null,
+        "fii_holding": null,
+        "dii_holding": null,
+        "public_holding": null,
+        "market_cap_cr": 190.0,
+        "current_price": 133.0,
+        "stock_pe": 18.0,
+        "book_value": null,
+        "dividend_yield": 0.0,
+        "roce": 26.1,
+        "roe": 30.9,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Services",
+        "industry": "Logistics Solution Provider",
+        "source_url": "https://www.screener.in/company/POOJALOGIS/consolidated/",
+        "fetched_at": "2026-10-09T20:19:58.528695+00:00",
+        "company": "Pooja Logistics Limited",
+        "series": "ST",
+        "isin": "INE1C2Q01017",
         "listing_date": "30-Sep-26",
         "segment": "SME"
       }
@@ -73233,39 +73233,11 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/QUALIANCE/consolidated/",
-        "fetched_at": "2026-10-14T00:54:36.389550+00:00",
+        "fetched_at": "2026-10-14T05:36:40.659028+00:00",
         "company": "Qualiance International Limited",
         "series": "SM",
         "isin": "INE1XJ401012",
         "listing_date": "11-Sep-26",
-        "segment": "SME"
-      }
-    },
-    "SHANTIINOR": {
-      "screen_metrics": {
-        "promoter_holding": 56.05,
-        "promoter_change": null,
-        "fii_holding": 6.36,
-        "dii_holding": 9.42,
-        "public_holding": 28.17,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Commodities",
-        "industry": "Commodity Chemicals",
-        "source_url": "https://www.screener.in/company/SHANTIINOR/consolidated/",
-        "fetched_at": "2026-10-12T05:19:23.228708+00:00",
-        "company": "Shanti Inorganics Limited",
-        "series": "SM",
-        "isin": "INE1ZEE01019",
-        "listing_date": "07-Sep-26",
         "segment": "SME"
       }
     },
@@ -73293,6 +73265,34 @@
         "company": "Ashutosh Fibre Limited",
         "series": "SM",
         "isin": "INE19FR01012",
+        "listing_date": "07-Sep-26",
+        "segment": "SME"
+      }
+    },
+    "SHANTIINOR": {
+      "screen_metrics": {
+        "promoter_holding": 56.05,
+        "promoter_change": null,
+        "fii_holding": 6.36,
+        "dii_holding": 9.42,
+        "public_holding": 28.17,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Commodities",
+        "industry": "Commodity Chemicals",
+        "source_url": "https://www.screener.in/company/SHANTIINOR/consolidated/",
+        "fetched_at": "2026-10-12T05:19:23.228708+00:00",
+        "company": "Shanti Inorganics Limited",
+        "series": "SM",
+        "isin": "INE1ZEE01019",
         "listing_date": "07-Sep-26",
         "segment": "SME"
       }
@@ -73325,34 +73325,6 @@
         "segment": "SME"
       }
     },
-    "MADHURKNIT": {
-      "screen_metrics": {
-        "promoter_holding": 70.55,
-        "promoter_change": null,
-        "fii_holding": 0.54,
-        "dii_holding": 2.12,
-        "public_holding": 26.8,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Garments & Apparels",
-        "source_url": "https://www.screener.in/company/MADHURKNIT/consolidated/",
-        "fetched_at": "2026-10-09T07:36:11.613665+00:00",
-        "company": "Madhur Knit Crafts Limited",
-        "series": "SM",
-        "isin": "INE1P5601010",
-        "listing_date": "01-Sep-26",
-        "segment": "SME"
-      }
-    },
     "ABH": {
       "screen_metrics": {
         "promoter_holding": 69.99,
@@ -73377,6 +73349,34 @@
         "company": "ABH Healthcare Limited",
         "series": "SM",
         "isin": "INE1R2M01019",
+        "listing_date": "01-Sep-26",
+        "segment": "SME"
+      }
+    },
+    "MADHURKNIT": {
+      "screen_metrics": {
+        "promoter_holding": 70.55,
+        "promoter_change": null,
+        "fii_holding": 0.54,
+        "dii_holding": 2.12,
+        "public_holding": 26.8,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Garments & Apparels",
+        "source_url": "https://www.screener.in/company/MADHURKNIT/consolidated/",
+        "fetched_at": "2026-10-09T07:36:11.613665+00:00",
+        "company": "Madhur Knit Crafts Limited",
+        "series": "SM",
+        "isin": "INE1P5601010",
         "listing_date": "01-Sep-26",
         "segment": "SME"
       }
@@ -73661,34 +73661,6 @@
         "segment": "SME"
       }
     },
-    "TEJA": {
-      "screen_metrics": {
-        "promoter_holding": 67.17,
-        "promoter_change": null,
-        "fii_holding": 7.24,
-        "dii_holding": null,
-        "public_holding": 25.6,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Energy",
-        "industry": "Oil Equipment & Services",
-        "source_url": "https://www.screener.in/company/TEJA/consolidated/",
-        "fetched_at": "2026-10-12T21:52:51.096379+00:00",
-        "company": "Teja Engineering Industries Limited",
-        "series": "SM",
-        "isin": "INE0R1301019",
-        "listing_date": "07-Jul-26",
-        "segment": "SME"
-      }
-    },
     "VMOBILE": {
       "screen_metrics": {
         "promoter_holding": 64.86,
@@ -73713,6 +73685,34 @@
         "company": "Vinit Mobile Limited",
         "series": "SM",
         "isin": "INE27V201011",
+        "listing_date": "07-Jul-26",
+        "segment": "SME"
+      }
+    },
+    "TEJA": {
+      "screen_metrics": {
+        "promoter_holding": 67.17,
+        "promoter_change": null,
+        "fii_holding": 7.24,
+        "dii_holding": null,
+        "public_holding": 25.6,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Energy",
+        "industry": "Oil Equipment & Services",
+        "source_url": "https://www.screener.in/company/TEJA/consolidated/",
+        "fetched_at": "2026-10-12T21:52:51.096379+00:00",
+        "company": "Teja Engineering Industries Limited",
+        "series": "SM",
+        "isin": "INE0R1301019",
         "listing_date": "07-Jul-26",
         "segment": "SME"
       }
@@ -73857,34 +73857,6 @@
         "segment": "SME"
       }
     },
-    "QLINE": {
-      "screen_metrics": {
-        "promoter_holding": 67.51,
-        "promoter_change": null,
-        "fii_holding": 1.67,
-        "dii_holding": 10.14,
-        "public_holding": 20.67,
-        "market_cap_cr": 1484.0,
-        "current_price": 636.0,
-        "stock_pe": 26.2,
-        "book_value": null,
-        "dividend_yield": 0.0,
-        "roce": 22.4,
-        "roe": 26.0,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Healthcare",
-        "industry": "Medical Equipment & Supplies",
-        "source_url": "https://www.screener.in/company/QLINE/consolidated/",
-        "fetched_at": "2026-10-09T23:42:07.270085+00:00",
-        "company": "Q-Line Biotech Limited",
-        "series": "SM",
-        "isin": "INE1G2W01011",
-        "listing_date": "29-May-26",
-        "segment": "SME"
-      }
-    },
     "BMLL": {
       "screen_metrics": {
         "promoter_holding": 67.7,
@@ -73909,6 +73881,34 @@
         "company": "Bio Medica Laboratories Limited",
         "series": "SM",
         "isin": "INE1BKA01015",
+        "listing_date": "29-May-26",
+        "segment": "SME"
+      }
+    },
+    "QLINE": {
+      "screen_metrics": {
+        "promoter_holding": 67.51,
+        "promoter_change": null,
+        "fii_holding": 1.67,
+        "dii_holding": 10.14,
+        "public_holding": 20.67,
+        "market_cap_cr": 1484.0,
+        "current_price": 636.0,
+        "stock_pe": 26.2,
+        "book_value": null,
+        "dividend_yield": 0.0,
+        "roce": 22.4,
+        "roe": 26.0,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Healthcare",
+        "industry": "Medical Equipment & Supplies",
+        "source_url": "https://www.screener.in/company/QLINE/consolidated/",
+        "fetched_at": "2026-10-09T23:42:07.270085+00:00",
+        "company": "Q-Line Biotech Limited",
+        "series": "SM",
+        "isin": "INE1G2W01011",
         "listing_date": "29-May-26",
         "segment": "SME"
       }
@@ -74389,34 +74389,6 @@
         "segment": "SME"
       }
     },
-    "GJL": {
-      "screen_metrics": {
-        "promoter_holding": 73.5,
-        "promoter_change": null,
-        "fii_holding": 2.59,
-        "dii_holding": 2.37,
-        "public_holding": 21.54,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Gems, Jewellery And Watches",
-        "source_url": "https://www.screener.in/company/GJL/consolidated/",
-        "fetched_at": "2026-10-08T16:12:14.401085+00:00",
-        "company": "Grover Jewells Limited",
-        "series": "ST",
-        "isin": "INE1TY801010",
-        "listing_date": "11-Feb-26",
-        "segment": "SME"
-      }
-    },
     "BRANDMAN": {
       "screen_metrics": {
         "promoter_holding": 69.02,
@@ -74441,6 +74413,34 @@
         "company": "Brandman Retail Limited",
         "series": "SM",
         "isin": "INE0XUD01014",
+        "listing_date": "11-Feb-26",
+        "segment": "SME"
+      }
+    },
+    "GJL": {
+      "screen_metrics": {
+        "promoter_holding": 73.5,
+        "promoter_change": null,
+        "fii_holding": 2.59,
+        "dii_holding": 2.37,
+        "public_holding": 21.54,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Gems, Jewellery And Watches",
+        "source_url": "https://www.screener.in/company/GJL/consolidated/",
+        "fetched_at": "2026-10-08T16:12:14.401085+00:00",
+        "company": "Grover Jewells Limited",
+        "series": "ST",
+        "isin": "INE1TY801010",
         "listing_date": "11-Feb-26",
         "segment": "SME"
       }
@@ -74641,34 +74641,6 @@
         "segment": "SME"
       }
     },
-    "EPWINDIA": {
-      "screen_metrics": {
-        "promoter_holding": 71.43,
-        "promoter_change": 0.0,
-        "fii_holding": 3.63,
-        "dii_holding": 5.27,
-        "public_holding": 19.67,
-        "market_cap_cr": 266.0,
-        "current_price": 232.0,
-        "stock_pe": 25.8,
-        "book_value": 37.4,
-        "dividend_yield": 0.0,
-        "roce": 45.9,
-        "roe": 42.8,
-        "face_value": 5.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Information Technology",
-        "industry": "Computers Hardware & Equipments",
-        "source_url": "https://www.screener.in/company/EPWINDIA/consolidated/",
-        "fetched_at": "2026-10-08T08:59:32.481223+00:00",
-        "company": "EPW India Limited",
-        "series": "SM",
-        "isin": "INE1KEC01023",
-        "listing_date": "30-Dec-25",
-        "segment": "SME"
-      }
-    },
     "SHYAMDHANI": {
       "screen_metrics": {
         "promoter_holding": 72.0,
@@ -74693,6 +74665,34 @@
         "company": "Shyam Dhani Industries Limited",
         "series": "SM",
         "isin": "INE1CRP01016",
+        "listing_date": "30-Dec-25",
+        "segment": "SME"
+      }
+    },
+    "EPWINDIA": {
+      "screen_metrics": {
+        "promoter_holding": 71.43,
+        "promoter_change": 0.0,
+        "fii_holding": 3.63,
+        "dii_holding": 5.27,
+        "public_holding": 19.67,
+        "market_cap_cr": 266.0,
+        "current_price": 232.0,
+        "stock_pe": 25.8,
+        "book_value": 37.4,
+        "dividend_yield": 0.0,
+        "roce": 45.9,
+        "roe": 42.8,
+        "face_value": 5.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Information Technology",
+        "industry": "Computers Hardware & Equipments",
+        "source_url": "https://www.screener.in/company/EPWINDIA/consolidated/",
+        "fetched_at": "2026-10-08T08:59:32.481223+00:00",
+        "company": "EPW India Limited",
+        "series": "SM",
+        "isin": "INE1KEC01023",
         "listing_date": "30-Dec-25",
         "segment": "SME"
       }
@@ -74753,34 +74753,6 @@
         "segment": "SME"
       }
     },
-    "ASHWINI": {
-      "screen_metrics": {
-        "promoter_holding": 66.67,
-        "promoter_change": 0.0,
-        "fii_holding": 6.57,
-        "dii_holding": 5.95,
-        "public_holding": 20.81,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Services",
-        "industry": "Road Transport",
-        "source_url": "https://www.screener.in/company/ASHWINI/consolidated/",
-        "fetched_at": "2026-10-07T17:38:27.984984+00:00",
-        "company": "Ashwini Container Movers Limited",
-        "series": "SM",
-        "isin": "INE1A6Q01010",
-        "listing_date": "19-Dec-25",
-        "segment": "SME"
-      }
-    },
     "EXIMROUTES": {
       "screen_metrics": {
         "promoter_holding": 52.64,
@@ -74805,6 +74777,34 @@
         "company": "Exim Routes Limited",
         "series": "SM",
         "isin": "INE19I001020",
+        "listing_date": "19-Dec-25",
+        "segment": "SME"
+      }
+    },
+    "ASHWINI": {
+      "screen_metrics": {
+        "promoter_holding": 66.67,
+        "promoter_change": 0.0,
+        "fii_holding": 6.57,
+        "dii_holding": 5.95,
+        "public_holding": 20.81,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Services",
+        "industry": "Road Transport",
+        "source_url": "https://www.screener.in/company/ASHWINI/consolidated/",
+        "fetched_at": "2026-10-07T17:38:27.984984+00:00",
+        "company": "Ashwini Container Movers Limited",
+        "series": "SM",
+        "isin": "INE1A6Q01010",
         "listing_date": "19-Dec-25",
         "segment": "SME"
       }
@@ -74921,30 +74921,30 @@
         "segment": "SME"
       }
     },
-    "SPEB": {
+    "CSSL": {
       "screen_metrics": {
-        "promoter_holding": 73.18,
+        "promoter_holding": 73.03,
         "promoter_change": 0.0,
-        "fii_holding": 0.4,
-        "dii_holding": 8.26,
-        "public_holding": 18.15,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
+        "fii_holding": 4.12,
+        "dii_holding": 3.91,
+        "public_holding": 18.94,
+        "market_cap_cr": 188.0,
+        "current_price": 78.2,
+        "stock_pe": 6.45,
+        "book_value": 92.9,
+        "dividend_yield": 0.0,
+        "roce": 20.2,
+        "roe": 18.2,
+        "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": "Commodities",
-        "industry": "Specialty Chemicals",
-        "source_url": "https://www.screener.in/company/SPEB/consolidated/",
-        "fetched_at": "2026-10-12T13:20:39.443575+00:00",
-        "company": "Speb Adhesives Limited",
+        "sector": "Services",
+        "industry": "Diversified Commercial Services",
+        "source_url": "https://www.screener.in/company/CSSL/consolidated/",
+        "fetched_at": "2026-10-08T02:10:29.518808+00:00",
+        "company": "Clear Secured Services Limited",
         "series": "SM",
-        "isin": "INE1CW901027",
+        "isin": "INE1EF801010",
         "listing_date": "08-Dec-25",
         "segment": "SME"
       }
@@ -74977,30 +74977,30 @@
         "segment": "SME"
       }
     },
-    "CSSL": {
+    "SPEB": {
       "screen_metrics": {
-        "promoter_holding": 73.03,
+        "promoter_holding": 73.18,
         "promoter_change": 0.0,
-        "fii_holding": 4.12,
-        "dii_holding": 3.91,
-        "public_holding": 18.94,
-        "market_cap_cr": 188.0,
-        "current_price": 78.2,
-        "stock_pe": 6.45,
-        "book_value": 92.9,
-        "dividend_yield": 0.0,
-        "roce": 20.2,
-        "roe": 18.2,
-        "face_value": 10.0,
+        "fii_holding": 0.4,
+        "dii_holding": 8.26,
+        "public_holding": 18.15,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
         "high_52w": null,
         "low_52w": null,
-        "sector": "Services",
-        "industry": "Diversified Commercial Services",
-        "source_url": "https://www.screener.in/company/CSSL/consolidated/",
-        "fetched_at": "2026-10-08T02:10:29.518808+00:00",
-        "company": "Clear Secured Services Limited",
+        "sector": "Commodities",
+        "industry": "Specialty Chemicals",
+        "source_url": "https://www.screener.in/company/SPEB/consolidated/",
+        "fetched_at": "2026-10-12T13:20:39.443575+00:00",
+        "company": "Speb Adhesives Limited",
         "series": "SM",
-        "isin": "INE1EF801010",
+        "isin": "INE1CW901027",
         "listing_date": "08-Dec-25",
         "segment": "SME"
       }
@@ -75229,34 +75229,6 @@
         "segment": "SME"
       }
     },
-    "SUBAHOTELS": {
-      "screen_metrics": {
-        "promoter_holding": 60.93,
-        "promoter_change": 0.0,
-        "fii_holding": 0.0,
-        "dii_holding": 4.62,
-        "public_holding": 34.44,
-        "market_cap_cr": 222.0,
-        "current_price": 91.5,
-        "stock_pe": 12.3,
-        "book_value": 57.0,
-        "dividend_yield": 0.0,
-        "roce": 16.9,
-        "roe": 19.4,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Hotels & Resorts",
-        "source_url": "https://www.screener.in/company/SUBAHOTELS/consolidated/",
-        "fetched_at": "2026-10-12T13:21:35.206354+00:00",
-        "company": "Suba Hotels Limited",
-        "series": "SM",
-        "isin": "INE0RYR01018",
-        "listing_date": "07-Oct-25",
-        "segment": "SME"
-      }
-    },
     "VIJAYPD": {
       "screen_metrics": {
         "promoter_holding": 56.43,
@@ -75281,6 +75253,34 @@
         "company": "Vijaypd Ceutical Limited",
         "series": "SM",
         "isin": "INE0WL901019",
+        "listing_date": "07-Oct-25",
+        "segment": "SME"
+      }
+    },
+    "SUBAHOTELS": {
+      "screen_metrics": {
+        "promoter_holding": 60.93,
+        "promoter_change": 0.0,
+        "fii_holding": 0.0,
+        "dii_holding": 4.62,
+        "public_holding": 34.44,
+        "market_cap_cr": 222.0,
+        "current_price": 91.5,
+        "stock_pe": 12.3,
+        "book_value": 57.0,
+        "dividend_yield": 0.0,
+        "roce": 16.9,
+        "roe": 19.4,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Hotels & Resorts",
+        "source_url": "https://www.screener.in/company/SUBAHOTELS/consolidated/",
+        "fetched_at": "2026-10-12T13:21:35.206354+00:00",
+        "company": "Suba Hotels Limited",
+        "series": "SM",
+        "isin": "INE0RYR01018",
         "listing_date": "07-Oct-25",
         "segment": "SME"
       }
@@ -75621,34 +75621,6 @@
         "segment": "SME"
       }
     },
-    "SATTVAENGG": {
-      "screen_metrics": {
-        "promoter_holding": 62.91,
-        "promoter_change": 0.0,
-        "fii_holding": 1.01,
-        "dii_holding": 5.99,
-        "public_holding": 30.09,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Utilities",
-        "industry": "Water Supply & Management",
-        "source_url": "https://www.screener.in/company/SATTVAENGG/consolidated/",
-        "fetched_at": "2026-10-12T05:18:14.090853+00:00",
-        "company": "Sattva Engineering Construction Limited",
-        "series": "SM",
-        "isin": "INE14DW01018",
-        "listing_date": "03-Sep-25",
-        "segment": "SME"
-      }
-    },
     "CURRENT": {
       "screen_metrics": {
         "promoter_holding": 70.52,
@@ -75673,6 +75645,34 @@
         "company": "Current Infraprojects Limited",
         "series": "SM",
         "isin": "INE1CRQ01014",
+        "listing_date": "03-Sep-25",
+        "segment": "SME"
+      }
+    },
+    "SATTVAENGG": {
+      "screen_metrics": {
+        "promoter_holding": 62.91,
+        "promoter_change": 0.0,
+        "fii_holding": 1.01,
+        "dii_holding": 5.99,
+        "public_holding": 30.09,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Utilities",
+        "industry": "Water Supply & Management",
+        "source_url": "https://www.screener.in/company/SATTVAENGG/consolidated/",
+        "fetched_at": "2026-10-12T05:18:14.090853+00:00",
+        "company": "Sattva Engineering Construction Limited",
+        "series": "SM",
+        "isin": "INE14DW01018",
         "listing_date": "03-Sep-25",
         "segment": "SME"
       }
@@ -75705,34 +75705,6 @@
         "segment": "SME"
       }
     },
-    "ANONDITA": {
-      "screen_metrics": {
-        "promoter_holding": 59.26,
-        "promoter_change": -3.14,
-        "fii_holding": 2.48,
-        "dii_holding": 6.05,
-        "public_holding": 32.2,
-        "market_cap_cr": 2039.0,
-        "current_price": 1071.0,
-        "stock_pe": 60.9,
-        "book_value": 68.0,
-        "dividend_yield": 0.0,
-        "roce": 43.8,
-        "roe": 40.2,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Fast Moving Consumer Goods",
-        "industry": "Personal Care",
-        "source_url": "https://www.screener.in/company/ANONDITA/consolidated/",
-        "fetched_at": "2026-10-07T10:44:29.252525+00:00",
-        "company": "Anondita Medicare Limited",
-        "series": "SM",
-        "isin": "INE0VTV01012",
-        "listing_date": "01-Sep-25",
-        "segment": "SME"
-      }
-    },
     "CLASSICEIL": {
       "screen_metrics": {
         "promoter_holding": 72.02,
@@ -75757,6 +75729,34 @@
         "company": "Classic Electrodes (India) Limited",
         "series": "SM",
         "isin": "INE0UQ601012",
+        "listing_date": "01-Sep-25",
+        "segment": "SME"
+      }
+    },
+    "ANONDITA": {
+      "screen_metrics": {
+        "promoter_holding": 59.26,
+        "promoter_change": -3.14,
+        "fii_holding": 2.48,
+        "dii_holding": 6.05,
+        "public_holding": 32.2,
+        "market_cap_cr": 2039.0,
+        "current_price": 1071.0,
+        "stock_pe": 60.9,
+        "book_value": 68.0,
+        "dividend_yield": 0.0,
+        "roce": 43.8,
+        "roe": 40.2,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Fast Moving Consumer Goods",
+        "industry": "Personal Care",
+        "source_url": "https://www.screener.in/company/ANONDITA/consolidated/",
+        "fetched_at": "2026-10-07T10:44:29.252525+00:00",
+        "company": "Anondita Medicare Limited",
+        "series": "SM",
+        "isin": "INE0VTV01012",
         "listing_date": "01-Sep-25",
         "segment": "SME"
       }
@@ -76097,34 +76097,6 @@
         "segment": "SME"
       }
     },
-    "CUDML": {
-      "screen_metrics": {
-        "promoter_holding": 57.23,
-        "promoter_change": 0.0,
-        "fii_holding": 7.38,
-        "dii_holding": 6.48,
-        "public_holding": 28.9,
-        "market_cap_cr": 178.0,
-        "current_price": 101.0,
-        "stock_pe": 6.57,
-        "book_value": 77.7,
-        "dividend_yield": 0.0,
-        "roce": null,
-        "roe": 19.7,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Advertising & Media Agencies",
-        "source_url": "https://www.screener.in/company/CUDML/consolidated/",
-        "fetched_at": "2026-10-08T02:10:33.433317+00:00",
-        "company": "Cash Ur Drive Marketing Limited",
-        "series": "SM",
-        "isin": "INE0WL201014",
-        "listing_date": "07-Aug-25",
-        "segment": "SME"
-      }
-    },
     "RNPL": {
       "screen_metrics": {
         "promoter_holding": 51.1,
@@ -76149,6 +76121,34 @@
         "company": "Renol Polychem Limited",
         "series": "SM",
         "isin": "INE0VZX01015",
+        "listing_date": "07-Aug-25",
+        "segment": "SME"
+      }
+    },
+    "CUDML": {
+      "screen_metrics": {
+        "promoter_holding": 57.23,
+        "promoter_change": 0.0,
+        "fii_holding": 7.38,
+        "dii_holding": 6.48,
+        "public_holding": 28.9,
+        "market_cap_cr": 178.0,
+        "current_price": 101.0,
+        "stock_pe": 6.57,
+        "book_value": 77.7,
+        "dividend_yield": 0.0,
+        "roce": null,
+        "roe": 19.7,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Advertising & Media Agencies",
+        "source_url": "https://www.screener.in/company/CUDML/consolidated/",
+        "fetched_at": "2026-10-08T02:10:33.433317+00:00",
+        "company": "Cash Ur Drive Marketing Limited",
+        "series": "SM",
+        "isin": "INE0WL201014",
         "listing_date": "07-Aug-25",
         "segment": "SME"
       }
@@ -76629,34 +76629,6 @@
         "segment": "SME"
       }
     },
-    "MAYASHEEL": {
-      "screen_metrics": {
-        "promoter_holding": 67.78,
-        "promoter_change": -0.02,
-        "fii_holding": 3.92,
-        "dii_holding": 5.66,
-        "public_holding": 22.64,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Industrials",
-        "industry": "Civil Construction",
-        "source_url": "https://www.screener.in/company/MAYASHEEL/consolidated/",
-        "fetched_at": "2026-10-09T07:37:27.741050+00:00",
-        "company": "Mayasheel Ventures Limited",
-        "series": "SM",
-        "isin": "INE0ZTO01018",
-        "listing_date": "27-Jun-25",
-        "segment": "SME"
-      }
-    },
     "AAKAAR": {
       "screen_metrics": {
         "promoter_holding": 67.05,
@@ -76681,6 +76653,34 @@
         "company": "Aakaar Medical Technologies Limited",
         "series": "SM",
         "isin": "INE1GYP01013",
+        "listing_date": "27-Jun-25",
+        "segment": "SME"
+      }
+    },
+    "MAYASHEEL": {
+      "screen_metrics": {
+        "promoter_holding": 67.78,
+        "promoter_change": -0.02,
+        "fii_holding": 3.92,
+        "dii_holding": 5.66,
+        "public_holding": 22.64,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Industrials",
+        "industry": "Civil Construction",
+        "source_url": "https://www.screener.in/company/MAYASHEEL/consolidated/",
+        "fetched_at": "2026-10-09T07:37:27.741050+00:00",
+        "company": "Mayasheel Ventures Limited",
+        "series": "SM",
+        "isin": "INE0ZTO01018",
         "listing_date": "27-Jun-25",
         "segment": "SME"
       }
@@ -76741,34 +76741,6 @@
         "segment": "SME"
       }
     },
-    "SAMAY": {
-      "screen_metrics": {
-        "promoter_holding": 69.19,
-        "promoter_change": 0.0,
-        "fii_holding": 0.0,
-        "dii_holding": 3.23,
-        "public_holding": 27.58,
-        "market_cap_cr": 67.9,
-        "current_price": 44.2,
-        "stock_pe": 11.1,
-        "book_value": 26.0,
-        "dividend_yield": 0.0,
-        "roce": 27.2,
-        "roe": 20.2,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Industrials",
-        "industry": "Civil Construction",
-        "source_url": "https://www.screener.in/company/SAMAY/consolidated/",
-        "fetched_at": "2026-10-12T05:17:41.510536+00:00",
-        "company": "Samay Project Services Limited",
-        "series": "SM",
-        "isin": "INE124101010",
-        "listing_date": "23-Jun-25",
-        "segment": "SME"
-      }
-    },
     "PATILAUTOM": {
       "screen_metrics": {
         "promoter_holding": 69.29,
@@ -76793,6 +76765,34 @@
         "company": "Patil Automation Limited",
         "series": "ST",
         "isin": "INE17GV01016",
+        "listing_date": "23-Jun-25",
+        "segment": "SME"
+      }
+    },
+    "SAMAY": {
+      "screen_metrics": {
+        "promoter_holding": 69.19,
+        "promoter_change": 0.0,
+        "fii_holding": 0.0,
+        "dii_holding": 3.23,
+        "public_holding": 27.58,
+        "market_cap_cr": 67.9,
+        "current_price": 44.2,
+        "stock_pe": 11.1,
+        "book_value": 26.0,
+        "dividend_yield": 0.0,
+        "roce": 27.2,
+        "roe": 20.2,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Industrials",
+        "industry": "Civil Construction",
+        "source_url": "https://www.screener.in/company/SAMAY/consolidated/",
+        "fetched_at": "2026-10-12T05:17:41.510536+00:00",
+        "company": "Samay Project Services Limited",
+        "series": "SM",
+        "isin": "INE124101010",
         "listing_date": "23-Jun-25",
         "segment": "SME"
       }
@@ -76965,34 +76965,6 @@
         "segment": "SME"
       }
     },
-    "BLUEWATER": {
-      "screen_metrics": {
-        "promoter_holding": 69.55,
-        "promoter_change": 0.0,
-        "fii_holding": 0.0,
-        "dii_holding": 5.18,
-        "public_holding": 25.27,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Services",
-        "industry": "Logistics Solution Provider",
-        "source_url": "https://www.screener.in/company/BLUEWATER/consolidated/",
-        "fetched_at": "2026-10-07T22:21:38.843972+00:00",
-        "company": "Blue Water Logistics Limited",
-        "series": "ST",
-        "isin": "INE0X3M01010",
-        "listing_date": "03-Jun-25",
-        "segment": "SME"
-      }
-    },
     "NIKITA": {
       "screen_metrics": {
         "promoter_holding": 60.14,
@@ -77017,6 +76989,34 @@
         "company": "NIKITA GREENTECH RECYCLING LIMITED",
         "series": "SM",
         "isin": "INE0FLF01015",
+        "listing_date": "03-Jun-25",
+        "segment": "SME"
+      }
+    },
+    "BLUEWATER": {
+      "screen_metrics": {
+        "promoter_holding": 69.55,
+        "promoter_change": 0.0,
+        "fii_holding": 0.0,
+        "dii_holding": 5.18,
+        "public_holding": 25.27,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Services",
+        "industry": "Logistics Solution Provider",
+        "source_url": "https://www.screener.in/company/BLUEWATER/consolidated/",
+        "fetched_at": "2026-10-07T22:21:38.843972+00:00",
+        "company": "Blue Water Logistics Limited",
+        "series": "ST",
+        "isin": "INE0X3M01010",
         "listing_date": "03-Jun-25",
         "segment": "SME"
       }
@@ -78393,30 +78393,30 @@
         "segment": "SME"
       }
     },
-    "UHTL": {
+    "DANISH": {
       "screen_metrics": {
-        "promoter_holding": 67.74,
-        "promoter_change": 0.11,
-        "fii_holding": 0.26,
-        "dii_holding": 0.89,
-        "public_holding": 31.1,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
+        "promoter_holding": 73.62,
+        "promoter_change": 0.07,
+        "fii_holding": 0.27,
+        "dii_holding": 4.01,
+        "public_holding": 22.11,
+        "market_cap_cr": 2086.0,
+        "current_price": 1059.0,
+        "stock_pe": 30.2,
+        "book_value": 234.0,
+        "dividend_yield": 0.19,
+        "roce": 22.2,
+        "roe": 16.7,
+        "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
         "sector": "Industrials",
-        "industry": "Other Industrial Products",
-        "source_url": "https://www.screener.in/company/UHTL/consolidated/",
-        "fetched_at": "2026-10-12T21:54:49.792111+00:00",
-        "company": "United Heat Transfer Limited",
-        "series": "ST",
-        "isin": "INE0SMR01011",
+        "industry": "Heavy Electrical Equipment",
+        "source_url": "https://www.screener.in/company/DANISH/consolidated/",
+        "fetched_at": "2026-10-08T02:10:50.397875+00:00",
+        "company": "Danish Power Limited",
+        "series": "SM",
+        "isin": "INE0YU901016",
         "listing_date": "29-Oct-24",
         "segment": "SME"
       }
@@ -78449,30 +78449,30 @@
         "segment": "SME"
       }
     },
-    "DANISH": {
+    "UHTL": {
       "screen_metrics": {
-        "promoter_holding": 73.62,
-        "promoter_change": 0.07,
-        "fii_holding": 0.27,
-        "dii_holding": 4.01,
-        "public_holding": 22.11,
-        "market_cap_cr": 2086.0,
-        "current_price": 1059.0,
-        "stock_pe": 30.2,
-        "book_value": 234.0,
-        "dividend_yield": 0.19,
-        "roce": 22.2,
-        "roe": 16.7,
-        "face_value": 10.0,
+        "promoter_holding": 67.74,
+        "promoter_change": 0.11,
+        "fii_holding": 0.26,
+        "dii_holding": 0.89,
+        "public_holding": 31.1,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
         "high_52w": null,
         "low_52w": null,
         "sector": "Industrials",
-        "industry": "Heavy Electrical Equipment",
-        "source_url": "https://www.screener.in/company/DANISH/consolidated/",
-        "fetched_at": "2026-10-08T02:10:50.397875+00:00",
-        "company": "Danish Power Limited",
-        "series": "SM",
-        "isin": "INE0YU901016",
+        "industry": "Other Industrial Products",
+        "source_url": "https://www.screener.in/company/UHTL/consolidated/",
+        "fetched_at": "2026-10-12T21:54:49.792111+00:00",
+        "company": "United Heat Transfer Limited",
+        "series": "ST",
+        "isin": "INE0SMR01011",
         "listing_date": "29-Oct-24",
         "segment": "SME"
       }
@@ -78617,34 +78617,6 @@
         "segment": "SME"
       }
     },
-    "HVAX": {
-      "screen_metrics": {
-        "promoter_holding": 66.65,
-        "promoter_change": 0.0,
-        "fii_holding": 8.9,
-        "dii_holding": 1.08,
-        "public_holding": 23.38,
-        "market_cap_cr": 196.0,
-        "current_price": 705.0,
-        "stock_pe": 13.7,
-        "book_value": 312.0,
-        "dividend_yield": 0.0,
-        "roce": 20.1,
-        "roe": 18.0,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Industrials",
-        "industry": "Civil Construction",
-        "source_url": "https://www.screener.in/company/HVAX/consolidated/",
-        "fetched_at": "2026-10-08T21:24:04.059092+00:00",
-        "company": "HVAX Technologies Limited",
-        "series": "SM",
-        "isin": "INE0TO501019",
-        "listing_date": "07-Oct-24",
-        "segment": "SME"
-      }
-    },
     "SAJHOTELS": {
       "screen_metrics": {
         "promoter_holding": 64.27,
@@ -78673,31 +78645,31 @@
         "segment": "SME"
       }
     },
-    "SAHASRA": {
+    "HVAX": {
       "screen_metrics": {
-        "promoter_holding": 69.9,
+        "promoter_holding": 66.65,
         "promoter_change": 0.0,
-        "fii_holding": 0.12,
-        "dii_holding": 0.89,
-        "public_holding": 29.09,
-        "market_cap_cr": 1139.0,
-        "current_price": 456.0,
-        "stock_pe": 80.3,
-        "book_value": 94.1,
-        "dividend_yield": 0.21,
-        "roce": 6.04,
-        "roe": 6.22,
+        "fii_holding": 8.9,
+        "dii_holding": 1.08,
+        "public_holding": 23.38,
+        "market_cap_cr": 196.0,
+        "current_price": 705.0,
+        "stock_pe": 13.7,
+        "book_value": 312.0,
+        "dividend_yield": 0.0,
+        "roce": 20.1,
+        "roe": 18.0,
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
         "sector": "Industrials",
-        "industry": "Other Industrial Products",
-        "source_url": "https://www.screener.in/company/SAHASRA/consolidated/",
-        "fetched_at": "2026-10-12T05:17:24.158818+00:00",
-        "company": "Sahasra Electronic Solutions Limited",
+        "industry": "Civil Construction",
+        "source_url": "https://www.screener.in/company/HVAX/consolidated/",
+        "fetched_at": "2026-10-08T21:24:04.059092+00:00",
+        "company": "HVAX Technologies Limited",
         "series": "SM",
-        "isin": "INE0RBQ01018",
-        "listing_date": "04-Oct-24",
+        "isin": "INE0TO501019",
+        "listing_date": "07-Oct-24",
         "segment": "SME"
       }
     },
@@ -78725,6 +78697,34 @@
         "company": "Divyadhan Recycling Industries Limited",
         "series": "SM",
         "isin": "INE0QYI01019",
+        "listing_date": "04-Oct-24",
+        "segment": "SME"
+      }
+    },
+    "SAHASRA": {
+      "screen_metrics": {
+        "promoter_holding": 69.9,
+        "promoter_change": 0.0,
+        "fii_holding": 0.12,
+        "dii_holding": 0.89,
+        "public_holding": 29.09,
+        "market_cap_cr": 1139.0,
+        "current_price": 456.0,
+        "stock_pe": 80.3,
+        "book_value": 94.1,
+        "dividend_yield": 0.21,
+        "roce": 6.04,
+        "roe": 6.22,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Industrials",
+        "industry": "Other Industrial Products",
+        "source_url": "https://www.screener.in/company/SAHASRA/consolidated/",
+        "fetched_at": "2026-10-12T05:17:24.158818+00:00",
+        "company": "Sahasra Electronic Solutions Limited",
+        "series": "SM",
+        "isin": "INE0RBQ01018",
         "listing_date": "04-Oct-24",
         "segment": "SME"
       }
@@ -78757,34 +78757,6 @@
         "segment": "SME"
       }
     },
-    "THESL": {
-      "screen_metrics": {
-        "promoter_holding": 56.79,
-        "promoter_change": -0.21,
-        "fii_holding": 0.0,
-        "dii_holding": 0.0,
-        "public_holding": 43.21,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Other Consumer Services",
-        "source_url": "https://www.screener.in/company/THESL/consolidated/",
-        "fetched_at": "2026-10-12T21:53:15.593150+00:00",
-        "company": "Thinking Hats Entertainment Solutions Limited",
-        "series": "ST",
-        "isin": "INE0SHE01019",
-        "listing_date": "03-Oct-24",
-        "segment": "SME"
-      }
-    },
     "UNILEX": {
       "screen_metrics": {
         "promoter_holding": 73.56,
@@ -78809,6 +78781,34 @@
         "company": "Unilex Colours and Chemicals Limited",
         "series": "SM",
         "isin": "INE0B2801011",
+        "listing_date": "03-Oct-24",
+        "segment": "SME"
+      }
+    },
+    "THESL": {
+      "screen_metrics": {
+        "promoter_holding": 56.79,
+        "promoter_change": -0.21,
+        "fii_holding": 0.0,
+        "dii_holding": 0.0,
+        "public_holding": 43.21,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Other Consumer Services",
+        "source_url": "https://www.screener.in/company/THESL/consolidated/",
+        "fetched_at": "2026-10-12T21:53:15.593150+00:00",
+        "company": "Thinking Hats Entertainment Solutions Limited",
+        "series": "ST",
+        "isin": "INE0SHE01019",
         "listing_date": "03-Oct-24",
         "segment": "SME"
       }
@@ -78841,34 +78841,6 @@
         "segment": "SME"
       }
     },
-    "WOL3D": {
-      "screen_metrics": {
-        "promoter_holding": 64.73,
-        "promoter_change": -0.75,
-        "fii_holding": 1.44,
-        "dii_holding": 1.86,
-        "public_holding": 31.96,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Industrials",
-        "industry": "Other Industrial Products",
-        "source_url": "https://www.screener.in/company/WOL3D/consolidated/",
-        "fetched_at": "2026-10-13T09:51:06.999794+00:00",
-        "company": "Wol 3D India Limited",
-        "series": "SM",
-        "isin": "INE0OO201011",
-        "listing_date": "30-Sep-24",
-        "segment": "SME"
-      }
-    },
     "RAPPID": {
       "screen_metrics": {
         "promoter_holding": 51.69,
@@ -78893,6 +78865,34 @@
         "company": "Rappid Valves (India) Limited",
         "series": "SM",
         "isin": "INE0MVO01012",
+        "listing_date": "30-Sep-24",
+        "segment": "SME"
+      }
+    },
+    "WOL3D": {
+      "screen_metrics": {
+        "promoter_holding": 64.73,
+        "promoter_change": -0.75,
+        "fii_holding": 1.44,
+        "dii_holding": 1.86,
+        "public_holding": 31.96,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Industrials",
+        "industry": "Other Industrial Products",
+        "source_url": "https://www.screener.in/company/WOL3D/consolidated/",
+        "fetched_at": "2026-10-13T09:51:06.999794+00:00",
+        "company": "Wol 3D India Limited",
+        "series": "SM",
+        "isin": "INE0OO201011",
         "listing_date": "30-Sep-24",
         "segment": "SME"
       }
@@ -78953,34 +78953,6 @@
         "segment": "SME"
       }
     },
-    "PHOGLOBAL": {
-      "screen_metrics": {
-        "promoter_holding": 71.02,
-        "promoter_change": 0.0,
-        "fii_holding": 0.0,
-        "dii_holding": 0.0,
-        "public_holding": 28.98,
-        "market_cap_cr": 29.0,
-        "current_price": 15.0,
-        "stock_pe": 8.74,
-        "book_value": 42.0,
-        "dividend_yield": 0.0,
-        "roce": 6.11,
-        "roe": 4.15,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Services",
-        "industry": "Trading & Distributors",
-        "source_url": "https://www.screener.in/company/PHOGLOBAL/consolidated/",
-        "fetched_at": "2026-10-09T20:19:19.122082+00:00",
-        "company": "Phoenix Overseas Limited",
-        "series": "SM",
-        "isin": "INE0FPO01018",
-        "listing_date": "27-Sep-24",
-        "segment": "SME"
-      }
-    },
     "AVIANSH": {
       "screen_metrics": {
         "promoter_holding": 66.99,
@@ -79005,6 +78977,34 @@
         "company": "Avi Ansh Textile Limited",
         "series": "SM",
         "isin": "INE0TFB01017",
+        "listing_date": "27-Sep-24",
+        "segment": "SME"
+      }
+    },
+    "PHOGLOBAL": {
+      "screen_metrics": {
+        "promoter_holding": 71.02,
+        "promoter_change": 0.0,
+        "fii_holding": 0.0,
+        "dii_holding": 0.0,
+        "public_holding": 28.98,
+        "market_cap_cr": 29.0,
+        "current_price": 15.0,
+        "stock_pe": 8.74,
+        "book_value": 42.0,
+        "dividend_yield": 0.0,
+        "roce": 6.11,
+        "roe": 4.15,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Services",
+        "industry": "Trading & Distributors",
+        "source_url": "https://www.screener.in/company/PHOGLOBAL/consolidated/",
+        "fetched_at": "2026-10-09T20:19:19.122082+00:00",
+        "company": "Phoenix Overseas Limited",
+        "series": "SM",
+        "isin": "INE0FPO01018",
         "listing_date": "27-Sep-24",
         "segment": "SME"
       }
@@ -79065,30 +79065,30 @@
         "segment": "SME"
       }
     },
-    "DECCANTRAN": {
+    "PELATRO": {
       "screen_metrics": {
-        "promoter_holding": 63.6,
-        "promoter_change": -0.53,
-        "fii_holding": 1.86,
-        "dii_holding": 4.27,
-        "public_holding": 30.27,
-        "market_cap_cr": 46.7,
-        "current_price": 20.6,
-        "stock_pe": 29.8,
-        "book_value": 42.8,
-        "dividend_yield": 0.0,
-        "roce": 8.31,
-        "roe": 1.68,
+        "promoter_holding": 52.62,
+        "promoter_change": 0.0,
+        "fii_holding": 2.41,
+        "dii_holding": 1.57,
+        "public_holding": 43.39,
+        "market_cap_cr": 397.0,
+        "current_price": 375.0,
+        "stock_pe": 18.6,
+        "book_value": 104.0,
+        "dividend_yield": 0.27,
+        "roce": 19.1,
+        "roe": 21.4,
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": "Services",
-        "industry": "Logistics Solution Provider",
-        "source_url": "https://www.screener.in/company/DECCANTRAN/consolidated/",
-        "fetched_at": "2026-10-08T02:11:15.512925+00:00",
-        "company": "Deccan Transcon Leasing Limited",
+        "sector": "Consumer Discretionary",
+        "industry": "Web based media and service",
+        "source_url": "https://www.screener.in/company/PELATRO/consolidated/",
+        "fetched_at": "2026-10-09T20:18:57.664646+00:00",
+        "company": "Pelatro Limited",
         "series": "SM",
-        "isin": "INE0S7C01019",
+        "isin": "INE0VG601013",
         "listing_date": "24-Sep-24",
         "segment": "SME"
       }
@@ -79121,30 +79121,30 @@
         "segment": "SME"
       }
     },
-    "PELATRO": {
+    "DECCANTRAN": {
       "screen_metrics": {
-        "promoter_holding": 52.62,
-        "promoter_change": 0.0,
-        "fii_holding": 2.41,
-        "dii_holding": 1.57,
-        "public_holding": 43.39,
-        "market_cap_cr": 397.0,
-        "current_price": 375.0,
-        "stock_pe": 18.6,
-        "book_value": 104.0,
-        "dividend_yield": 0.27,
-        "roce": 19.1,
-        "roe": 21.4,
+        "promoter_holding": 63.6,
+        "promoter_change": -0.53,
+        "fii_holding": 1.86,
+        "dii_holding": 4.27,
+        "public_holding": 30.27,
+        "market_cap_cr": 46.7,
+        "current_price": 20.6,
+        "stock_pe": 29.8,
+        "book_value": 42.8,
+        "dividend_yield": 0.0,
+        "roce": 8.31,
+        "roe": 1.68,
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Web based media and service",
-        "source_url": "https://www.screener.in/company/PELATRO/consolidated/",
-        "fetched_at": "2026-10-09T20:18:57.664646+00:00",
-        "company": "Pelatro Limited",
+        "sector": "Services",
+        "industry": "Logistics Solution Provider",
+        "source_url": "https://www.screener.in/company/DECCANTRAN/consolidated/",
+        "fetched_at": "2026-10-08T02:11:15.512925+00:00",
+        "company": "Deccan Transcon Leasing Limited",
         "series": "SM",
-        "isin": "INE0VG601013",
+        "isin": "INE0S7C01019",
         "listing_date": "24-Sep-24",
         "segment": "SME"
       }
@@ -79541,34 +79541,6 @@
         "segment": "SME"
       }
     },
-    "IPHL": {
-      "screen_metrics": {
-        "promoter_holding": 72.99,
-        "promoter_change": 0.0,
-        "fii_holding": 1.35,
-        "dii_holding": 3.17,
-        "public_holding": 22.49,
-        "market_cap_cr": 172.0,
-        "current_price": 68.8,
-        "stock_pe": 7.84,
-        "book_value": 68.1,
-        "dividend_yield": 0.0,
-        "roce": 16.7,
-        "roe": 13.8,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Commodities",
-        "industry": "Specialty Chemicals",
-        "source_url": "https://www.screener.in/company/IPHL/consolidated/",
-        "fetched_at": "2026-10-08T21:25:48.129142+00:00",
-        "company": "Indian Phosphate Limited",
-        "series": "SM",
-        "isin": "INE0DHF01018",
-        "listing_date": "03-Sep-24",
-        "segment": "SME"
-      }
-    },
     "JAYBEE": {
       "screen_metrics": {
         "promoter_holding": 70.61,
@@ -79625,31 +79597,31 @@
         "segment": "SME"
       }
     },
-    "IDEALTECHO": {
+    "IPHL": {
       "screen_metrics": {
-        "promoter_holding": 73.52,
+        "promoter_holding": 72.99,
         "promoter_change": 0.0,
-        "fii_holding": null,
-        "dii_holding": null,
-        "public_holding": 26.48,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
+        "fii_holding": 1.35,
+        "dii_holding": 3.17,
+        "public_holding": 22.49,
+        "market_cap_cr": 172.0,
+        "current_price": 68.8,
+        "stock_pe": 7.84,
+        "book_value": 68.1,
+        "dividend_yield": 0.0,
+        "roce": 16.7,
+        "roe": 13.8,
+        "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": "Industrials",
-        "industry": "Packaging",
-        "source_url": "https://www.screener.in/company/IDEALTECHO/consolidated/",
-        "fetched_at": "2026-10-08T21:24:20.552420+00:00",
-        "company": "Ideal Technoplast Industries Limited",
+        "sector": "Commodities",
+        "industry": "Specialty Chemicals",
+        "source_url": "https://www.screener.in/company/IPHL/consolidated/",
+        "fetched_at": "2026-10-08T21:25:48.129142+00:00",
+        "company": "Indian Phosphate Limited",
         "series": "SM",
-        "isin": "INE0T9I01011",
-        "listing_date": "28-Aug-24",
+        "isin": "INE0DHF01018",
+        "listing_date": "03-Sep-24",
         "segment": "SME"
       }
     },
@@ -79677,6 +79649,34 @@
         "company": "QVC Exports Limited",
         "series": "SM",
         "isin": "INE0KZF01015",
+        "listing_date": "28-Aug-24",
+        "segment": "SME"
+      }
+    },
+    "IDEALTECHO": {
+      "screen_metrics": {
+        "promoter_holding": 73.52,
+        "promoter_change": 0.0,
+        "fii_holding": null,
+        "dii_holding": null,
+        "public_holding": 26.48,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Industrials",
+        "industry": "Packaging",
+        "source_url": "https://www.screener.in/company/IDEALTECHO/consolidated/",
+        "fetched_at": "2026-10-08T21:24:20.552420+00:00",
+        "company": "Ideal Technoplast Industries Limited",
+        "series": "SM",
+        "isin": "INE0T9I01011",
         "listing_date": "28-Aug-24",
         "segment": "SME"
       }
@@ -79989,34 +79989,6 @@
         "segment": "SME"
       }
     },
-    "ASHALOG": {
-      "screen_metrics": {
-        "promoter_holding": 68.03,
-        "promoter_change": 0.0,
-        "fii_holding": 1.05,
-        "dii_holding": 0.81,
-        "public_holding": 30.11,
-        "market_cap_cr": 86.6,
-        "current_price": 63.8,
-        "stock_pe": 9.65,
-        "book_value": 103.0,
-        "dividend_yield": 0.0,
-        "roce": 9.61,
-        "roe": 6.65,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Services",
-        "industry": "Logistics Solution Provider",
-        "source_url": "https://www.screener.in/company/ASHALOG/consolidated/",
-        "fetched_at": "2026-10-07T17:38:20.037450+00:00",
-        "company": "Ashapura Logistics Limited",
-        "series": "SM",
-        "isin": "INE0LAA01017",
-        "listing_date": "06-Aug-24",
-        "segment": "SME"
-      }
-    },
     "SSEGL": {
       "screen_metrics": {
         "promoter_holding": 58.27,
@@ -80045,31 +80017,31 @@
         "segment": "SME"
       }
     },
-    "ESPRIT": {
+    "ASHALOG": {
       "screen_metrics": {
-        "promoter_holding": 73.63,
-        "promoter_change": -0.01,
-        "fii_holding": 0.4,
-        "dii_holding": 1.57,
-        "public_holding": 24.4,
-        "market_cap_cr": 132.0,
-        "current_price": 60.0,
-        "stock_pe": null,
-        "book_value": 60.1,
+        "promoter_holding": 68.03,
+        "promoter_change": 0.0,
+        "fii_holding": 1.05,
+        "dii_holding": 0.81,
+        "public_holding": 30.11,
+        "market_cap_cr": 86.6,
+        "current_price": 63.8,
+        "stock_pe": 9.65,
+        "book_value": 103.0,
         "dividend_yield": 0.0,
-        "roce": -0.25,
-        "roe": -2.29,
+        "roce": 9.61,
+        "roe": 6.65,
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Granites & Marbles",
-        "source_url": "https://www.screener.in/company/ESPRIT/consolidated/",
-        "fetched_at": "2026-10-08T08:59:46.952374+00:00",
-        "company": "Esprit Stones Limited",
+        "sector": "Services",
+        "industry": "Logistics Solution Provider",
+        "source_url": "https://www.screener.in/company/ASHALOG/consolidated/",
+        "fetched_at": "2026-10-07T17:38:20.037450+00:00",
+        "company": "Ashapura Logistics Limited",
         "series": "SM",
-        "isin": "INE0SBP01018",
-        "listing_date": "02-Aug-24",
+        "isin": "INE0LAA01017",
+        "listing_date": "06-Aug-24",
         "segment": "SME"
       }
     },
@@ -80097,6 +80069,34 @@
         "company": "S A Tech Software India Limited",
         "series": "SM",
         "isin": "INE0BSN01013",
+        "listing_date": "02-Aug-24",
+        "segment": "SME"
+      }
+    },
+    "ESPRIT": {
+      "screen_metrics": {
+        "promoter_holding": 73.63,
+        "promoter_change": -0.01,
+        "fii_holding": 0.4,
+        "dii_holding": 1.57,
+        "public_holding": 24.4,
+        "market_cap_cr": 132.0,
+        "current_price": 60.0,
+        "stock_pe": null,
+        "book_value": 60.1,
+        "dividend_yield": 0.0,
+        "roce": -0.25,
+        "roe": -2.29,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Granites & Marbles",
+        "source_url": "https://www.screener.in/company/ESPRIT/consolidated/",
+        "fetched_at": "2026-10-08T08:59:46.952374+00:00",
+        "company": "Esprit Stones Limited",
+        "series": "SM",
+        "isin": "INE0SBP01018",
         "listing_date": "02-Aug-24",
         "segment": "SME"
       }
@@ -80157,34 +80157,6 @@
         "segment": "SME"
       }
     },
-    "CHETANA": {
-      "screen_metrics": {
-        "promoter_holding": 74.02,
-        "promoter_change": 0.0,
-        "fii_holding": 0.98,
-        "dii_holding": 0.95,
-        "public_holding": 24.05,
-        "market_cap_cr": 79.6,
-        "current_price": 39.0,
-        "stock_pe": 5.56,
-        "book_value": 45.6,
-        "dividend_yield": 0.0,
-        "roce": 19.3,
-        "roe": 16.6,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Printing & Publication",
-        "source_url": "https://www.screener.in/company/CHETANA/",
-        "fetched_at": "2026-10-07T22:23:16.949062+00:00",
-        "company": "Chetana Education Limited",
-        "series": "SM",
-        "isin": "INE0U1T01012",
-        "listing_date": "31-Jul-24",
-        "segment": "SME"
-      }
-    },
     "MIEL": {
       "screen_metrics": {
         "promoter_holding": 71.97,
@@ -80209,6 +80181,34 @@
         "company": "Manglam Infra & Engineering Limited",
         "series": "SM",
         "isin": "INE0R3101011",
+        "listing_date": "31-Jul-24",
+        "segment": "SME"
+      }
+    },
+    "CHETANA": {
+      "screen_metrics": {
+        "promoter_holding": 74.02,
+        "promoter_change": 0.0,
+        "fii_holding": 0.98,
+        "dii_holding": 0.95,
+        "public_holding": 24.05,
+        "market_cap_cr": 79.6,
+        "current_price": 39.0,
+        "stock_pe": 5.56,
+        "book_value": 45.6,
+        "dividend_yield": 0.0,
+        "roce": 19.3,
+        "roe": 16.6,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Printing & Publication",
+        "source_url": "https://www.screener.in/company/CHETANA/",
+        "fetched_at": "2026-10-07T22:23:16.949062+00:00",
+        "company": "Chetana Education Limited",
+        "series": "SM",
+        "isin": "INE0U1T01012",
         "listing_date": "31-Jul-24",
         "segment": "SME"
       }
@@ -80577,34 +80577,6 @@
         "segment": "SME"
       }
     },
-    "PCCL": {
-      "screen_metrics": {
-        "promoter_holding": 73.21,
-        "promoter_change": 0.0,
-        "fii_holding": 0.78,
-        "dii_holding": 3.95,
-        "public_holding": 22.06,
-        "market_cap_cr": 1011.0,
-        "current_price": 409.0,
-        "stock_pe": 39.9,
-        "book_value": 79.1,
-        "dividend_yield": 0.0,
-        "roce": 14.1,
-        "roe": 13.8,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Commodities",
-        "industry": "Industrial Minerals",
-        "source_url": "https://www.screener.in/company/PCCL/consolidated/",
-        "fetched_at": "2026-10-09T20:18:52.388520+00:00",
-        "company": "Petro Carbon and Chemicals Limited",
-        "series": "SM",
-        "isin": "INE998U01015",
-        "listing_date": "02-Jul-24",
-        "segment": "SME"
-      }
-    },
     "DPEL": {
       "screen_metrics": {
         "promoter_holding": 63.2,
@@ -80629,6 +80601,34 @@
         "company": "Divine Power Energy Limited",
         "series": "SM",
         "isin": "INE0SCO01019",
+        "listing_date": "02-Jul-24",
+        "segment": "SME"
+      }
+    },
+    "PCCL": {
+      "screen_metrics": {
+        "promoter_holding": 73.21,
+        "promoter_change": 0.0,
+        "fii_holding": 0.78,
+        "dii_holding": 3.95,
+        "public_holding": 22.06,
+        "market_cap_cr": 1011.0,
+        "current_price": 409.0,
+        "stock_pe": 39.9,
+        "book_value": 79.1,
+        "dividend_yield": 0.0,
+        "roce": 14.1,
+        "roe": 13.8,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Commodities",
+        "industry": "Industrial Minerals",
+        "source_url": "https://www.screener.in/company/PCCL/consolidated/",
+        "fetched_at": "2026-10-09T20:18:52.388520+00:00",
+        "company": "Petro Carbon and Chemicals Limited",
+        "series": "SM",
+        "isin": "INE998U01015",
         "listing_date": "02-Jul-24",
         "segment": "SME"
       }
@@ -80658,6 +80658,34 @@
         "series": "SM",
         "isin": "INE0PMR01017",
         "listing_date": "02-Jul-24",
+        "segment": "SME"
+      }
+    },
+    "SYLVANPLY": {
+      "screen_metrics": {
+        "promoter_holding": 73.68,
+        "promoter_change": 0.15,
+        "fii_holding": 0.0,
+        "dii_holding": 0.0,
+        "public_holding": 26.32,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Plywood Boards/ Laminates",
+        "source_url": "https://www.screener.in/company/SYLVANPLY/consolidated/",
+        "fetched_at": "2026-10-12T21:51:47.934109+00:00",
+        "company": "Sylvan Plyboard (India) Limited",
+        "series": "SM",
+        "isin": "INE01IH01015",
+        "listing_date": "01-Jul-24",
         "segment": "SME"
       }
     },
@@ -80741,34 +80769,6 @@
         "company": "Shivalic Power Control Limited",
         "series": "SM",
         "isin": "INE0T7B01010",
-        "listing_date": "01-Jul-24",
-        "segment": "SME"
-      }
-    },
-    "SYLVANPLY": {
-      "screen_metrics": {
-        "promoter_holding": 73.68,
-        "promoter_change": 0.15,
-        "fii_holding": 0.0,
-        "dii_holding": 0.0,
-        "public_holding": 26.32,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Plywood Boards/ Laminates",
-        "source_url": "https://www.screener.in/company/SYLVANPLY/consolidated/",
-        "fetched_at": "2026-10-12T21:51:47.934109+00:00",
-        "company": "Sylvan Plyboard (India) Limited",
-        "series": "SM",
-        "isin": "INE01IH01015",
         "listing_date": "01-Jul-24",
         "segment": "SME"
       }
@@ -81081,34 +81081,6 @@
         "segment": "SME"
       }
     },
-    "HOACFOODS": {
-      "screen_metrics": {
-        "promoter_holding": 62.08,
-        "promoter_change": 0.0,
-        "fii_holding": 0.0,
-        "dii_holding": 0.5,
-        "public_holding": 37.41,
-        "market_cap_cr": 420.0,
-        "current_price": 968.0,
-        "stock_pe": 71.4,
-        "book_value": 57.8,
-        "dividend_yield": 0.0,
-        "roce": 29.4,
-        "roe": 24.2,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Fast Moving Consumer Goods",
-        "industry": "Other Food Products",
-        "source_url": "https://www.screener.in/company/HOACFOODS/consolidated/",
-        "fetched_at": "2026-10-08T16:15:16.719689+00:00",
-        "company": "Hoac Foods India Limited",
-        "series": "ST",
-        "isin": "INE0S6S01017",
-        "listing_date": "24-May-24",
-        "segment": "SME"
-      }
-    },
     "RULKA": {
       "screen_metrics": {
         "promoter_holding": 60.05,
@@ -81133,6 +81105,34 @@
         "company": "Rulka Electricals Limited",
         "series": "SM",
         "isin": "INE0R7301013",
+        "listing_date": "24-May-24",
+        "segment": "SME"
+      }
+    },
+    "HOACFOODS": {
+      "screen_metrics": {
+        "promoter_holding": 62.08,
+        "promoter_change": 0.0,
+        "fii_holding": 0.0,
+        "dii_holding": 0.5,
+        "public_holding": 37.41,
+        "market_cap_cr": 420.0,
+        "current_price": 968.0,
+        "stock_pe": 71.4,
+        "book_value": 57.8,
+        "dividend_yield": 0.0,
+        "roce": 29.4,
+        "roe": 24.2,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Fast Moving Consumer Goods",
+        "industry": "Other Food Products",
+        "source_url": "https://www.screener.in/company/HOACFOODS/consolidated/",
+        "fetched_at": "2026-10-08T16:15:16.719689+00:00",
+        "company": "Hoac Foods India Limited",
+        "series": "ST",
+        "isin": "INE0S6S01017",
         "listing_date": "24-May-24",
         "segment": "SME"
       }
@@ -81193,13 +81193,13 @@
         "segment": "SME"
       }
     },
-    "VERITAAS": {
+    "MANDEEP": {
       "screen_metrics": {
-        "promoter_holding": 67.14,
-        "promoter_change": 1.61,
-        "fii_holding": 2.21,
-        "dii_holding": null,
-        "public_holding": 30.65,
+        "promoter_holding": 67.04,
+        "promoter_change": 3.51,
+        "fii_holding": null,
+        "dii_holding": 3.43,
+        "public_holding": 29.53,
         "market_cap_cr": null,
         "current_price": null,
         "stock_pe": null,
@@ -81211,12 +81211,12 @@
         "high_52w": null,
         "low_52w": null,
         "sector": "Consumer Discretionary",
-        "industry": "Advertising & Media Agencies",
-        "source_url": "https://www.screener.in/company/VERITAAS/consolidated/",
-        "fetched_at": "2026-10-13T02:50:45.292512+00:00",
-        "company": "Veritaas Advertising Limited",
+        "industry": "Auto Components & Equipments",
+        "source_url": "https://www.screener.in/company/MANDEEP/consolidated/",
+        "fetched_at": "2026-10-09T07:36:47.566616+00:00",
+        "company": "Mandeep Auto Industries Limited",
         "series": "SM",
-        "isin": "INE0SRI01019",
+        "isin": "INE0R3T01013",
         "listing_date": "21-May-24",
         "segment": "SME"
       }
@@ -81249,13 +81249,13 @@
         "segment": "SME"
       }
     },
-    "MANDEEP": {
+    "VERITAAS": {
       "screen_metrics": {
-        "promoter_holding": 67.04,
-        "promoter_change": 3.51,
-        "fii_holding": null,
-        "dii_holding": 3.43,
-        "public_holding": 29.53,
+        "promoter_holding": 67.14,
+        "promoter_change": 1.61,
+        "fii_holding": 2.21,
+        "dii_holding": null,
+        "public_holding": 30.65,
         "market_cap_cr": null,
         "current_price": null,
         "stock_pe": null,
@@ -81267,12 +81267,12 @@
         "high_52w": null,
         "low_52w": null,
         "sector": "Consumer Discretionary",
-        "industry": "Auto Components & Equipments",
-        "source_url": "https://www.screener.in/company/MANDEEP/consolidated/",
-        "fetched_at": "2026-10-09T07:36:47.566616+00:00",
-        "company": "Mandeep Auto Industries Limited",
+        "industry": "Advertising & Media Agencies",
+        "source_url": "https://www.screener.in/company/VERITAAS/consolidated/",
+        "fetched_at": "2026-10-13T02:50:45.292512+00:00",
+        "company": "Veritaas Advertising Limited",
         "series": "SM",
-        "isin": "INE0R3T01013",
+        "isin": "INE0SRI01019",
         "listing_date": "21-May-24",
         "segment": "SME"
       }
@@ -81585,34 +81585,6 @@
         "segment": "SME"
       }
     },
-    "CGRAPHICS": {
-      "screen_metrics": {
-        "promoter_holding": 68.07,
-        "promoter_change": 0.0,
-        "fii_holding": 0.0,
-        "dii_holding": 1.07,
-        "public_holding": 30.86,
-        "market_cap_cr": 373.0,
-        "current_price": 153.0,
-        "stock_pe": 19.9,
-        "book_value": 51.7,
-        "dividend_yield": 0.0,
-        "roce": 16.1,
-        "roe": 16.2,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Industrials",
-        "industry": "Other Industrial Products",
-        "source_url": "https://www.screener.in/company/CGRAPHICS/consolidated/",
-        "fetched_at": "2026-10-07T22:23:03.021149+00:00",
-        "company": "Creative Graphics Solutions India Limited",
-        "series": "SM",
-        "isin": "INE0R7401011",
-        "listing_date": "09-Apr-24",
-        "segment": "SME"
-      }
-    },
     "ALUWIND": {
       "screen_metrics": {
         "promoter_holding": 72.15,
@@ -81637,6 +81609,34 @@
         "company": "ALUWIND INFRA-TECH LIMITED",
         "series": "SM",
         "isin": "INE0STM01017",
+        "listing_date": "09-Apr-24",
+        "segment": "SME"
+      }
+    },
+    "CGRAPHICS": {
+      "screen_metrics": {
+        "promoter_holding": 68.07,
+        "promoter_change": 0.0,
+        "fii_holding": 0.0,
+        "dii_holding": 1.07,
+        "public_holding": 30.86,
+        "market_cap_cr": 373.0,
+        "current_price": 153.0,
+        "stock_pe": 19.9,
+        "book_value": 51.7,
+        "dividend_yield": 0.0,
+        "roce": 16.1,
+        "roe": 16.2,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Industrials",
+        "industry": "Other Industrial Products",
+        "source_url": "https://www.screener.in/company/CGRAPHICS/consolidated/",
+        "fetched_at": "2026-10-07T22:23:03.021149+00:00",
+        "company": "Creative Graphics Solutions India Limited",
+        "series": "SM",
+        "isin": "INE0R7401011",
         "listing_date": "09-Apr-24",
         "segment": "SME"
       }
@@ -81697,34 +81697,6 @@
         "segment": "SME"
       }
     },
-    "TAC": {
-      "screen_metrics": {
-        "promoter_holding": 56.66,
-        "promoter_change": -0.3,
-        "fii_holding": 0.04,
-        "dii_holding": 0.0,
-        "public_holding": 43.3,
-        "market_cap_cr": 828.0,
-        "current_price": 394.0,
-        "stock_pe": 28.8,
-        "book_value": 39.6,
-        "dividend_yield": 0.0,
-        "roce": 40.2,
-        "roe": 34.3,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Information Technology",
-        "industry": "Computers - Software & Consulting",
-        "source_url": "https://www.screener.in/company/TAC/consolidated/",
-        "fetched_at": "2026-10-12T21:51:58.049505+00:00",
-        "company": "TAC Infosec Limited",
-        "series": "ST",
-        "isin": "INE0SOY01013",
-        "listing_date": "05-Apr-24",
-        "segment": "SME"
-      }
-    },
     "RADIOWALLA": {
       "screen_metrics": {
         "promoter_holding": 41.54,
@@ -81749,6 +81721,34 @@
         "company": "Radiowalla Network Limited",
         "series": "ST",
         "isin": "INE430U01019",
+        "listing_date": "05-Apr-24",
+        "segment": "SME"
+      }
+    },
+    "TAC": {
+      "screen_metrics": {
+        "promoter_holding": 56.66,
+        "promoter_change": -0.3,
+        "fii_holding": 0.04,
+        "dii_holding": 0.0,
+        "public_holding": 43.3,
+        "market_cap_cr": 828.0,
+        "current_price": 394.0,
+        "stock_pe": 28.8,
+        "book_value": 39.6,
+        "dividend_yield": 0.0,
+        "roce": 40.2,
+        "roe": 34.3,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Information Technology",
+        "industry": "Computers - Software & Consulting",
+        "source_url": "https://www.screener.in/company/TAC/consolidated/",
+        "fetched_at": "2026-10-12T21:51:58.049505+00:00",
+        "company": "TAC Infosec Limited",
+        "series": "ST",
+        "isin": "INE0SOY01013",
         "listing_date": "05-Apr-24",
         "segment": "SME"
       }
@@ -81781,34 +81781,6 @@
         "segment": "SME"
       }
     },
-    "BLUEPEBBLE": {
-      "screen_metrics": {
-        "promoter_holding": 73.53,
-        "promoter_change": 0.0,
-        "fii_holding": null,
-        "dii_holding": 0.01,
-        "public_holding": 26.46,
-        "market_cap_cr": 27.3,
-        "current_price": 67.0,
-        "stock_pe": 55.8,
-        "book_value": 68.2,
-        "dividend_yield": 0.0,
-        "roce": 2.42,
-        "roe": 1.77,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Other Consumer Services",
-        "source_url": "https://www.screener.in/company/BLUEPEBBLE/consolidated/",
-        "fetched_at": "2026-10-07T22:21:36.101792+00:00",
-        "company": "Blue Pebble Limited",
-        "series": "ST",
-        "isin": "INE0SAK01011",
-        "listing_date": "03-Apr-24",
-        "segment": "SME"
-      }
-    },
     "ASPIRE": {
       "screen_metrics": {
         "promoter_holding": 72.35,
@@ -81833,6 +81805,34 @@
         "company": "Aspire & Innovative Advertising Limited",
         "series": "SM",
         "isin": "INE0S7801010",
+        "listing_date": "03-Apr-24",
+        "segment": "SME"
+      }
+    },
+    "BLUEPEBBLE": {
+      "screen_metrics": {
+        "promoter_holding": 73.53,
+        "promoter_change": 0.0,
+        "fii_holding": null,
+        "dii_holding": 0.01,
+        "public_holding": 26.46,
+        "market_cap_cr": 27.3,
+        "current_price": 67.0,
+        "stock_pe": 55.8,
+        "book_value": 68.2,
+        "dividend_yield": 0.0,
+        "roce": 2.42,
+        "roe": 1.77,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Other Consumer Services",
+        "source_url": "https://www.screener.in/company/BLUEPEBBLE/consolidated/",
+        "fetched_at": "2026-10-07T22:21:36.101792+00:00",
+        "company": "Blue Pebble Limited",
+        "series": "ST",
+        "isin": "INE0SAK01011",
         "listing_date": "03-Apr-24",
         "segment": "SME"
       }
@@ -82229,6 +82229,34 @@
         "segment": "SME"
       }
     },
+    "ZENITHDRUG": {
+      "screen_metrics": {
+        "promoter_holding": 69.98,
+        "promoter_change": 0.0,
+        "fii_holding": 0.0,
+        "dii_holding": 0.0,
+        "public_holding": 30.02,
+        "market_cap_cr": 66.6,
+        "current_price": 38.8,
+        "stock_pe": 6.34,
+        "book_value": 36.3,
+        "dividend_yield": 0.0,
+        "roce": 27.1,
+        "roe": 26.3,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Healthcare",
+        "industry": "Pharmaceuticals",
+        "source_url": "https://www.screener.in/company/ZENITHDRUG/consolidated/",
+        "fetched_at": "2026-10-13T09:51:35.223596+00:00",
+        "company": "Zenith Drugs Limited",
+        "series": "SM",
+        "isin": "INE0QWN01013",
+        "listing_date": "27-Feb-24",
+        "segment": "SME"
+      }
+    },
     "DEEM": {
       "screen_metrics": {
         "promoter_holding": 67.1,
@@ -82257,31 +82285,31 @@
         "segment": "SME"
       }
     },
-    "ZENITHDRUG": {
+    "TCL": {
       "screen_metrics": {
-        "promoter_holding": 69.98,
+        "promoter_holding": 60.41,
         "promoter_change": 0.0,
-        "fii_holding": 0.0,
-        "dii_holding": 0.0,
-        "public_holding": 30.02,
-        "market_cap_cr": 66.6,
-        "current_price": 38.8,
-        "stock_pe": 6.34,
-        "book_value": 36.3,
+        "fii_holding": 1.26,
+        "dii_holding": 2.25,
+        "public_holding": 36.07,
+        "market_cap_cr": 314.0,
+        "current_price": 129.0,
+        "stock_pe": 24.0,
+        "book_value": 45.7,
         "dividend_yield": 0.0,
-        "roce": 27.1,
-        "roe": 26.3,
+        "roce": 13.8,
+        "roe": 13.4,
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": "Healthcare",
-        "industry": "Pharmaceuticals",
-        "source_url": "https://www.screener.in/company/ZENITHDRUG/consolidated/",
-        "fetched_at": "2026-10-13T09:51:35.223596+00:00",
-        "company": "Zenith Drugs Limited",
+        "sector": "Consumer Discretionary",
+        "industry": "Auto Components & Equipments",
+        "source_url": "https://www.screener.in/company/TCL/consolidated/",
+        "fetched_at": "2026-10-12T21:52:34.769462+00:00",
+        "company": "Thaai Casting Limited",
         "series": "SM",
-        "isin": "INE0QWN01013",
-        "listing_date": "27-Feb-24",
+        "isin": "INE0QJL01014",
+        "listing_date": "23-Feb-24",
         "segment": "SME"
       }
     },
@@ -82365,34 +82393,6 @@
         "company": "Atmastco Limited",
         "series": "SM",
         "isin": "INE05DH01017",
-        "listing_date": "23-Feb-24",
-        "segment": "SME"
-      }
-    },
-    "TCL": {
-      "screen_metrics": {
-        "promoter_holding": 60.41,
-        "promoter_change": 0.0,
-        "fii_holding": 1.26,
-        "dii_holding": 2.25,
-        "public_holding": 36.07,
-        "market_cap_cr": 314.0,
-        "current_price": 129.0,
-        "stock_pe": 24.0,
-        "book_value": 45.7,
-        "dividend_yield": 0.0,
-        "roce": 13.8,
-        "roe": 13.4,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Auto Components & Equipments",
-        "source_url": "https://www.screener.in/company/TCL/consolidated/",
-        "fetched_at": "2026-10-12T21:52:34.769462+00:00",
-        "company": "Thaai Casting Limited",
-        "series": "SM",
-        "isin": "INE0QJL01014",
         "listing_date": "23-Feb-24",
         "segment": "SME"
       }
@@ -83209,34 +83209,6 @@
         "segment": "SME"
       }
     },
-    "MARINETRAN": {
-      "screen_metrics": {
-        "promoter_holding": 67.09,
-        "promoter_change": 0.0,
-        "fii_holding": null,
-        "dii_holding": null,
-        "public_holding": 32.91,
-        "market_cap_cr": 17.6,
-        "current_price": 13.8,
-        "stock_pe": 117.0,
-        "book_value": 20.2,
-        "dividend_yield": 0.0,
-        "roce": 5.75,
-        "roe": 1.54,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Services",
-        "industry": "Logistics Solution Provider",
-        "source_url": "https://www.screener.in/company/MARINETRAN/consolidated/",
-        "fetched_at": "2026-10-09T07:37:08.057397+00:00",
-        "company": "Marinetrans India Limited",
-        "series": "ST",
-        "isin": "INE0P1P01017",
-        "listing_date": "08-Dec-23",
-        "segment": "SME"
-      }
-    },
     "CBAZAAR": {
       "screen_metrics": {
         "promoter_holding": 38.61,
@@ -83261,6 +83233,34 @@
         "company": "Net Avenue Technologies Limited",
         "series": "SM",
         "isin": "INE518X01015",
+        "listing_date": "08-Dec-23",
+        "segment": "SME"
+      }
+    },
+    "MARINETRAN": {
+      "screen_metrics": {
+        "promoter_holding": 67.09,
+        "promoter_change": 0.0,
+        "fii_holding": null,
+        "dii_holding": null,
+        "public_holding": 32.91,
+        "market_cap_cr": 17.6,
+        "current_price": 13.8,
+        "stock_pe": 117.0,
+        "book_value": 20.2,
+        "dividend_yield": 0.0,
+        "roce": 5.75,
+        "roe": 1.54,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Services",
+        "industry": "Logistics Solution Provider",
+        "source_url": "https://www.screener.in/company/MARINETRAN/consolidated/",
+        "fetched_at": "2026-10-09T07:37:08.057397+00:00",
+        "company": "Marinetrans India Limited",
+        "series": "ST",
+        "isin": "INE0P1P01017",
         "listing_date": "08-Dec-23",
         "segment": "SME"
       }
@@ -83713,34 +83713,6 @@
         "segment": "SME"
       }
     },
-    "KARNIKA": {
-      "screen_metrics": {
-        "promoter_holding": 73.39,
-        "promoter_change": 0.0,
-        "fii_holding": 0.0,
-        "dii_holding": 4.08,
-        "public_holding": 22.53,
-        "market_cap_cr": 769.0,
-        "current_price": 124.0,
-        "stock_pe": 27.5,
-        "book_value": 15.6,
-        "dividend_yield": 0.08,
-        "roce": null,
-        "roe": 29.0,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Garments & Apparels",
-        "source_url": "https://www.screener.in/company/KARNIKA/consolidated/",
-        "fetched_at": "2026-10-09T01:23:46.017021+00:00",
-        "company": "Karnika Industries Limited",
-        "series": "SM",
-        "isin": "INE0MGA01012",
-        "listing_date": "12-Oct-23",
-        "segment": "SME"
-      }
-    },
     "SCML": {
       "screen_metrics": {
         "promoter_holding": 68.25,
@@ -83769,31 +83741,31 @@
         "segment": "SME"
       }
     },
-    "GOYALSALT": {
+    "KARNIKA": {
       "screen_metrics": {
-        "promoter_holding": 72.61,
+        "promoter_holding": 73.39,
         "promoter_change": 0.0,
-        "fii_holding": 0.46,
-        "dii_holding": 2.37,
-        "public_holding": 24.55,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
+        "fii_holding": 0.0,
+        "dii_holding": 4.08,
+        "public_holding": 22.53,
+        "market_cap_cr": 769.0,
+        "current_price": 124.0,
+        "stock_pe": 27.5,
+        "book_value": 15.6,
+        "dividend_yield": 0.08,
         "roce": null,
-        "roe": null,
-        "face_value": null,
+        "roe": 29.0,
+        "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": "Fast Moving Consumer Goods",
-        "industry": "Other Food Products",
-        "source_url": "https://www.screener.in/company/GOYALSALT/consolidated/",
-        "fetched_at": "2026-10-08T16:13:03.995131+00:00",
-        "company": "Goyal Salt Limited",
+        "sector": "Consumer Discretionary",
+        "industry": "Garments & Apparels",
+        "source_url": "https://www.screener.in/company/KARNIKA/consolidated/",
+        "fetched_at": "2026-10-09T01:23:46.017021+00:00",
+        "company": "Karnika Industries Limited",
         "series": "SM",
-        "isin": "INE0QFE01017",
-        "listing_date": "11-Oct-23",
+        "isin": "INE0MGA01012",
+        "listing_date": "12-Oct-23",
         "segment": "SME"
       }
     },
@@ -83821,6 +83793,34 @@
         "company": "Oneclick Logistics India Limited",
         "series": "SM",
         "isin": "INE0OPS01011",
+        "listing_date": "11-Oct-23",
+        "segment": "SME"
+      }
+    },
+    "GOYALSALT": {
+      "screen_metrics": {
+        "promoter_holding": 72.61,
+        "promoter_change": 0.0,
+        "fii_holding": 0.46,
+        "dii_holding": 2.37,
+        "public_holding": 24.55,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Fast Moving Consumer Goods",
+        "industry": "Other Food Products",
+        "source_url": "https://www.screener.in/company/GOYALSALT/consolidated/",
+        "fetched_at": "2026-10-08T16:13:03.995131+00:00",
+        "company": "Goyal Salt Limited",
+        "series": "SM",
+        "isin": "INE0QFE01017",
         "listing_date": "11-Oct-23",
         "segment": "SME"
       }
@@ -83909,34 +83909,6 @@
         "segment": "SME"
       }
     },
-    "EFACTOR": {
-      "screen_metrics": {
-        "promoter_holding": 69.56,
-        "promoter_change": -0.21,
-        "fii_holding": 0.53,
-        "dii_holding": 4.37,
-        "public_holding": 25.54,
-        "market_cap_cr": 267.0,
-        "current_price": 204.0,
-        "stock_pe": 13.6,
-        "book_value": 68.8,
-        "dividend_yield": 0.6,
-        "roce": 24.7,
-        "roe": 24.4,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Other Consumer Services",
-        "source_url": "https://www.screener.in/company/EFACTOR/consolidated/",
-        "fetched_at": "2026-10-08T08:57:56.316732+00:00",
-        "company": "E Factor Experiences Limited",
-        "series": "SM",
-        "isin": "INE0KFF01017",
-        "listing_date": "09-Oct-23",
-        "segment": "SME"
-      }
-    },
     "ARABIAN": {
       "screen_metrics": {
         "promoter_holding": 73.45,
@@ -83961,6 +83933,34 @@
         "company": "Arabian Petroleum Limited",
         "series": "SM",
         "isin": "INE08NJ01024",
+        "listing_date": "09-Oct-23",
+        "segment": "SME"
+      }
+    },
+    "EFACTOR": {
+      "screen_metrics": {
+        "promoter_holding": 69.56,
+        "promoter_change": -0.21,
+        "fii_holding": 0.53,
+        "dii_holding": 4.37,
+        "public_holding": 25.54,
+        "market_cap_cr": 267.0,
+        "current_price": 204.0,
+        "stock_pe": 13.6,
+        "book_value": 68.8,
+        "dividend_yield": 0.6,
+        "roce": 24.7,
+        "roe": 24.4,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Other Consumer Services",
+        "source_url": "https://www.screener.in/company/EFACTOR/consolidated/",
+        "fetched_at": "2026-10-08T08:57:56.316732+00:00",
+        "company": "E Factor Experiences Limited",
+        "series": "SM",
+        "isin": "INE0KFF01017",
         "listing_date": "09-Oct-23",
         "segment": "SME"
       }
@@ -84161,34 +84161,6 @@
         "segment": "SME"
       }
     },
-    "MARCO": {
-      "screen_metrics": {
-        "promoter_holding": 72.81,
-        "promoter_change": 0.0,
-        "fii_holding": null,
-        "dii_holding": null,
-        "public_holding": 27.19,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Industrials",
-        "industry": "Cables - Electricals",
-        "source_url": "https://www.screener.in/company/MARCO/consolidated/",
-        "fetched_at": "2026-10-09T07:37:05.101548+00:00",
-        "company": "Marco Cables & Conductors Limited",
-        "series": "SM",
-        "isin": "INE0QP001012",
-        "listing_date": "28-Sep-23",
-        "segment": "SME"
-      }
-    },
     "HIGREEN": {
       "screen_metrics": {
         "promoter_holding": 71.92,
@@ -84241,6 +84213,34 @@
         "company": "Cellecor Gadgets Limited",
         "series": "SM",
         "isin": "INE0OMO01025",
+        "listing_date": "28-Sep-23",
+        "segment": "SME"
+      }
+    },
+    "MARCO": {
+      "screen_metrics": {
+        "promoter_holding": 72.81,
+        "promoter_change": 0.0,
+        "fii_holding": null,
+        "dii_holding": null,
+        "public_holding": 27.19,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Industrials",
+        "industry": "Cables - Electricals",
+        "source_url": "https://www.screener.in/company/MARCO/consolidated/",
+        "fetched_at": "2026-10-09T07:37:05.101548+00:00",
+        "company": "Marco Cables & Conductors Limited",
+        "series": "SM",
+        "isin": "INE0QP001012",
         "listing_date": "28-Sep-23",
         "segment": "SME"
       }
@@ -84441,34 +84441,6 @@
         "segment": "SME"
       }
     },
-    "PRAMARA": {
-      "screen_metrics": {
-        "promoter_holding": 32.2,
-        "promoter_change": -7.17,
-        "fii_holding": 1.35,
-        "dii_holding": 0.49,
-        "public_holding": 65.96,
-        "market_cap_cr": 139.0,
-        "current_price": 99.9,
-        "stock_pe": 13.9,
-        "book_value": 87.2,
-        "dividend_yield": 0.0,
-        "roce": 15.0,
-        "roe": 10.8,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Advertising & Media Agencies",
-        "source_url": "https://www.screener.in/company/PRAMARA/consolidated/",
-        "fetched_at": "2026-10-09T20:20:16.450430+00:00",
-        "company": "Pramara Promotions Limited",
-        "series": "SM",
-        "isin": "INE0O7A01017",
-        "listing_date": "13-Sep-23",
-        "segment": "SME"
-      }
-    },
     "SAROJA": {
       "screen_metrics": {
         "promoter_holding": 73.02,
@@ -84493,6 +84465,34 @@
         "company": "Saroja Pharma Industries India Limited",
         "series": "SM",
         "isin": "INE0PCL01011",
+        "listing_date": "13-Sep-23",
+        "segment": "SME"
+      }
+    },
+    "PRAMARA": {
+      "screen_metrics": {
+        "promoter_holding": 32.2,
+        "promoter_change": -7.17,
+        "fii_holding": 1.35,
+        "dii_holding": 0.49,
+        "public_holding": 65.96,
+        "market_cap_cr": 139.0,
+        "current_price": 99.9,
+        "stock_pe": 13.9,
+        "book_value": 87.2,
+        "dividend_yield": 0.0,
+        "roce": 15.0,
+        "roe": 10.8,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Advertising & Media Agencies",
+        "source_url": "https://www.screener.in/company/PRAMARA/consolidated/",
+        "fetched_at": "2026-10-09T20:20:16.450430+00:00",
+        "company": "Pramara Promotions Limited",
+        "series": "SM",
+        "isin": "INE0O7A01017",
         "listing_date": "13-Sep-23",
         "segment": "SME"
       }
@@ -84525,34 +84525,6 @@
         "segment": "SME"
       }
     },
-    "MONOPHARMA": {
-      "screen_metrics": {
-        "promoter_holding": 56.72,
-        "promoter_change": 0.0,
-        "fii_holding": null,
-        "dii_holding": null,
-        "public_holding": 43.28,
-        "market_cap_cr": 15.7,
-        "current_price": 8.9,
-        "stock_pe": 21.5,
-        "book_value": 17.9,
-        "dividend_yield": 0.0,
-        "roce": 5.1,
-        "roe": 2.33,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Healthcare",
-        "industry": "Pharmaceuticals",
-        "source_url": "https://www.screener.in/company/MONOPHARMA/consolidated/",
-        "fetched_at": "2026-10-09T14:42:58.976520+00:00",
-        "company": "Mono Pharmacare Limited",
-        "series": "SM",
-        "isin": "INE0OIP01012",
-        "listing_date": "07-Sep-23",
-        "segment": "SME"
-      }
-    },
     "CPS": {
       "screen_metrics": {
         "promoter_holding": 64.88,
@@ -84577,6 +84549,34 @@
         "company": "C P S Shapers Limited",
         "series": "SM",
         "isin": "INE0QBU01012",
+        "listing_date": "07-Sep-23",
+        "segment": "SME"
+      }
+    },
+    "MONOPHARMA": {
+      "screen_metrics": {
+        "promoter_holding": 56.72,
+        "promoter_change": 0.0,
+        "fii_holding": null,
+        "dii_holding": null,
+        "public_holding": 43.28,
+        "market_cap_cr": 15.7,
+        "current_price": 8.9,
+        "stock_pe": 21.5,
+        "book_value": 17.9,
+        "dividend_yield": 0.0,
+        "roce": 5.1,
+        "roe": 2.33,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Healthcare",
+        "industry": "Pharmaceuticals",
+        "source_url": "https://www.screener.in/company/MONOPHARMA/consolidated/",
+        "fetched_at": "2026-10-09T14:42:58.976520+00:00",
+        "company": "Mono Pharmacare Limited",
+        "series": "SM",
+        "isin": "INE0OIP01012",
         "listing_date": "07-Sep-23",
         "segment": "SME"
       }
@@ -85057,34 +85057,6 @@
         "segment": "SME"
       }
     },
-    "GREENCHEF": {
-      "screen_metrics": {
-        "promoter_holding": 73.52,
-        "promoter_change": 0.0,
-        "fii_holding": 0.67,
-        "dii_holding": 0.0,
-        "public_holding": 25.82,
-        "market_cap_cr": 151.0,
-        "current_price": 65.0,
-        "stock_pe": 206.0,
-        "book_value": null,
-        "dividend_yield": 0.0,
-        "roce": 5.89,
-        "roe": 1.43,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Household Appliances",
-        "source_url": "https://www.screener.in/company/GREENCHEF/consolidated/",
-        "fetched_at": "2026-10-08T16:13:21.684001+00:00",
-        "company": "Greenchef Appliances Limited",
-        "series": "SM",
-        "isin": "INE0O7P01015",
-        "listing_date": "06-Jul-23",
-        "segment": "SME"
-      }
-    },
     "ESFL": {
       "screen_metrics": {
         "promoter_holding": 70.86,
@@ -85113,31 +85085,31 @@
         "segment": "SME"
       }
     },
-    "AATMAJ": {
+    "GREENCHEF": {
       "screen_metrics": {
-        "promoter_holding": 64.33,
-        "promoter_change": 0.57,
-        "fii_holding": null,
-        "dii_holding": null,
-        "public_holding": 35.67,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
+        "promoter_holding": 73.52,
+        "promoter_change": 0.0,
+        "fii_holding": 0.67,
+        "dii_holding": 0.0,
+        "public_holding": 25.82,
+        "market_cap_cr": 151.0,
+        "current_price": 65.0,
+        "stock_pe": 206.0,
         "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
+        "dividend_yield": 0.0,
+        "roce": 5.89,
+        "roe": 1.43,
+        "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": "Healthcare",
-        "industry": "Hospital",
-        "source_url": "https://www.screener.in/company/AATMAJ/consolidated/",
-        "fetched_at": "2026-10-07T10:41:39.133233+00:00",
-        "company": "Aatmaj Healthcare Limited",
+        "sector": "Consumer Discretionary",
+        "industry": "Household Appliances",
+        "source_url": "https://www.screener.in/company/GREENCHEF/consolidated/",
+        "fetched_at": "2026-10-08T16:13:21.684001+00:00",
+        "company": "Greenchef Appliances Limited",
         "series": "SM",
-        "isin": "INE0OB201016",
-        "listing_date": "30-Jun-23",
+        "isin": "INE0O7P01015",
+        "listing_date": "06-Jul-23",
         "segment": "SME"
       }
     },
@@ -85165,6 +85137,34 @@
         "company": "Vilin Bio Med Limited",
         "series": "ST",
         "isin": "INE0L4V01013",
+        "listing_date": "30-Jun-23",
+        "segment": "SME"
+      }
+    },
+    "AATMAJ": {
+      "screen_metrics": {
+        "promoter_holding": 64.33,
+        "promoter_change": 0.57,
+        "fii_holding": null,
+        "dii_holding": null,
+        "public_holding": 35.67,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Healthcare",
+        "industry": "Hospital",
+        "source_url": "https://www.screener.in/company/AATMAJ/consolidated/",
+        "fetched_at": "2026-10-07T10:41:39.133233+00:00",
+        "company": "Aatmaj Healthcare Limited",
+        "series": "SM",
+        "isin": "INE0OB201016",
         "listing_date": "30-Jun-23",
         "segment": "SME"
       }
@@ -85197,34 +85197,6 @@
         "segment": "SME"
       }
     },
-    "URBAN": {
-      "screen_metrics": {
-        "promoter_holding": 51.19,
-        "promoter_change": 0.0,
-        "fii_holding": 0.0,
-        "dii_holding": 0.07,
-        "public_holding": 48.74,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Utilities",
-        "industry": "Waste Management",
-        "source_url": "https://www.screener.in/company/URBAN/consolidated/",
-        "fetched_at": "2026-10-13T02:49:59.108255+00:00",
-        "company": "Urban Enviro Waste Management Limited",
-        "series": "SM",
-        "isin": "INE0O0201019",
-        "listing_date": "22-Jun-23",
-        "segment": "SME"
-      }
-    },
     "SPECTSTM": {
       "screen_metrics": {
         "promoter_holding": 74.52,
@@ -85249,6 +85221,34 @@
         "company": "Spectrum Talent Management Limited",
         "series": "SM",
         "isin": "INE0OL001018",
+        "listing_date": "22-Jun-23",
+        "segment": "SME"
+      }
+    },
+    "URBAN": {
+      "screen_metrics": {
+        "promoter_holding": 51.19,
+        "promoter_change": 0.0,
+        "fii_holding": 0.0,
+        "dii_holding": 0.07,
+        "public_holding": 48.74,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Utilities",
+        "industry": "Waste Management",
+        "source_url": "https://www.screener.in/company/URBAN/consolidated/",
+        "fetched_at": "2026-10-13T02:49:59.108255+00:00",
+        "company": "Urban Enviro Waste Management Limited",
+        "series": "SM",
+        "isin": "INE0O0201019",
         "listing_date": "22-Jun-23",
         "segment": "SME"
       }
@@ -85813,34 +85813,6 @@
         "segment": "SME"
       }
     },
-    "SYSTANGO": {
-      "screen_metrics": {
-        "promoter_holding": 72.17,
-        "promoter_change": 0.04,
-        "fii_holding": 0.47,
-        "dii_holding": 1.69,
-        "public_holding": 25.67,
-        "market_cap_cr": 311.0,
-        "current_price": 212.0,
-        "stock_pe": 10.3,
-        "book_value": 92.4,
-        "dividend_yield": 3.3,
-        "roce": 31.8,
-        "roe": 25.5,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Information Technology",
-        "industry": "Computers - Software & Consulting",
-        "source_url": "https://www.screener.in/company/SYSTANGO/consolidated/",
-        "fetched_at": "2026-10-12T21:51:55.038069+00:00",
-        "company": "Systango Technologies Limited",
-        "series": "SM",
-        "isin": "INE0O7R01011",
-        "listing_date": "15-Mar-23",
-        "segment": "SME"
-      }
-    },
     "VERTEXPLUS": {
       "screen_metrics": {
         "promoter_holding": 73.0,
@@ -85865,6 +85837,34 @@
         "company": "Vertexplus Technologies Limited",
         "series": "ST",
         "isin": "INE0NLB01018",
+        "listing_date": "15-Mar-23",
+        "segment": "SME"
+      }
+    },
+    "SYSTANGO": {
+      "screen_metrics": {
+        "promoter_holding": 72.17,
+        "promoter_change": 0.04,
+        "fii_holding": 0.47,
+        "dii_holding": 1.69,
+        "public_holding": 25.67,
+        "market_cap_cr": 311.0,
+        "current_price": 212.0,
+        "stock_pe": 10.3,
+        "book_value": 92.4,
+        "dividend_yield": 3.3,
+        "roce": 31.8,
+        "roe": 25.5,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Information Technology",
+        "industry": "Computers - Software & Consulting",
+        "source_url": "https://www.screener.in/company/SYSTANGO/consolidated/",
+        "fetched_at": "2026-10-12T21:51:55.038069+00:00",
+        "company": "Systango Technologies Limited",
+        "series": "SM",
+        "isin": "INE0O7R01011",
         "listing_date": "15-Mar-23",
         "segment": "SME"
       }
@@ -86233,34 +86233,6 @@
         "segment": "SME"
       }
     },
-    "ARIHANTACA": {
-      "screen_metrics": {
-        "promoter_holding": 64.74,
-        "promoter_change": 0.0,
-        "fii_holding": 0.0,
-        "dii_holding": null,
-        "public_holding": 35.26,
-        "market_cap_cr": 279.0,
-        "current_price": 230.0,
-        "stock_pe": 30.3,
-        "book_value": 27.7,
-        "dividend_yield": 0.43,
-        "roce": 42.5,
-        "roe": 31.1,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Education",
-        "source_url": "https://www.screener.in/company/ARIHANTACA/consolidated/",
-        "fetched_at": "2026-10-07T17:37:54.836845+00:00",
-        "company": "Arihant Academy Limited",
-        "series": "SM",
-        "isin": "INE0NCC01015",
-        "listing_date": "29-Dec-22",
-        "segment": "SME"
-      }
-    },
     "UMA": {
       "screen_metrics": {
         "promoter_holding": 69.45,
@@ -86285,6 +86257,34 @@
         "company": "Uma Converter Limited",
         "series": "SM",
         "isin": "INE067901012",
+        "listing_date": "29-Dec-22",
+        "segment": "SME"
+      }
+    },
+    "ARIHANTACA": {
+      "screen_metrics": {
+        "promoter_holding": 64.74,
+        "promoter_change": 0.0,
+        "fii_holding": 0.0,
+        "dii_holding": null,
+        "public_holding": 35.26,
+        "market_cap_cr": 279.0,
+        "current_price": 230.0,
+        "stock_pe": 30.3,
+        "book_value": 27.7,
+        "dividend_yield": 0.43,
+        "roce": 42.5,
+        "roe": 31.1,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Education",
+        "source_url": "https://www.screener.in/company/ARIHANTACA/consolidated/",
+        "fetched_at": "2026-10-07T17:37:54.836845+00:00",
+        "company": "Arihant Academy Limited",
+        "series": "SM",
+        "isin": "INE0NCC01015",
         "listing_date": "29-Dec-22",
         "segment": "SME"
       }
@@ -86345,34 +86345,6 @@
         "segment": "SME"
       }
     },
-    "BAHETI": {
-      "screen_metrics": {
-        "promoter_holding": 74.13,
-        "promoter_change": -0.56,
-        "fii_holding": 0.04,
-        "dii_holding": null,
-        "public_holding": 25.83,
-        "market_cap_cr": null,
-        "current_price": null,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": null,
-        "roce": null,
-        "roe": null,
-        "face_value": null,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Industrials",
-        "industry": "Aluminium, Copper & Zinc Products",
-        "source_url": "https://www.screener.in/company/BAHETI/consolidated/",
-        "fetched_at": "2026-10-07T17:39:39.277026+00:00",
-        "company": "Baheti Recycling Industries Limited",
-        "series": "SM",
-        "isin": "INE029Q01017",
-        "listing_date": "08-Dec-22",
-        "segment": "SME"
-      }
-    },
     "PRITIKA": {
       "screen_metrics": {
         "promoter_holding": 70.81,
@@ -86397,6 +86369,34 @@
         "company": "Pritika Engineering Components Limited",
         "series": "SM",
         "isin": "INE0MJQ01020",
+        "listing_date": "08-Dec-22",
+        "segment": "SME"
+      }
+    },
+    "BAHETI": {
+      "screen_metrics": {
+        "promoter_holding": 74.13,
+        "promoter_change": -0.56,
+        "fii_holding": 0.04,
+        "dii_holding": null,
+        "public_holding": 25.83,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Industrials",
+        "industry": "Aluminium, Copper & Zinc Products",
+        "source_url": "https://www.screener.in/company/BAHETI/consolidated/",
+        "fetched_at": "2026-10-07T17:39:39.277026+00:00",
+        "company": "Baheti Recycling Industries Limited",
+        "series": "SM",
+        "isin": "INE029Q01017",
         "listing_date": "08-Dec-22",
         "segment": "SME"
       }
@@ -86429,34 +86429,6 @@
         "segment": "SME"
       }
     },
-    "IPSL": {
-      "screen_metrics": {
-        "promoter_holding": 64.42,
-        "promoter_change": 0.0,
-        "fii_holding": null,
-        "dii_holding": null,
-        "public_holding": 35.58,
-        "market_cap_cr": 209.0,
-        "current_price": 205.0,
-        "stock_pe": 19.1,
-        "book_value": 78.0,
-        "dividend_yield": 0.0,
-        "roce": 16.6,
-        "roe": 17.8,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Services",
-        "industry": "Diversified Commercial Services",
-        "source_url": "https://www.screener.in/company/IPSL/consolidated/",
-        "fetched_at": "2026-10-08T21:25:51.036217+00:00",
-        "company": "Integrated Personnel Services Limited",
-        "series": "SM",
-        "isin": "INE02EE01019",
-        "listing_date": "11-Nov-22",
-        "segment": "SME"
-      }
-    },
     "RITEZONE": {
       "screen_metrics": {
         "promoter_holding": 41.89,
@@ -86481,6 +86453,34 @@
         "company": "Rite Zone Chemcon India Limited",
         "series": "SM",
         "isin": "INE0MRA01019",
+        "listing_date": "11-Nov-22",
+        "segment": "SME"
+      }
+    },
+    "IPSL": {
+      "screen_metrics": {
+        "promoter_holding": 64.42,
+        "promoter_change": 0.0,
+        "fii_holding": null,
+        "dii_holding": null,
+        "public_holding": 35.58,
+        "market_cap_cr": 209.0,
+        "current_price": 205.0,
+        "stock_pe": 19.1,
+        "book_value": 78.0,
+        "dividend_yield": 0.0,
+        "roce": 16.6,
+        "roe": 17.8,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Services",
+        "industry": "Diversified Commercial Services",
+        "source_url": "https://www.screener.in/company/IPSL/consolidated/",
+        "fetched_at": "2026-10-08T21:25:51.036217+00:00",
+        "company": "Integrated Personnel Services Limited",
+        "series": "SM",
+        "isin": "INE02EE01019",
         "listing_date": "11-Nov-22",
         "segment": "SME"
       }
@@ -86625,34 +86625,6 @@
         "segment": "SME"
       }
     },
-    "MAKS": {
-      "screen_metrics": {
-        "promoter_holding": 71.19,
-        "promoter_change": 0.0,
-        "fii_holding": null,
-        "dii_holding": 0.0,
-        "public_holding": 28.81,
-        "market_cap_cr": 10.4,
-        "current_price": 15.0,
-        "stock_pe": null,
-        "book_value": null,
-        "dividend_yield": 0.0,
-        "roce": 13.2,
-        "roe": -4.91,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Industrials",
-        "industry": "Compressors, Pumps & Diesel Engines",
-        "source_url": "https://www.screener.in/company/MAKS/consolidated/",
-        "fetched_at": "2026-10-09T07:36:33.244155+00:00",
-        "company": "Maks Energy Solutions India Limited",
-        "series": "SM",
-        "isin": "INE0CDK01019",
-        "listing_date": "28-Sep-22",
-        "segment": "SME"
-      }
-    },
     "KANDARP": {
       "screen_metrics": {
         "promoter_holding": 58.77,
@@ -86677,6 +86649,34 @@
         "company": "Kandarp Digi Smart BPO Limited",
         "series": "SM",
         "isin": "INE0MOT01016",
+        "listing_date": "28-Sep-22",
+        "segment": "SME"
+      }
+    },
+    "MAKS": {
+      "screen_metrics": {
+        "promoter_holding": 71.19,
+        "promoter_change": 0.0,
+        "fii_holding": null,
+        "dii_holding": 0.0,
+        "public_holding": 28.81,
+        "market_cap_cr": 10.4,
+        "current_price": 15.0,
+        "stock_pe": null,
+        "book_value": null,
+        "dividend_yield": 0.0,
+        "roce": 13.2,
+        "roe": -4.91,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Industrials",
+        "industry": "Compressors, Pumps & Diesel Engines",
+        "source_url": "https://www.screener.in/company/MAKS/consolidated/",
+        "fetched_at": "2026-10-09T07:36:33.244155+00:00",
+        "company": "Maks Energy Solutions India Limited",
+        "series": "SM",
+        "isin": "INE0CDK01019",
         "listing_date": "28-Sep-22",
         "segment": "SME"
       }
@@ -86793,34 +86793,6 @@
         "segment": "SME"
       }
     },
-    "KORE": {
-      "screen_metrics": {
-        "promoter_holding": 69.2,
-        "promoter_change": 0.0,
-        "fii_holding": 0.6,
-        "dii_holding": 0.0,
-        "public_holding": 30.2,
-        "market_cap_cr": 257.0,
-        "current_price": 212.0,
-        "stock_pe": 25.0,
-        "book_value": 69.0,
-        "dividend_yield": 0.0,
-        "roce": 18.1,
-        "roe": 13.7,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Diversified Retail",
-        "source_url": "https://www.screener.in/company/KORE/consolidated/",
-        "fetched_at": "2026-10-09T01:24:51.553808+00:00",
-        "company": "Jay Jalaram Technologies Limited",
-        "series": "ST",
-        "isin": "INE0J6801010",
-        "listing_date": "08-Sep-22",
-        "segment": "SME"
-      }
-    },
     "JFLLIFE": {
       "screen_metrics": {
         "promoter_holding": 67.47,
@@ -86845,6 +86817,34 @@
         "company": "Jfl Life Sciences Limited",
         "series": "SM",
         "isin": "INE0LA901015",
+        "listing_date": "08-Sep-22",
+        "segment": "SME"
+      }
+    },
+    "KORE": {
+      "screen_metrics": {
+        "promoter_holding": 69.2,
+        "promoter_change": 0.0,
+        "fii_holding": 0.6,
+        "dii_holding": 0.0,
+        "public_holding": 30.2,
+        "market_cap_cr": 257.0,
+        "current_price": 212.0,
+        "stock_pe": 25.0,
+        "book_value": 69.0,
+        "dividend_yield": 0.0,
+        "roce": 18.1,
+        "roe": 13.7,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Diversified Retail",
+        "source_url": "https://www.screener.in/company/KORE/consolidated/",
+        "fetched_at": "2026-10-09T01:24:51.553808+00:00",
+        "company": "Jay Jalaram Technologies Limited",
+        "series": "ST",
+        "isin": "INE0J6801010",
         "listing_date": "08-Sep-22",
         "segment": "SME"
       }
@@ -87465,34 +87465,6 @@
         "segment": "SME"
       }
     },
-    "DYNAMIC": {
-      "screen_metrics": {
-        "promoter_holding": 59.83,
-        "promoter_change": -1.55,
-        "fii_holding": 0.0,
-        "dii_holding": 0.0,
-        "public_holding": 40.17,
-        "market_cap_cr": 306.0,
-        "current_price": 130.0,
-        "stock_pe": 7.1,
-        "book_value": 128.0,
-        "dividend_yield": 0.0,
-        "roce": 17.0,
-        "roe": 17.8,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Services",
-        "industry": "Diversified Commercial Services",
-        "source_url": "https://www.screener.in/company/DYNAMIC/consolidated/",
-        "fetched_at": "2026-10-08T02:12:51.898434+00:00",
-        "company": "Dynamic Services & Security Limited",
-        "series": "SM",
-        "isin": "INE0DZ701010",
-        "listing_date": "13-Oct-21",
-        "segment": "SME"
-      }
-    },
     "DESTINY": {
       "screen_metrics": {
         "promoter_holding": 70.87,
@@ -87517,6 +87489,34 @@
         "company": "Destiny Logistics & Infra Limited",
         "series": "SM",
         "isin": "INE0IGO01011",
+        "listing_date": "13-Oct-21",
+        "segment": "SME"
+      }
+    },
+    "DYNAMIC": {
+      "screen_metrics": {
+        "promoter_holding": 59.83,
+        "promoter_change": -1.55,
+        "fii_holding": 0.0,
+        "dii_holding": 0.0,
+        "public_holding": 40.17,
+        "market_cap_cr": 306.0,
+        "current_price": 130.0,
+        "stock_pe": 7.1,
+        "book_value": 128.0,
+        "dividend_yield": 0.0,
+        "roce": 17.0,
+        "roe": 17.8,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Services",
+        "industry": "Diversified Commercial Services",
+        "source_url": "https://www.screener.in/company/DYNAMIC/consolidated/",
+        "fetched_at": "2026-10-08T02:12:51.898434+00:00",
+        "company": "Dynamic Services & Security Limited",
+        "series": "SM",
+        "isin": "INE0DZ701010",
         "listing_date": "13-Oct-21",
         "segment": "SME"
       }
