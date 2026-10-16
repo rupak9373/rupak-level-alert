@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T22:23:33.172161+00:00",
+  "updated_at": "2026-10-16T00:34:13.743122+00:00",
   "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
   "universe_source": [
     "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
@@ -73296,20 +73296,20 @@
         "fii_holding": null,
         "dii_holding": 11.59,
         "public_holding": 24.75,
-        "market_cap_cr": 249.0,
-        "current_price": 185.0,
-        "stock_pe": 21.0,
+        "market_cap_cr": null,
+        "current_price": null,
+        "stock_pe": null,
         "book_value": null,
-        "dividend_yield": 0.0,
-        "roce": 34.1,
-        "roe": 40.2,
-        "face_value": 10.0,
+        "dividend_yield": null,
+        "roce": null,
+        "roe": null,
+        "face_value": null,
         "high_52w": null,
         "low_52w": null,
         "sector": null,
         "industry": null,
-        "source_url": "https://www.screener.in/company/QUALIANCE/",
-        "fetched_at": "2026-10-15T22:23:33.170381+00:00",
+        "source_url": "https://www.screener.in/company/QUALIANCE/consolidated/",
+        "fetched_at": "2026-10-16T00:34:13.741199+00:00",
         "company": "Qualiance International Limited",
         "series": "SM",
         "isin": "INE1XJ401012",
@@ -89198,7 +89198,7 @@
     {
       "symbol": "NATCO-RE",
       "stage": "screener",
-      "error": "HTTP 429"
+      "error": "HTTP 404"
     }
   ]
 }
