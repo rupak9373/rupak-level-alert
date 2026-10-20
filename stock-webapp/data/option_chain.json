@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T10:11:38.734388+00:00",
+  "updated_at": "2026-10-20T15:09:19.430034+00:00",
   "source": "NSE India + BSE India public derivatives endpoints",
   "symbols": [
     "BANKNIFTY",
@@ -291711,6 +291711,11 @@
     }
   },
   "errors": [
+    {
+      "symbol": "PETRONET",
+      "exchange": "NSE",
+      "error": "('Connection broken: IncompleteRead(0 bytes read, 6775 more expected)', IncompleteRead(0 bytes read, 6775 more expected))"
+    },
     {
       "symbol": "SENSEX",
       "exchange": "BSE",
