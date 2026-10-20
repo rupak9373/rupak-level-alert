@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T00:30:11.335159+00:00",
+  "updated_at": "2026-10-20T05:11:43.026164+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -6169,7 +6169,7 @@
         },
         "1W": {
           "available": true,
-          "sma20": 3943.56,
+          "sma20": 3943.57,
           "distance20_pct": 7.14,
           "near_sma20": false,
           "above_sma20": false,
