@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-21T15:39:55.591245+00:00",
+  "updated_at": "2026-10-21T19:38:28.141313+00:00",
   "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
   "universe_source": [
     "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
     "https://nsearchives.nseindia.com/emerge/corporates/content/SME_EQUITY_L.csv"
   ],
   "universe_count": 3189,
-  "fundamental_coverage": 3187,
-  "industry_coverage": 3184,
-  "pending_fundamentals": 2,
+  "fundamental_coverage": 3188,
+  "industry_coverage": 3185,
+  "pending_fundamentals": 1,
   "batch_size": 200,
   "fundamental_filter_fields": [
     "promoter_holding",
@@ -26232,7 +26232,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/HDFIRE/consolidated/",
-        "fetched_at": "2026-10-21T15:39:51.104542+00:00",
+        "fetched_at": "2026-10-21T19:38:24.138212+00:00",
         "company": "HD Fire Protect Limited",
         "series": "EQ",
         "isin": "INE18AK01028",
@@ -28678,6 +28678,25 @@
     },
     "IIRM": {
       "screen_metrics": {
+        "promoter_holding": 56.59,
+        "promoter_change": -1.3,
+        "fii_holding": null,
+        "dii_holding": 2.99,
+        "public_holding": 40.41,
+        "market_cap_cr": 790.0,
+        "current_price": 113.0,
+        "stock_pe": 32.1,
+        "book_value": 23.0,
+        "dividend_yield": 0.0,
+        "roce": 20.4,
+        "roe": 16.9,
+        "face_value": 5.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Services",
+        "industry": "Consulting Services",
+        "source_url": "https://www.screener.in/company/IIRM/consolidated/",
+        "fetched_at": "2026-10-21T19:38:25.153169+00:00",
         "company": "IIRM Holdings India Limited",
         "series": "EQ",
         "isin": "INE670C01026",
@@ -73038,7 +73057,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/LOANFRONT/consolidated/",
-        "fetched_at": "2026-10-21T15:39:53.328054+00:00",
+        "fetched_at": "2026-10-21T19:38:25.915929+00:00",
         "company": "Vaibhav Vyapaar Limited",
         "series": "ST",
         "isin": "INE1KAA01025",
@@ -73402,7 +73421,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/QUALIANCE/consolidated/",
-        "fetched_at": "2026-10-21T15:39:55.589410+00:00",
+        "fetched_at": "2026-10-21T19:38:28.139627+00:00",
         "company": "Qualiance International Limited",
         "series": "SM",
         "isin": "INE1XJ401012",
@@ -89288,11 +89307,6 @@
     }
   },
   "errors": [
-    {
-      "symbol": "IIRM",
-      "stage": "screener",
-      "error": "HTTP 404"
-    },
     {
       "symbol": "OLAELEC-RE",
       "stage": "screener",
