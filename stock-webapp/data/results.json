@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20T22:22:07.475677+00:00",
+  "updated_at": "2026-10-21T00:45:15.220237+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -664,7 +664,7 @@
       "day_high": 1411.8,
       "day_low": 1377.9,
       "vwap": null,
-      "sma20": 1342.75,
+      "sma20": 1342.74,
       "sma50": 1382.69,
       "sma200": 1353.29,
       "sma20_distance_pct": 2.85,
@@ -676,7 +676,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 1342.75,
+          "sma20": 1342.74,
           "distance20_pct": 2.85,
           "near_sma20": false,
           "above_sma20": true,
@@ -2513,12 +2513,12 @@
         },
         "1W": {
           "available": true,
-          "sma20": 1278.27,
+          "sma20": 1278.26,
           "distance20_pct": 5.97,
           "near_sma20": false,
           "above_sma20": false,
-          "sma50": 1373.91,
-          "distance50_pct": 12.51,
+          "sma50": 1374.16,
+          "distance50_pct": 12.53,
           "near_sma50": false,
           "above_sma50": false,
           "sma200": null,
@@ -4919,7 +4919,7 @@
       "day_high": 1264.9,
       "day_low": 1225.3,
       "vwap": null,
-      "sma20": 1241.33,
+      "sma20": 1241.34,
       "sma50": 1244.29,
       "sma200": 1285.53,
       "sma20_distance_pct": 0.43,
@@ -4931,7 +4931,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 1241.33,
+          "sma20": 1241.34,
           "distance20_pct": 0.43,
           "near_sma20": true,
           "above_sma20": false,
