@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T05:28:38.543199+00:00",
+  "updated_at": "2026-10-21T10:31:26.613837+00:00",
   "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
   "universe_source": [
     "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
@@ -26232,7 +26232,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/HDFIRE/consolidated/",
-        "fetched_at": "2026-10-21T05:28:29.615031+00:00",
+        "fetched_at": "2026-10-21T10:31:22.268985+00:00",
         "company": "HD Fire Protect Limited",
         "series": "EQ",
         "isin": "INE18AK01028",
@@ -73038,7 +73038,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/LOANFRONT/consolidated/",
-        "fetched_at": "2026-10-21T05:28:32.682503+00:00",
+        "fetched_at": "2026-10-21T10:31:24.437157+00:00",
         "company": "Vaibhav Vyapaar Limited",
         "series": "ST",
         "isin": "INE1KAA01025",
@@ -73402,7 +73402,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/QUALIANCE/consolidated/",
-        "fetched_at": "2026-10-21T05:28:35.710185+00:00",
+        "fetched_at": "2026-10-21T10:31:26.611907+00:00",
         "company": "Qualiance International Limited",
         "series": "SM",
         "isin": "INE1XJ401012",
