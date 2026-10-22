@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T22:44:28.764065+00:00",
+  "updated_at": "2026-10-22T00:59:44.873961+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -3701,7 +3701,7 @@
       "day_high": 1755.6,
       "day_low": 1721.1,
       "vwap": null,
-      "sma20": 1795.34,
+      "sma20": 1795.33,
       "sma50": 1857.93,
       "sma200": 1807.75,
       "sma20_distance_pct": 2.8,
@@ -3713,7 +3713,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 1795.34,
+          "sma20": 1795.33,
           "distance20_pct": 2.8,
           "near_sma20": false,
           "above_sma20": false,
@@ -6735,10 +6735,10 @@
       "day_low": 2297.7,
       "vwap": null,
       "sma20": 2379.07,
-      "sma50": 2501.0,
-      "sma200": 2536.87,
+      "sma50": 2500.72,
+      "sma200": 2536.8,
       "sma20_distance_pct": 2.51,
-      "sma50_distance_pct": 7.26,
+      "sma50_distance_pct": 7.25,
       "sma200_distance_pct": 8.57,
       "near_sma20": false,
       "near_sma50": false,
@@ -6750,11 +6750,11 @@
           "distance20_pct": 2.51,
           "near_sma20": false,
           "above_sma20": false,
-          "sma50": 2501.0,
-          "distance50_pct": 7.26,
+          "sma50": 2500.72,
+          "distance50_pct": 7.25,
           "near_sma50": false,
           "above_sma50": false,
-          "sma200": 2536.87,
+          "sma200": 2536.8,
           "distance200_pct": 8.57,
           "near_sma200": false,
           "above_sma200": false
@@ -7165,10 +7165,10 @@
         },
         {
           "date": "2026-09-17",
-          "open": 2424.0,
-          "high": 2454.0,
-          "low": 2421.0,
-          "close": 2454.0
+          "open": 2440.0,
+          "high": 2440.0,
+          "low": 2440.0,
+          "close": 2440.0
         },
         {
           "date": "2026-09-18",
@@ -9318,13 +9318,13 @@
           "near": false
         },
         "52WL": {
-          "value": 891.05,
-          "distance_pct": 8.07,
+          "value": 900.95,
+          "distance_pct": 6.89,
           "near": false
         }
       },
       "week52_high": 1234.7,
-      "week52_low": 891.05,
+      "week52_low": 900.95,
       "chart": [
         {
           "date": "2026-07-27",
