@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T23:21:12.867622+00:00",
+  "updated_at": "2026-10-23T01:44:38.913813+00:00",
   "source": "NSE India + BSE India public derivatives endpoints",
   "symbols": [
     "BANKNIFTY",
@@ -21874,6 +21874,38 @@
       "chains": {
         "27-10-2026": {
           "rows": [
+            {
+              "strike": 280.0,
+              "expiry": "27-10-2026",
+              "ce": {
+                "ltp": 0.0,
+                "change": 0.0,
+                "pchange": 0.0,
+                "oi": 0,
+                "oi_change": 0,
+                "oi_change_pct": 0.0,
+                "volume": 0,
+                "iv": 0.0,
+                "bid_qty": null,
+                "bid": null,
+                "ask": null,
+                "ask_qty": null
+              },
+              "pe": {
+                "ltp": 0.0,
+                "change": 0.0,
+                "pchange": 0.0,
+                "oi": 0,
+                "oi_change": 0,
+                "oi_change_pct": 0.0,
+                "volume": 0,
+                "iv": 0.0,
+                "bid_qty": null,
+                "bid": null,
+                "ask": null,
+                "ask_qty": null
+              }
+            },
             {
               "strike": 310.0,
               "expiry": "27-10-2026",
@@ -190705,7 +190737,7 @@
                 "oi_change": 0,
                 "oi_change_pct": 0.0,
                 "volume": 0,
-                "iv": 47.18,
+                "iv": 52.78,
                 "bid_qty": null,
                 "bid": null,
                 "ask": null,
@@ -192740,7 +192772,7 @@
                 "oi_change": 0,
                 "oi_change_pct": 0.0,
                 "volume": 0,
-                "iv": 65.49,
+                "iv": 69.42,
                 "bid_qty": null,
                 "bid": null,
                 "ask": null,
@@ -193495,7 +193527,7 @@
                 "oi_change": 0,
                 "oi_change_pct": 0.0,
                 "volume": 0,
-                "iv": 34.59,
+                "iv": 31.61,
                 "bid_qty": null,
                 "bid": null,
                 "ask": null,
@@ -193948,7 +193980,7 @@
                 "oi_change": 0,
                 "oi_change_pct": 0.0,
                 "volume": 0,
-                "iv": 73.94,
+                "iv": 80.2,
                 "bid_qty": null,
                 "bid": null,
                 "ask": null,
@@ -213069,7 +213101,7 @@
                 "oi_change": 0,
                 "oi_change_pct": 0.0,
                 "volume": 0,
-                "iv": 178.11,
+                "iv": 176.65,
                 "bid_qty": null,
                 "bid": null,
                 "ask": null,
@@ -214963,7 +214995,7 @@
                 "oi_change": 0,
                 "oi_change_pct": 0.0,
                 "volume": 0,
-                "iv": 44.22,
+                "iv": 46.33,
                 "bid_qty": null,
                 "bid": null,
                 "ask": null,
@@ -215462,7 +215494,7 @@
                 "oi_change": 0,
                 "oi_change_pct": 0.0,
                 "volume": 0,
-                "iv": 41.25,
+                "iv": 40.71,
                 "bid_qty": null,
                 "bid": null,
                 "ask": null,
