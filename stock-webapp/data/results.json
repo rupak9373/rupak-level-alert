@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-26T16:49:38.664648+00:00",
+  "updated_at": "2026-10-26T21:16:20.050813+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -2659,13 +2659,13 @@
           "near": false
         },
         "52WL": {
-          "value": 906.0,
-          "distance_pct": 6.05,
+          "value": 910.0,
+          "distance_pct": 5.58,
           "near": false
         }
       },
       "week52_high": 1234.7,
-      "week52_low": 906.0,
+      "week52_low": 910.0,
       "chart": [
         {
           "date": "2026-07-30",
@@ -5518,7 +5518,7 @@
       "day_high": 2512.9,
       "day_low": 2446.9,
       "vwap": null,
-      "sma20": 2717.16,
+      "sma20": 2717.15,
       "sma50": 2882.98,
       "sma200": 2596.22,
       "sma20_distance_pct": 7.7,
@@ -5530,7 +5530,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 2717.16,
+          "sma20": 2717.15,
           "distance20_pct": 7.7,
           "near_sma20": false,
           "above_sma20": false,
@@ -7337,7 +7337,7 @@
       "day_high": 2322.0,
       "day_low": 2233.5,
       "vwap": null,
-      "sma20": 2359.95,
+      "sma20": 2359.96,
       "sma50": 2474.77,
       "sma200": 2530.07,
       "sma20_distance_pct": 1.61,
@@ -7349,7 +7349,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 2359.95,
+          "sma20": 2359.96,
           "distance20_pct": 1.61,
           "near_sma20": false,
           "above_sma20": false,
