@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28T05:44:42.155872+00:00",
+  "updated_at": "2026-10-28T11:43:11.480353+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -4934,12 +4934,12 @@
         },
         "1W": {
           "available": true,
-          "sma20": 1273.22,
+          "sma20": 1273.21,
           "distance20_pct": 6.05,
           "near_sma20": false,
           "above_sma20": false,
-          "sma50": 1368.15,
-          "distance50_pct": 12.57,
+          "sma50": 1368.4,
+          "distance50_pct": 12.58,
           "near_sma50": false,
           "above_sma50": false,
           "sma200": null,
@@ -5518,7 +5518,7 @@
       "day_high": 2521.0,
       "day_low": 2430.7,
       "vwap": null,
-      "sma20": 2696.4,
+      "sma20": 2696.41,
       "sma50": 2873.48,
       "sma200": 2598.66,
       "sma20_distance_pct": 7.65,
@@ -5530,7 +5530,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 2696.4,
+          "sma20": 2696.41,
           "distance20_pct": 7.65,
           "near_sma20": false,
           "above_sma20": false,
@@ -9160,7 +9160,7 @@
       "vwap": null,
       "sma20": 707.48,
       "sma50": 714.41,
-      "sma200": 793.51,
+      "sma200": 793.55,
       "sma20_distance_pct": 3.86,
       "sma50_distance_pct": 4.79,
       "sma200_distance_pct": 14.28,
@@ -9178,7 +9178,7 @@
           "distance50_pct": 4.79,
           "near_sma50": false,
           "above_sma50": false,
-          "sma200": 793.51,
+          "sma200": 793.55,
           "distance200_pct": 14.28,
           "near_sma200": false,
           "above_sma200": false
@@ -10533,13 +10533,13 @@
           "near": false
         },
         "52WL": {
-          "value": 906.0,
-          "distance_pct": 4.32,
+          "value": 910.0,
+          "distance_pct": 3.86,
           "near": false
         }
       },
       "week52_high": 1234.7,
-      "week52_low": 906.0,
+      "week52_low": 910.0,
       "chart": [
         {
           "date": "2026-07-31",
