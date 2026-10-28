@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-10-27T20:56:54.594174+00:00",
+  "updated_at": "2026-10-28T00:15:36.322680+00:00",
   "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
   "universe_source": [
     "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
     "https://nsearchives.nseindia.com/emerge/corporates/content/SME_EQUITY_L.csv"
   ],
-  "universe_count": 3197,
-  "fundamental_coverage": 3196,
+  "universe_count": 3200,
+  "fundamental_coverage": 3198,
   "industry_coverage": 3195,
-  "pending_fundamentals": 1,
+  "pending_fundamentals": 2,
   "batch_size": 200,
   "fundamental_filter_fields": [
     "promoter_holding",
@@ -11005,6 +11005,15 @@
         "series": "EQ",
         "isin": "INE032A01023",
         "listing_date": "26-APR-1995",
+        "segment": "MAIN"
+      }
+    },
+    "BONDADA": {
+      "screen_metrics": {
+        "company": "Bondada Engineering Limited",
+        "series": "EQ",
+        "isin": "INE0Q8P01029",
+        "listing_date": "29-OCT-2026",
         "segment": "MAIN"
       }
     },
@@ -32456,6 +32465,34 @@
         "segment": "MAIN"
       }
     },
+    "JPL": {
+      "screen_metrics": {
+        "promoter_holding": null,
+        "promoter_change": null,
+        "fii_holding": null,
+        "dii_holding": null,
+        "public_holding": null,
+        "market_cap_cr": 1030491.0,
+        "current_price": null,
+        "stock_pe": 34.2,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": 12.1,
+        "roe": 9.41,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": null,
+        "industry": null,
+        "source_url": "https://www.screener.in/company/JPL/consolidated/",
+        "fetched_at": "2026-10-28T00:15:33.149525+00:00",
+        "company": "Jio Platforms Limited",
+        "series": "EQ",
+        "isin": "INE0BJO01010",
+        "listing_date": "28-OCT-2026",
+        "segment": "MAIN"
+      }
+    },
     "JPOLYINVST": {
       "screen_metrics": {
         "promoter_holding": 74.63,
@@ -47629,6 +47666,34 @@
         "series": "EQ",
         "isin": "INE045601023",
         "listing_date": "01-OCT-2021",
+        "segment": "MAIN"
+      }
+    },
+    "PARASHLTH": {
+      "screen_metrics": {
+        "promoter_holding": null,
+        "promoter_change": null,
+        "fii_holding": null,
+        "dii_holding": null,
+        "public_holding": null,
+        "market_cap_cr": 7498.0,
+        "current_price": null,
+        "stock_pe": 171.0,
+        "book_value": null,
+        "dividend_yield": null,
+        "roce": 14.0,
+        "roe": 13.0,
+        "face_value": 1.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": null,
+        "industry": null,
+        "source_url": "https://www.screener.in/company/PARASHLTH/consolidated/",
+        "fetched_at": "2026-10-28T00:15:34.143994+00:00",
+        "company": "Paras Healthcare Limited",
+        "series": "EQ",
+        "isin": "INE661T01029",
+        "listing_date": "28-OCT-2026",
         "segment": "MAIN"
       }
     },
@@ -73645,7 +73710,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/QUALIANCE/consolidated/",
-        "fetched_at": "2026-10-27T20:56:53.182258+00:00",
+        "fetched_at": "2026-10-28T00:15:34.900730+00:00",
         "company": "Qualiance International Limited",
         "series": "SM",
         "isin": "INE1XJ401012",
@@ -89531,6 +89596,11 @@
     }
   },
   "errors": [
+    {
+      "symbol": "BONDADA",
+      "stage": "screener",
+      "error": "HTTP 404"
+    },
     {
       "symbol": "SHIVAM-RE1",
       "stage": "screener",
