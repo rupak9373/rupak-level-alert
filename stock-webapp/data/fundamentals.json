@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-10-28T17:34:33.162789+00:00",
+  "updated_at": "2026-10-28T21:57:44.406594+00:00",
   "source": "NSE official equity + SME universe; Screener.in public company pages for ratios and industry classification",
   "universe_source": [
     "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
     "https://nsearchives.nseindia.com/emerge/corporates/content/SME_EQUITY_L.csv"
   ],
-  "universe_count": 3200,
-  "fundamental_coverage": 3198,
-  "industry_coverage": 3195,
+  "universe_count": 3201,
+  "fundamental_coverage": 3199,
+  "industry_coverage": 3198,
   "pending_fundamentals": 2,
   "batch_size": 200,
   "fundamental_filter_fields": [
@@ -5294,6 +5294,34 @@
         "isin": "INE784R01023",
         "listing_date": "22-JUL-2025",
         "segment": "MAIN"
+      }
+    },
+    "ARHAM": {
+      "screen_metrics": {
+        "promoter_holding": 56.16,
+        "promoter_change": 0.0,
+        "fii_holding": 0.62,
+        "dii_holding": 0.16,
+        "public_holding": 43.05,
+        "market_cap_cr": 413.0,
+        "current_price": 189.0,
+        "stock_pe": 33.9,
+        "book_value": 45.2,
+        "dividend_yield": 0.0,
+        "roce": 19.8,
+        "roe": 18.8,
+        "face_value": 10.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Consumer Discretionary",
+        "industry": "Consumer Electronics",
+        "source_url": "https://www.screener.in/company/ARHAM/consolidated/",
+        "fetched_at": "2026-10-24T01:48:28.594643+00:00",
+        "company": "Arham Technologies Limited",
+        "series": "SM",
+        "isin": "INE0L2Y01011",
+        "listing_date": "15-Dec-22",
+        "segment": "SME"
       }
     },
     "ARIES": {
@@ -11010,6 +11038,25 @@
     },
     "BONDADA": {
       "screen_metrics": {
+        "promoter_holding": 61.52,
+        "promoter_change": 0.0,
+        "fii_holding": 0.44,
+        "dii_holding": 0.16,
+        "public_holding": 37.88,
+        "market_cap_cr": 3116.0,
+        "current_price": 279.0,
+        "stock_pe": 14.3,
+        "book_value": 62.2,
+        "dividend_yield": 0.1,
+        "roce": 39.4,
+        "roe": 35.7,
+        "face_value": 2.0,
+        "high_52w": null,
+        "low_52w": null,
+        "sector": "Telecommunication",
+        "industry": "Telecom - Infrastructure",
+        "source_url": "https://www.screener.in/company/BONDADA/consolidated/",
+        "fetched_at": "2026-10-28T21:57:37.720128+00:00",
         "company": "Bondada Engineering Limited",
         "series": "EQ",
         "isin": "INE0Q8P01029",
@@ -28744,13 +28791,13 @@
     "IIRM": {
       "screen_metrics": {
         "promoter_holding": 56.59,
-        "promoter_change": -1.3,
+        "promoter_change": 0.0,
         "fii_holding": null,
         "dii_holding": 2.99,
         "public_holding": 40.41,
-        "market_cap_cr": 790.0,
-        "current_price": 113.0,
-        "stock_pe": 32.1,
+        "market_cap_cr": 716.0,
+        "current_price": 103.0,
+        "stock_pe": 29.1,
         "book_value": 23.0,
         "dividend_yield": 0.0,
         "roce": 20.4,
@@ -28761,7 +28808,7 @@
         "sector": "Services",
         "industry": "Consulting Services",
         "source_url": "https://www.screener.in/company/IIRM/consolidated/",
-        "fetched_at": "2026-10-21T19:38:25.153169+00:00",
+        "fetched_at": "2026-10-28T21:57:38.659778+00:00",
         "company": "IIRM Holdings India Limited",
         "series": "EQ",
         "isin": "INE670C01026",
@@ -29886,6 +29933,15 @@
         "series": "EQ",
         "isin": "INE611L01021",
         "listing_date": "11-MAR-2011",
+        "segment": "MAIN"
+      }
+    },
+    "INDTONER": {
+      "screen_metrics": {
+        "company": "Indian Toners & Developers Limited",
+        "series": "EQ",
+        "isin": "INE826B01026",
+        "listing_date": "30-OCT-2026",
         "segment": "MAIN"
       }
     },
@@ -32467,11 +32523,11 @@
     },
     "JPL": {
       "screen_metrics": {
-        "promoter_holding": null,
+        "promoter_holding": 64.48,
         "promoter_change": null,
-        "fii_holding": null,
-        "dii_holding": null,
-        "public_holding": null,
+        "fii_holding": 32.54,
+        "dii_holding": 0.7,
+        "public_holding": 2.28,
         "market_cap_cr": 1305380.0,
         "current_price": 1418.0,
         "stock_pe": 43.3,
@@ -32482,10 +32538,10 @@
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Telecommunication",
+        "industry": "Telecom - Cellular & Fixed line services",
         "source_url": "https://www.screener.in/company/JPL/consolidated/",
-        "fetched_at": "2026-10-28T17:34:30.066059+00:00",
+        "fetched_at": "2026-10-28T21:57:41.085027+00:00",
         "company": "Jio Platforms Limited",
         "series": "EQ",
         "isin": "INE0BJO01010",
@@ -47671,11 +47727,11 @@
     },
     "PARASHLTH": {
       "screen_metrics": {
-        "promoter_holding": null,
+        "promoter_holding": 63.95,
         "promoter_change": null,
-        "fii_holding": null,
-        "dii_holding": null,
-        "public_holding": null,
+        "fii_holding": 11.5,
+        "dii_holding": 20.58,
+        "public_holding": 3.97,
         "market_cap_cr": 7959.0,
         "current_price": 736.0,
         "stock_pe": 182.0,
@@ -47686,10 +47742,10 @@
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
-        "sector": null,
-        "industry": null,
+        "sector": "Healthcare",
+        "industry": "Hospital",
         "source_url": "https://www.screener.in/company/PARASHLTH/consolidated/",
-        "fetched_at": "2026-10-28T17:34:30.936718+00:00",
+        "fetched_at": "2026-10-28T21:57:42.091822+00:00",
         "company": "Paras Healthcare Limited",
         "series": "EQ",
         "isin": "INE661T01029",
@@ -58592,7 +58648,7 @@
         "source_url": "https://www.screener.in/company/SHREERAMA/consolidated/",
         "fetched_at": "2026-10-26T16:55:59.748094+00:00",
         "company": "Shree Rama Multi-Tech Limited",
-        "series": "EQ",
+        "series": "BE",
         "isin": "INE879A01019",
         "listing_date": "13-MAR-2000",
         "segment": "MAIN"
@@ -73710,7 +73766,7 @@
         "sector": null,
         "industry": null,
         "source_url": "https://www.screener.in/company/QUALIANCE/consolidated/",
-        "fetched_at": "2026-10-28T17:34:31.756845+00:00",
+        "fetched_at": "2026-10-28T21:57:42.940326+00:00",
         "company": "Qualiance International Limited",
         "series": "SM",
         "isin": "INE1XJ401012",
@@ -86794,34 +86850,6 @@
         "segment": "SME"
       }
     },
-    "ARHAM": {
-      "screen_metrics": {
-        "promoter_holding": 56.16,
-        "promoter_change": 0.0,
-        "fii_holding": 0.62,
-        "dii_holding": 0.16,
-        "public_holding": 43.05,
-        "market_cap_cr": 413.0,
-        "current_price": 189.0,
-        "stock_pe": 33.9,
-        "book_value": 45.2,
-        "dividend_yield": 0.0,
-        "roce": 19.8,
-        "roe": 18.8,
-        "face_value": 10.0,
-        "high_52w": null,
-        "low_52w": null,
-        "sector": "Consumer Discretionary",
-        "industry": "Consumer Electronics",
-        "source_url": "https://www.screener.in/company/ARHAM/consolidated/",
-        "fetched_at": "2026-10-24T01:48:28.594643+00:00",
-        "company": "Arham Technologies Limited",
-        "series": "SM",
-        "isin": "INE0L2Y01011",
-        "listing_date": "15-Dec-22",
-        "segment": "SME"
-      }
-    },
     "BAHETI": {
       "screen_metrics": {
         "promoter_holding": 74.13,
@@ -89597,7 +89625,7 @@
   },
   "errors": [
     {
-      "symbol": "BONDADA",
+      "symbol": "INDTONER",
       "stage": "screener",
       "error": "HTTP 404"
     },
