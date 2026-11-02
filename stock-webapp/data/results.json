@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T00:45:52.074479+00:00",
+  "updated_at": "2026-11-02T05:16:14.285242+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -99,8 +99,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 1474.64,
-          "distance20_pct": 25.45,
+          "sma20": 1513.67,
+          "distance20_pct": 22.22,
           "near_sma20": false,
           "above_sma20": true,
           "sma50": null,
@@ -183,11 +183,11 @@
           "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 1625.0,
-            "high": 1824.0,
-            "low": 1625.0,
-            "close": 1798.3
+            "date": "2026-10-31",
+            "open": 1786.0,
+            "high": 1872.0,
+            "low": 1674.2,
+            "close": 1850.0
           }
         }
       },
@@ -707,8 +707,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 1750.12,
-          "distance20_pct": 1.58,
+          "sma20": 1759.35,
+          "distance20_pct": 1.04,
           "near_sma20": false,
           "above_sma20": true,
           "sma50": null,
@@ -788,16 +788,14 @@
           }
         },
         "1M": {
-          "patterns": [
-            "Evening Star"
-          ],
+          "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 1963.1,
-            "high": 1963.1,
-            "low": 1814.2,
-            "close": 1816.6
+            "date": "2026-10-31",
+            "open": 1815.0,
+            "high": 1855.0,
+            "low": 1719.1,
+            "close": 1777.7
           }
         }
       },
@@ -1317,8 +1315,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 406.79,
-          "distance20_pct": 13.47,
+          "sma20": 410.84,
+          "distance20_pct": 12.36,
           "near_sma20": false,
           "above_sma20": true,
           "sma50": null,
@@ -1402,11 +1400,11 @@
           "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 420.8,
-            "high": 429.1,
-            "low": 394.7,
-            "close": 417.0
+            "date": "2026-10-31",
+            "open": 426.0,
+            "high": 462.9,
+            "low": 413.75,
+            "close": 461.6
           }
         }
       },
@@ -1931,8 +1929,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 1389.7,
-          "distance20_pct": 14.73,
+          "sma20": 1364.56,
+          "distance20_pct": 13.16,
           "near_sma20": false,
           "above_sma20": false,
           "sma50": null,
@@ -2013,11 +2011,11 @@
           "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 1128.0,
-            "high": 1156.0,
-            "low": 980.4,
-            "close": 994.1
+            "date": "2026-10-31",
+            "open": 1010.0,
+            "high": 1197.8,
+            "low": 990.1,
+            "close": 1185.0
           }
         }
       },
@@ -2537,8 +2535,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 2879.01,
-          "distance20_pct": 13.07,
+          "sma20": 2829.97,
+          "distance20_pct": 11.57,
           "near_sma20": false,
           "above_sma20": false,
           "sma50": null,
@@ -2623,11 +2621,11 @@
           "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 2355.0,
-            "high": 2372.0,
-            "low": 2032.4,
-            "close": 2050.6
+            "date": "2026-10-31",
+            "open": 2052.6,
+            "high": 2625.0,
+            "low": 2045.1,
+            "close": 2502.6
           }
         }
       },
@@ -3105,7 +3103,7 @@
       "day_high": 3872.7,
       "day_low": 3806.2,
       "vwap": null,
-      "sma20": 3694.27,
+      "sma20": 3694.26,
       "sma50": 3844.2,
       "sma200": 3931.56,
       "sma20_distance_pct": 4.8,
@@ -3117,7 +3115,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 3694.27,
+          "sma20": 3694.26,
           "distance20_pct": 4.8,
           "near_sma20": false,
           "above_sma20": true,
@@ -3147,9 +3145,9 @@
         },
         "1M": {
           "available": true,
-          "sma20": 3805.75,
-          "distance20_pct": 1.73,
-          "near_sma20": false,
+          "sma20": 3841.14,
+          "distance20_pct": 0.8,
+          "near_sma20": true,
           "above_sma20": true,
           "sma50": null,
           "distance50_pct": null,
@@ -3230,11 +3228,11 @@
           "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 4038.0,
-            "high": 4038.0,
-            "low": 3730.0,
-            "close": 3760.0
+            "date": "2026-10-31",
+            "open": 3726.0,
+            "high": 3894.0,
+            "low": 3592.9,
+            "close": 3871.7
           }
         }
       },
@@ -3712,7 +3710,7 @@
       "day_high": 1404.9,
       "day_low": 1383.3,
       "vwap": null,
-      "sma20": 1368.85,
+      "sma20": 1368.84,
       "sma50": 1377.87,
       "sma200": 1354.43,
       "sma20_distance_pct": 2.13,
@@ -3724,7 +3722,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 1368.85,
+          "sma20": 1368.84,
           "distance20_pct": 2.13,
           "near_sma20": false,
           "above_sma20": true,
@@ -3754,8 +3752,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 1361.06,
-          "distance20_pct": 2.71,
+          "sma20": 1370.75,
+          "distance20_pct": 1.99,
           "near_sma20": false,
           "above_sma20": true,
           "sma50": null,
@@ -3833,15 +3831,15 @@
         },
         "1M": {
           "patterns": [
-            "Evening Star"
+            "Piercing Line"
           ],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 1442.9,
-            "high": 1452.0,
-            "low": 1291.0,
-            "close": 1321.7
+            "date": "2026-10-31",
+            "open": 1316.0,
+            "high": 1411.8,
+            "low": 1303.7,
+            "close": 1398.0
           }
         }
       },
@@ -4361,8 +4359,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 2280.71,
-          "distance20_pct": 18.24,
+          "sma20": 2264.43,
+          "distance20_pct": 17.66,
           "near_sma20": false,
           "above_sma20": false,
           "sma50": null,
@@ -4444,14 +4442,16 @@
           }
         },
         "1M": {
-          "patterns": [],
+          "patterns": [
+            "Doji"
+          ],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 1987.0,
-            "high": 2003.0,
-            "low": 1863.8,
-            "close": 1879.1
+            "date": "2026-10-31",
+            "open": 1870.1,
+            "high": 1926.8,
+            "low": 1758.2,
+            "close": 1864.6
           }
         }
       },
@@ -4971,8 +4971,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 1885.81,
-          "distance20_pct": 4.66,
+          "sma20": 1905.99,
+          "distance20_pct": 3.55,
           "near_sma20": false,
           "above_sma20": true,
           "sma50": null,
@@ -5052,14 +5052,16 @@
           }
         },
         "1M": {
-          "patterns": [],
+          "patterns": [
+            "Bullish Engulfing"
+          ],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 1852.0,
-            "high": 1893.3,
-            "low": 1753.7,
-            "close": 1757.0
+            "date": "2026-10-31",
+            "open": 1745.0,
+            "high": 1985.0,
+            "low": 1726.3,
+            "close": 1973.7
           }
         }
       },
@@ -5579,8 +5581,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 930.81,
-          "distance20_pct": 3.33,
+          "sma20": 944.46,
+          "distance20_pct": 1.84,
           "near_sma20": false,
           "above_sma20": true,
           "sma50": null,
@@ -5661,11 +5663,11 @@
           "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 1051.3,
-            "high": 1051.3,
-            "low": 953.0,
-            "close": 959.5
+            "date": "2026-10-31",
+            "open": 953.1,
+            "high": 983.8,
+            "low": 937.5,
+            "close": 961.85
           }
         }
       },
@@ -6185,8 +6187,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 2474.53,
-          "distance20_pct": 6.24,
+          "sma20": 2481.55,
+          "distance20_pct": 6.51,
           "near_sma20": false,
           "above_sma20": false,
           "sma50": null,
@@ -6264,11 +6266,11 @@
           "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 2645.3,
-            "high": 2645.3,
-            "low": 2381.0,
-            "close": 2402.6
+            "date": "2026-10-31",
+            "open": 2391.0,
+            "high": 2424.2,
+            "low": 2217.1,
+            "close": 2320.0
           }
         }
       },
@@ -6788,8 +6790,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 356.37,
-          "distance20_pct": 25.47,
+          "sma20": 349.9,
+          "distance20_pct": 24.09,
           "near_sma20": false,
           "above_sma20": false,
           "sma50": null,
@@ -6867,16 +6869,14 @@
           }
         },
         "1M": {
-          "patterns": [
-            "Bullish Harami"
-          ],
+          "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 261.5,
-            "high": 271.05,
-            "low": 257.7,
-            "close": 262.75
+            "date": "2026-10-31",
+            "open": 262.7,
+            "high": 269.8,
+            "low": 252.8,
+            "close": 265.6
           }
         }
       },
@@ -7396,8 +7396,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 13736.05,
-          "distance20_pct": 17.03,
+          "sma20": 13708.61,
+          "distance20_pct": 16.86,
           "near_sma20": false,
           "above_sma20": false,
           "sma50": null,
@@ -7479,11 +7479,11 @@
           "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 13540.0,
-            "high": 13540.0,
-            "low": 11831.0,
-            "close": 11967.0
+            "date": "2026-10-31",
+            "open": 11900.0,
+            "high": 11907.0,
+            "low": 10985.0,
+            "close": 11397.0
           }
         }
       },
@@ -7963,7 +7963,7 @@
       "vwap": null,
       "sma20": 703.02,
       "sma50": 712.06,
-      "sma200": 789.46,
+      "sma200": 789.41,
       "sma20_distance_pct": 1.45,
       "sma50_distance_pct": 2.7,
       "sma200_distance_pct": 12.24,
@@ -7981,7 +7981,7 @@
           "distance50_pct": 2.7,
           "near_sma50": false,
           "above_sma50": false,
-          "sma200": 789.46,
+          "sma200": 789.41,
           "distance200_pct": 12.24,
           "near_sma200": false,
           "above_sma200": false
@@ -8003,8 +8003,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 882.12,
-          "distance20_pct": 21.46,
+          "sma20": 873.45,
+          "distance20_pct": 20.68,
           "near_sma20": false,
           "above_sma20": false,
           "sma50": null,
@@ -8080,16 +8080,14 @@
           }
         },
         "1M": {
-          "patterns": [
-            "Doji"
-          ],
+          "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 705.05,
-            "high": 749.3,
-            "low": 681.9,
-            "close": 708.7
+            "date": "2026-10-31",
+            "open": 708.4,
+            "high": 734.9,
+            "low": 669.2,
+            "close": 692.8
           }
         }
       },
@@ -8614,8 +8612,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 951.28,
-          "distance20_pct": 1.28,
+          "sma20": 955.58,
+          "distance20_pct": 1.72,
           "near_sma20": false,
           "above_sma20": false,
           "sma50": null,
@@ -8689,16 +8687,14 @@
           }
         },
         "1M": {
-          "patterns": [
-            "Bearish Marubozu"
-          ],
+          "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 1065.0,
-            "high": 1070.0,
-            "low": 955.8,
-            "close": 959.4
+            "date": "2026-10-31",
+            "open": 953.9,
+            "high": 995.8,
+            "low": 899.15,
+            "close": 939.1
           }
         }
       },
@@ -9183,7 +9179,7 @@
       "vwap": null,
       "sma20": 1186.32,
       "sma50": 1235.84,
-      "sma200": 1328.76,
+      "sma200": 1328.74,
       "sma20_distance_pct": 1.81,
       "sma50_distance_pct": 5.74,
       "sma200_distance_pct": 12.33,
@@ -9201,7 +9197,7 @@
           "distance50_pct": 5.74,
           "near_sma50": false,
           "above_sma50": false,
-          "sma200": 1328.76,
+          "sma200": 1328.74,
           "distance200_pct": 12.33,
           "near_sma200": false,
           "above_sma200": false
@@ -9212,8 +9208,8 @@
           "distance20_pct": 8.04,
           "near_sma20": false,
           "above_sma20": false,
-          "sma50": 1361.07,
-          "distance50_pct": 14.41,
+          "sma50": 1361.32,
+          "distance50_pct": 14.43,
           "near_sma50": false,
           "above_sma50": false,
           "sma200": null,
@@ -9223,8 +9219,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 1374.42,
-          "distance20_pct": 15.24,
+          "sma20": 1372.65,
+          "distance20_pct": 15.13,
           "near_sma20": false,
           "above_sma20": false,
           "sma50": null,
@@ -9301,11 +9297,11 @@
           "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 1285.0,
-            "high": 1333.0,
-            "low": 1181.7,
-            "close": 1187.0
+            "date": "2026-10-31",
+            "open": 1180.1,
+            "high": 1234.3,
+            "low": 1152.2,
+            "close": 1164.9
           }
         }
       },
@@ -9830,10 +9826,10 @@
         },
         "1M": {
           "available": true,
-          "sma20": 1214.64,
-          "distance20_pct": 0.19,
+          "sma20": 1224.71,
+          "distance20_pct": 0.63,
           "near_sma20": true,
-          "above_sma20": true,
+          "above_sma20": false,
           "sma50": null,
           "distance50_pct": null,
           "near_sma50": false,
@@ -9911,14 +9907,16 @@
           }
         },
         "1M": {
-          "patterns": [],
+          "patterns": [
+            "Doji"
+          ],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 1274.9,
-            "high": 1280.7,
-            "low": 1175.0,
-            "close": 1226.0
+            "date": "2026-10-31",
+            "open": 1219.1,
+            "high": 1293.8,
+            "low": 1196.9,
+            "close": 1217.0
           }
         }
       },
@@ -10397,11 +10395,11 @@
       "day_low": 2557.0,
       "vwap": null,
       "sma20": 2644.39,
-      "sma50": 2846.16,
-      "sma200": 2602.28,
+      "sma50": 2845.93,
+      "sma200": 2602.93,
       "sma20_distance_pct": 2.46,
       "sma50_distance_pct": 9.37,
-      "sma200_distance_pct": 0.88,
+      "sma200_distance_pct": 0.9,
       "near_sma20": false,
       "near_sma50": false,
       "near_sma200": true,
@@ -10412,23 +10410,23 @@
           "distance20_pct": 2.46,
           "near_sma20": false,
           "above_sma20": false,
-          "sma50": 2846.16,
+          "sma50": 2845.93,
           "distance50_pct": 9.37,
           "near_sma50": false,
           "above_sma50": false,
-          "sma200": 2602.28,
-          "distance200_pct": 0.88,
+          "sma200": 2602.93,
+          "distance200_pct": 0.9,
           "near_sma200": true,
           "above_sma200": false
         },
         "1W": {
           "available": true,
-          "sma20": 2949.86,
-          "distance20_pct": 12.56,
+          "sma20": 2949.28,
+          "distance20_pct": 12.54,
           "near_sma20": false,
           "above_sma20": false,
-          "sma50": 2546.2,
-          "distance50_pct": 1.3,
+          "sma50": 2543.28,
+          "distance50_pct": 1.42,
           "near_sma50": false,
           "above_sma50": true,
           "sma200": null,
@@ -10438,8 +10436,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 2456.47,
-          "distance20_pct": 5.0,
+          "sma20": 2480.64,
+          "distance20_pct": 3.98,
           "near_sma20": false,
           "above_sma20": true,
           "sma50": null,
@@ -10457,7 +10455,7 @@
       "trend": "Bearish",
       "score": 0,
       "signals": [
-        "Near SMA200 (0.88%)",
+        "Near SMA200 (0.9%)",
         "Near PDL (0.88%)"
       ],
       "patterns": {
@@ -10518,16 +10516,14 @@
           }
         },
         "1M": {
-          "patterns": [
-            "Doji"
-          ],
+          "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 2910.0,
-            "high": 3142.0,
-            "low": 2793.7,
-            "close": 2903.4
+            "date": "2026-10-31",
+            "open": 2900.0,
+            "high": 2903.7,
+            "low": 2430.7,
+            "close": 2579.4
           }
         }
       },
@@ -10825,10 +10821,10 @@
         },
         {
           "date": "2026-09-25",
-          "open": 2920.0,
-          "high": 2939.9,
-          "low": 2902.5,
-          "close": 2916.5
+          "open": 2905.0,
+          "high": 2905.0,
+          "low": 2905.0,
+          "close": 2905.0
         },
         {
           "date": "2026-09-28",
@@ -11047,8 +11043,8 @@
         },
         "1M": {
           "available": true,
-          "sma20": 176.37,
-          "distance20_pct": 4.97,
+          "sma20": 177.89,
+          "distance20_pct": 5.78,
           "near_sma20": false,
           "above_sma20": false,
           "sma50": null,
@@ -11125,16 +11121,14 @@
           }
         },
         "1M": {
-          "patterns": [
-            "Doji"
-          ],
+          "patterns": [],
           "available": true,
           "candle": {
-            "date": "2026-09-30",
-            "open": 183.7,
-            "high": 191.8,
-            "low": 180.28,
-            "close": 184.3
+            "date": "2026-10-31",
+            "open": 184.37,
+            "high": 186.55,
+            "low": 163.41,
+            "close": 167.6
           }
         }
       },

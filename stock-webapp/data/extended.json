@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T00:49:14.029930+00:00",
+  "updated_at": "2026-11-02T05:20:02.570139+00:00",
   "source": "NSE India + Screener.in public company pages",
   "chart_timeframes": [
     "1D",
@@ -281,11 +281,11 @@
           },
           {
             "date": "2026-06-23",
-            "open": 1305.7,
-            "high": 1322.0,
-            "low": 1297.5,
-            "close": 1313.6,
-            "volume": 11030917
+            "open": 1309.5,
+            "high": 1309.5,
+            "low": 1309.5,
+            "close": 1309.5,
+            "volume": 719579
           },
           {
             "date": "2026-06-24",
@@ -1087,7 +1087,7 @@
             "high": 1316.0,
             "low": 1243.5,
             "close": 1246.3,
-            "volume": 61833462
+            "volume": 54209075
           },
           {
             "date": "2025-01-31",
@@ -1293,9 +1293,9 @@
             "date": "2025-07-25",
             "open": 1465.0,
             "high": 1476.0,
-            "low": 1396.0,
+            "low": 1384.1,
             "close": 1391.7,
-            "volume": 65934169
+            "volume": 77788889
           },
           {
             "date": "2025-08-01",
@@ -1430,8 +1430,8 @@
             "open": 1520.9,
             "high": 1550.9,
             "low": 1510.5,
-            "close": 1534.0,
-            "volume": 41132655
+            "close": 1546.6,
+            "volume": 35486214
           },
           {
             "date": "2025-11-28",
@@ -1677,9 +1677,9 @@
             "date": "2026-06-26",
             "open": 1316.7,
             "high": 1344.9,
-            "low": 1297.5,
+            "low": 1304.0,
             "close": 1318.1,
-            "volume": 52056676
+            "volume": 41745338
           },
           {
             "date": "2026-07-03",
@@ -1829,11 +1829,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 2921.5,
+            "open": 2883.7,
             "high": 3000.0,
             "low": 2839.65,
             "close": 2984.25,
-            "volume": 108970769
+            "volume": 104563553
           },
           {
             "date": "2024-03-31",
@@ -1921,7 +1921,7 @@
             "high": 1326.0,
             "low": 1215.0,
             "close": 1264.6,
-            "volume": 286917113
+            "volume": 279292726
           },
           {
             "date": "2025-02-28",
@@ -1969,7 +1969,7 @@
             "high": 1551.0,
             "low": 1382.2,
             "close": 1393.7,
-            "volume": 234857572
+            "volume": 246712292
           },
           {
             "date": "2025-08-31",
@@ -2001,7 +2001,7 @@
             "high": 1581.3,
             "low": 1470.1,
             "close": 1566.1,
-            "volume": 200842774
+            "volume": 195196333
           },
           {
             "date": "2025-12-31",
@@ -2057,7 +2057,7 @@
             "high": 1344.9,
             "low": 1253.2,
             "close": 1308.0,
-            "volume": 346876961
+            "volume": 336565623
           },
           {
             "date": "2026-07-31",
@@ -2105,18 +2105,18 @@
         "fii_holding": 16.67,
         "dii_holding": 21.62,
         "public_holding": 11.08,
-        "market_cap_cr": 1576405.0,
-        "current_price": 1165.0,
-        "stock_pe": 19.2,
+        "market_cap_cr": 1694273.0,
+        "current_price": 1252.0,
+        "stock_pe": 20.6,
         "book_value": 698.0,
-        "dividend_yield": 0.52,
+        "dividend_yield": 0.49,
         "roce": 10.3,
         "roe": 8.91,
         "face_value": 10.0,
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/RELIANCE/consolidated/",
-        "fetched_at": "2026-10-31T00:48:25.736899+00:00",
+        "fetched_at": "2026-11-02T05:19:10.308856+00:00",
         "company": "RELIANCE",
         "industry": null,
         "sector_pe": null,
@@ -3181,10 +3181,10 @@
           {
             "date": "2025-01-24",
             "open": 4145.8,
-            "high": 4191.35,
+            "high": 4178.0,
             "low": 4030.0,
             "close": 4152.35,
-            "volume": 9401710
+            "volume": 7742574
           },
           {
             "date": "2025-01-31",
@@ -3381,10 +3381,10 @@
           {
             "date": "2025-07-18",
             "open": 3266.0,
-            "high": 3266.0,
+            "high": 3272.0,
             "low": 3187.0,
             "close": 3189.9,
-            "volume": 11845605
+            "volume": 15435916
           },
           {
             "date": "2025-07-25",
@@ -3448,7 +3448,7 @@
             "high": 3148.7,
             "low": 3016.0,
             "close": 3133.4,
-            "volume": 8678921
+            "volume": 10905529
           },
           {
             "date": "2025-09-19",
@@ -3926,11 +3926,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 3983.0,
+            "open": 3997.0,
             "high": 4184.75,
-            "low": 3962.1,
+            "low": 3971.0,
             "close": 4094.35,
-            "volume": 40264477
+            "volume": 38572954
           },
           {
             "date": "2024-03-31",
@@ -4018,7 +4018,7 @@
             "high": 4322.95,
             "low": 4011.55,
             "close": 4073.15,
-            "volume": 52333828
+            "volume": 50674692
           },
           {
             "date": "2025-02-28",
@@ -4066,7 +4066,7 @@
             "high": 3489.9,
             "low": 3000.0,
             "close": 3003.0,
-            "volume": 65778372
+            "volume": 69368683
           },
           {
             "date": "2025-08-31",
@@ -4082,7 +4082,7 @@
             "high": 3203.0,
             "low": 2866.6,
             "close": 2914.2,
-            "volume": 55870189
+            "volume": 58096797
           },
           {
             "date": "2025-10-31",
@@ -4202,18 +4202,18 @@
         "fii_holding": 9.01,
         "dii_holding": 13.57,
         "public_holding": 5.66,
-        "market_cap_cr": 905463.0,
-        "current_price": 2503.0,
-        "stock_pe": 16.6,
+        "market_cap_cr": 914399.0,
+        "current_price": 2527.0,
+        "stock_pe": 16.8,
         "book_value": 329.0,
-        "dividend_yield": 2.56,
+        "dividend_yield": 2.5,
         "roce": 63.0,
         "roe": 51.8,
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/TCS/consolidated/",
-        "fetched_at": "2026-10-31T00:48:28.693782+00:00",
+        "fetched_at": "2026-11-02T05:19:12.994789+00:00",
         "company": "TCS",
         "industry": null,
         "sector_pe": null,
@@ -4475,11 +4475,11 @@
           },
           {
             "date": "2026-06-23",
-            "open": 773.0,
-            "high": 794.9,
-            "low": 772.65,
-            "close": 793.2,
-            "volume": 34701292
+            "open": 774.65,
+            "high": 774.65,
+            "low": 774.65,
+            "close": 774.65,
+            "volume": 1013597
           },
           {
             "date": "2026-06-24",
@@ -5193,7 +5193,7 @@
             "high": 1762.7,
             "low": 1697.9,
             "close": 1754.45,
-            "volume": 56815181
+            "volume": 48226558
           },
           {
             "date": "2024-11-15",
@@ -5481,7 +5481,7 @@
             "high": 2022.7,
             "low": 1953.0,
             "close": 1957.4,
-            "volume": 42120117
+            "volume": 36646867
           },
           {
             "date": "2025-07-25",
@@ -5577,15 +5577,15 @@
             "high": 989.85,
             "low": 962.0,
             "close": 980.9,
-            "volume": 73889536
+            "volume": 89146159
           },
           {
             "date": "2025-10-17",
-            "open": 974.3,
+            "open": 978.5,
             "high": 1009.0,
             "low": 967.0,
             "close": 1002.55,
-            "volume": 113026160
+            "volume": 94664125
           },
           {
             "date": "2025-10-24",
@@ -5623,9 +5623,9 @@
             "date": "2025-11-21",
             "open": 991.25,
             "high": 1011.6,
-            "low": 984.0,
+            "low": 985.6,
             "close": 998.05,
-            "volume": 95563657
+            "volume": 75903512
           },
           {
             "date": "2025-11-28",
@@ -5745,7 +5745,7 @@
             "high": 887.75,
             "low": 848.0,
             "close": 857.05,
-            "volume": 113387855
+            "volume": 144005475
           },
           {
             "date": "2026-03-13",
@@ -5873,7 +5873,7 @@
             "high": 804.45,
             "low": 772.55,
             "close": 796.3,
-            "volume": 134893085
+            "volume": 101205390
           },
           {
             "date": "2026-07-03",
@@ -6023,11 +6023,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 1446.0,
+            "open": 1445.55,
             "high": 1464.0,
             "low": 1363.55,
             "close": 1430.75,
-            "volume": 451599880
+            "volume": 432297357
           },
           {
             "date": "2024-03-31",
@@ -6043,7 +6043,7 @@
             "high": 1557.4,
             "low": 1463.25,
             "close": 1520.1,
-            "volume": 349649501
+            "volume": 339117037
           },
           {
             "date": "2024-05-31",
@@ -6099,7 +6099,7 @@
             "high": 1836.1,
             "low": 1672.1,
             "close": 1796.05,
-            "volume": 462899604
+            "volume": 454310981
           },
           {
             "date": "2024-12-31",
@@ -6163,7 +6163,7 @@
             "high": 2037.7,
             "low": 1953.0,
             "close": 2012.2,
-            "volume": 178814760
+            "volume": 173341510
           },
           {
             "date": "2025-08-31",
@@ -6187,7 +6187,7 @@
             "high": 1020.5,
             "low": 952.0,
             "close": 987.3,
-            "volume": 391070949
+            "volume": 387965537
           },
           {
             "date": "2025-11-30",
@@ -6195,7 +6195,7 @@
             "high": 1017.5,
             "low": 974.0,
             "close": 1002.1,
-            "volume": 379277337
+            "volume": 359617192
           },
           {
             "date": "2025-12-31",
@@ -6227,7 +6227,7 @@
             "high": 887.75,
             "low": 726.65,
             "close": 742.25,
-            "volume": 1161889561
+            "volume": 1192507181
           },
           {
             "date": "2026-04-30",
@@ -6251,7 +6251,7 @@
             "high": 806.1,
             "low": 732.3,
             "close": 796.15,
-            "volume": 750452157
+            "volume": 716764462
           },
           {
             "date": "2026-07-31",
@@ -6299,18 +6299,18 @@
         "fii_holding": 39.39,
         "dii_holding": 43.44,
         "public_holding": 16.96,
-        "market_cap_cr": 1068834.0,
-        "current_price": 693.0,
-        "stock_pe": 13.3,
+        "market_cap_cr": 1070068.0,
+        "current_price": 694.0,
+        "stock_pe": 13.4,
         "book_value": 391.0,
-        "dividend_yield": 1.88,
+        "dividend_yield": 1.87,
         "roce": 7.02,
         "roe": 13.6,
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/HDFCBANK/consolidated/",
-        "fetched_at": "2026-10-31T00:48:31.170528+00:00",
+        "fetched_at": "2026-11-02T05:19:15.528101+00:00",
         "company": "HDFCBANK",
         "industry": null,
         "sector_pe": null,
@@ -6572,11 +6572,11 @@
           },
           {
             "date": "2026-06-23",
-            "open": 1340.6,
-            "high": 1377.6,
-            "low": 1340.6,
-            "close": 1373.6,
-            "volume": 16440708
+            "open": 1338.3,
+            "high": 1338.3,
+            "low": 1338.3,
+            "close": 1338.3,
+            "volume": 967959
           },
           {
             "date": "2026-06-24",
@@ -7287,10 +7287,10 @@
           {
             "date": "2024-11-08",
             "open": 1290.1,
-            "high": 1306.85,
+            "high": 1315.0,
             "low": 1252.7,
             "close": 1258.85,
-            "volume": 57434579
+            "volume": 63883289
           },
           {
             "date": "2024-11-15",
@@ -7710,11 +7710,11 @@
           },
           {
             "date": "2025-11-14",
-            "open": 1342.9,
+            "open": 1332.0,
             "high": 1390.4,
-            "low": 1341.0,
+            "low": 1332.0,
             "close": 1373.0,
-            "volume": 54575409
+            "volume": 46174955
           },
           {
             "date": "2025-11-21",
@@ -7970,7 +7970,7 @@
             "high": 1404.0,
             "low": 1331.5,
             "close": 1387.5,
-            "volume": 50313641
+            "volume": 34840892
           },
           {
             "date": "2026-07-03",
@@ -8120,11 +8120,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 1022.5,
+            "open": 1023.55,
             "high": 1089.95,
             "low": 985.25,
             "close": 1086.9,
-            "volume": 262721034
+            "volume": 249772604
           },
           {
             "date": "2024-03-31",
@@ -8193,10 +8193,10 @@
           {
             "date": "2024-11-30",
             "open": 1290.1,
-            "high": 1314.25,
+            "high": 1315.0,
             "low": 1232.55,
             "close": 1300.1,
-            "volume": 226510493
+            "volume": 232959203
           },
           {
             "date": "2024-12-31",
@@ -8292,7 +8292,7 @@
             "high": 1400.0,
             "low": 1317.4,
             "close": 1390.1,
-            "volume": 231499120
+            "volume": 223098666
           },
           {
             "date": "2025-12-31",
@@ -8348,7 +8348,7 @@
             "high": 1404.0,
             "low": 1213.7,
             "close": 1379.8,
-            "volume": 328480126
+            "volume": 313007377
           },
           {
             "date": "2026-07-31",
@@ -8396,9 +8396,9 @@
         "fii_holding": 34.68,
         "dii_holding": 41.77,
         "public_holding": 23.32,
-        "market_cap_cr": 1003901.0,
-        "current_price": 1398.0,
-        "stock_pe": 17.0,
+        "market_cap_cr": 999161.0,
+        "current_price": 1391.0,
+        "stock_pe": 16.9,
         "book_value": 540.0,
         "dividend_yield": 0.86,
         "roce": 7.18,
@@ -8407,7 +8407,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/ICICIBANK/consolidated/",
-        "fetched_at": "2026-10-31T00:48:33.793073+00:00",
+        "fetched_at": "2026-11-02T05:19:18.124899+00:00",
         "company": "ICICIBANK",
         "industry": null,
         "sector_pe": null,
@@ -9531,7 +9531,7 @@
             "high": 1719.0,
             "low": 1570.3,
             "close": 1579.85,
-            "volume": 31037159
+            "volume": 21349982
           },
           {
             "date": "2025-03-21",
@@ -9783,11 +9783,11 @@
           },
           {
             "date": "2025-10-24",
-            "open": 1453.7,
+            "open": 1460.0,
             "high": 1552.0,
-            "low": 1450.0,
+            "low": 1460.0,
             "close": 1525.4,
-            "volume": 17345212
+            "volume": 10350967
           },
           {
             "date": "2025-10-31",
@@ -10217,11 +10217,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 1694.75,
+            "open": 1686.75,
             "high": 1733.0,
             "low": 1635.5,
             "close": 1654.7,
-            "volume": 94442603
+            "volume": 90808468
           },
           {
             "date": "2024-03-31",
@@ -10325,7 +10325,7 @@
             "high": 1732.95,
             "low": 1517.85,
             "close": 1526.5,
-            "volume": 164890563
+            "volume": 155203386
           },
           {
             "date": "2025-04-30",
@@ -10381,7 +10381,7 @@
             "high": 1552.0,
             "low": 1433.2,
             "close": 1482.3,
-            "volume": 124057208
+            "volume": 117062963
           },
           {
             "date": "2025-11-30",
@@ -10493,18 +10493,18 @@
         "fii_holding": 27.44,
         "dii_holding": 42.66,
         "public_holding": 15.59,
-        "market_cap_cr": 480908.0,
-        "current_price": 1185.0,
-        "stock_pe": 15.2,
+        "market_cap_cr": 476484.0,
+        "current_price": 1174.0,
+        "stock_pe": 15.0,
         "book_value": 244.0,
-        "dividend_yield": 4.05,
+        "dividend_yield": 4.11,
         "roce": 40.0,
         "roe": 31.9,
         "face_value": 5.0,
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/INFY/consolidated/",
-        "fetched_at": "2026-10-31T00:48:36.482008+00:00",
+        "fetched_at": "2026-11-02T05:19:20.635163+00:00",
         "company": "INFY",
         "industry": null,
         "sector_pe": null,
@@ -11532,7 +11532,7 @@
             "high": 866.4,
             "low": 810.0,
             "close": 812.0,
-            "volume": 43216863
+            "volume": 34921546
           },
           {
             "date": "2024-12-27",
@@ -11554,9 +11554,9 @@
             "date": "2025-01-10",
             "open": 797.4,
             "high": 797.6,
-            "low": 742.05,
+            "low": 726.25,
             "close": 743.25,
-            "volume": 32867965
+            "volume": 63860334
           },
           {
             "date": "2025-01-17",
@@ -11657,10 +11657,10 @@
           {
             "date": "2025-04-11",
             "open": 730.0,
-            "high": 774.0,
+            "high": 767.95,
             "low": 730.0,
             "close": 753.85,
-            "volume": 48514237
+            "volume": 35602951
           },
           {
             "date": "2025-04-18",
@@ -11716,7 +11716,7 @@
             "high": 814.5,
             "low": 789.2,
             "close": 812.3,
-            "volume": 59905469
+            "volume": 47910441
           },
           {
             "date": "2025-06-06",
@@ -11776,11 +11776,11 @@
           },
           {
             "date": "2025-07-25",
-            "open": 823.0,
+            "open": 826.0,
             "high": 828.05,
             "low": 805.5,
             "close": 806.55,
-            "volume": 49026895
+            "volume": 40174302
           },
           {
             "date": "2025-08-01",
@@ -11801,18 +11801,18 @@
           {
             "date": "2025-08-15",
             "open": 808.0,
-            "high": 828.0,
+            "high": 830.0,
             "low": 808.0,
             "close": 826.55,
-            "volume": 34758106
+            "volume": 27670534
           },
           {
             "date": "2025-08-22",
-            "open": 836.0,
-            "high": 838.0,
+            "open": 830.0,
+            "high": 833.25,
             "low": 815.7,
             "close": 816.25,
-            "volume": 25208851
+            "volume": 19070729
           },
           {
             "date": "2025-08-29",
@@ -11820,7 +11820,7 @@
             "high": 820.5,
             "low": 798.5,
             "close": 802.5,
-            "volume": 19532158
+            "volume": 27430591
           },
           {
             "date": "2025-09-05",
@@ -12314,11 +12314,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 647.1,
+            "open": 644.45,
             "high": 777.5,
             "low": 637.7,
             "close": 769.15,
-            "volume": 499955546
+            "volume": 471616021
           },
           {
             "date": "2024-03-31",
@@ -12330,11 +12330,11 @@
           },
           {
             "date": "2024-04-30",
-            "open": 763.0,
+            "open": 758.2,
             "high": 834.85,
             "low": 732.05,
             "close": 826.25,
-            "volume": 270412376
+            "volume": 260438734
           },
           {
             "date": "2024-05-31",
@@ -12366,7 +12366,7 @@
             "high": 858.3,
             "low": 795.05,
             "close": 815.6,
-            "volume": 260103636
+            "volume": 270255117
           },
           {
             "date": "2024-09-30",
@@ -12398,7 +12398,7 @@
             "high": 875.45,
             "low": 785.0,
             "close": 793.2,
-            "volume": 216661190
+            "volume": 208365873
           },
           {
             "date": "2025-01-31",
@@ -12406,7 +12406,7 @@
             "high": 809.5,
             "low": 722.5,
             "close": 766.0,
-            "volume": 225136973
+            "volume": 256129342
           },
           {
             "date": "2025-02-28",
@@ -12430,7 +12430,7 @@
             "high": 835.5,
             "low": 730.0,
             "close": 788.65,
-            "volume": 245292588
+            "volume": 232381302
           },
           {
             "date": "2025-05-31",
@@ -12438,7 +12438,7 @@
             "high": 814.5,
             "low": 755.5,
             "close": 812.3,
-            "volume": 276784717
+            "volume": 264789689
           },
           {
             "date": "2025-06-30",
@@ -12454,15 +12454,15 @@
             "high": 842.5,
             "low": 792.0,
             "close": 794.0,
-            "volume": 200610901
+            "volume": 191758308
           },
           {
             "date": "2025-08-31",
             "open": 794.5,
-            "high": 838.0,
+            "high": 833.25,
             "low": 786.55,
             "close": 806.05,
-            "volume": 131530150
+            "volume": 126202889
           },
           {
             "date": "2025-09-30",
@@ -12590,18 +12590,18 @@
         "fii_holding": 11.07,
         "dii_holding": 26.21,
         "public_holding": 7.12,
-        "market_cap_cr": 887861.0,
-        "current_price": 962.0,
-        "stock_pe": 10.6,
+        "market_cap_cr": 905215.0,
+        "current_price": 981.0,
+        "stock_pe": 10.8,
         "book_value": 674.0,
-        "dividend_yield": 1.8,
+        "dividend_yield": 1.77,
         "roce": 6.13,
         "roe": 15.4,
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/SBIN/consolidated/",
-        "fetched_at": "2026-10-31T00:48:39.236781+00:00",
+        "fetched_at": "2026-11-02T05:19:23.013525+00:00",
         "company": "SBIN",
         "industry": null,
         "sector_pe": null,
@@ -13701,7 +13701,7 @@
             "high": 1716.9,
             "low": 1627.25,
             "close": 1639.25,
-            "volume": 74770195
+            "volume": 31184701
           },
           {
             "date": "2025-02-28",
@@ -13865,11 +13865,11 @@
           },
           {
             "date": "2025-07-18",
-            "open": 1921.9,
+            "open": 1915.0,
             "high": 1944.9,
             "low": 1891.8,
             "close": 1901.0,
-            "volume": 19803933
+            "volume": 24544195
           },
           {
             "date": "2025-07-25",
@@ -13929,19 +13929,19 @@
           },
           {
             "date": "2025-09-12",
-            "open": 1898.0,
-            "high": 1916.0,
-            "low": 1882.1,
+            "open": 1895.3,
+            "high": 1913.0,
+            "low": 1883.0,
             "close": 1913.0,
-            "volume": 16303359
+            "volume": 10294251
           },
           {
             "date": "2025-09-19",
-            "open": 1902.6,
+            "open": 1904.0,
             "high": 1976.8,
-            "low": 1902.5,
+            "low": 1898.4,
             "close": 1962.4,
-            "volume": 27077288
+            "volume": 21143719
           },
           {
             "date": "2025-09-26",
@@ -14411,11 +14411,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 1154.35,
-            "high": 1159.65,
+            "open": 1125.0,
+            "high": 1159.15,
             "low": 1097.65,
             "close": 1128.7,
-            "volume": 116481920
+            "volume": 108672589
           },
           {
             "date": "2024-03-31",
@@ -14511,7 +14511,7 @@
             "high": 1728.4,
             "low": 1559.5,
             "close": 1570.2,
-            "volume": 174873506
+            "volume": 131288012
           },
           {
             "date": "2025-03-31",
@@ -14551,7 +14551,7 @@
             "high": 2045.8,
             "low": 1878.0,
             "close": 1884.4,
-            "volume": 108682166
+            "volume": 113422428
           },
           {
             "date": "2025-08-31",
@@ -14567,7 +14567,7 @@
             "high": 1976.8,
             "low": 1855.9,
             "close": 1867.6,
-            "volume": 100554257
+            "volume": 88611580
           },
           {
             "date": "2025-10-31",
@@ -14687,18 +14687,18 @@
         "fii_holding": 25.44,
         "dii_holding": 21.62,
         "public_holding": 2.7,
-        "market_cap_cr": 1231907.0,
-        "current_price": 1974.0,
-        "stock_pe": 39.4,
+        "market_cap_cr": 1239335.0,
+        "current_price": 1986.0,
+        "stock_pe": 39.7,
         "book_value": 245.0,
-        "dividend_yield": 1.22,
+        "dividend_yield": 1.2,
         "roce": 17.6,
         "roe": 20.3,
         "face_value": 5.0,
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/BHARTIARTL/consolidated/",
-        "fetched_at": "2026-10-31T00:48:41.746177+00:00",
+        "fetched_at": "2026-11-02T05:19:25.805777+00:00",
         "company": "BHARTIARTL",
         "industry": null,
         "sector_pe": null,
@@ -16508,11 +16508,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 442.0,
-            "high": 443.65,
+            "open": 440.0,
+            "high": 440.9,
             "low": 399.4,
             "close": 409.5,
-            "volume": 352596856
+            "volume": 340554959
           },
           {
             "date": "2024-03-31",
@@ -16784,18 +16784,18 @@
         "fii_holding": 33.22,
         "dii_holding": 49.81,
         "public_holding": 16.93,
-        "market_cap_cr": 332848.0,
-        "current_price": 266.0,
-        "stock_pe": 16.8,
+        "market_cap_cr": 334915.0,
+        "current_price": 267.0,
+        "stock_pe": 17.0,
         "book_value": 57.9,
-        "dividend_yield": 5.46,
+        "dividend_yield": 5.45,
         "roce": 38.9,
         "roe": 29.3,
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/ITC/consolidated/",
-        "fetched_at": "2026-10-31T00:48:44.303391+00:00",
+        "fetched_at": "2026-11-02T05:19:28.551676+00:00",
         "company": "ITC",
         "industry": null,
         "sector_pe": null,
@@ -18060,10 +18060,10 @@
           {
             "date": "2025-07-18",
             "open": 3540.6,
-            "high": 3548.7,
+            "high": 3540.6,
             "low": 3450.0,
             "close": 3464.8,
-            "volume": 8246972
+            "volume": 7136660
           },
           {
             "date": "2025-07-25",
@@ -18132,10 +18132,10 @@
           {
             "date": "2025-09-19",
             "open": 3581.0,
-            "high": 3704.0,
+            "high": 3705.0,
             "low": 3575.5,
-            "close": 3681.0,
-            "volume": 7256978
+            "close": 3675.4,
+            "volume": 9213276
           },
           {
             "date": "2025-09-26",
@@ -18605,11 +18605,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 3375.5,
+            "open": 3346.0,
             "high": 3658.35,
             "low": 3263.05,
             "close": 3633.5,
-            "volume": 49829160
+            "volume": 46874922
           },
           {
             "date": "2024-03-31",
@@ -18745,7 +18745,7 @@
             "high": 3685.3,
             "low": 3405.1,
             "close": 3587.3,
-            "volume": 40362760
+            "volume": 39252448
           },
           {
             "date": "2025-08-31",
@@ -18761,7 +18761,7 @@
             "high": 3794.9,
             "low": 3516.4,
             "close": 3670.3,
-            "volume": 36089094
+            "volume": 38045392
           },
           {
             "date": "2025-10-31",
@@ -18881,9 +18881,9 @@
         "fii_holding": 19.22,
         "dii_holding": 42.85,
         "public_holding": 37.66,
-        "market_cap_cr": 532713.0,
-        "current_price": 3872.0,
-        "stock_pe": 28.2,
+        "market_cap_cr": 541616.0,
+        "current_price": 3936.0,
+        "stock_pe": 28.7,
         "book_value": 821.0,
         "dividend_yield": 0.98,
         "roce": 14.6,
@@ -18892,7 +18892,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/LT/consolidated/",
-        "fetched_at": "2026-10-31T00:48:46.841377+00:00",
+        "fetched_at": "2026-11-02T05:19:31.427097+00:00",
         "company": "LT",
         "industry": null,
         "sector_pe": null,
@@ -20024,7 +20024,7 @@
             "high": 1075.55,
             "low": 1011.1,
             "close": 1070.15,
-            "volume": 21980595
+            "volume": 28718182
           },
           {
             "date": "2025-03-28",
@@ -20156,11 +20156,11 @@
           },
           {
             "date": "2025-07-18",
-            "open": 1179.0,
-            "high": 1179.9,
+            "open": 1173.0,
+            "high": 1179.0,
             "low": 1086.0,
             "close": 1099.3,
-            "volume": 57685660
+            "volume": 53307907
           },
           {
             "date": "2025-07-25",
@@ -20232,15 +20232,15 @@
             "high": 1144.1,
             "low": 1100.0,
             "close": 1135.9,
-            "volume": 19511561
+            "volume": 24806772
           },
           {
             "date": "2025-09-26",
             "open": 1136.0,
             "high": 1172.8,
             "low": 1131.2,
-            "close": 1154.0,
-            "volume": 53388282
+            "close": 1166.6,
+            "volume": 47860522
           },
           {
             "date": "2025-10-03",
@@ -20702,11 +20702,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 1067.05,
+            "open": 1061.55,
             "high": 1110.7,
             "low": 1031.65,
             "close": 1099.25,
-            "volume": 184483369
+            "volume": 171913915
           },
           {
             "date": "2024-03-31",
@@ -20810,7 +20810,7 @@
             "high": 1123.5,
             "low": 992.0,
             "close": 1085.6,
-            "volume": 124598793
+            "volume": 131336380
           },
           {
             "date": "2025-04-30",
@@ -20842,7 +20842,7 @@
             "high": 1181.9,
             "low": 1055.4,
             "close": 1062.4,
-            "volume": 206837511
+            "volume": 202459758
           },
           {
             "date": "2025-08-31",
@@ -20858,7 +20858,7 @@
             "high": 1172.8,
             "low": 1045.0,
             "close": 1159.5,
-            "volume": 147642809
+            "volume": 147410260
           },
           {
             "date": "2025-10-31",
@@ -20978,8 +20978,8 @@
         "fii_holding": 38.05,
         "dii_holding": 44.54,
         "public_holding": 9.53,
-        "market_cap_cr": 378983.0,
-        "current_price": 1217.0,
+        "market_cap_cr": 377364.0,
+        "current_price": 1212.0,
         "stock_pe": 12.6,
         "book_value": 738.0,
         "dividend_yield": 0.08,
@@ -20989,7 +20989,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/AXISBANK/consolidated/",
-        "fetched_at": "2026-10-31T00:48:49.284225+00:00",
+        "fetched_at": "2026-11-02T05:19:34.184369+00:00",
         "company": "AXISBANK",
         "industry": null,
         "sector_pe": null,
@@ -22311,9 +22311,9 @@
             "date": "2025-09-05",
             "open": 1960.3,
             "high": 1975.2,
-            "low": 1931.1,
+            "low": 1937.1,
             "close": 1945.5,
-            "volume": 9381083
+            "volume": 6895810
           },
           {
             "date": "2025-09-12",
@@ -22321,7 +22321,7 @@
             "high": 1988.9,
             "low": 1931.5,
             "close": 1972.3,
-            "volume": 20179968
+            "volume": 18413928
           },
           {
             "date": "2025-09-19",
@@ -22799,11 +22799,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 1825.0,
-            "high": 1826.95,
+            "open": 1814.0,
+            "high": 1814.0,
             "low": 1667.4,
             "close": 1727.7,
-            "volume": 87801284
+            "volume": 84340478
           },
           {
             "date": "2024-03-31",
@@ -22946,16 +22946,16 @@
             "open": 1987.0,
             "high": 2039.0,
             "low": 1941.1,
-            "close": 1960.3,
-            "volume": 59853751
+            "close": 1968.6,
+            "volume": 60940170
           },
           {
             "date": "2025-09-30",
             "open": 1966.0,
             "high": 2072.0,
-            "low": 1931.1,
+            "low": 1931.5,
             "close": 2063.3,
-            "volume": 81278693
+            "volume": 75940961
           },
           {
             "date": "2025-10-31",
@@ -23075,9 +23075,9 @@
         "fii_holding": 24.65,
         "dii_holding": 38.54,
         "public_holding": 10.95,
-        "market_cap_cr": 459194.0,
-        "current_price": 462.0,
-        "stock_pe": 21.6,
+        "market_cap_cr": 462825.0,
+        "current_price": 465.0,
+        "stock_pe": 21.8,
         "book_value": 196.0,
         "dividend_yield": 0.14,
         "roce": 6.98,
@@ -23086,7 +23086,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/KOTAKBANK/consolidated/",
-        "fetched_at": "2026-10-31T00:48:51.654148+00:00",
+        "fetched_at": "2026-11-02T05:19:36.736659+00:00",
         "company": "KOTAKBANK",
         "industry": null,
         "sector_pe": null,
@@ -23348,11 +23348,11 @@
           },
           {
             "date": "2026-06-23",
-            "open": 2160.0,
-            "high": 2166.0,
-            "low": 2140.0,
-            "close": 2157.8,
-            "volume": 942271
+            "open": 2160.1,
+            "high": 2160.1,
+            "low": 2160.1,
+            "close": 2160.1,
+            "volume": 125199
           },
           {
             "date": "2026-06-24",
@@ -24744,9 +24744,9 @@
             "date": "2026-06-26",
             "open": 2203.7,
             "high": 2208.2,
-            "low": 2140.0,
+            "low": 2156.0,
             "close": 2174.2,
-            "volume": 4316475
+            "volume": 3499403
           },
           {
             "date": "2026-07-03",
@@ -24896,11 +24896,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 2464.0,
-            "high": 2464.75,
+            "open": 2424.95,
+            "high": 2441.8,
             "low": 2346.75,
             "close": 2409.7,
-            "volume": 29194711
+            "volume": 27879266
           },
           {
             "date": "2024-03-31",
@@ -25124,7 +25124,7 @@
             "high": 2224.6,
             "low": 2065.7,
             "close": 2182.0,
-            "volume": 32901948
+            "volume": 32084876
           },
           {
             "date": "2026-07-31",
@@ -25172,18 +25172,18 @@
         "fii_holding": 9.26,
         "dii_holding": 17.05,
         "public_holding": 11.71,
-        "market_cap_cr": 438105.0,
-        "current_price": 1865.0,
-        "stock_pe": 39.1,
+        "market_cap_cr": 447268.0,
+        "current_price": 1904.0,
+        "stock_pe": 39.9,
         "book_value": 208.0,
-        "dividend_yield": 2.2,
+        "dividend_yield": 2.15,
         "roce": 28.4,
         "roe": 31.0,
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/HINDUNILVR/consolidated/",
-        "fetched_at": "2026-10-31T00:48:54.039213+00:00",
+        "fetched_at": "2026-11-02T05:19:39.551315+00:00",
         "company": "HINDUNILVR",
         "industry": null,
         "sector_pe": null,
@@ -26315,7 +26315,7 @@
             "high": 9089.0,
             "low": 8386.0,
             "close": 8916.1,
-            "volume": 7032249
+            "volume": 5973288
           },
           {
             "date": "2025-03-28",
@@ -26993,11 +26993,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 6894.0,
-            "high": 6895.0,
+            "open": 6648.0,
+            "high": 6806.9,
             "low": 6366.2,
             "close": 6571.45,
-            "volume": 23967369
+            "volume": 22196147
           },
           {
             "date": "2024-03-31",
@@ -27101,7 +27101,7 @@
             "high": 9260.05,
             "low": 8211.25,
             "close": 8698.2,
-            "volume": 25113060
+            "volume": 24054099
           },
           {
             "date": "2025-04-30",
@@ -27269,9 +27269,9 @@
         "fii_holding": 19.78,
         "dii_holding": 16.96,
         "public_holding": 8.46,
-        "market_cap_cr": 584679.0,
-        "current_price": 939.0,
-        "stock_pe": 26.7,
+        "market_cap_cr": 590003.0,
+        "current_price": 948.0,
+        "stock_pe": 27.0,
         "book_value": 198.0,
         "dividend_yield": 0.58,
         "roce": 10.9,
@@ -27280,7 +27280,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/BAJFINANCE/consolidated/",
-        "fetched_at": "2026-10-31T00:48:56.616587+00:00",
+        "fetched_at": "2026-11-02T05:19:42.579459+00:00",
         "company": "BAJFINANCE",
         "industry": null,
         "sector_pe": null,
@@ -29090,11 +29090,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 10602.0,
+            "open": 10499.95,
             "high": 11720.0,
-            "low": 10400.0,
+            "low": 10458.0,
             "close": 11620.95,
-            "volume": 9782039
+            "volume": 9416934
           },
           {
             "date": "2024-03-31",
@@ -29366,18 +29366,18 @@
         "fii_holding": 12.42,
         "dii_holding": 25.3,
         "public_holding": 3.45,
-        "market_cap_cr": 358325.0,
-        "current_price": 11397.0,
-        "stock_pe": 26.6,
+        "market_cap_cr": 369219.0,
+        "current_price": 11744.0,
+        "stock_pe": 27.5,
         "book_value": 3467.0,
-        "dividend_yield": 1.23,
+        "dividend_yield": 1.21,
         "roce": 18.9,
         "roe": 14.3,
         "face_value": 5.0,
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/MARUTI/consolidated/",
-        "fetched_at": "2026-10-31T00:48:59.065220+00:00",
+        "fetched_at": "2026-11-02T05:19:45.390771+00:00",
         "company": "MARUTI",
         "industry": null,
         "sector_pe": null,
@@ -31187,11 +31187,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 1426.8,
+            "open": 1450.0,
             "high": 1587.8,
-            "low": 1423.6,
+            "low": 1446.55,
             "close": 1559.25,
-            "volume": 51125970
+            "volume": 47644006
           },
           {
             "date": "2024-03-31",
@@ -31463,18 +31463,18 @@
         "fii_holding": 14.36,
         "dii_holding": 22.27,
         "public_holding": 10.7,
-        "market_cap_cr": 426530.0,
-        "current_price": 1778.0,
-        "stock_pe": 34.7,
+        "market_cap_cr": 423974.0,
+        "current_price": 1767.0,
+        "stock_pe": 34.4,
         "book_value": 372.0,
-        "dividend_yield": 0.9,
+        "dividend_yield": 0.92,
         "roce": 20.5,
         "roe": 16.0,
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/SUNPHARMA/consolidated/",
-        "fetched_at": "2026-10-31T00:49:01.512012+00:00",
+        "fetched_at": "2026-11-02T05:19:48.292810+00:00",
         "company": "SUNPHARMA",
         "industry": null,
         "sector_pe": null,
@@ -32738,11 +32738,11 @@
           },
           {
             "date": "2025-07-18",
-            "open": 681.8,
+            "open": 681.0,
             "high": 686.9,
-            "low": 674.3,
+            "low": 672.0,
             "close": 680.25,
-            "volume": 26139326
+            "volume": 33191275
           },
           {
             "date": "2025-07-25",
@@ -32803,10 +32803,10 @@
           {
             "date": "2025-09-12",
             "open": 695.0,
-            "high": 722.0,
+            "high": 722.25,
             "low": 694.05,
             "close": 715.25,
-            "volume": 45827569
+            "volume": 54087422
           },
           {
             "date": "2025-09-19",
@@ -32838,7 +32838,7 @@
             "high": 718.5,
             "low": 666.9,
             "close": 678.95,
-            "volume": 56481570
+            "volume": 72274401
           },
           {
             "date": "2025-10-17",
@@ -33284,11 +33284,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 934.0,
+            "open": 936.4,
             "high": 980.4,
             "low": 894.0,
             "close": 977.4,
-            "volume": 203967727
+            "volume": 165280856
           },
           {
             "date": "2024-03-31",
@@ -33296,7 +33296,7 @@
             "high": 1065.6,
             "low": 921.2,
             "close": 992.25,
-            "volume": 272736901
+            "volume": 256045229
           },
           {
             "date": "2024-04-30",
@@ -33424,7 +33424,7 @@
             "high": 706.5,
             "low": 647.0,
             "close": 648.85,
-            "volume": 198955012
+            "volume": 206006961
           },
           {
             "date": "2025-08-31",
@@ -33440,7 +33440,7 @@
             "high": 725.25,
             "low": 655.3,
             "close": 718.35,
-            "volume": 265374752
+            "volume": 273634605
           },
           {
             "date": "2025-10-31",
@@ -33448,7 +33448,7 @@
             "high": 739.7,
             "low": 376.3,
             "close": 410.0,
-            "volume": 315998257
+            "volume": 331791088
           },
           {
             "date": "2025-11-30",
@@ -34863,7 +34863,7 @@
             "high": 162.76,
             "low": 156.0,
             "close": 158.55,
-            "volume": 128049575
+            "volume": 144113556
           },
           {
             "date": "2025-08-29",
@@ -34876,10 +34876,10 @@
           {
             "date": "2025-09-05",
             "open": 154.48,
-            "high": 168.0,
+            "high": 169.3,
             "low": 153.7,
             "close": 167.68,
-            "volume": 131150921
+            "volume": 157467761
           },
           {
             "date": "2025-09-12",
@@ -34911,7 +34911,7 @@
             "high": 174.74,
             "low": 166.13,
             "close": 173.21,
-            "volume": 114101419
+            "volume": 89547824
           },
           {
             "date": "2025-10-10",
@@ -35365,11 +35365,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 140.0,
+            "open": 143.0,
             "high": 150.65,
             "low": 134.1,
             "close": 149.95,
-            "volume": 856864042
+            "volume": 776126416
           },
           {
             "date": "2024-03-31",
@@ -35513,7 +35513,7 @@
             "high": 162.76,
             "low": 153.05,
             "close": 156.17,
-            "volume": 406860746
+            "volume": 422924727
           },
           {
             "date": "2025-09-30",
@@ -35521,7 +35521,7 @@
             "high": 174.44,
             "low": 155.5,
             "close": 167.51,
-            "volume": 472088464
+            "volume": 473851709
           },
           {
             "date": "2025-10-31",
@@ -35641,18 +35641,18 @@
         "fii_holding": 17.72,
         "dii_holding": 27.51,
         "public_holding": 21.81,
-        "market_cap_cr": 209224.0,
-        "current_price": 168.0,
-        "stock_pe": 17.7,
+        "market_cap_cr": 219023.0,
+        "current_price": 175.0,
+        "stock_pe": 18.5,
         "book_value": 81.8,
-        "dividend_yield": 2.39,
+        "dividend_yield": 2.26,
         "roce": 12.5,
         "roe": 11.7,
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/TATASTEEL/consolidated/",
-        "fetched_at": "2026-10-31T00:49:06.749476+00:00",
+        "fetched_at": "2026-11-02T05:19:54.284748+00:00",
         "company": "TATASTEEL",
         "industry": null,
         "sector_pe": null,
@@ -35690,11 +35690,11 @@
           },
           {
             "date": "2026-05-13",
-            "open": 2435.6,
-            "high": 2435.6,
-            "low": 2435.6,
-            "close": 2435.6,
-            "volume": 5892423
+            "open": 2530.1,
+            "high": 2720.0,
+            "low": 2530.0,
+            "close": 2712.9,
+            "volume": 9539233
           },
           {
             "date": "2026-05-14",
@@ -35810,11 +35810,11 @@
           },
           {
             "date": "2026-06-04",
-            "open": 2913.4,
-            "high": 2913.4,
-            "low": 2913.4,
-            "close": 2913.4,
-            "volume": 16439984
+            "open": 2992.0,
+            "high": 3059.8,
+            "low": 2921.8,
+            "close": 3048.2,
+            "volume": 5617327
           },
           {
             "date": "2026-06-07",
@@ -36434,11 +36434,11 @@
           },
           {
             "date": "2026-09-24",
-            "open": 2920.0,
-            "high": 2939.9,
-            "low": 2902.5,
-            "close": 2916.5,
-            "volume": 570504
+            "open": 2905.0,
+            "high": 2905.0,
+            "low": 2905.0,
+            "close": 2905.0,
+            "volume": 8600000
           },
           {
             "date": "2026-09-27",
@@ -36916,11 +36916,11 @@
           },
           {
             "date": "2025-07-18",
-            "open": 2558.7,
+            "open": 2555.0,
             "high": 2654.5,
-            "low": 2558.7,
+            "low": 2543.5,
             "close": 2596.1,
-            "volume": 2392117
+            "volume": 2868367
           },
           {
             "date": "2025-07-25",
@@ -37064,7 +37064,7 @@
             "high": 2478.9,
             "low": 2413.9,
             "close": 2422.3,
-            "volume": 6766794
+            "volume": 10863587
           },
           {
             "date": "2025-11-28",
@@ -37264,7 +37264,7 @@
             "high": 2803.1,
             "low": 2400.1,
             "close": 2716.0,
-            "volume": 17409251
+            "volume": 21056061
           },
           {
             "date": "2026-05-22",
@@ -37285,10 +37285,10 @@
           {
             "date": "2026-06-05",
             "open": 2949.9,
-            "high": 2983.0,
+            "high": 3059.8,
             "low": 2865.2,
-            "close": 2913.4,
-            "volume": 23205319
+            "close": 3048.2,
+            "volume": 12382662
           },
           {
             "date": "2026-06-12",
@@ -37415,8 +37415,8 @@
             "open": 2995.6,
             "high": 3026.1,
             "low": 2898.2,
-            "close": 2916.5,
-            "volume": 4084878
+            "close": 2905.0,
+            "volume": 12114374
           },
           {
             "date": "2026-10-02",
@@ -37462,11 +37462,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 3170.0,
+            "open": 3183.9,
             "high": 3346.0,
             "low": 3092.05,
             "close": 3318.75,
-            "volume": 32608010
+            "volume": 30416815
           },
           {
             "date": "2024-03-31",
@@ -37602,7 +37602,7 @@
             "high": 2654.5,
             "low": 2333.0,
             "close": 2350.9,
-            "volume": 11051370
+            "volume": 11527620
           },
           {
             "date": "2025-08-31",
@@ -37634,7 +37634,7 @@
             "high": 2553.7,
             "low": 2243.0,
             "close": 2262.0,
-            "volume": 38630593
+            "volume": 42727386
           },
           {
             "date": "2025-12-31",
@@ -37682,7 +37682,7 @@
             "high": 3027.5,
             "low": 2375.0,
             "close": 2909.4,
-            "volume": 58639753
+            "volume": 62286563
           },
           {
             "date": "2026-06-30",
@@ -37690,7 +37690,7 @@
             "high": 3149.8,
             "low": 2865.2,
             "close": 3143.6,
-            "volume": 54539326
+            "volume": 43716669
           },
           {
             "date": "2026-07-31",
@@ -37714,7 +37714,7 @@
             "high": 3142.0,
             "low": 2772.0,
             "close": 2816.8,
-            "volume": 32258419
+            "volume": 40287915
           },
           {
             "date": "2026-10-31",
@@ -37738,8 +37738,8 @@
         "fii_holding": 10.66,
         "dii_holding": 10.62,
         "public_holding": 6.75,
-        "market_cap_cr": 349104.0,
-        "current_price": 2579.0,
+        "market_cap_cr": 350329.0,
+        "current_price": 2588.0,
         "stock_pe": 109.0,
         "book_value": 724.0,
         "dividend_yield": 0.05,
@@ -37749,7 +37749,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/ADANIENT/consolidated/",
-        "fetched_at": "2026-10-31T00:49:09.218788+00:00",
+        "fetched_at": "2026-11-02T05:19:56.828386+00:00",
         "company": "ADANIENT",
         "industry": null,
         "sector_pe": null,
@@ -39559,11 +39559,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 1269.5,
+            "open": 1266.0,
             "high": 1349.0,
             "low": 1226.65,
             "close": 1322.1,
-            "volume": 62866806
+            "volume": 57255508
           },
           {
             "date": "2024-03-31",
@@ -39835,9 +39835,9 @@
         "fii_holding": 15.95,
         "dii_holding": 13.26,
         "public_holding": 4.78,
-        "market_cap_cr": 426232.0,
-        "current_price": 1850.0,
-        "stock_pe": 30.8,
+        "market_cap_cr": 421544.0,
+        "current_price": 1830.0,
+        "stock_pe": 30.5,
         "book_value": 444.0,
         "dividend_yield": 0.41,
         "roce": 14.1,
@@ -39846,7 +39846,7 @@
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/ADANIPORTS/consolidated/",
-        "fetched_at": "2026-10-31T00:49:11.594086+00:00",
+        "fetched_at": "2026-11-02T05:19:59.758550+00:00",
         "company": "ADANIPORTS",
         "industry": null,
         "sector_pe": null,
@@ -41110,11 +41110,11 @@
           },
           {
             "date": "2025-07-18",
-            "open": 2439.2,
-            "high": 2439.2,
+            "open": 2431.1,
+            "high": 2448.6,
             "low": 2371.0,
             "close": 2382.4,
-            "volume": 3078061
+            "volume": 3828481
           },
           {
             "date": "2025-07-25",
@@ -41656,11 +41656,11 @@
         "1M": [
           {
             "date": "2024-02-29",
-            "open": 2950.0,
+            "open": 2931.0,
             "high": 3035.0,
             "low": 2776.75,
             "close": 2831.75,
-            "volume": 27676317
+            "volume": 26752882
           },
           {
             "date": "2024-03-31",
@@ -41796,7 +41796,7 @@
             "high": 2535.0,
             "low": 2320.0,
             "close": 2431.0,
-            "volume": 23122451
+            "volume": 23872871
           },
           {
             "date": "2025-08-31",
@@ -41932,18 +41932,18 @@
         "fii_holding": 13.76,
         "dii_holding": 20.5,
         "public_holding": 13.03,
-        "market_cap_cr": 222534.0,
-        "current_price": 2320.0,
-        "stock_pe": 45.0,
+        "market_cap_cr": 226783.0,
+        "current_price": 2364.0,
+        "stock_pe": 45.8,
         "book_value": 227.0,
-        "dividend_yield": 1.19,
+        "dividend_yield": 1.18,
         "roce": 26.3,
         "roe": 21.8,
         "face_value": 1.0,
         "high_52w": null,
         "low_52w": null,
         "source_url": "https://www.screener.in/company/ASIANPAINT/consolidated/",
-        "fetched_at": "2026-10-31T00:49:14.029043+00:00",
+        "fetched_at": "2026-11-02T05:20:02.569178+00:00",
         "company": "ASIANPAINT",
         "industry": null,
         "sector_pe": null,
