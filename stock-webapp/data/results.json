@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06T01:43:05.123486+00:00",
+  "updated_at": "2026-11-06T08:34:15.978128+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -1885,7 +1885,7 @@
       "vwap": null,
       "sma20": 707.12,
       "sma50": 712.48,
-      "sma200": 785.32,
+      "sma200": 785.27,
       "sma20_distance_pct": 7.48,
       "sma50_distance_pct": 6.67,
       "sma200_distance_pct": 3.22,
@@ -1903,7 +1903,7 @@
           "distance50_pct": 6.67,
           "near_sma50": false,
           "above_sma50": true,
-          "sma200": 785.32,
+          "sma200": 785.27,
           "distance200_pct": 3.22,
           "near_sma200": false,
           "above_sma200": false
