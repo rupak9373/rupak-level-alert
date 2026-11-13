@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T14:52:15.518063+00:00",
+  "updated_at": "2026-11-13T21:05:15.046868+00:00",
   "source": "NSE India + BSE India public derivatives endpoints",
   "symbols": [
     "BANKNIFTY",
@@ -307747,6 +307747,1126 @@
     }
   },
   "errors": [
+    {
+      "symbol": "BANKNIFTY",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "FINNIFTY",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MIDCPNIFTY",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "NIFTY",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "NIFTYNXT50",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "360ONE",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ABB",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ABCAPITAL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ADANIENSOL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ADANIENT",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ADANIGREEN",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ADANIPOWER",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ALKEM",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "AMBER",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "AMBUJACEM",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ANANDRATHI",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ANGELONE",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "APLAPOLLO",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "APOLLOHOSP",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ASHOKLEY",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ASTRAL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ATHERENERG",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "AUBANK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "AUROPHARMA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "AXISBANK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BAJAJ-AUTO",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BAJAJFINSV",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BANDHANBNK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BANKBARODA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BANKINDIA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BDL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BEL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BHARATFORG",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BHEL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BIOCON",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BLUESTARCO",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BOSCHLTD",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BPCL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BRITANNIA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BSE",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "CAMS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "CANBK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "CDSL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "CGPOWER",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "CHOLAFIN",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "CIPLA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "COALINDIA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "COCHINSHIP",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "COFORGE",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "COLPAL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "CONCOR",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "COROMANDEL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "CROMPTON",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "CUB",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "CUMMINSIND",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "DABUR",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "DATAPATTNS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "DELHIVERY",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "DIVISLAB",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "DIXON",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "DLF",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "DMART",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "DRREDDY",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "EICHERMOT",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ENRIN",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ETERNAL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "FEDERALBNK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "FORCEMOT",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "FORTIS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "GAIL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "GLENMARK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "GMRAIRPORT",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "GODFRYPHLP",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "GODREJCP",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "GODREJPROP",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "GRASIM",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "GVT&D",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HAL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HAVELLS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HCLTECH",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HDFCAMC",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HDFCLIFE",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HEROMOTOCO",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HINDALCO",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HINDPETRO",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HINDZINC",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HYUNDAI",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ICICIGI",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ICICILIFE",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "IDEA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "IDFCFIRSTB",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "IEX",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "INDHOTEL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "INDIANB",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "INDIGO",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "INDUSINDBK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "INDUSTOWER",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "INFY",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "INOXWIND",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "IOC",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "IREDA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "IRFC",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ITC",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "JINDALSTEL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "JIOFIN",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "JSWENERGY",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "JSWSTEEL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "JUBLFOOD",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "KALYANKJIL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "KARURVYSYA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "KAYNES",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "KEI",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "KFINTECH",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "KPITTECH",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "LICHSGFIN",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "LICI",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "LODHA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "LT",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "LTF",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "LTM",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "LUPIN",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "M&M",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MAHABANK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MANAPPURAM",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MANKIND",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MARICO",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MARUTI",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MAXHEALTH",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MAZDOCK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MCX",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MFSL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MOTHERSON",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MOTILALOFS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MPHASIS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MUTHOOTFIN",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "NAM-INDIA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "NATIONALUM",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "NAUKRI",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "NAVINFLUOR",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "NBCC",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "NESTLEIND",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "NHPC",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "NIFTYFPI",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "NMDC",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "NTPC",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "NYKAA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "OBEROIRLTY",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "OFSS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "OIL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ONGC",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PAGEIND",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PATANJALI",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PAYTM",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PERSISTENT",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PETRONET",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PFC",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PGEL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PHOENIXLTD",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PIDILITIND",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PIIND",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PNB",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PNBHOUSING",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "POLICYBZR",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "POLYCAB",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "POWERGRID",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "POWERINDIA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PREMIERENE",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "PRESTIGE",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "RADICO",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "RBLBANK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "RECLTD",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "RELIANCE",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "RVNL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SAGILITY",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SAIL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SBICARD",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SBILIFE",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SBIN",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SHREECEM",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SHRIRAMFIN",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SIEMENS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SOLARINDS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SONACOMS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SRF",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SUPREMEIND",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SUZLON",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SWIGGY",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SYRMA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TATACONSUM",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TATAELXSI",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TATAPOWER",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TCS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TECHM",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TIINDIA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TITAN",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TMPV",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TORNTPHARM",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TRENT",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TVSMOTOR",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "UJJIVANSFB",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ULTRACEMCO",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "UNIONBANK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "UNITDSPR",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "UNOMINDA",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "UPL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "VBL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "VEDL",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "VMM",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "VOLTAS",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "WAAREEENER",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "WIPRO",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "YESBANK",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ZYDUSLIFE",
+      "exchange": "NSE",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
     {
       "symbol": "SENSEX",
       "exchange": "BSE",
