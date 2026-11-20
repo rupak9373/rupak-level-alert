@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T08:45:54.670837+00:00",
+  "updated_at": "2026-11-20T17:25:52.762102+00:00",
   "source": "NSE India + Screener.in public company pages",
   "chart_timeframes": [
     "1D",
@@ -42116,108 +42116,103 @@
   "errors": [
     {
       "symbol": "RELIANCE",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "TCS",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "HDFCBANK",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "ICICIBANK",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "INFY",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "SBIN",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "BHARTIARTL",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "ITC",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "LT",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "AXISBANK",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "KOTAKBANK",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "HINDUNILVR",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "BAJFINANCE",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "MARUTI",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "SUNPHARMA",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "TATAMOTORS",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "symbol": "TATAMOTORS",
-      "stage": "screener",
-      "error": "HTTP 404"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "TATASTEEL",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "ADANIENT",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "ADANIPORTS",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     },
     {
       "symbol": "ASIANPAINT",
-      "stage": "quote",
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "stage": "history",
+      "error": "Expecting value: line 2 column 1 (char 1)"
     }
   ]
 }
