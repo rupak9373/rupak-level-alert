@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T23:43:08.168430+00:00",
+  "updated_at": "2026-11-25T05:45:00.677306+00:00",
   "market": "NSE",
   "source": "NSE India",
   "count": 19,
@@ -4312,7 +4312,7 @@
       "day_high": 4232.0,
       "day_low": 4099.9,
       "vwap": null,
-      "sma20": 4047.99,
+      "sma20": 4048.0,
       "sma50": 3872.93,
       "sma200": 3950.85,
       "sma20_distance_pct": 1.28,
@@ -4324,7 +4324,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 4047.99,
+          "sma20": 4048.0,
           "distance20_pct": 1.28,
           "near_sma20": false,
           "above_sma20": true,
@@ -6137,7 +6137,7 @@
       "day_high": 2777.0,
       "day_low": 2667.0,
       "vwap": null,
-      "sma20": 2665.68,
+      "sma20": 2665.69,
       "sma50": 2749.02,
       "sma200": 2652.41,
       "sma20_distance_pct": 0.46,
@@ -6149,7 +6149,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 2665.68,
+          "sma20": 2665.69,
           "distance20_pct": 0.46,
           "near_sma20": true,
           "above_sma20": true,
@@ -7976,7 +7976,7 @@
       "day_high": 521.5,
       "day_low": 501.1,
       "vwap": null,
-      "sma20": 478.36,
+      "sma20": 478.35,
       "sma50": 446.34,
       "sma200": 405.79,
       "sma20_distance_pct": 5.12,
@@ -7988,7 +7988,7 @@
       "sma_by_tf": {
         "1D": {
           "available": true,
-          "sma20": 478.36,
+          "sma20": 478.35,
           "distance20_pct": 5.12,
           "near_sma20": false,
           "above_sma20": true,
@@ -10418,7 +10418,7 @@
       "day_low": 1100.0,
       "vwap": null,
       "sma20": 1142.72,
-      "sma50": 1091.72,
+      "sma50": 1091.73,
       "sma200": 1174.78,
       "sma20_distance_pct": 3.44,
       "sma50_distance_pct": 1.07,
@@ -10433,7 +10433,7 @@
           "distance20_pct": 3.44,
           "near_sma20": false,
           "above_sma20": false,
-          "sma50": 1091.72,
+          "sma50": 1091.73,
           "distance50_pct": 1.07,
           "near_sma50": false,
           "above_sma50": true,
