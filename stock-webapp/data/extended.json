@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T18:45:27.798330+00:00",
+  "updated_at": "2026-11-27T01:58:29.209871+00:00",
   "source": "NSE India + Screener.in public company pages",
   "chart_timeframes": [
     "1D",
@@ -42115,9 +42115,104 @@
   },
   "errors": [
     {
+      "symbol": "RELIANCE",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TCS",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HDFCBANK",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ICICIBANK",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "INFY",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SBIN",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BHARTIARTL",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ITC",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "LT",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "AXISBANK",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "KOTAKBANK",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "HINDUNILVR",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "BAJFINANCE",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "MARUTI",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "SUNPHARMA",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
       "symbol": "TATAMOTORS",
-      "stage": "screener",
-      "error": "HTTP 404"
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "TATASTEEL",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ADANIENT",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ADANIPORTS",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "symbol": "ASIANPAINT",
+      "stage": "history",
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   ]
 }
